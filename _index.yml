@@ -1,0 +1,13 @@
+---
+indexpage:
+  title: Notas de la versión de fábrica de cargas de trabajo de BlueXP 
+  summary: En estas notas de la versión se describen las mejoras recientes de los
+    servicios de cloud que forman parte de Fábrica de cargas de trabajo de BlueXP .
+  keywords: BlueXP Workload Factory, release notes, what's new
+  lead: En estas notas de la versión se describen las mejoras recientes de los servicios
+    de cloud que forman parte de Fábrica de cargas de trabajo de BlueXP .
+  tiles:
+  - title: Novedades
+    links:
+    - title: Cambios recientes en Workload Factory
+      url: whats-new.html
