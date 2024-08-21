@@ -1,12 +1,6 @@
-= 4 de agosto de 2024
+= Soporte de terraform
 :allow-uri-read: 
 
-
-
-
-== 4 de agosto de 2024
-
-Directiva no resuelta en <stdin> - Include::_include/workload-fsx-ONTAP.adoc[] :leveloffset: +1
 
 
 
@@ -24,15 +18,3 @@ Ahora puede utilizar Terraform de CodeBox para implementar y gestionar sistemas 
 === Recomendaciones de rendimiento y IOPS en la calculadora de almacenamiento
 
 La calculadora de almacenamiento hace recomendaciones para la configuración del sistema de archivos FSx para ONTAP para el rendimiento e IOPS basadas en las prácticas recomendadas de AWS, lo que proporciona una orientación óptima para sus selecciones.
-
-
-
-== 7 de julio de 2024
-
-Directiva no resuelta en <stdin> - Include::_include/workload-fsx-ONTAP.adoc[] :leveloffset: +1
-
-
-
-=== Lanzamiento inicial de Workload Factory para Amazon FSx para NetApp ONTAP
-
-Amazon FSx para NetApp ONTAP ya está disponible de forma general en Workload Factory.

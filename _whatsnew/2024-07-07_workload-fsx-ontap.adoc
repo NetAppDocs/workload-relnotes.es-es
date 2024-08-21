@@ -1,0 +1,9 @@
+= Lanzamiento inicial de Workload Factory para Amazon FSx para NetApp ONTAP
+:allow-uri-read: 
+
+
+
+
+=== Lanzamiento inicial de Workload Factory para Amazon FSx para NetApp ONTAP
+
+Amazon FSx para NetApp ONTAP ya está disponible de forma general en Workload Factory.
