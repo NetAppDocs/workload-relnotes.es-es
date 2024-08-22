@@ -8,8 +8,8 @@
 
 Ahora puede utilizar Terraform de CodeBox para implementar y gestionar sistemas de archivos y equipos virtuales de almacenamiento.
 
-* link:create-file-system.html["Crear un sistema de archivos"]
-* link:create-storage-vm.html["Cree una máquina virtual de almacenamiento"]
+* link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-file-system.html["Crear un sistema de archivos"]
+* link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-storage-vm.html["Cree una máquina virtual de almacenamiento"]
 * link:https://docs.netapp.com/us-en/workload-setup-admin/use-codebox.html["Utilice Terraform de CodeBox"^]
 
 
