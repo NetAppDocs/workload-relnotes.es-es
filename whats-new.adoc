@@ -25,6 +25,16 @@ Ahora puede utilizar Terraform de CodeBox para implementar y gestionar sistemas 
 
 La calculadora de almacenamiento hace recomendaciones para la configuración del sistema de archivos FSx para ONTAP para el rendimiento e IOPS basadas en las prácticas recomendadas de AWS, lo que proporciona una orientación óptima para sus selecciones.
 
+Directiva no resuelta en <stdin> - Include::_include/workload-setup-admin.adoc[] :leveloffset: +1
+
+
+
+=== Soporte de terraform
+
+La compatibilidad con Terraform está disponible para la puesta en marcha del sistema de archivos de Amazon FSx para NetApp ONTAP y la creación de máquinas virtuales de almacenamiento. La guía de configuración y administración ahora tiene instrucciones sobre cómo usar Terraform desde el CodeBox.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/use-codebox.html["Utilice Terraform de CodeBox"^]
+
 
 
 == 7 de julio de 2024
@@ -36,3 +46,11 @@ Directiva no resuelta en <stdin> - Include::_include/workload-fsx-ONTAP.adoc[] :
 === Lanzamiento inicial de Workload Factory para Amazon FSx para NetApp ONTAP
 
 Amazon FSx para NetApp ONTAP ya está disponible de forma general en Workload Factory.
+
+Directiva no resuelta en <stdin> - Include::_include/workload-setup-admin.adoc[] :leveloffset: +1
+
+
+
+=== Lanzamiento inicial de Workload Factory
+
+BlueXP Workload Factory para AWS es una potente plataforma de gestión de ciclo de vida diseñada para ayudarte a optimizar tus cargas de trabajo con los sistemas de archivos de Amazon FSx para NetApp ONTAP. Entre las cargas de trabajo que se pueden optimizar con Workload Factory y FSx para ONTAP se incluyen bases de datos, migraciones de VMware a VMware Cloud on AWS, bots de chat de IA, etc.
