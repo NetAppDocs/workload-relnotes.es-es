@@ -12,3 +12,64 @@ summary: Obtenga información sobre los cambios más recientes en las cargas de 
 
 [role="lead"]
 Obtenga información sobre los cambios más recientes en las cargas de trabajo que forman parte de la fábrica de cargas de trabajo de BlueXP .
+
+
+
+== 4 de agosto de 2024
+
+
+
+=== Amazon FSX para ONTAP de NetApp
+
+
+
+==== Soporte de terraform
+
+Ahora puede utilizar Terraform desde CodeBox para implementar sistemas de archivos y equipos virtuales de almacenamiento.
+
+* link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-file-system.html["Crear un sistema de archivos"]
+* link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-storage-vm.html["Cree una máquina virtual de almacenamiento"]
+* link:https://docs.netapp.com/us-en/workload-setup-admin/use-codebox.html["Utilice Terraform de CodeBox"^]
+
+
+
+
+==== Recomendaciones de rendimiento y IOPS en la calculadora de almacenamiento
+
+La calculadora de almacenamiento hace recomendaciones para la configuración del sistema de archivos FSx para ONTAP para el rendimiento e IOPS basadas en las prácticas recomendadas de AWS, lo que proporciona una orientación óptima para sus selecciones.
+
+
+
+=== Configuración y administración
+
+
+
+==== Soporte de terraform
+
+La compatibilidad con Terraform está disponible para la puesta en marcha del sistema de archivos de Amazon FSx para NetApp ONTAP y la creación de máquinas virtuales de almacenamiento. La guía de configuración y administración ahora tiene instrucciones sobre cómo usar Terraform desde el CodeBox.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/use-codebox.html["Utilice Terraform de CodeBox"^]
+
+
+
+== 7 de julio de 2024
+
+
+
+=== Amazon FSX para ONTAP de NetApp
+
+
+
+==== Lanzamiento inicial de Workload Factory para Amazon FSx para NetApp ONTAP
+
+Amazon FSx para NetApp ONTAP ya está disponible de forma general en Workload Factory.
+
+
+
+=== Configuración y administración
+
+
+
+==== Lanzamiento inicial de Workload Factory
+
+BlueXP Workload Factory para AWS es una potente plataforma de gestión de ciclo de vida diseñada para ayudarte a optimizar tus cargas de trabajo con los sistemas de archivos de Amazon FSx para NetApp ONTAP. Entre las cargas de trabajo que se pueden optimizar con Workload Factory y FSx para ONTAP se incluyen bases de datos, migraciones de VMware a VMware Cloud on AWS, bots de chat de IA, etc.
