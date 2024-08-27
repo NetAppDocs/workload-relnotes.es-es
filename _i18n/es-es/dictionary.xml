@@ -33,15 +33,18 @@
   <block id="11cb17d1b990bbf37a24337d5692efa1" category="list-text"><block ref="11cb17d1b990bbf37a24337d5692efa1" category="inline-link-macro-rx"></block></block>
   <block id="a0d5836b9915a7e404d529a2ee0d2af5" category="section-title">Recomendaciones de rendimiento y IOPS en la calculadora de almacenamiento</block>
   <block id="b48a7422f4f1f71c3ef03d7a8291f43f" category="paragraph">La calculadora de almacenamiento hace recomendaciones para la configuración del sistema de archivos FSx para ONTAP para el rendimiento e IOPS basadas en las prácticas recomendadas de AWS, lo que proporciona una orientación óptima para sus selecciones.</block>
-  <block id="a41d6b8d358bc9ae448d19a2d13faa53" category="doc">4 de agosto de 2024</block>
-  <block id="4739ec54be7be4e135209eb24300ab14" category="paragraph">Directiva no resuelta en &lt;stdin&gt; - Include::_include/workload-fsx-ONTAP.adoc[] :leveloffset: +1</block>
-  <block id="021ac29d3012fd7caab5a70c75ae987f" category="section-title">7 de julio de 2024</block>
   <block id="03b2cfc949418819e16b1dc5fa3660ae" category="list-text"><block ref="03b2cfc949418819e16b1dc5fa3660ae" category="inline-link-macro-rx"></block></block>
   <block id="3b915cd68add8a6cdac4cd1adeb5f100" category="list-text"><block ref="3b915cd68add8a6cdac4cd1adeb5f100" category="inline-link-macro-rx"></block></block>
   <block id="bbccc2f370efe6824018b613b1dd5839" category="paragraph">Amazon FSx para NetApp ONTAP ya está disponible de forma general en Workload Factory.</block>
   <block id="0cd06f0acd63988f29fda6d11297591b" category="doc">Lanzamiento inicial de Workload Factory</block>
   <block id="40e01e3ae3c6f388cb88b96223a5b962" category="paragraph">BlueXP Workload Factory para AWS es una potente plataforma de gestión de ciclo de vida diseñada para ayudarte a optimizar tus cargas de trabajo con los sistemas de archivos de Amazon FSx para NetApp ONTAP. Entre las cargas de trabajo que se pueden optimizar con Workload Factory y FSx para ONTAP se incluyen bases de datos, migraciones de VMware a VMware Cloud on AWS, bots de chat de IA, etc.</block>
   <block id="1571710cf3c95e6290fc41ea04917d42" category="paragraph">La compatibilidad con Terraform está disponible para la puesta en marcha del sistema de archivos de Amazon FSx para NetApp ONTAP y la creación de máquinas virtuales de almacenamiento. La guía de configuración y administración ahora tiene instrucciones sobre cómo usar Terraform desde el CodeBox.</block>
-  <block id="19d7c7753798a40c0d5e3308b54e64e6" category="paragraph">Directiva no resuelta en &lt;stdin&gt; - Include::_include/workload-setup-admin.adoc[] :leveloffset: +1</block>
   <block id="0fd886acd6700c343d655429665d7e6a" category="paragraph">Ahora puede utilizar Terraform desde CodeBox para implementar sistemas de archivos y equipos virtuales de almacenamiento.</block>
+  <block id="38bd169945a371832b0b65c9086b1792" category="doc">Cargas de trabajo de base de datos</block>
+  <block id="4d82a1ec1af02725042c8c785564ee7a" category="doc">Amazon FSX para ONTAP de NetApp</block>
+  <block id="b04deaa23ce22ae0dafa2736e8afebed" category="doc">Cargas de trabajo GenAI</block>
+  <block id="bb50e2459e4e016aa4b14a56adb2358f" category="doc">Configuración y administración</block>
+  <block id="a76e64a0fbf98a083080351e4cb67566" category="doc">Cargas de trabajo de</block>
+  <block id="7ff3a8c05743322eb30cf5ff925b4e8c" category="summary">Obtenga información sobre los cambios más recientes en las cargas de trabajo que forman parte de la fábrica de cargas de trabajo de BlueXP .</block>
+  <block id="1684f64d26a47808cac743ad7a9404f2" category="doc">Cambios recientes en la fábrica de cargas de trabajo de BlueXP</block>
 </blocks>
