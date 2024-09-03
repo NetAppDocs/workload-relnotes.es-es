@@ -59,6 +59,16 @@ image:screenshot-explore-savings-home-small.png["Captura de pantalla de la pági
 
 
 
+=== Cargas de trabajo de
+
+
+
+==== Migrar a Amazon EC2
+
+Workload Factory para VMware admite ahora la migración a Amazon EC2 mediante el asesor de migración de VMware.
+
+
+
 === Configuración y administración
 
 
@@ -173,6 +183,16 @@ Amazon FSx para NetApp ONTAP ya está disponible de forma general en Workload Fa
 La versión inicial incluye la funcionalidad de explorar el ahorro con Amazon FSx para NetApp ONTAP como entorno de almacenamiento para tus cargas de trabajo de bases de datos, detectar, gestionar e implementar servidores de Microsoft SQL, implementar y clonar bases de datos, y supervisar estos trabajos en Workload Factory.
 
 link:learn-databases.html["Obtenga más información sobre las bases de datos"].
+
+
+
+=== Cargas de trabajo de
+
+
+
+==== Lanzamiento inicial de Workload Factory para VMware
+
+La versión inicial incluye la capacidad de utilizar el asesor de migración de VMware para analizar tus configuraciones actuales de máquinas virtuales en entornos vSphere on-premises y generar un plan para implementar diseños de máquinas virtuales recomendados en VMware Cloud on AWS y utilizar los sistemas de archivos personalizados de Amazon FSx para NetApp ONTAP como almacenes de datos externos.
 
 
 
