@@ -1,0 +1,19 @@
+= Compatibilidad con modo lectura para la gestión del almacenamiento
+:allow-uri-read: 
+
+
+
+
+=== Compatibilidad con modo lectura para la gestión del almacenamiento
+
+El modo de lectura está disponible para la gestión del almacenamiento en Workload Factory. El modo de lectura mejora la experiencia del modo básico al agregar permisos de solo lectura para que las plantillas de infraestructura como código se rellenen con sus variables específicas. Las plantillas de infraestructura como código se pueden ejecutar directamente desde su cuenta de AWS sin tener que proporcionar permisos de modificación a Workload Factory.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/operational-modes.html["Más información sobre el modo de lectura"^]
+
+
+
+=== Realice backups antes de la eliminación de volúmenes
+
+Ahora puede realizar un backup de un volumen antes de eliminarlo. La copia de seguridad permanecerá en el sistema de archivos hasta que se elimine.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/delete-volume.html["Eliminar un volumen"^]
