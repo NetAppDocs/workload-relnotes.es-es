@@ -15,6 +15,30 @@ Obtenga información sobre los cambios más recientes en las cargas de trabajo q
 
 
 
+== 1 de septiembre de 2024
+
+
+
+=== Cargas de trabajo de base de datos
+
+
+
+==== Explora el ahorro a través de la personalización
+
+Ahora puede personalizar los ajustes de configuración para Microsoft SQL Server en Amazon EC2 con el almacenamiento FSx para Windows File Server y Elastic Block Store en la calculadora de ahorro. En función de sus requisitos de almacenamiento, puede darse cuenta de que el almacenamiento de FSx para ONTAP es el más rentable para las cargas de trabajo de sus bases de datos.
+
+link:explore-savings.html["Explora el ahorro con FSx para ONTAP para tus cargas de trabajo de base de datos."]
+
+
+
+==== Navega a la calculadora de ahorros desde la página de inicio
+
+Ahora puede ir a la calculadora de ahorro desde la link:https://console.workloads.netapp.com["Consola de Workload Factory"^] página de inicio. Seleccione en Elastic Block Store y FSx para Windows File Server para comenzar.
+
+image:screenshot-explore-savings-home-small.png["Captura de pantalla de la página inicial de la consola Workload Factory. La imagen muestra el mosaico de bases de datos con un nuevo botón Explorar ahorro. Haga clic en el botón para abrir un menú desplegable. El menú desplegable tiene dos opciones: Elastic Block Store y FSx para Windows File Server. Si selecciona cualquiera de estas opciones, accederá a la calculadora de ahorro para explorar el ahorro."]
+
+
+
 == 4 de agosto de 2024
 
 
@@ -37,6 +61,38 @@ Ahora puede utilizar Terraform desde CodeBox para implementar sistemas de archiv
 ==== Recomendaciones de rendimiento y IOPS en la calculadora de almacenamiento
 
 La calculadora de almacenamiento hace recomendaciones para la configuración del sistema de archivos FSx para ONTAP para el rendimiento e IOPS basadas en las prácticas recomendadas de AWS, lo que proporciona una orientación óptima para sus selecciones.
+
+
+
+=== Cargas de trabajo de base de datos
+
+
+
+==== Mejoras en la calculadora de ahorro
+
+* Descripciones de estimación de costes
++
+Ahora puedes descubrir cómo se calculan las estimaciones de costes en la calculadora de ahorro. Podrás revisar las descripciones de todos los cálculos de tus instancias de Microsoft SQL Server con el almacenamiento Amazon Elastic Block Store en comparación con el uso de Amazon FSx para el almacenamiento de ONTAP.
+
+* Soporte para el grupo de disponibilidad siempre disponible
++
+Ahora las bases de datos proporcionan cálculos de ahorro de costes para el tipo de implementación de grupos de disponibilidad Always On con Microsoft SQL Server mediante Amazon Elastic Block Store.
+
+* Optimiza las licencias de SQL Server con FSx para ONTAP
++
+La calculadora de bases de datos determina si la edición de licencia de SQL que utiliza con el almacenamiento de Amazon Elastic Block Store está optimizada para las cargas de trabajo de base de datos. Obtendrás una recomendación sobre la licencia SQL óptima con el almacenamiento FSx para ONTAP.
+
+* Varias instancias de SQL Server
++
+Ahora las bases de datos proporcionan cálculos de ahorro de costes para una configuración que aloja varias instancias de Microsoft SQL Server mediante Amazon Elastic Block Store.
+
+* Personalizar la configuración de la calculadora
++
+Ahora puede personalizar la configuración de Microsoft SQL Server, Amazon EC2 y Elastic Block Store para explorar los ahorros manualmente. La calculadora de ahorro determinará la mejor configuración en función del coste.
+
+
+
+link:explore-savings.html["Explora el ahorro con FSx para ONTAP para tus cargas de trabajo de base de datos."]
 
 
 
@@ -63,6 +119,18 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/use-codebox.html["Utilic
 ==== Lanzamiento inicial de Workload Factory para Amazon FSx para NetApp ONTAP
 
 Amazon FSx para NetApp ONTAP ya está disponible de forma general en Workload Factory.
+
+
+
+=== Cargas de trabajo de base de datos
+
+
+
+==== Lanzamiento inicial de Workload Factory para bases de datos
+
+La versión inicial incluye la funcionalidad de explorar el ahorro con Amazon FSx para NetApp ONTAP como entorno de almacenamiento para tus cargas de trabajo de bases de datos, detectar, gestionar e implementar servidores de Microsoft SQL, implementar y clonar bases de datos, y supervisar estos trabajos en Workload Factory.
+
+link:learn-databases.html["Obtenga más información sobre las bases de datos"].
 
 
 
