@@ -1,0 +1,9 @@
+= Lanzamiento inicial de Workload Factory para GenAI
+:allow-uri-read: 
+
+
+
+
+=== Lanzamiento inicial de Workload Factory para GenAI
+
+La versión inicial incluye la capacidad de desarrollar una base de conocimientos personalizada mediante la incorporación de los datos de la organización. La base de conocimientos puede ser accedida por una aplicación de chatbot para sus usuarios. Esta capacidad garantiza respuestas precisas y relevantes a preguntas específicas de la organización, mejorando la satisfacción y la productividad de todos sus usuarios.

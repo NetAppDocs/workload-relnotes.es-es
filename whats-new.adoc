@@ -69,6 +69,22 @@ Workload Factory para VMware admite ahora la migración a Amazon EC2 mediante el
 
 
 
+=== Cargas de trabajo GenAI
+
+
+
+==== Estrategias de fragmentación adicionales
+
+Las cargas de trabajo de IA generativas ahora admiten la fragmentación de varias frases y la fragmentación basada en superposiciones para los orígenes de datos.
+
+
+
+==== Volumen dedicado para cada base de conocimientos
+
+Las cargas de trabajo de IA generativas ahora crean un volumen de Amazon FSx para NetApp ONTAP dedicado para cada nueva base de conocimientos, lo que permite establecer políticas Snapshot individuales para cada base de conocimientos y mejorar la protección contra errores y envenenamientos de datos.
+
+
+
 === Configuración y administración
 
 
@@ -148,6 +164,22 @@ link:explore-savings.html["Explora el ahorro con FSx para ONTAP para tus cargas 
 
 
 
+=== Cargas de trabajo GenAI
+
+
+
+==== Integración de Amazon CloudWatch Logs
+
+Las cargas de trabajo de IA generativas ahora están integradas con Amazon CloudWatch Logs, lo que le permite supervisar los archivos de registro de las cargas de trabajo de IA generativas.
+
+
+
+==== Aplicación de chatbot de ejemplo
+
+La aplicación de muestra de GenAI de Fábrica de Carga de Trabajo de NetApp le permite probar la autenticación y la recuperación de su base de conocimientos publicada de Fábrica de Carga de Trabajo de NetApp al interactuar directamente con ella en una aplicación de chatbot basada en web.
+
+
+
 === Configuración y administración
 
 
@@ -193,6 +225,16 @@ link:learn-databases.html["Obtenga más información sobre las bases de datos"].
 ==== Lanzamiento inicial de Workload Factory para VMware
 
 La versión inicial incluye la capacidad de utilizar el asesor de migración de VMware para analizar tus configuraciones actuales de máquinas virtuales en entornos vSphere on-premises y generar un plan para implementar diseños de máquinas virtuales recomendados en VMware Cloud on AWS y utilizar los sistemas de archivos personalizados de Amazon FSx para NetApp ONTAP como almacenes de datos externos.
+
+
+
+=== Cargas de trabajo GenAI
+
+
+
+==== Lanzamiento inicial de Workload Factory para GenAI
+
+La versión inicial incluye la capacidad de desarrollar una base de conocimientos personalizada mediante la incorporación de los datos de la organización. La base de conocimientos puede ser accedida por una aplicación de chatbot para sus usuarios. Esta capacidad garantiza respuestas precisas y relevantes a preguntas específicas de la organización, mejorando la satisfacción y la productividad de todos sus usuarios.
 
 
 

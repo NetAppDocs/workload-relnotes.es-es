@@ -1,0 +1,15 @@
+= Estrategias de fragmentación adicionales
+:allow-uri-read: 
+
+
+
+
+=== Estrategias de fragmentación adicionales
+
+Las cargas de trabajo de IA generativas ahora admiten la fragmentación de varias frases y la fragmentación basada en superposiciones para los orígenes de datos.
+
+
+
+=== Volumen dedicado para cada base de conocimientos
+
+Las cargas de trabajo de IA generativas ahora crean un volumen de Amazon FSx para NetApp ONTAP dedicado para cada nueva base de conocimientos, lo que permite establecer políticas Snapshot individuales para cada base de conocimientos y mejorar la protección contra errores y envenenamientos de datos.
