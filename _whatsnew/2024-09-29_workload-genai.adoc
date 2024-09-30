@@ -1,10 +1,10 @@
-= Tomar una instantánea de un volumen de base de conocimientos y restaurarlo
+= Compatibilidad con Snapshot y restauración para volúmenes de base de conocimientos
 :allow-uri-read: 
 
 
 
 
-=== Tomar una instantánea de un volumen de base de conocimientos y restaurarlo
+=== Compatibilidad con Snapshot y restauración para volúmenes de base de conocimientos
 
 Ahora puede proteger los datos de las cargas de trabajo de IA generativas con una copia puntual de una base de conocimientos. Esto le permite proteger los datos contra la pérdida accidental o cambios de pruebas en la configuración de la base de conocimientos. Puede restaurar la versión anterior del volumen de la base de conocimientos en cualquier momento.
 
