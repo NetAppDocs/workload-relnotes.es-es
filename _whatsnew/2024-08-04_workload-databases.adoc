@@ -28,4 +28,4 @@ Ahora puede personalizar la configuración de Microsoft SQL Server, Amazon EC2 y
 
 
 
-link:explore-savings.html["Explora el ahorro con FSx para ONTAP para tus cargas de trabajo de base de datos."]
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["Explora el ahorro con FSx para ONTAP para tus cargas de trabajo de base de datos^."]

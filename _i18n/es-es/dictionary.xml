@@ -49,10 +49,6 @@
   <block id="1684f64d26a47808cac743ad7a9404f2" category="doc">Cambios recientes en la fábrica de cargas de trabajo de BlueXP</block>
   <block id="a41d6b8d358bc9ae448d19a2d13faa53" category="section-title">4 de agosto de 2024</block>
   <block id="021ac29d3012fd7caab5a70c75ae987f" category="section-title">7 de julio de 2024</block>
-  <block id="ed54fefae379fac8157c0d466e30a150" category="doc">Lanzamiento inicial de Workload Factory para bases de datos</block>
-  <block id="7737adcb101b7285a3a8567ae4d22021" category="paragraph">La versión inicial incluye la funcionalidad de explorar el ahorro con Amazon FSx para NetApp ONTAP como entorno de almacenamiento para tus cargas de trabajo de bases de datos, detectar, gestionar e implementar servidores de Microsoft SQL, implementar y clonar bases de datos, y supervisar estos trabajos en Workload Factory.</block>
-  <block id="76d820a16128270adf6a061b253cca06" category="inline-link-macro">Obtenga más información sobre las bases de datos</block>
-  <block id="c8b559206fbe2064f93b1a567d84e637" category="paragraph"><block ref="eda6f6881c0c5cc5180d85b417e4f376" category="inline-link-macro-rx"></block>.</block>
   <block id="4b93fd033dead8dde7a70076fe4dfb36" category="doc">Mejoras en la calculadora de ahorro</block>
   <block id="7aeef6f406aa249df106ff2e48e80f59" category="list-text">Descripciones de estimación de costes</block>
   <block id="797ceaeb99ff17f4fc79415b43e229c3" category="paragraph">Ahora puedes descubrir cómo se calculan las estimaciones de costes en la calculadora de ahorro. Podrás revisar las descripciones de todos los cálculos de tus instancias de Microsoft SQL Server con el almacenamiento Amazon Elastic Block Store en comparación con el uso de Amazon FSx para el almacenamiento de ONTAP.</block>
@@ -64,15 +60,11 @@
   <block id="c740ba36619fc4bc695bdeaf1e4ec860" category="paragraph">Ahora las bases de datos proporcionan cálculos de ahorro de costes para una configuración que aloja varias instancias de Microsoft SQL Server mediante Amazon Elastic Block Store.</block>
   <block id="6c8658cb4905e48d7d602b288bfcf8be" category="list-text">Personalizar la configuración de la calculadora</block>
   <block id="3d97983d64bf9e9b4ee62805c09d1774" category="paragraph">Ahora puede personalizar la configuración de Microsoft SQL Server, Amazon EC2 y Elastic Block Store para explorar los ahorros manualmente. La calculadora de ahorro determinará la mejor configuración en función del coste.</block>
-  <block id="85f439a5ead422005f331327c6b4d189" category="inline-link-macro">Explora el ahorro con FSx para ONTAP para tus cargas de trabajo de base de datos.</block>
-  <block id="ffcdb01d64d534ead82555dabfbdd7da" category="paragraph"><block ref="ffcdb01d64d534ead82555dabfbdd7da" category="inline-link-macro-rx"></block></block>
   <block id="f565eb47bc8c215541fe00205d9b37d3" category="doc">Explora el ahorro a través de la personalización</block>
   <block id="bfbd25ddeba7cedc974f1a5a1d0a295c" category="paragraph">Ahora puede personalizar los ajustes de configuración para Microsoft SQL Server en Amazon EC2 con el almacenamiento FSx para Windows File Server y Elastic Block Store en la calculadora de ahorro. En función de sus requisitos de almacenamiento, puede darse cuenta de que el almacenamiento de FSx para ONTAP es el más rentable para las cargas de trabajo de sus bases de datos.</block>
   <block id="f94c119bb7d164adbb1a390a249741e0" category="section-title">Navega a la calculadora de ahorros desde la página de inicio</block>
   <block id="8fd935558171bd50056871ef9ee7bd05" category="inline-link-macro">Consola de Workload Factory</block>
   <block id="370242ff4edf6eea7ad9f29f501888cd" category="paragraph">Ahora puede ir a la calculadora de ahorro desde la <block ref="ed002915dbbbf90a20b3d8fdf4cc2390" category="inline-link-macro-rx"></block> página de inicio. Seleccione en Elastic Block Store y FSx para Windows File Server para comenzar.</block>
-  <block id="1bd7517fe14fe5f1784a4d71ebf0c2e1" category="inline-image-macro">Captura de pantalla de la página inicial de la consola Workload Factory. La imagen muestra el mosaico de bases de datos con un nuevo botón Explorar ahorro. Haga clic en el botón para abrir un menú desplegable. El menú desplegable tiene dos opciones: Elastic Block Store y FSx para Windows File Server. Si selecciona cualquiera de estas opciones, accederá a la calculadora de ahorro para explorar el ahorro.</block>
-  <block id="ace456f52a384b923a9eedd83d20db48" category="paragraph"><block ref="ace456f52a384b923a9eedd83d20db48" category="inline-image-macro-rx" type="image"></block></block>
   <block id="5a41a3272b612d6600223d90afc4ffba" category="section-title">1 de septiembre de 2024</block>
   <block id="f0881d896f399a09e86122a09c00b74d" category="doc">Compatibilidad con modo lectura para la gestión del almacenamiento</block>
   <block id="8db376980442524a58ebd917532846d7" category="paragraph">El modo de lectura está disponible para la gestión del almacenamiento en Workload Factory. El modo de lectura mejora la experiencia del modo básico al agregar permisos de solo lectura para que las plantillas de infraestructura como código se rellenen con sus variables específicas. Las plantillas de infraestructura como código se pueden ejecutar directamente desde su cuenta de AWS sin tener que proporcionar permisos de modificación a Workload Factory.</block>
@@ -111,4 +103,11 @@
   <block id="d738890a4c9a0f96c08ae0ba66a626a1" category="inline-link">Cree un plan de implementación para Amazon EC2 con el asesor de migración</block>
   <block id="2dbb83c0d88f8aa5c12c5445b2b248ee" category="paragraph"><block ref="2dbb83c0d88f8aa5c12c5445b2b248ee" category="inline-link-rx"></block></block>
   <block id="9f220db04e7195ea3730c9dd5537897c" category="section-title">19 de septiembre de 2024</block>
+  <block id="4ac33bc47ec0338e6c23f5e315a2b5ec" category="inline-link-macro">Explora el ahorro con FSx para ONTAP para tus cargas de trabajo de base de datos^.</block>
+  <block id="f9ca6ec7df5da581020634d84b3e477c" category="paragraph"><block ref="f9ca6ec7df5da581020634d84b3e477c" category="inline-link-macro-rx"></block></block>
+  <block id="b6e7a46e866a97d8ad38a3ce2e41e926" category="inline-image-macro">Captura de pantalla de la página inicial de la consola Workload Factory. La imagen muestra el mosaico de bases de datos con un nuevo botón Explorar ahorro. Haga clic en el botón para abrir un menú desplegable. El menú desplegable tiene dos opciones: Microsoft SQL Server en EBS y Microsoft SQL Server en FSx para Windows File Server.</block>
+  <block id="a7396d19dde0193e37cada3b5524bb0b" category="paragraph"><block ref="a7396d19dde0193e37cada3b5524bb0b" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="cf88fa43b4b0e1b1bfb66e894b188442" category="doc">Explore los ahorros de los servidores Microsoft SQL detectados en FSx para Windows File Server</block>
+  <block id="0df73578de7c34ef150c1f37953113f5" category="paragraph">Ahora puedes explorar los ahorros de los servidores Microsoft SQL detectados en Amazon EC2 con el almacenamiento FSx para Windows File Server en la calculadora de ahorro. En función de tus requisitos de SQL Server y almacenamiento, puedes descubrir que el almacenamiento de FSx para ONTAP es el más rentable para tus cargas de trabajo de base de datos.</block>
+  <block id="94bc5d9f2e30e5678caa5a3b2feb4216" category="section-title">29 de septiembre de 2024</block>
 </blocks>

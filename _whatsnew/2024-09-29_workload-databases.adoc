@@ -1,0 +1,11 @@
+= Explore los ahorros de los servidores Microsoft SQL detectados en FSx para Windows File Server
+:allow-uri-read: 
+
+
+
+
+=== Explore los ahorros de los servidores Microsoft SQL detectados en FSx para Windows File Server
+
+Ahora puedes explorar los ahorros de los servidores Microsoft SQL detectados en Amazon EC2 con el almacenamiento FSx para Windows File Server en la calculadora de ahorro. En función de tus requisitos de SQL Server y almacenamiento, puedes descubrir que el almacenamiento de FSx para ONTAP es el más rentable para tus cargas de trabajo de base de datos.
+
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["Explora el ahorro con FSx para ONTAP para tus cargas de trabajo de base de datos^."]

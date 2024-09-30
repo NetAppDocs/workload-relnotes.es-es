@@ -15,6 +15,22 @@ Obtenga información sobre los cambios más recientes en las cargas de trabajo q
 
 
 
+== 29 de septiembre de 2024
+
+
+
+=== Cargas de trabajo de base de datos
+
+
+
+==== Explore los ahorros de los servidores Microsoft SQL detectados en FSx para Windows File Server
+
+Ahora puedes explorar los ahorros de los servidores Microsoft SQL detectados en Amazon EC2 con el almacenamiento FSx para Windows File Server en la calculadora de ahorro. En función de tus requisitos de SQL Server y almacenamiento, puedes descubrir que el almacenamiento de FSx para ONTAP es el más rentable para tus cargas de trabajo de base de datos.
+
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["Explora el ahorro con FSx para ONTAP para tus cargas de trabajo de base de datos^."]
+
+
+
 == 19 de septiembre de 2024
 
 
@@ -63,7 +79,7 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/delete-volume.html["Elimin
 
 Ahora puede personalizar los ajustes de configuración para Microsoft SQL Server en Amazon EC2 con el almacenamiento FSx para Windows File Server y Elastic Block Store en la calculadora de ahorro. En función de sus requisitos de almacenamiento, puede darse cuenta de que el almacenamiento de FSx para ONTAP es el más rentable para las cargas de trabajo de sus bases de datos.
 
-link:explore-savings.html["Explora el ahorro con FSx para ONTAP para tus cargas de trabajo de base de datos."]
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["Explora el ahorro con FSx para ONTAP para tus cargas de trabajo de base de datos^."]
 
 
 
@@ -71,7 +87,7 @@ link:explore-savings.html["Explora el ahorro con FSx para ONTAP para tus cargas 
 
 Ahora puede ir a la calculadora de ahorro desde la link:https://console.workloads.netapp.com["Consola de Workload Factory"^] página de inicio. Seleccione en Elastic Block Store y FSx para Windows File Server para comenzar.
 
-image:screenshot-explore-savings-home-small.png["Captura de pantalla de la página inicial de la consola Workload Factory. La imagen muestra el mosaico de bases de datos con un nuevo botón Explorar ahorro. Haga clic en el botón para abrir un menú desplegable. El menú desplegable tiene dos opciones: Elastic Block Store y FSx para Windows File Server. Si selecciona cualquiera de estas opciones, accederá a la calculadora de ahorro para explorar el ahorro."]
+image:screenshot-explore-savings-home-small.png["Captura de pantalla de la página inicial de la consola Workload Factory. La imagen muestra el mosaico de bases de datos con un nuevo botón Explorar ahorro. Haga clic en el botón para abrir un menú desplegable. El menú desplegable tiene dos opciones: Microsoft SQL Server en EBS y Microsoft SQL Server en FSx para Windows File Server."]
 
 
 
@@ -176,7 +192,7 @@ Ahora puede personalizar la configuración de Microsoft SQL Server, Amazon EC2 y
 
 
 
-link:explore-savings.html["Explora el ahorro con FSx para ONTAP para tus cargas de trabajo de base de datos."]
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["Explora el ahorro con FSx para ONTAP para tus cargas de trabajo de base de datos^."]
 
 
 
@@ -219,18 +235,6 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/use-codebox.html["Utilic
 ==== Lanzamiento inicial de Workload Factory para Amazon FSx para NetApp ONTAP
 
 Amazon FSx para NetApp ONTAP ya está disponible de forma general en Workload Factory.
-
-
-
-=== Cargas de trabajo de base de datos
-
-
-
-==== Lanzamiento inicial de Workload Factory para bases de datos
-
-La versión inicial incluye la funcionalidad de explorar el ahorro con Amazon FSx para NetApp ONTAP como entorno de almacenamiento para tus cargas de trabajo de bases de datos, detectar, gestionar e implementar servidores de Microsoft SQL, implementar y clonar bases de datos, y supervisar estos trabajos en Workload Factory.
-
-link:learn-databases.html["Obtenga más información sobre las bases de datos"].
 
 
 
