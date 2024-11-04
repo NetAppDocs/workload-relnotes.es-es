@@ -26,16 +26,11 @@
   <block id="7cdd7814bbdae8c80aca5d088683d506" category="sidebar">Notas de la versión de Workload Factory</block>
   <block id="dcf4ee5c8f297d1f5e0da7b22e359023" category="sidebar">Cambios recientes</block>
   <block id="efa42d5c66cb9948f402ee559611e12d" category="doc">Soporte de terraform</block>
-  <block id="75086276ae6b7e370f36c7fc49383216" category="inline-link-macro">Crear un sistema de archivos</block>
-  <block id="8272f5b23e79d0ee33bd5151dcddc454" category="inline-link-macro">Cree una máquina virtual de almacenamiento</block>
   <block id="2532cd63354e6e99119077d45134b5ef" category="inline-link-macro">Utilice Terraform de CodeBox</block>
   <block id="11cb17d1b990bbf37a24337d5692efa1" category="list-text"><block ref="11cb17d1b990bbf37a24337d5692efa1" category="inline-link-macro-rx"></block></block>
-  <block id="a0d5836b9915a7e404d529a2ee0d2af5" category="section-title">Recomendaciones de rendimiento y IOPS en la calculadora de almacenamiento</block>
-  <block id="b48a7422f4f1f71c3ef03d7a8291f43f" category="paragraph">La calculadora de almacenamiento hace recomendaciones para la configuración del sistema de archivos FSx para ONTAP para el rendimiento e IOPS basadas en las prácticas recomendadas de AWS, lo que proporciona una orientación óptima para sus selecciones.</block>
   <block id="0cd06f0acd63988f29fda6d11297591b" category="doc">Lanzamiento inicial de Workload Factory</block>
   <block id="40e01e3ae3c6f388cb88b96223a5b962" category="paragraph">BlueXP Workload Factory para AWS es una potente plataforma de gestión de ciclo de vida diseñada para ayudarte a optimizar tus cargas de trabajo con los sistemas de archivos de Amazon FSx para NetApp ONTAP. Entre las cargas de trabajo que se pueden optimizar con Workload Factory y FSx para ONTAP se incluyen bases de datos, migraciones de VMware a VMware Cloud on AWS, bots de chat de IA, etc.</block>
   <block id="1571710cf3c95e6290fc41ea04917d42" category="paragraph">La compatibilidad con Terraform está disponible para la puesta en marcha del sistema de archivos de Amazon FSx para NetApp ONTAP y la creación de máquinas virtuales de almacenamiento. La guía de configuración y administración ahora tiene instrucciones sobre cómo usar Terraform desde el CodeBox.</block>
-  <block id="0fd886acd6700c343d655429665d7e6a" category="paragraph">Ahora puede utilizar Terraform desde CodeBox para implementar sistemas de archivos y equipos virtuales de almacenamiento.</block>
   <block id="38bd169945a371832b0b65c9086b1792" category="doc">Cargas de trabajo de base de datos</block>
   <block id="4d82a1ec1af02725042c8c785564ee7a" category="doc">Amazon FSX para ONTAP de NetApp</block>
   <block id="b04deaa23ce22ae0dafa2736e8afebed" category="doc">Cargas de trabajo GenAI</block>
@@ -102,8 +97,6 @@
   <block id="cf88fa43b4b0e1b1bfb66e894b188442" category="doc">Explore los ahorros de los servidores Microsoft SQL detectados en FSx para Windows File Server</block>
   <block id="0df73578de7c34ef150c1f37953113f5" category="paragraph">Ahora puedes explorar los ahorros de los servidores Microsoft SQL detectados en Amazon EC2 con el almacenamiento FSx para Windows File Server en la calculadora de ahorro. En función de tus requisitos de SQL Server y almacenamiento, puedes descubrir que el almacenamiento de FSx para ONTAP es el más rentable para tus cargas de trabajo de base de datos.</block>
   <block id="94bc5d9f2e30e5678caa5a3b2feb4216" category="section-title">29 de septiembre de 2024</block>
-  <block id="a384088a79fca35da6b697720f2ddd66" category="list-text"><block ref="a384088a79fca35da6b697720f2ddd66" category="inline-link-macro-rx"></block></block>
-  <block id="a9803c91b8fa40d3fdc106b005fdb16c" category="list-text"><block ref="a9803c91b8fa40d3fdc106b005fdb16c" category="inline-link-macro-rx"></block></block>
   <block id="cd1df627bd8e5b96916530ffbf4664f6" category="doc">Actualizaciones de creación de enlaces</block>
   <block id="15f127e6d8c5111ce85f47eff68232a7" category="list-text">CodeBox Viewer: CodeBox ahora está integrado en el proceso de creación de enlaces. Puede ver y copiar la plantilla de CloudFormation desde CodeBox en Workload Factory antes de redirigir a AWS para ejecutar la operación.</block>
   <block id="8efc4e00ac03374d3e1dc5d19c40016b" category="list-text">Permisos necesarios: Los permisos necesarios para ejecutar la creación de enlaces en AWS CloudFormation ahora están disponibles para ver y copiar desde el asistente de creación de enlaces en Workload Factory.</block>
@@ -126,4 +119,9 @@
   <block id="7d7b61e2696184ef2f1a673b4b505c10" category="inline-link">Identifique las fuentes de datos que desea integrar en su base de conocimientos</block>
   <block id="8afd34c2a29e7b6286f3ed0bf9e20c22" category="paragraph"><block ref="8afd34c2a29e7b6286f3ed0bf9e20c22" category="inline-link-rx"></block></block>
   <block id="4936442e55cb8f837f9616ca6aaf1e92" category="doc">Compatibilidad con Snapshot y restauración para volúmenes de base de conocimientos</block>
+  <block id="31139fb3d548620b7d82f880e4660606" category="doc">Vistas de pestañas en el inventario de almacenamiento</block>
+  <block id="d4aa654cea4681dd5ca03650594006c6" category="paragraph">El inventario de almacenamiento se ha actualizado a una vista de dos pestañas:</block>
+  <block id="71083868a2ec5abfee9a2647a74612c0" category="list-text">Ficha FSX for ONTAP: Muestra los sistemas de archivos FSx para ONTAP que tienes actualmente.</block>
+  <block id="1113c9108b3e58789456954d1c2ea9c2" category="list-text">Pestaña de ahorro: Muestra los sistemas de almacenamiento de bloques elásticos, FSx para Windows File Server y Elastic File Systems. A partir de ahí, puedes explorar el ahorro de estos sistemas en comparación con FSx para ONTAP.</block>
+  <block id="ca385f8a90dc256c71e43f23f9b870f2" category="section-title">3 de noviembre de 2024</block>
 </blocks>

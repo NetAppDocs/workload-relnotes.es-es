@@ -15,6 +15,24 @@ Obtenga información sobre los cambios más recientes en las cargas de trabajo q
 
 
 
+== 3 de noviembre de 2024
+
+
+
+=== Amazon FSX para ONTAP de NetApp
+
+
+
+==== Vistas de pestañas en el inventario de almacenamiento
+
+El inventario de almacenamiento se ha actualizado a una vista de dos pestañas:
+
+* Ficha FSX for ONTAP: Muestra los sistemas de archivos FSx para ONTAP que tienes actualmente.
+* Pestaña de ahorro: Muestra los sistemas de almacenamiento de bloques elásticos, FSx para Windows File Server y Elastic File Systems. A partir de ahí, puedes explorar el ahorro de estos sistemas en comparación con FSx para ONTAP.
+
+
+
+
 == 29 de septiembre de 2024
 
 
@@ -185,27 +203,6 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["Ag
 
 
 == 4 de agosto de 2024
-
-
-
-=== Amazon FSX para ONTAP de NetApp
-
-
-
-==== Soporte de terraform
-
-Ahora puede utilizar Terraform desde CodeBox para implementar sistemas de archivos y equipos virtuales de almacenamiento.
-
-* link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-file-system.html["Crear un sistema de archivos"^]
-* link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-storage-vm.html["Cree una máquina virtual de almacenamiento"^]
-* link:https://docs.netapp.com/us-en/workload-setup-admin/use-codebox.html["Utilice Terraform de CodeBox"^]
-
-
-
-
-==== Recomendaciones de rendimiento y IOPS en la calculadora de almacenamiento
-
-La calculadora de almacenamiento hace recomendaciones para la configuración del sistema de archivos FSx para ONTAP para el rendimiento e IOPS basadas en las prácticas recomendadas de AWS, lo que proporciona una orientación óptima para sus selecciones.
 
 
 
