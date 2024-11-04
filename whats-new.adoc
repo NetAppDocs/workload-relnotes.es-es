@@ -33,6 +33,28 @@ El inventario de almacenamiento se ha actualizado a una vista de dos pestañas:
 
 
 
+=== Cargas de trabajo de base de datos
+
+
+
+==== Optimice de forma continua sus cargas de trabajo de Microsoft SQL Server con bases de datos
+
+La fábrica de cargas de trabajo de BlueXP  presenta directrices y barreras continuas para garantizar una optimización continua y el cumplimiento de las prácticas recomendadas para el componente de almacenamiento de tus cargas de trabajo de Microsoft SQL Server en Amazon FSx para NetApp ONTAP. Esta función analiza continuamente su estado de Microsoft SQL Server sin conexión, lo que le proporciona un informe completo de información, oportunidades y recomendaciones para ayudarle a lograr el máximo rendimiento, rentabilidad y cumplimiento.
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Optimice sus cargas de trabajo de SQL Server"]
+
+
+
+==== Soporte de terraform
+
+Ahora puede utilizar Terraform desde CodeBox para implementar Microsoft SQL Server.
+
+* link:https://docs.netapp.com/us-en/workload-databases/create-database-server.html["Cree un servidor de base de datos"^]
+* link:https://docs.netapp.com/us-en/workload-setup-admin/use-codebox.html["Utilice Terraform de CodeBox"^]
+
+
+
+
 == 29 de septiembre de 2024
 
 
@@ -203,38 +225,6 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["Ag
 
 
 == 4 de agosto de 2024
-
-
-
-=== Cargas de trabajo de base de datos
-
-
-
-==== Mejoras en la calculadora de ahorro
-
-* Descripciones de estimación de costes
-+
-Ahora puedes descubrir cómo se calculan las estimaciones de costes en la calculadora de ahorro. Podrás revisar las descripciones de todos los cálculos de tus instancias de Microsoft SQL Server con el almacenamiento Amazon Elastic Block Store en comparación con el uso de Amazon FSx para el almacenamiento de ONTAP.
-
-* Soporte para el grupo de disponibilidad siempre disponible
-+
-Ahora las bases de datos proporcionan cálculos de ahorro de costes para el tipo de implementación de grupos de disponibilidad Always On con Microsoft SQL Server mediante Amazon Elastic Block Store.
-
-* Optimiza las licencias de SQL Server con FSx para ONTAP
-+
-La calculadora de bases de datos determina si la edición de licencia de SQL que utiliza con el almacenamiento de Amazon Elastic Block Store está optimizada para las cargas de trabajo de base de datos. Obtendrás una recomendación sobre la licencia SQL óptima con el almacenamiento FSx para ONTAP.
-
-* Varias instancias de SQL Server
-+
-Ahora las bases de datos proporcionan cálculos de ahorro de costes para una configuración que aloja varias instancias de Microsoft SQL Server mediante Amazon Elastic Block Store.
-
-* Personalizar la configuración de la calculadora
-+
-Ahora puede personalizar la configuración de Microsoft SQL Server, Amazon EC2 y Elastic Block Store para explorar los ahorros manualmente. La calculadora de ahorro determinará la mejor configuración en función del coste.
-
-
-
-link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["Explora el ahorro con FSx para ONTAP para tus cargas de trabajo de base de datos"^]
 
 
 
