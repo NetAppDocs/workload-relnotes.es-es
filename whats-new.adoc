@@ -55,6 +55,18 @@ Ahora puede utilizar Terraform desde CodeBox para implementar Microsoft SQL Serv
 
 
 
+=== Cargas de trabajo de
+
+
+
+==== Ayuda de la relación de reducción de datos del asesor de migración de VMware
+
+Esta versión de Workload Factory para VMware cuenta con un asistente de reducción de la tasa de datos. El asistente de la relación de reducción de datos te ayuda a decidir qué relación es la mejor para tu inventario de VMware y el estado de almacenamiento cuando se prepara para la incorporación de cloud AWS.
+
+https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.html["Cree un plan de implementación para Amazon EC2 con el asesor de migración"]
+
+
+
 == 29 de septiembre de 2024
 
 
@@ -257,16 +269,6 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/use-codebox.html["Utilic
 
 
 == 7 de julio de 2024
-
-
-
-=== Cargas de trabajo de
-
-
-
-==== Lanzamiento inicial de Workload Factory para VMware
-
-La versión inicial incluye la capacidad de utilizar el asesor de migración de VMware para analizar tus configuraciones actuales de máquinas virtuales en entornos vSphere on-premises y generar un plan para implementar diseños de máquinas virtuales recomendados en VMware Cloud on AWS y utilizar los sistemas de archivos personalizados de Amazon FSx para NetApp ONTAP como almacenes de datos externos.
 
 
 
