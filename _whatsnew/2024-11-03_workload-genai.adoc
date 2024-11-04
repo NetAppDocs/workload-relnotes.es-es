@@ -1,0 +1,13 @@
+= Enmascarar la información de identificación personal con barreras de datos
+:allow-uri-read: 
+
+
+
+
+=== Enmascarar la información de identificación personal con barreras de datos
+
+La carga de trabajo de IA generativa presenta la función de barreras de datos impulsada por la clasificación de BlueXP . La función de barandas de datos identifica y enmascara la información personal identificable (PII), lo que le ayuda a mantener el cumplimiento y reforzar la seguridad de los datos confidenciales de su organización.
+
+link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html#create-and-configure-the-knowledge-base["Crear una base de conocimientos"]
+
+link:https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["Más información sobre la clasificación de BlueXP"^]

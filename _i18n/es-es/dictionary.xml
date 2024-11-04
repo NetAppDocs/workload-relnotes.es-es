@@ -66,10 +66,6 @@
   <block id="1db25aada4bff8233b24c1d7b39230cd" category="paragraph"><block ref="1db25aada4bff8233b24c1d7b39230cd" category="inline-link-macro-rx"></block></block>
   <block id="a268e8a21767df1e979dcf4c47b6f464" category="doc">Migrar a Amazon EC2</block>
   <block id="a8d4a316d0df9e6b884220ad60451578" category="paragraph">Workload Factory para VMware admite ahora la migración a Amazon EC2 mediante el asesor de migración de VMware.</block>
-  <block id="ec7827c2237ae7b863c9ba93b519cbc1" category="doc">Integración de Amazon CloudWatch Logs</block>
-  <block id="64c1dd8cb5f86710c3293cc9807760fb" category="paragraph">Las cargas de trabajo de IA generativas ahora están integradas con Amazon CloudWatch Logs, lo que le permite supervisar los archivos de registro de las cargas de trabajo de IA generativas.</block>
-  <block id="e2c3c3f9d43a7b053dbca2a0234078b7" category="section-title">Aplicación de chatbot de ejemplo</block>
-  <block id="75a337f9fd41608c507045c7429174be" category="paragraph">La aplicación de muestra de GenAI de Fábrica de Carga de Trabajo de NetApp le permite probar la autenticación y la recuperación de su base de conocimientos publicada de Fábrica de Carga de Trabajo de NetApp al interactuar directamente con ella en una aplicación de chatbot basada en web.</block>
   <block id="8fa53177b9fd9cdb460f43ba4be39618" category="doc">Estrategias de fragmentación adicionales</block>
   <block id="a0a464c97ca1835adf3bddc803b001cd" category="paragraph">Las cargas de trabajo de IA generativas ahora admiten la fragmentación de varias frases y la fragmentación basada en superposiciones para los orígenes de datos.</block>
   <block id="4cb92325ae7034576f6dff7fe48e3254" category="section-title">Volumen dedicado para cada base de conocimientos</block>
@@ -120,4 +116,10 @@
   <block id="d83b54de9b50110195e4bf3c1f3c6a67" category="list-text"><block ref="d83b54de9b50110195e4bf3c1f3c6a67" category="inline-link-macro-rx"></block></block>
   <block id="3197d9ffc65dc1fe1469440d8891e79d" category="doc">Ayuda de la relación de reducción de datos del asesor de migración de VMware</block>
   <block id="10ced15d9df199f8cb002561b8728770" category="paragraph">Esta versión de Workload Factory para VMware cuenta con un asistente de reducción de la tasa de datos. El asistente de la relación de reducción de datos te ayuda a decidir qué relación es la mejor para tu inventario de VMware y el estado de almacenamiento cuando se prepara para la incorporación de cloud AWS.</block>
+  <block id="17e908b1a02b6ec45f4e125877322d0f" category="doc">Enmascarar la información de identificación personal con barreras de datos</block>
+  <block id="0f21cd7bd10e747bca7894a609acc04b" category="paragraph">La carga de trabajo de IA generativa presenta la función de barreras de datos impulsada por la clasificación de BlueXP . La función de barandas de datos identifica y enmascara la información personal identificable (PII), lo que le ayuda a mantener el cumplimiento y reforzar la seguridad de los datos confidenciales de su organización.</block>
+  <block id="0da805b7cc0727848a84e995ab36cd76" category="inline-link-macro">Crear una base de conocimientos</block>
+  <block id="8137174f639d391921dfeb8ca6d792d1" category="paragraph"><block ref="8137174f639d391921dfeb8ca6d792d1" category="inline-link-macro-rx"></block></block>
+  <block id="a686d5fa6b6925450f1b7fa2b4245d28" category="inline-link-macro">Más información sobre la clasificación de BlueXP</block>
+  <block id="384713a8a1d5a2dd365da2851c50ad93" category="paragraph"><block ref="384713a8a1d5a2dd365da2851c50ad93" category="inline-link-macro-rx"></block></block>
 </blocks>
