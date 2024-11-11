@@ -15,6 +15,22 @@ Obtenga información sobre los cambios más recientes en las cargas de trabajo q
 
 
 
+== 11 de noviembre de 2024
+
+
+
+=== Configuración y administración
+
+
+
+==== Integración de la fábrica de cargas de trabajo en la consola de BlueXP
+
+Ahora puede utilizar la fábrica de carga de trabajo de la link:https://console.bluexp.netapp.com["Consola BlueXP"^]. La experiencia de la consola de BlueXP  proporciona la misma funcionalidad que la consola de la carga de trabajo de fábrica.
+
+link:https://docs.netapp.com/workload-setup-admin/console-experiences.html["Aprende a acceder a la fábrica de cargas de trabajo desde la consola de BlueXP"]
+
+
+
 == 3 de noviembre de 2024
 
 
@@ -234,19 +250,19 @@ Las cargas de trabajo de IA generativas ahora crean un volumen de Amazon FSx par
 
 ==== Suscripción a RSS
 
-La suscripción RSS está disponible en el link:https://console.workloads.netapp.com/["Consola de Workload Factory"^]. El uso de una fuente RSS es una forma fácil de consumir y estar al tanto de los cambios en la fábrica de cargas de trabajo de BlueXP .
+La suscripción RSS está disponible en el link:https://console.workloads.netapp.com/["consola de fábrica de carga de trabajo"^]. El uso de una fuente RSS es una forma fácil de consumir y estar al tanto de los cambios en la fábrica de cargas de trabajo de BlueXP .
 
-image:screenshot-rss-subscribe-button.png["Captura de pantalla del menú desplegable Ayuda de la consola de Workload Factory. Un nuevo botón para suscribirse a RSS aparece como una opción en el menú desplegable."]
+image:screenshot-rss-subscribe-button.png["Captura de pantalla del menú desplegable de ayuda de la consola de fábrica de cargas de trabajo. Un nuevo botón para suscribirse a RSS aparece como una opción en el menú desplegable."]
 
 
 
 ==== Soporte para una política de permisos única por carga de trabajo
 
-Al agregar credenciales de AWS en Workload Factory, ahora puede seleccionar una única política de permisos, ya sea en modo de lectura o automatización, para cada carga de trabajo y administración de almacenamiento.
+Al agregar las credenciales de AWS en la fábrica de cargas de trabajo, ahora puede seleccionar una única política de permisos, ya sea en modo de lectura o automatización, para cada carga de trabajo y administración de almacenamiento.
 
 image:screenshot-single-permission-policy-support.png["Captura de pantalla de la sección de configuración de permisos en la página Credenciales, donde puede seleccionar políticas de permisos de lectura o automatización para la gestión del almacenamiento, cargas de trabajo de IA, cargas de trabajo de bases de datos y cargas de trabajo de VMware."]
 
-link:https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["Agregar credenciales de AWS a Workload Factory"^]
+link:https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["Agregar credenciales de AWS a la fábrica de cargas de trabajo"^]
 
 
 
@@ -263,17 +279,3 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["Ag
 La compatibilidad con Terraform está disponible para la puesta en marcha del sistema de archivos de Amazon FSx para NetApp ONTAP y la creación de máquinas virtuales de almacenamiento. La guía de configuración y administración ahora tiene instrucciones sobre cómo usar Terraform desde el CodeBox.
 
 link:https://docs.netapp.com/us-en/workload-setup-admin/use-codebox.html["Utilice Terraform de CodeBox"^]
-
-
-
-== 7 de julio de 2024
-
-
-
-=== Configuración y administración
-
-
-
-==== Lanzamiento inicial de Workload Factory
-
-BlueXP Workload Factory para AWS es una potente plataforma de gestión de ciclo de vida diseñada para ayudarte a optimizar tus cargas de trabajo con los sistemas de archivos de Amazon FSx para NetApp ONTAP. Entre las cargas de trabajo que se pueden optimizar con Workload Factory y FSx para ONTAP se incluyen bases de datos, migraciones de VMware a VMware Cloud on AWS, bots de chat de IA, etc.

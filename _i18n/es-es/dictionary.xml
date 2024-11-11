@@ -24,8 +24,6 @@
   <block id="efa42d5c66cb9948f402ee559611e12d" category="doc">Soporte de terraform</block>
   <block id="2532cd63354e6e99119077d45134b5ef" category="inline-link-macro">Utilice Terraform de CodeBox</block>
   <block id="11cb17d1b990bbf37a24337d5692efa1" category="list-text"><block ref="11cb17d1b990bbf37a24337d5692efa1" category="inline-link-macro-rx"></block></block>
-  <block id="0cd06f0acd63988f29fda6d11297591b" category="doc">Lanzamiento inicial de Workload Factory</block>
-  <block id="40e01e3ae3c6f388cb88b96223a5b962" category="paragraph">BlueXP Workload Factory para AWS es una potente plataforma de gestión de ciclo de vida diseñada para ayudarte a optimizar tus cargas de trabajo con los sistemas de archivos de Amazon FSx para NetApp ONTAP. Entre las cargas de trabajo que se pueden optimizar con Workload Factory y FSx para ONTAP se incluyen bases de datos, migraciones de VMware a VMware Cloud on AWS, bots de chat de IA, etc.</block>
   <block id="1571710cf3c95e6290fc41ea04917d42" category="paragraph">La compatibilidad con Terraform está disponible para la puesta en marcha del sistema de archivos de Amazon FSx para NetApp ONTAP y la creación de máquinas virtuales de almacenamiento. La guía de configuración y administración ahora tiene instrucciones sobre cómo usar Terraform desde el CodeBox.</block>
   <block id="38bd169945a371832b0b65c9086b1792" category="doc">Cargas de trabajo de base de datos</block>
   <block id="4d82a1ec1af02725042c8c785564ee7a" category="doc">Amazon FSX para ONTAP de NetApp</block>
@@ -33,7 +31,6 @@
   <block id="bb50e2459e4e016aa4b14a56adb2358f" category="doc">Configuración y administración</block>
   <block id="a76e64a0fbf98a083080351e4cb67566" category="doc">Cargas de trabajo de</block>
   <block id="a41d6b8d358bc9ae448d19a2d13faa53" category="section-title">4 de agosto de 2024</block>
-  <block id="021ac29d3012fd7caab5a70c75ae987f" category="section-title">7 de julio de 2024</block>
   <block id="f565eb47bc8c215541fe00205d9b37d3" category="doc">Explora el ahorro a través de la personalización</block>
   <block id="bfbd25ddeba7cedc974f1a5a1d0a295c" category="paragraph">Ahora puede personalizar los ajustes de configuración para Microsoft SQL Server en Amazon EC2 con el almacenamiento FSx para Windows File Server y Elastic Block Store en la calculadora de ahorro. En función de sus requisitos de almacenamiento, puede darse cuenta de que el almacenamiento de FSx para ONTAP es el más rentable para las cargas de trabajo de sus bases de datos.</block>
   <block id="f94c119bb7d164adbb1a390a249741e0" category="section-title">Navega a la calculadora de ahorros desde la página de inicio</block>
@@ -46,15 +43,9 @@
   <block id="8b97ffb47ece0280994594aa00a04a55" category="paragraph">Ahora puede realizar un backup de un volumen antes de eliminarlo. La copia de seguridad permanecerá en el sistema de archivos hasta que se elimine.</block>
   <block id="8e9a64bda9d21f945b6489df2e7946e1" category="inline-link-macro">Eliminar un volumen</block>
   <block id="2fd1745cefcdce50d6467d96e693f6b7" category="doc">Suscripción a RSS</block>
-  <block id="0fa776fabe30e41d70bd8d9c9e64c974" category="paragraph">La suscripción RSS está disponible en el <block ref="372504cb6bb48559009ff8f8cdb9a245" category="inline-link-macro-rx"></block>. El uso de una fuente RSS es una forma fácil de consumir y estar al tanto de los cambios en la fábrica de cargas de trabajo de BlueXP .</block>
-  <block id="447fb3de7bec10468f55367375163603" category="inline-image-macro">Captura de pantalla del menú desplegable Ayuda de la consola de Workload Factory. Un nuevo botón para suscribirse a RSS aparece como una opción en el menú desplegable.</block>
-  <block id="c508966f04ada556baaaa0b94e781209" category="paragraph"><block ref="c508966f04ada556baaaa0b94e781209" category="inline-image-macro-rx" type="image"></block></block>
   <block id="80f4b5aa553e3a44455088c83954a088" category="section-title">Soporte para una política de permisos única por carga de trabajo</block>
-  <block id="c876ca70d1ae73b09cdc0004b328448e" category="paragraph">Al agregar credenciales de AWS en Workload Factory, ahora puede seleccionar una única política de permisos, ya sea en modo de lectura o automatización, para cada carga de trabajo y administración de almacenamiento.</block>
   <block id="41b3a089d4fbacfb53e9a5634cfc6647" category="inline-image-macro">Captura de pantalla de la sección de configuración de permisos en la página Credenciales, donde puede seleccionar políticas de permisos de lectura o automatización para la gestión del almacenamiento, cargas de trabajo de IA, cargas de trabajo de bases de datos y cargas de trabajo de VMware.</block>
   <block id="fa5f572610383fbc01cbba40c0f535e2" category="paragraph"><block ref="fa5f572610383fbc01cbba40c0f535e2" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="287ae8bc216279a75c04344894e04b7f" category="inline-link-macro">Agregar credenciales de AWS a Workload Factory</block>
-  <block id="1db25aada4bff8233b24c1d7b39230cd" category="paragraph"><block ref="1db25aada4bff8233b24c1d7b39230cd" category="inline-link-macro-rx"></block></block>
   <block id="a268e8a21767df1e979dcf4c47b6f464" category="doc">Migrar a Amazon EC2</block>
   <block id="8fa53177b9fd9cdb460f43ba4be39618" category="doc">Estrategias de fragmentación adicionales</block>
   <block id="a0a464c97ca1835adf3bddc803b001cd" category="paragraph">Las cargas de trabajo de IA generativas ahora admiten la fragmentación de varias frases y la fragmentación basada en superposiciones para los orígenes de datos.</block>
@@ -120,4 +111,17 @@
   <block id="5802490bb2e01aff3b4722eee028a516" category="list-text">CodeBox Viewer: CodeBox ahora está integrado en el proceso de creación de enlaces. Puede ver y copiar la plantilla de CloudFormation desde CodeBox en la fábrica de cargas de trabajo antes de redirigir a AWS para ejecutar la operación.</block>
   <block id="0d2cf987b55cf15b8f1dec5a05398183" category="list-text">Permisos necesarios: Los permisos necesarios para ejecutar la creación de enlaces en AWS CloudFormation ahora están disponibles para ver y copiar desde el asistente de creación de enlaces en la fábrica de cargas de trabajo.</block>
   <block id="3874612023324fe909b90a886072b352" category="paragraph"><block ref="3874612023324fe909b90a886072b352" category="inline-link-macro-rx"></block></block>
+  <block id="e5d3c7248ff4540f88c13fbf9252d0a3" category="inline-link-macro">consola de fábrica de carga de trabajo</block>
+  <block id="3171014553de64cf509a3b587c8baeb3" category="paragraph">La suscripción RSS está disponible en el <block ref="9d5ad87a67c1830e37fdd19a7a179db6" category="inline-link-macro-rx"></block>. El uso de una fuente RSS es una forma fácil de consumir y estar al tanto de los cambios en la fábrica de cargas de trabajo de BlueXP .</block>
+  <block id="0796995437665af1d920169e03b4542b" category="inline-image-macro">Captura de pantalla del menú desplegable de ayuda de la consola de fábrica de cargas de trabajo. Un nuevo botón para suscribirse a RSS aparece como una opción en el menú desplegable.</block>
+  <block id="482a329f24c123c31a109c24729cb2cd" category="paragraph"><block ref="482a329f24c123c31a109c24729cb2cd" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="4e47b743d0cc8e0b8906e37286d9b43b" category="paragraph">Al agregar las credenciales de AWS en la fábrica de cargas de trabajo, ahora puede seleccionar una única política de permisos, ya sea en modo de lectura o automatización, para cada carga de trabajo y administración de almacenamiento.</block>
+  <block id="9f46892803d8b6c63d3b7f51fd44a421" category="inline-link-macro">Agregar credenciales de AWS a la fábrica de cargas de trabajo</block>
+  <block id="d9dd14fb1d1e7ca9c6da6770d9176783" category="paragraph"><block ref="d9dd14fb1d1e7ca9c6da6770d9176783" category="inline-link-macro-rx"></block></block>
+  <block id="dfc4a97a3fe947a314ae908cf036cbfe" category="doc">Integración de la fábrica de cargas de trabajo en la consola de BlueXP</block>
+  <block id="5975f7e9036c78e6217b16f295f0ca75" category="inline-link-macro">Consola BlueXP</block>
+  <block id="d2feef96259a41a7842dc5e7af577d63" category="paragraph">Ahora puede utilizar la fábrica de carga de trabajo de la <block ref="391de7a3bac2bc77fa53dffb3f53801a" category="inline-link-macro-rx"></block>. La experiencia de la consola de BlueXP  proporciona la misma funcionalidad que la consola de la carga de trabajo de fábrica.</block>
+  <block id="717f9c6475fbb39a24ab9942c1a903c0" category="inline-link-macro">Aprende a acceder a la fábrica de cargas de trabajo desde la consola de BlueXP</block>
+  <block id="df2137c00b08ad833b0954cdd4247de3" category="paragraph"><block ref="df2137c00b08ad833b0954cdd4247de3" category="inline-link-macro-rx"></block></block>
+  <block id="f462230f4e4289784e8469f2babda8fd" category="section-title">11 de noviembre de 2024</block>
 </blocks>
