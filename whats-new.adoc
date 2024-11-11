@@ -212,9 +212,9 @@ link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["Expl
 
 ==== Navega a la calculadora de ahorros desde la página de inicio
 
-Ahora puede ir a la calculadora de ahorro desde la link:https://console.workloads.netapp.com["Consola de Workload Factory"^] página de inicio. Seleccione en Elastic Block Store y FSx para Windows File Server para comenzar.
+Ahora puede ir a la calculadora de ahorro desde la link:https://console.workloads.netapp.com["consola de fábrica de carga de trabajo"^] página de inicio. Seleccione en Elastic Block Store y FSx para Windows File Server para comenzar.
 
-image:screenshot-explore-savings-home-small.png["Captura de pantalla de la página inicial de la consola Workload Factory. La imagen muestra el mosaico de bases de datos con un nuevo botón Explorar ahorro. Haga clic en el botón para abrir un menú desplegable. El menú desplegable tiene dos opciones: Microsoft SQL Server en EBS y Microsoft SQL Server en FSx para Windows File Server."]
+image:screenshot-explore-savings-home-small.png["captura de pantalla de la página inicial de la consola de fábrica de carga de trabajo. La imagen muestra el mosaico de bases de datos con un nuevo botón Explorar ahorro. Haga clic en el botón para abrir un menú desplegable. El menú desplegable tiene dos opciones: Microsoft SQL Server en EBS y Microsoft SQL Server en FSx para Windows File Server."]
 
 
 
