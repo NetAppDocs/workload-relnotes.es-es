@@ -35,11 +35,6 @@
   <block id="bfbd25ddeba7cedc974f1a5a1d0a295c" category="paragraph">Ahora puede personalizar los ajustes de configuración para Microsoft SQL Server en Amazon EC2 con el almacenamiento FSx para Windows File Server y Elastic Block Store en la calculadora de ahorro. En función de sus requisitos de almacenamiento, puede darse cuenta de que el almacenamiento de FSx para ONTAP es el más rentable para las cargas de trabajo de sus bases de datos.</block>
   <block id="f94c119bb7d164adbb1a390a249741e0" category="section-title">Navega a la calculadora de ahorros desde la página de inicio</block>
   <block id="5a41a3272b612d6600223d90afc4ffba" category="section-title">1 de septiembre de 2024</block>
-  <block id="f0881d896f399a09e86122a09c00b74d" category="doc">Compatibilidad con modo lectura para la gestión del almacenamiento</block>
-  <block id="06fdd4e2a129920e1eda56425068ba01" category="inline-link-macro">Más información sobre el modo de lectura</block>
-  <block id="fc30083e7a76ed4c8eb6167ea377c198" category="section-title">Realice backups antes de la eliminación de volúmenes</block>
-  <block id="8b97ffb47ece0280994594aa00a04a55" category="paragraph">Ahora puede realizar un backup de un volumen antes de eliminarlo. La copia de seguridad permanecerá en el sistema de archivos hasta que se elimine.</block>
-  <block id="8e9a64bda9d21f945b6489df2e7946e1" category="inline-link-macro">Eliminar un volumen</block>
   <block id="2fd1745cefcdce50d6467d96e693f6b7" category="doc">Suscripción a RSS</block>
   <block id="80f4b5aa553e3a44455088c83954a088" category="section-title">Soporte para una política de permisos única por carga de trabajo</block>
   <block id="41b3a089d4fbacfb53e9a5634cfc6647" category="inline-image-macro">Captura de pantalla de la sección de configuración de permisos en la página Credenciales, donde puede seleccionar políticas de permisos de lectura o automatización para la gestión del almacenamiento, cargas de trabajo de IA, cargas de trabajo de bases de datos y cargas de trabajo de VMware.</block>
@@ -101,9 +96,6 @@
   <block id="482a03f8810c074753dd4da1f075dc70" category="doc">Cambios recientes en el centro de cargas de trabajo de BlueXP</block>
   <block id="ccbb3c80d40b938a56e8803235ec679c" category="sidebar">En estas notas de la versión, se describen las mejoras recientes de los servicios de cloud que forman parte de la fábrica de cargas de trabajo de BlueXP .</block>
   <block id="15d6d0dbf56d72db14e4484abfd8982d" category="sidebar">Notas de la versión de fábrica de las cargas de trabajo BlueXP</block>
-  <block id="4f75f1e69acbf2cd38f0862ac2b212c7" category="paragraph">El modo de lectura está disponible para la gestión del almacenamiento en la fábrica de cargas de trabajo. El modo de lectura mejora la experiencia del modo básico al agregar permisos de solo lectura para que las plantillas de infraestructura como código se rellenen con sus variables específicas. Las plantillas de infraestructura como código se pueden ejecutar directamente desde la cuenta de AWS sin necesidad de proporcionar permisos de modificación a la fábrica de cargas de trabajo.</block>
-  <block id="f584ba5824f9f0b7bb3a173d45332dd3" category="paragraph"><block ref="f584ba5824f9f0b7bb3a173d45332dd3" category="inline-link-macro-rx"></block></block>
-  <block id="a0fbee91270a9c1ec1d2bc9b56f87ff3" category="paragraph"><block ref="a0fbee91270a9c1ec1d2bc9b56f87ff3" category="inline-link-macro-rx"></block></block>
   <block id="5802490bb2e01aff3b4722eee028a516" category="list-text">CodeBox Viewer: CodeBox ahora está integrado en el proceso de creación de enlaces. Puede ver y copiar la plantilla de CloudFormation desde CodeBox en la fábrica de cargas de trabajo antes de redirigir a AWS para ejecutar la operación.</block>
   <block id="0d2cf987b55cf15b8f1dec5a05398183" category="list-text">Permisos necesarios: Los permisos necesarios para ejecutar la creación de enlaces en AWS CloudFormation ahora están disponibles para ver y copiar desde el asistente de creación de enlaces en la fábrica de cargas de trabajo.</block>
   <block id="3874612023324fe909b90a886072b352" category="paragraph"><block ref="3874612023324fe909b90a886072b352" category="inline-link-macro-rx"></block></block>
@@ -123,4 +115,27 @@
   <block id="ab1e050e49bbc49befbca952f74f0443" category="inline-image-macro">captura de pantalla de la página inicial de la consola de fábrica de carga de trabajo. La imagen muestra el mosaico de bases de datos con un nuevo botón Explorar ahorro. Haga clic en el botón para abrir un menú desplegable. El menú desplegable tiene dos opciones: Microsoft SQL Server en EBS y Microsoft SQL Server en FSx para Windows File Server.</block>
   <block id="923f11c15ceba3bc0e4d37309ab27ed2" category="paragraph"><block ref="923f11c15ceba3bc0e4d37309ab27ed2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1a34f743bd98b1658401ce2f8206ff9a" category="paragraph"><block ref="1a34f743bd98b1658401ce2f8206ff9a" category="inline-link-macro-rx"></block></block>
+  <block id="c4f10a04f7aa75535a8a0475261393eb" category="doc">Almacenamiento basado en bloques para sistemas de archivos de escalado horizontal FSx para ONTAP</block>
+  <block id="152983842f852ef5bae46ac675caec95" category="paragraph">Ahora puedes aprovisionar el almacenamiento basado en bloques en FSx para ONTAP si utilizas la puesta en marcha del sistema de archivos de escalado horizontal con hasta 6 parejas de alta disponibilidad.</block>
+  <block id="88ece72bda0e38c0bdca32d19f42a979" category="inline-link-macro">Crea un sistema de archivos FSx para ONTAP en la fábrica de cargas de trabajo de BlueXP</block>
+  <block id="8cce6f6c21973d5dff1898076cddb209" category="paragraph"><block ref="8cce6f6c21973d5dff1898076cddb209" category="inline-link-macro-rx"></block></block>
+  <block id="609b2d9256f15ecb9d57d3f545d91174" category="section-title">Comando de montaje disponible</block>
+  <block id="67ba5d91692276a76737790f2df885ec" category="paragraph">Los comandos de montaje ahora están disponibles para el acceso NFS y CIFS al volumen. Puedes obtener el punto de montaje para un volumen dentro de un sistema de archivos FSX for ONTAP seleccionando *Acciones básicas* y luego *Ver comando de montaje*.</block>
+  <block id="f12470a0bbf95a722b70847640bd40c9" category="inline-image-macro">Captura de pantalla que muestra para ver el comando mount yendo a un sistema de archivos fsx para ONTAP, seleccionando el menú volume, seleccionando acciones básicas y, a continuación, seleccionando el comando view mount. Se muestra el cuadro de diálogo de comando de montaje donde se muestra el comando de montaje para el acceso de CIFS o NFS.</block>
+  <block id="21817bf964617ea4f875252102707119" category="paragraph"><block ref="21817bf964617ea4f875252102707119" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0087bca38db021c2b14c65d5893a9339" category="inline-link-macro">Comando View mount de un volumen</block>
+  <block id="41cd808fdcb8411a8a73071649aca98e" category="paragraph"><block ref="41cd808fdcb8411a8a73071649aca98e" category="inline-link-macro-rx"></block></block>
+  <block id="70bf70871888ae321ee591627f1f149f" category="section-title">Actualice la eficiencia de almacenamiento después de crear un volumen</block>
+  <block id="4b1987aeb3ee9f5859457d872de9697a" category="paragraph">Ahora es posible habilitar o deshabilitar la eficiencia de almacenamiento en volúmenes de FlexVol tras la creación del volumen. La eficiencia del almacenamiento incluye deduplicación, compresión de datos y compactación de datos. Habilitar la eficiencia del almacenamiento le ayuda a alcanzar un ahorro de espacio óptimo en una FlexVol volume.</block>
+  <block id="b8ae90ddbb68f3303ee755cd1d9b5819" category="inline-link-macro">Actualice la eficiencia del almacenamiento de un volumen</block>
+  <block id="d26d51c8a86d1db1cfe8dd0317cc6274" category="paragraph"><block ref="d26d51c8a86d1db1cfe8dd0317cc6274" category="inline-link-macro-rx"></block></block>
+  <block id="aadb8a2a44b75c1333f5a52c2ceb1516" category="section-title">Detección y replicación de clústeres de ONTAP en las instalaciones</block>
+  <block id="490a30e9496a9d55f2cfdb934812658b" category="paragraph">Detecta y replica los datos de los clústeres de ONTAP on-premises en un sistema de archivos FSx para ONTAP para que se puedan utilizar para enriquecer las bases de conocimientos de IA. Todos los flujos de trabajo de descubrimiento y replicación en las instalaciones son posibles desde la nueva pestaña *ONTAP local* en el inventario de almacenamiento.</block>
+  <block id="c6f905e067bdaa7ba33a58a907e59477" category="inline-link-macro">Detectar un clúster de ONTAP en las instalaciones</block>
+  <block id="b169507cd10826b5a52f573e2f75ad2c" category="paragraph"><block ref="b169507cd10826b5a52f573e2f75ad2c" category="inline-link-macro-rx"></block></block>
+  <block id="67e962050c9494ada1eab84c21826e3c" category="section-title">Las credenciales de AWS mejoran el análisis de la calculadora de ahorro</block>
+  <block id="81e738c909aeee7a4a781716391eae27" category="paragraph">Ahora tiene la opción de agregar credenciales de AWS desde la calculadora de ahorro. Añadir credenciales mejora la precisión del análisis de la calculadora de ahorro de tus entornos de almacenamiento de Amazon Elastic Block Store, Elastic File Systems y FSx para servidor de archivos de Windows en comparación con FSx para ONTAP.</block>
+  <block id="dd0818ef84ecf338be3c795b4a57e5c4" category="inline-link-macro">Explora el ahorro con FSx para ONTAP en la fábrica de cargas de trabajo de BlueXP</block>
+  <block id="f98d47c0920e02232d981da56f082627" category="paragraph"><block ref="f98d47c0920e02232d981da56f082627" category="inline-link-macro-rx"></block></block>
+  <block id="80d5de3a419a69be5ba960bb0fef9a1d" category="section-title">1 de diciembre de 2024</block>
 </blocks>
