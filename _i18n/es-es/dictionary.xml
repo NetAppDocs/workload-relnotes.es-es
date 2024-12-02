@@ -36,7 +36,6 @@
   <block id="80f4b5aa553e3a44455088c83954a088" category="section-title">Soporte para una política de permisos única por carga de trabajo</block>
   <block id="41b3a089d4fbacfb53e9a5634cfc6647" category="inline-image-macro">Captura de pantalla de la sección de configuración de permisos en la página Credenciales, donde puede seleccionar políticas de permisos de lectura o automatización para la gestión del almacenamiento, cargas de trabajo de IA, cargas de trabajo de bases de datos y cargas de trabajo de VMware.</block>
   <block id="fa5f572610383fbc01cbba40c0f535e2" category="paragraph"><block ref="fa5f572610383fbc01cbba40c0f535e2" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="a268e8a21767df1e979dcf4c47b6f464" category="doc">Migrar a Amazon EC2</block>
   <block id="2792e29ba30bdded6461ac9b9f0816a4" category="doc">Mejoras en el asesor de migración de VMware</block>
   <block id="d738890a4c9a0f96c08ae0ba66a626a1" category="inline-link">Cree un plan de implementación para Amazon EC2 con el asesor de migración</block>
   <block id="2dbb83c0d88f8aa5c12c5445b2b248ee" category="paragraph"><block ref="2dbb83c0d88f8aa5c12c5445b2b248ee" category="inline-link-rx"></block></block>
@@ -83,7 +82,6 @@
   <block id="8137174f639d391921dfeb8ca6d792d1" category="paragraph"><block ref="8137174f639d391921dfeb8ca6d792d1" category="inline-link-macro-rx"></block></block>
   <block id="a686d5fa6b6925450f1b7fa2b4245d28" category="inline-link-macro">Más información sobre la clasificación de BlueXP</block>
   <block id="384713a8a1d5a2dd365da2851c50ad93" category="paragraph"><block ref="384713a8a1d5a2dd365da2851c50ad93" category="inline-link-macro-rx"></block></block>
-  <block id="c9b4182f157d4d581536f53df8cd512d" category="paragraph">El centro de cargas de trabajo para VMware admite ahora la migración a Amazon EC2 mediante el asesor de migración de VMware.</block>
   <block id="21558f6938275b17b39171353ad95a65" category="paragraph">Esta versión del fábrica de cargas de trabajo para VMware incluye mejoras en las funcionalidades y la estabilidad, así como la capacidad de importar y exportar planes de migración cuando se utiliza el asesor de migración de VMware.</block>
   <block id="d2705530e45ff55c7a7db4a1196a8b0d" category="summary">Obtenga información sobre los cambios más recientes en las cargas de trabajo que forman parte de la fábrica de cargas de trabajo de BlueXP .</block>
   <block id="482a03f8810c074753dd4da1f075dc70" category="doc">Cambios recientes en el centro de cargas de trabajo de BlueXP</block>
@@ -140,4 +138,9 @@
   <block id="c711d2f72cc16ad2c0919ebe70292834" category="paragraph">La fábrica de cargas de trabajo de BlueXP  para GenAI ahora admite la clonación de una base de conocimientos a partir de una copia Snapshot. Esto permite una rápida recuperación de las bases de conocimiento y la creación de nuevas bases de conocimiento con las fuentes de datos existentes, y ayuda con la recuperación y el desarrollo de datos.</block>
   <block id="53ea9e78bbaa3e1c3ead030a954216c8" category="inline-link-macro">Clonar una base de conocimientos</block>
   <block id="23899d33da818933cc59017a222d3f1f" category="paragraph"><block ref="23899d33da818933cc59017a222d3f1f" category="inline-link-macro-rx"></block></block>
+  <block id="1d194f6c398ca78aaffd8c430203e1ec" category="doc">Mejoras en el asesor de migración de Amazon EC2</block>
+  <block id="1e5e06dbbf4cb0bb655126bc90757161" category="paragraph">Esta versión del centro de cargas de trabajo de BlueXP  para VMware incluye varias mejoras en la experiencia del asesor de migración:</block>
+  <block id="80384840ba856b44e35be4918f28a26b" category="list-text">*Recopilación de datos*: La fábrica de cargas de trabajo de BlueXP  para VMware admite la capacidad de recopilar datos durante un período de tiempo específico cuando se utiliza el asesor de migración.</block>
+  <block id="2e47bf0e10f6acdee08b3889dc872c4c" category="list-text">* Selección de VM*: La fábrica de cargas de trabajo de BlueXP  para VMware ahora admite la selección de VM que desea incluir en su implementación de migración.</block>
+  <block id="3f4f1b85f4effee9c5e9ae9034f0e684" category="list-text">*Experiencia rápida frente a avanzada*: Cuando utiliza el asesor de migración, ahora puede elegir una experiencia de migración rápida, utilizando RVtools, o la experiencia avanzada, que utiliza el recopilador de datos del asesor de migración.</block>
 </blocks>
