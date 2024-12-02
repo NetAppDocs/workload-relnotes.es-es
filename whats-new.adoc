@@ -65,6 +65,46 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/explore-savings.html["Expl
 
 
 
+=== Cargas de trabajo de base de datos
+
+
+
+==== La optimización continua añade soluciones de computación y evaluación
+
+Las bases de datos ahora ofrecen información y recomendaciones para ayudarle a optimizar los recursos de computación para instancias de Microsoft SQL Server. Medimos el uso de la CPU y aprovechamos el servicio AWS Compute Optimizer para recomendar tipos de instancia óptimos de tamaño adecuado y notificarle los parches disponibles del sistema operativo. La optimización de los recursos de computación puede ayudarle a tomar decisiones fundamentadas sobre los tipos de instancias, lo que lleva a ahorrar costes y a lograr una utilización eficiente de los recursos.
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Optimiza las configuraciones de recursos de computación"]
+
+
+
+==== Soporte PostgreSQL
+
+Ahora puede implementar y administrar implementaciones de servidores PostgreSQL independientes en bases de datos.
+
+link:https://docs.netapp.com/us-en/workload-databases/create-postgresql-server.html["Crear un servidor PostgreSQL"]
+
+
+
+=== Cargas de trabajo GenAI
+
+
+
+==== Clone una base de conocimientos desde una copia de Snapshot
+
+La fábrica de cargas de trabajo de BlueXP  para GenAI ahora admite la clonación de una base de conocimientos a partir de una copia Snapshot. Esto permite una rápida recuperación de las bases de conocimiento y la creación de nuevas bases de conocimiento con las fuentes de datos existentes, y ayuda con la recuperación y el desarrollo de datos.
+
+link:https://docs.netapp.com/us-en/workload-genai/manage-knowledgebase.html#clone-a-knowledge-base["Clonar una base de conocimientos"]
+
+
+
+==== Detección y replicación de clústeres de ONTAP en las instalaciones
+
+Detecta y replica los datos de los clústeres de ONTAP on-premises en un sistema de archivos FSx para ONTAP para que se puedan utilizar para enriquecer las bases de conocimientos de IA. Todos los flujos de trabajo de descubrimiento y replicación en las instalaciones son posibles desde la nueva pestaña *ONTAP local* en el inventario de almacenamiento.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/use-onprem-data.html["Detectar un clúster de ONTAP en las instalaciones"]
+
+
+
 == 11 de noviembre de 2024
 
 
@@ -228,26 +268,6 @@ https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.h
 
 
 
-=== Cargas de trabajo de base de datos
-
-
-
-==== Explora el ahorro a través de la personalización
-
-Ahora puede personalizar los ajustes de configuración para Microsoft SQL Server en Amazon EC2 con el almacenamiento FSx para Windows File Server y Elastic Block Store en la calculadora de ahorro. En función de sus requisitos de almacenamiento, puede darse cuenta de que el almacenamiento de FSx para ONTAP es el más rentable para las cargas de trabajo de sus bases de datos.
-
-link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["Explora el ahorro con FSx para ONTAP para tus cargas de trabajo de base de datos"^]
-
-
-
-==== Navega a la calculadora de ahorros desde la página de inicio
-
-Ahora puede ir a la calculadora de ahorro desde la link:https://console.workloads.netapp.com["consola de fábrica de carga de trabajo"^] página de inicio. Seleccione en Elastic Block Store y FSx para Windows File Server para comenzar.
-
-image:screenshot-explore-savings-home-small.png["captura de pantalla de la página inicial de la consola de fábrica de carga de trabajo. La imagen muestra el mosaico de bases de datos con un nuevo botón Explorar ahorro. Haga clic en el botón para abrir un menú desplegable. El menú desplegable tiene dos opciones: Microsoft SQL Server en EBS y Microsoft SQL Server en FSx para Windows File Server."]
-
-
-
 === Cargas de trabajo de
 
 
@@ -255,22 +275,6 @@ image:screenshot-explore-savings-home-small.png["captura de pantalla de la pági
 ==== Migrar a Amazon EC2
 
 El centro de cargas de trabajo para VMware admite ahora la migración a Amazon EC2 mediante el asesor de migración de VMware.
-
-
-
-=== Cargas de trabajo GenAI
-
-
-
-==== Estrategias de fragmentación adicionales
-
-Las cargas de trabajo de IA generativas ahora admiten la fragmentación de varias frases y la fragmentación basada en superposiciones para los orígenes de datos.
-
-
-
-==== Volumen dedicado para cada base de conocimientos
-
-Las cargas de trabajo de IA generativas ahora crean un volumen de Amazon FSx para NetApp ONTAP dedicado para cada nueva base de conocimientos, lo que permite establecer políticas Snapshot individuales para cada base de conocimientos y mejorar la protección contra errores y envenenamientos de datos.
 
 
 
