@@ -1,0 +1,17 @@
+= Mejoras de los recursos compartidos CIFS para volúmenes
+:allow-uri-read: 
+
+
+
+
+=== Mejoras de los recursos compartidos CIFS para volúmenes
+
+Se encuentran disponibles las siguientes mejoras para gestionar el recurso compartido CIFS para volúmenes en un sistema de archivos Amazon FSx para ONTAP en fábrica de cargas de trabajo de BlueXP :
+
+* Compatibilidad con varios recursos compartidos de CIFS de un volumen
+* La opción de actualizar usuarios y grupos en cualquier momento
+* La opción de actualizar permisos para usuarios y grupos en cualquier momento
+* Eliminación de los recursos compartidos CIFS
+
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-cifs-share.html["Gestione los recursos compartidos de CIFS"]

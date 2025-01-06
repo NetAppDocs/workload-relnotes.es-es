@@ -43,9 +43,6 @@
   <block id="cf88fa43b4b0e1b1bfb66e894b188442" category="doc">Explore los ahorros de los servidores Microsoft SQL detectados en FSx para Windows File Server</block>
   <block id="0df73578de7c34ef150c1f37953113f5" category="paragraph">Ahora puedes explorar los ahorros de los servidores Microsoft SQL detectados en Amazon EC2 con el almacenamiento FSx para Windows File Server en la calculadora de ahorro. En función de tus requisitos de SQL Server y almacenamiento, puedes descubrir que el almacenamiento de FSx para ONTAP es el más rentable para tus cargas de trabajo de base de datos.</block>
   <block id="94bc5d9f2e30e5678caa5a3b2feb4216" category="section-title">29 de septiembre de 2024</block>
-  <block id="cd1df627bd8e5b96916530ffbf4664f6" category="doc">Actualizaciones de creación de enlaces</block>
-  <block id="3721bd571f4111dad2c363436de34c51" category="list-text">Soporte para la creación manual de enlaces: Esta función permite la creación independiente en AWS CloudFormation con registro manual del ARN de enlace. Es útil cuando un equipo de seguridad o DevOps ayuda en el proceso de creación de enlaces.</block>
-  <block id="8997880c88dd70fe80799ee97bb7ac0c" category="inline-link-macro">Cree un vínculo</block>
   <block id="7d6d6d8a97f883d860bff04c0be1019c" category="inline-link-macro">Explora el ahorro con FSx para ONTAP para tus cargas de trabajo de base de datos</block>
   <block id="293758d509326f8da42abf75db2d37e6" category="paragraph"><block ref="293758d509326f8da42abf75db2d37e6" category="inline-link-macro-rx"></block></block>
   <block id="1ae13d57da1c55ee537cb9dc63916d03" category="paragraph">Ahora puede proteger los datos de las cargas de trabajo de IA generativas con una copia puntual de una base de conocimientos. Esto le permite proteger los datos contra la pérdida accidental o cambios de pruebas en la configuración de la base de conocimientos. Puede restaurar la versión anterior del volumen de la base de conocimientos en cualquier momento.</block>
@@ -87,9 +84,6 @@
   <block id="482a03f8810c074753dd4da1f075dc70" category="doc">Cambios recientes en el centro de cargas de trabajo de BlueXP</block>
   <block id="ccbb3c80d40b938a56e8803235ec679c" category="sidebar">En estas notas de la versión, se describen las mejoras recientes de los servicios de cloud que forman parte de la fábrica de cargas de trabajo de BlueXP .</block>
   <block id="15d6d0dbf56d72db14e4484abfd8982d" category="sidebar">Notas de la versión de fábrica de las cargas de trabajo BlueXP</block>
-  <block id="5802490bb2e01aff3b4722eee028a516" category="list-text">CodeBox Viewer: CodeBox ahora está integrado en el proceso de creación de enlaces. Puede ver y copiar la plantilla de CloudFormation desde CodeBox en la fábrica de cargas de trabajo antes de redirigir a AWS para ejecutar la operación.</block>
-  <block id="0d2cf987b55cf15b8f1dec5a05398183" category="list-text">Permisos necesarios: Los permisos necesarios para ejecutar la creación de enlaces en AWS CloudFormation ahora están disponibles para ver y copiar desde el asistente de creación de enlaces en la fábrica de cargas de trabajo.</block>
-  <block id="3874612023324fe909b90a886072b352" category="paragraph"><block ref="3874612023324fe909b90a886072b352" category="inline-link-macro-rx"></block></block>
   <block id="e5d3c7248ff4540f88c13fbf9252d0a3" category="inline-link-macro">consola de fábrica de carga de trabajo</block>
   <block id="3171014553de64cf509a3b587c8baeb3" category="paragraph">La suscripción RSS está disponible en el <block ref="9d5ad87a67c1830e37fdd19a7a179db6" category="inline-link-macro-rx"></block>. El uso de una fuente RSS es una forma fácil de consumir y estar al tanto de los cambios en la fábrica de cargas de trabajo de BlueXP .</block>
   <block id="0796995437665af1d920169e03b4542b" category="inline-image-macro">Captura de pantalla del menú desplegable de ayuda de la consola de fábrica de cargas de trabajo. Un nuevo botón para suscribirse a RSS aparece como una opción en el menú desplegable.</block>
@@ -145,4 +139,13 @@
   <block id="3f4f1b85f4effee9c5e9ae9034f0e684" category="list-text">*Experiencia rápida frente a avanzada*: Cuando utiliza el asesor de migración, ahora puede elegir una experiencia de migración rápida, utilizando RVtools, o la experiencia avanzada, que utiliza el recopilador de datos del asesor de migración.</block>
   <block id="428b0b39be2352757edeb5f9f12a7bdd" category="inline-link">Fábrica de cargas de trabajo BlueXP</block>
   <block id="7cf449620aa459bc5c449db69b07e507" category="paragraph"><block ref="7cf449620aa459bc5c449db69b07e507" category="inline-link-rx"></block></block>
+  <block id="442b133d7d895a50d67d2f8514b6fc0a" category="doc">Mejoras de los recursos compartidos CIFS para volúmenes</block>
+  <block id="c67048e1717263df3fc8ffc894f40785" category="paragraph">Se encuentran disponibles las siguientes mejoras para gestionar el recurso compartido CIFS para volúmenes en un sistema de archivos Amazon FSx para ONTAP en fábrica de cargas de trabajo de BlueXP :</block>
+  <block id="28ee2134fc1275e4f2052b7bd91a9f8d" category="list-text">Compatibilidad con varios recursos compartidos de CIFS de un volumen</block>
+  <block id="aa8a0747da321d7501a2f34bb5326b65" category="list-text">La opción de actualizar usuarios y grupos en cualquier momento</block>
+  <block id="a85d37847efda31b7b7b0ee3ee3cd2ab" category="list-text">La opción de actualizar permisos para usuarios y grupos en cualquier momento</block>
+  <block id="0c05c06c8c5abf5cf4956491502d212a" category="list-text">Eliminación de los recursos compartidos CIFS</block>
+  <block id="1122186beaf8563a5f76bdc23dfd22a5" category="inline-link-macro">Gestione los recursos compartidos de CIFS</block>
+  <block id="f59eead66ce9829f954d28d72a4e99b1" category="paragraph"><block ref="f59eead66ce9829f954d28d72a4e99b1" category="inline-link-macro-rx"></block></block>
+  <block id="065531f581a60b79025f539bd1ff1cff" category="section-title">5 de enero de 2025</block>
 </blocks>

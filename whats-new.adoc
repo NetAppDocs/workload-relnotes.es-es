@@ -15,6 +15,28 @@ Obtenga información sobre los cambios más recientes en las cargas de trabajo q
 
 
 
+== 5 de enero de 2025
+
+
+
+=== Amazon FSX para ONTAP de NetApp
+
+
+
+==== Mejoras de los recursos compartidos CIFS para volúmenes
+
+Se encuentran disponibles las siguientes mejoras para gestionar el recurso compartido CIFS para volúmenes en un sistema de archivos Amazon FSx para ONTAP en fábrica de cargas de trabajo de BlueXP :
+
+* Compatibilidad con varios recursos compartidos de CIFS de un volumen
+* La opción de actualizar usuarios y grupos en cualquier momento
+* La opción de actualizar permisos para usuarios y grupos en cualquier momento
+* Eliminación de los recursos compartidos CIFS
+
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-cifs-share.html["Gestione los recursos compartidos de CIFS"]
+
+
+
 == 1 de diciembre de 2024
 
 
@@ -205,21 +227,6 @@ link:https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-complianc
 
 
 == 29 de septiembre de 2024
-
-
-
-=== Amazon FSX para ONTAP de NetApp
-
-
-
-==== Actualizaciones de creación de enlaces
-
-* CodeBox Viewer: CodeBox ahora está integrado en el proceso de creación de enlaces. Puede ver y copiar la plantilla de CloudFormation desde CodeBox en la fábrica de cargas de trabajo antes de redirigir a AWS para ejecutar la operación.
-* Permisos necesarios: Los permisos necesarios para ejecutar la creación de enlaces en AWS CloudFormation ahora están disponibles para ver y copiar desde el asistente de creación de enlaces en la fábrica de cargas de trabajo.
-* Soporte para la creación manual de enlaces: Esta función permite la creación independiente en AWS CloudFormation con registro manual del ARN de enlace. Es útil cuando un equipo de seguridad o DevOps ayuda en el proceso de creación de enlaces.
-
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-link.html["Cree un vínculo"]
 
 
 
