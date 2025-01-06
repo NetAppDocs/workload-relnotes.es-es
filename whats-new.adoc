@@ -78,6 +78,22 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-cifs-share.html["Ge
 
 
 
+=== Cargas de trabajo de
+
+
+
+==== Mejoras en el asesor de migración de Amazon EC2
+
+Esta versión del centro de cargas de trabajo de BlueXP  para VMware incluye varias mejoras en la experiencia del asesor de migración:
+
+* *Guardar o descargar un plan de migración*: Ahora puede guardar o descargar un plan de migración y cargar el plan de migración para completar el asesor de migración. Cuando guarda un plan de migración, el plan se guarda con su cuenta de fábrica de carga de trabajo.
+* * Selección mejorada de VM*: La fábrica de cargas de trabajo de BlueXP  para VMware ahora admite el filtrado y la búsqueda en la lista de VM que desea incluir en su implementación de migración.
+
+
+https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.html["Cree un plan de implementación para Amazon EC2 con el asesor de migración"]
+
+
+
 === Cargas de trabajo GenAI
 
 
@@ -103,6 +119,18 @@ link:https://docs.netapp.com/us-en/workload-genai/deploy-infrastructure.html["Po
 Si su instancia de motor de IA se daña o se elimina de alguna manera, puede dejar que la fábrica de cargas de trabajo la reconstruya por usted. La fábrica de cargas de trabajo vuelve a conectar automáticamente sus bases de conocimientos a la infraestructura una vez finalizada la reconstrucción, de modo que estén listas para su uso.
 
 link:https://docs.netapp.com/us-en/workload-genai/troubleshooting.html["Resolución de problemas"]
+
+
+
+=== Configuración y administración
+
+
+
+==== Soporte para cuentas de servicio en la fábrica de cargas de trabajo de BlueXP 
+
+Las cuentas de servicio ahora se admiten en la fábrica de cargas de trabajo de BlueXP . Puede crear cuentas de servicio para actuar como usuarios de máquinas que automatizan las operaciones de infraestructura.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/manage-service-accounts.html["Crear y administrar cuentas de servicio"]
 
 
 
@@ -295,22 +323,6 @@ link:https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-complianc
 
 
 
-== 19 de septiembre de 2024
-
-
-
-=== Cargas de trabajo de
-
-
-
-==== Mejoras en el asesor de migración de VMware
-
-Esta versión del fábrica de cargas de trabajo para VMware incluye mejoras en las funcionalidades y la estabilidad, así como la capacidad de importar y exportar planes de migración cuando se utiliza el asesor de migración de VMware.
-
-https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.html["Cree un plan de implementación para Amazon EC2 con el asesor de migración"]
-
-
-
 == 1 de septiembre de 2024
 
 
@@ -334,19 +346,3 @@ Al agregar las credenciales de AWS en la fábrica de cargas de trabajo, ahora pu
 image:screenshot-single-permission-policy-support.png["Captura de pantalla de la sección de configuración de permisos en la página Credenciales, donde puede seleccionar políticas de permisos de lectura o automatización para la gestión del almacenamiento, cargas de trabajo de IA, cargas de trabajo de bases de datos y cargas de trabajo de VMware."]
 
 link:https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["Agregar credenciales de AWS a la fábrica de cargas de trabajo"^]
-
-
-
-== 4 de agosto de 2024
-
-
-
-=== Configuración y administración
-
-
-
-==== Soporte de terraform
-
-La compatibilidad con Terraform está disponible para la puesta en marcha del sistema de archivos de Amazon FSx para NetApp ONTAP y la creación de máquinas virtuales de almacenamiento. La guía de configuración y administración ahora tiene instrucciones sobre cómo usar Terraform desde el CodeBox.
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/use-codebox.html["Utilice Terraform de CodeBox"^]

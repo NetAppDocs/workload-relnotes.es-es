@@ -24,22 +24,18 @@
   <block id="efa42d5c66cb9948f402ee559611e12d" category="doc">Soporte de terraform</block>
   <block id="2532cd63354e6e99119077d45134b5ef" category="inline-link-macro">Utilice Terraform de CodeBox</block>
   <block id="11cb17d1b990bbf37a24337d5692efa1" category="list-text"><block ref="11cb17d1b990bbf37a24337d5692efa1" category="inline-link-macro-rx"></block></block>
-  <block id="1571710cf3c95e6290fc41ea04917d42" category="paragraph">La compatibilidad con Terraform está disponible para la puesta en marcha del sistema de archivos de Amazon FSx para NetApp ONTAP y la creación de máquinas virtuales de almacenamiento. La guía de configuración y administración ahora tiene instrucciones sobre cómo usar Terraform desde el CodeBox.</block>
   <block id="38bd169945a371832b0b65c9086b1792" category="doc">Cargas de trabajo de base de datos</block>
   <block id="4d82a1ec1af02725042c8c785564ee7a" category="doc">Amazon FSX para ONTAP de NetApp</block>
   <block id="b04deaa23ce22ae0dafa2736e8afebed" category="doc">Cargas de trabajo GenAI</block>
   <block id="bb50e2459e4e016aa4b14a56adb2358f" category="doc">Configuración y administración</block>
   <block id="a76e64a0fbf98a083080351e4cb67566" category="doc">Cargas de trabajo de</block>
-  <block id="a41d6b8d358bc9ae448d19a2d13faa53" category="section-title">4 de agosto de 2024</block>
   <block id="5a41a3272b612d6600223d90afc4ffba" category="section-title">1 de septiembre de 2024</block>
   <block id="2fd1745cefcdce50d6467d96e693f6b7" category="doc">Suscripción a RSS</block>
   <block id="80f4b5aa553e3a44455088c83954a088" category="section-title">Soporte para una política de permisos única por carga de trabajo</block>
   <block id="41b3a089d4fbacfb53e9a5634cfc6647" category="inline-image-macro">Captura de pantalla de la sección de configuración de permisos en la página Credenciales, donde puede seleccionar políticas de permisos de lectura o automatización para la gestión del almacenamiento, cargas de trabajo de IA, cargas de trabajo de bases de datos y cargas de trabajo de VMware.</block>
   <block id="fa5f572610383fbc01cbba40c0f535e2" category="paragraph"><block ref="fa5f572610383fbc01cbba40c0f535e2" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="2792e29ba30bdded6461ac9b9f0816a4" category="doc">Mejoras en el asesor de migración de VMware</block>
   <block id="d738890a4c9a0f96c08ae0ba66a626a1" category="inline-link">Cree un plan de implementación para Amazon EC2 con el asesor de migración</block>
   <block id="2dbb83c0d88f8aa5c12c5445b2b248ee" category="paragraph"><block ref="2dbb83c0d88f8aa5c12c5445b2b248ee" category="inline-link-rx"></block></block>
-  <block id="9f220db04e7195ea3730c9dd5537897c" category="section-title">19 de septiembre de 2024</block>
   <block id="7d6d6d8a97f883d860bff04c0be1019c" category="inline-link-macro">Explora el ahorro con FSx para ONTAP para tus cargas de trabajo de base de datos</block>
   <block id="293758d509326f8da42abf75db2d37e6" category="paragraph"><block ref="293758d509326f8da42abf75db2d37e6" category="inline-link-macro-rx"></block></block>
   <block id="31139fb3d548620b7d82f880e4660606" category="doc">Vistas de pestañas en el inventario de almacenamiento</block>
@@ -62,7 +58,6 @@
   <block id="8137174f639d391921dfeb8ca6d792d1" category="paragraph"><block ref="8137174f639d391921dfeb8ca6d792d1" category="inline-link-macro-rx"></block></block>
   <block id="a686d5fa6b6925450f1b7fa2b4245d28" category="inline-link-macro">Más información sobre la clasificación de BlueXP</block>
   <block id="384713a8a1d5a2dd365da2851c50ad93" category="paragraph"><block ref="384713a8a1d5a2dd365da2851c50ad93" category="inline-link-macro-rx"></block></block>
-  <block id="21558f6938275b17b39171353ad95a65" category="paragraph">Esta versión del fábrica de cargas de trabajo para VMware incluye mejoras en las funcionalidades y la estabilidad, así como la capacidad de importar y exportar planes de migración cuando se utiliza el asesor de migración de VMware.</block>
   <block id="d2705530e45ff55c7a7db4a1196a8b0d" category="summary">Obtenga información sobre los cambios más recientes en las cargas de trabajo que forman parte de la fábrica de cargas de trabajo de BlueXP .</block>
   <block id="482a03f8810c074753dd4da1f075dc70" category="doc">Cambios recientes en el centro de cargas de trabajo de BlueXP</block>
   <block id="ccbb3c80d40b938a56e8803235ec679c" category="sidebar">En estas notas de la versión, se describen las mejoras recientes de los servicios de cloud que forman parte de la fábrica de cargas de trabajo de BlueXP .</block>
@@ -159,4 +154,10 @@
   <block id="1691fa3a19bfaa3082dd2f6e01934960" category="paragraph">Si su instancia de motor de IA se daña o se elimina de alguna manera, puede dejar que la fábrica de cargas de trabajo la reconstruya por usted. La fábrica de cargas de trabajo vuelve a conectar automáticamente sus bases de conocimientos a la infraestructura una vez finalizada la reconstrucción, de modo que estén listas para su uso.</block>
   <block id="231cf4c70d866b616c21baddaeed0696" category="inline-link-macro">Resolución de problemas</block>
   <block id="b23e4d787bd591292c1d5f10247e0e53" category="paragraph"><block ref="b23e4d787bd591292c1d5f10247e0e53" category="inline-link-macro-rx"></block></block>
+  <block id="5baf4417d867f07ce7f16e7810f044d7" category="doc">Soporte para cuentas de servicio en la fábrica de cargas de trabajo de BlueXP </block>
+  <block id="369af9c9eae8f9673850f588a7ed5272" category="paragraph">Las cuentas de servicio ahora se admiten en la fábrica de cargas de trabajo de BlueXP . Puede crear cuentas de servicio para actuar como usuarios de máquinas que automatizan las operaciones de infraestructura.</block>
+  <block id="f932d2619edea0dc69b40e9be53abdc4" category="inline-link-macro">Crear y administrar cuentas de servicio</block>
+  <block id="3d6080aa10267e8c67d5c76a2bc1a9f3" category="paragraph"><block ref="3d6080aa10267e8c67d5c76a2bc1a9f3" category="inline-link-macro-rx"></block></block>
+  <block id="cde718e2f0bf0ef80eb31becc18c4787" category="list-text">*Guardar o descargar un plan de migración*: Ahora puede guardar o descargar un plan de migración y cargar el plan de migración para completar el asesor de migración. Cuando guarda un plan de migración, el plan se guarda con su cuenta de fábrica de carga de trabajo.</block>
+  <block id="42ec77b942403dfbfa1bb7908218848c" category="list-text">* Selección mejorada de VM*: La fábrica de cargas de trabajo de BlueXP  para VMware ahora admite el filtrado y la búsqueda en la lista de VM que desea incluir en su implementación de migración.</block>
 </blocks>
