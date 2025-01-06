@@ -40,8 +40,6 @@
   <block id="d738890a4c9a0f96c08ae0ba66a626a1" category="inline-link">Cree un plan de implementación para Amazon EC2 con el asesor de migración</block>
   <block id="2dbb83c0d88f8aa5c12c5445b2b248ee" category="paragraph"><block ref="2dbb83c0d88f8aa5c12c5445b2b248ee" category="inline-link-rx"></block></block>
   <block id="9f220db04e7195ea3730c9dd5537897c" category="section-title">19 de septiembre de 2024</block>
-  <block id="cf88fa43b4b0e1b1bfb66e894b188442" category="doc">Explore los ahorros de los servidores Microsoft SQL detectados en FSx para Windows File Server</block>
-  <block id="0df73578de7c34ef150c1f37953113f5" category="paragraph">Ahora puedes explorar los ahorros de los servidores Microsoft SQL detectados en Amazon EC2 con el almacenamiento FSx para Windows File Server en la calculadora de ahorro. En función de tus requisitos de SQL Server y almacenamiento, puedes descubrir que el almacenamiento de FSx para ONTAP es el más rentable para tus cargas de trabajo de base de datos.</block>
   <block id="94bc5d9f2e30e5678caa5a3b2feb4216" category="section-title">29 de septiembre de 2024</block>
   <block id="7d6d6d8a97f883d860bff04c0be1019c" category="inline-link-macro">Explora el ahorro con FSx para ONTAP para tus cargas de trabajo de base de datos</block>
   <block id="293758d509326f8da42abf75db2d37e6" category="paragraph"><block ref="293758d509326f8da42abf75db2d37e6" category="inline-link-macro-rx"></block></block>
@@ -148,4 +146,20 @@
   <block id="1122186beaf8563a5f76bdc23dfd22a5" category="inline-link-macro">Gestione los recursos compartidos de CIFS</block>
   <block id="f59eead66ce9829f954d28d72a4e99b1" category="paragraph"><block ref="f59eead66ce9829f954d28d72a4e99b1" category="inline-link-macro-rx"></block></block>
   <block id="065531f581a60b79025f539bd1ff1cff" category="section-title">5 de enero de 2025</block>
+  <block id="f418f614e126c9d215de85f00b5b7a7e" category="doc">Mejoras del panel de control de bases de datos</block>
+  <block id="c18a3eee23770f4e57bfa9ffe245c428" category="paragraph">Un nuevo diseño del panel incluye los siguientes gráficos y mejoras:</block>
+  <block id="47ecffc6ee3a1f9bca5a81d55169b8b6" category="list-text">El gráfico de distribución de host muestra el número de hosts de Microsoft SQL Server y hosts PostgreSQL</block>
+  <block id="ec506ecd03b96cac2e19d3abac7aa16e" category="list-text">Los detalles de distribución de instancias incluyen el número total de instancias detectadas y el número de instancias administradas de Microsoft SQL Server y PostgreSQL</block>
+  <block id="9bb5ee528a11ed94b071f88a078be55e" category="list-text">Los detalles de distribución de bases de datos incluyen el número total de bases de datos y el número de bases de datos PostgreSQL y Microsoft SQL Server gestionadas</block>
+  <block id="01fe24ee345a62672acb8a16826117d0" category="list-text">Puntuación y estados de optimización para instancias gestionadas y en línea</block>
+  <block id="341934677d47967f5c6e737476247396" category="list-text">Detalles de optimización para categorías de almacenamiento, computación y aplicaciones</block>
+  <block id="fb2f60a13243e168f321a9de2af52d51" category="list-text">Detalles de optimización de las configuraciones de instancias de Microsoft SQL Server, como dimensionamiento de almacenamiento, distribución de almacenamiento, almacenamiento de ONTAP, computación y aplicaciones</block>
+  <block id="18168aa68b74c030711fe95b2b74afac" category="list-text">Ahorro potencial para las cargas de trabajo de base de datos que se ejecutan en los entornos de almacenamiento de Amazon Elastic Block Store y FSx para servidor de archivos de Windows en comparación con el almacenamiento de Amazon FSx para NetApp ONTAP</block>
+  <block id="1886db6545ee593b7bf9014a318fd354" category="section-title">Nuevo estado 'Finalizado con incidencias' en la supervisión de trabajos</block>
+  <block id="ddd4a54acb0820f07017dcad26528779" category="paragraph">La función de supervisión de trabajos para bases de datos proporciona ahora el nuevo estado 'Terminado con problemas' para que pueda conocer qué subtrabajos tuvieron problemas y cuáles son los problemas.</block>
+  <block id="c72aad21ecf48b0a4f27430d70c166da" category="inline-link-macro">Supervise sus bases de datos</block>
+  <block id="5c89f4f6af1a71c2ed6cfac605e94c16" category="paragraph"><block ref="5c89f4f6af1a71c2ed6cfac605e94c16" category="inline-link-macro-rx"></block></block>
+  <block id="fd3039d7fbe9d24b3141aca3c62383a2" category="section-title">Evaluación y optimización para licencias sobreaprovisionadas de Microsoft SQL Server</block>
+  <block id="f90a806c02db45741274868bc065ab90" category="paragraph">La calculadora de ahorro evalúa ahora si la edición Enterprise es necesaria para la puesta en marcha de Microsoft SQL Server. Si una licencia está sobreaprovisionada, la calculadora recomienda la degradación. Podrá degradar automáticamente la licencia en las bases de datos mediante la optimización de la aplicación.</block>
+  <block id="c5e3fb9d31cd8a0b458ca9e3c4a690f6" category="section-title">6 de enero de 2025</block>
 </blocks>

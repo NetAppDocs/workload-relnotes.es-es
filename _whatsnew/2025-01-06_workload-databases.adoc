@@ -1,0 +1,36 @@
+= Mejoras del panel de control de bases de datos
+:allow-uri-read: 
+
+
+
+
+=== Mejoras del panel de control de bases de datos
+
+Un nuevo diseño del panel incluye los siguientes gráficos y mejoras:
+
+* El gráfico de distribución de host muestra el número de hosts de Microsoft SQL Server y hosts PostgreSQL
+* Los detalles de distribución de instancias incluyen el número total de instancias detectadas y el número de instancias administradas de Microsoft SQL Server y PostgreSQL
+* Los detalles de distribución de bases de datos incluyen el número total de bases de datos y el número de bases de datos PostgreSQL y Microsoft SQL Server gestionadas
+* Puntuación y estados de optimización para instancias gestionadas y en línea
+* Detalles de optimización para categorías de almacenamiento, computación y aplicaciones
+* Detalles de optimización de las configuraciones de instancias de Microsoft SQL Server, como dimensionamiento de almacenamiento, distribución de almacenamiento, almacenamiento de ONTAP, computación y aplicaciones
+* Ahorro potencial para las cargas de trabajo de base de datos que se ejecutan en los entornos de almacenamiento de Amazon Elastic Block Store y FSx para servidor de archivos de Windows en comparación con el almacenamiento de Amazon FSx para NetApp ONTAP
+
+
+
+
+=== Nuevo estado 'Finalizado con incidencias' en la supervisión de trabajos
+
+La función de supervisión de trabajos para bases de datos proporciona ahora el nuevo estado 'Terminado con problemas' para que pueda conocer qué subtrabajos tuvieron problemas y cuáles son los problemas.
+
+link:https://docs.netapp.com/us-en/workload-databases/monitor-databases.html["Supervise sus bases de datos"]
+
+
+
+=== Evaluación y optimización para licencias sobreaprovisionadas de Microsoft SQL Server
+
+La calculadora de ahorro evalúa ahora si la edición Enterprise es necesaria para la puesta en marcha de Microsoft SQL Server. Si una licencia está sobreaprovisionada, la calculadora recomienda la degradación. Podrá degradar automáticamente la licencia en las bases de datos mediante la optimización de la aplicación.
+
+* link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["Explora el ahorro con FSx para ONTAP para tus cargas de trabajo de base de datos"^]
+* link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Optimice sus cargas de trabajo de SQL Server"]
+
