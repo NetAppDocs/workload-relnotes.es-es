@@ -40,23 +40,8 @@
   <block id="d738890a4c9a0f96c08ae0ba66a626a1" category="inline-link">Cree un plan de implementación para Amazon EC2 con el asesor de migración</block>
   <block id="2dbb83c0d88f8aa5c12c5445b2b248ee" category="paragraph"><block ref="2dbb83c0d88f8aa5c12c5445b2b248ee" category="inline-link-rx"></block></block>
   <block id="9f220db04e7195ea3730c9dd5537897c" category="section-title">19 de septiembre de 2024</block>
-  <block id="94bc5d9f2e30e5678caa5a3b2feb4216" category="section-title">29 de septiembre de 2024</block>
   <block id="7d6d6d8a97f883d860bff04c0be1019c" category="inline-link-macro">Explora el ahorro con FSx para ONTAP para tus cargas de trabajo de base de datos</block>
   <block id="293758d509326f8da42abf75db2d37e6" category="paragraph"><block ref="293758d509326f8da42abf75db2d37e6" category="inline-link-macro-rx"></block></block>
-  <block id="1ae13d57da1c55ee537cb9dc63916d03" category="paragraph">Ahora puede proteger los datos de las cargas de trabajo de IA generativas con una copia puntual de una base de conocimientos. Esto le permite proteger los datos contra la pérdida accidental o cambios de pruebas en la configuración de la base de conocimientos. Puede restaurar la versión anterior del volumen de la base de conocimientos en cualquier momento.</block>
-  <block id="4dfbf3ac57687ef65479f0135589593f" category="inline-link">Tomar una copia Snapshot de un volumen de base de conocimientos</block>
-  <block id="f8016d0e0375ce671e71803692cf105c" category="paragraph"><block ref="f8016d0e0375ce671e71803692cf105c" category="inline-link-rx"></block></block>
-  <block id="3d1e45266a0a6784e668353081a13cd0" category="inline-link">Restaure una copia Snapshot de un volumen de base de conocimientos</block>
-  <block id="340b5c4d996cad6cf6d27d13faf94e89" category="paragraph"><block ref="340b5c4d996cad6cf6d27d13faf94e89" category="inline-link-rx"></block></block>
-  <block id="073751c61467c5e36c6cc197d92a75c4" category="section-title">Pausar secuencias programadas</block>
-  <block id="6c31cb11ffc4d11a5aed0e968bb5f8c9" category="paragraph">Ahora puede pausar las exploraciones de orígenes de datos programadas. De forma predeterminada, las cargas de trabajo de IA generativas analizan cada origen de datos diariamente para incorporar datos nuevos en cada base de conocimientos. Si no desea que se ingieran los cambios más recientes (durante la prueba o al restaurar una instantánea, por ejemplo), puede pausar las exploraciones programadas y reanudarlas en cualquier momento.</block>
-  <block id="67f0dcee920749eead316e2518099abb" category="inline-link">Gestionar bases de conocimientos</block>
-  <block id="f951fa0f2608d186cd1f0bd8889ac232" category="paragraph"><block ref="f951fa0f2608d186cd1f0bd8889ac232" category="inline-link-rx"></block></block>
-  <block id="9813be0bded00d4a8f5457f2e27277fa" category="section-title">Volúmenes de protección de datos ahora compatibles con las bases de conocimientos</block>
-  <block id="f20c02f54f20ee06aed661b133ba0fc3" category="paragraph">Cuando se selecciona un volumen de base de conocimientos, ahora se puede elegir un volumen de protección de datos que forme parte de una relación de replicación de NetApp SnapMirror. Esto permite almacenar bases de conocimientos en volúmenes que ya están protegidos por la replicación de SnapMirror.</block>
-  <block id="7d7b61e2696184ef2f1a673b4b505c10" category="inline-link">Identifique las fuentes de datos que desea integrar en su base de conocimientos</block>
-  <block id="8afd34c2a29e7b6286f3ed0bf9e20c22" category="paragraph"><block ref="8afd34c2a29e7b6286f3ed0bf9e20c22" category="inline-link-rx"></block></block>
-  <block id="4936442e55cb8f837f9616ca6aaf1e92" category="doc">Compatibilidad con Snapshot y restauración para volúmenes de base de conocimientos</block>
   <block id="31139fb3d548620b7d82f880e4660606" category="doc">Vistas de pestañas en el inventario de almacenamiento</block>
   <block id="d4aa654cea4681dd5ca03650594006c6" category="paragraph">El inventario de almacenamiento se ha actualizado a una vista de dos pestañas:</block>
   <block id="71083868a2ec5abfee9a2647a74612c0" category="list-text">Ficha FSX for ONTAP: Muestra los sistemas de archivos FSx para ONTAP que tienes actualmente.</block>
@@ -162,4 +147,16 @@
   <block id="fd3039d7fbe9d24b3141aca3c62383a2" category="section-title">Evaluación y optimización para licencias sobreaprovisionadas de Microsoft SQL Server</block>
   <block id="f90a806c02db45741274868bc065ab90" category="paragraph">La calculadora de ahorro evalúa ahora si la edición Enterprise es necesaria para la puesta en marcha de Microsoft SQL Server. Si una licencia está sobreaprovisionada, la calculadora recomienda la degradación. Podrá degradar automáticamente la licencia en las bases de datos mediante la optimización de la aplicación.</block>
   <block id="c5e3fb9d31cd8a0b458ca9e3c4a690f6" category="section-title">6 de enero de 2025</block>
+  <block id="a117d99fd0597e840921767ec50fe791" category="doc">Nombre de snapshot personalizado</block>
+  <block id="34df51ccce053f8aef051fe069f6004a" category="paragraph">Ahora es posible proporcionar un nombre de snapshot para una snapshot ad-hoc.</block>
+  <block id="af467f026dd1b56c8564e770bf39737f" category="inline-link-macro">Proteger una base de conocimientos con instantáneas</block>
+  <block id="2cbaa1be80e354895c4d9e497cad82ad" category="paragraph"><block ref="2cbaa1be80e354895c4d9e497cad82ad" category="inline-link-macro-rx"></block></block>
+  <block id="63713d130d6ced83e06b8a2f84ca4236" category="section-title">Nombre de instancia de motor AI personalizado</block>
+  <block id="5a22f1756638135653917db715aeec43" category="paragraph">Ahora puede asignar un nombre personalizado a la instancia del motor de AI durante la implementación.</block>
+  <block id="e379b913896cf9bdd4e2d6717212215a" category="inline-link-macro">Ponga en marcha la infraestructura de GenAI</block>
+  <block id="c3e29d6f9db8b5f89b548e4659ce60ad" category="paragraph"><block ref="c3e29d6f9db8b5f89b548e4659ce60ad" category="inline-link-macro-rx"></block></block>
+  <block id="cc78f676d3193b6273b428bb17c26dd7" category="section-title">Reconstruir la infraestructura de GenAI dañada o faltante</block>
+  <block id="1691fa3a19bfaa3082dd2f6e01934960" category="paragraph">Si su instancia de motor de IA se daña o se elimina de alguna manera, puede dejar que la fábrica de cargas de trabajo la reconstruya por usted. La fábrica de cargas de trabajo vuelve a conectar automáticamente sus bases de conocimientos a la infraestructura una vez finalizada la reconstrucción, de modo que estén listas para su uso.</block>
+  <block id="231cf4c70d866b616c21baddaeed0696" category="inline-link-macro">Resolución de problemas</block>
+  <block id="b23e4d787bd591292c1d5f10247e0e53" category="paragraph"><block ref="b23e4d787bd591292c1d5f10247e0e53" category="inline-link-macro-rx"></block></block>
 </blocks>

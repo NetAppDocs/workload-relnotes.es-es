@@ -78,6 +78,34 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-cifs-share.html["Ge
 
 
 
+=== Cargas de trabajo GenAI
+
+
+
+==== Nombre de snapshot personalizado
+
+Ahora es posible proporcionar un nombre de snapshot para una snapshot ad-hoc.
+
+link:https://docs.netapp.com/us-en/workload-genai/manage-knowledgebase.html#protect-a-knowledge-base-with-snapshots["Proteger una base de conocimientos con instantáneas"]
+
+
+
+==== Nombre de instancia de motor AI personalizado
+
+Ahora puede asignar un nombre personalizado a la instancia del motor de AI durante la implementación.
+
+link:https://docs.netapp.com/us-en/workload-genai/deploy-infrastructure.html["Ponga en marcha la infraestructura de GenAI"]
+
+
+
+==== Reconstruir la infraestructura de GenAI dañada o faltante
+
+Si su instancia de motor de IA se daña o se elimina de alguna manera, puede dejar que la fábrica de cargas de trabajo la reconstruya por usted. La fábrica de cargas de trabajo vuelve a conectar automáticamente sus bases de conocimientos a la infraestructura una vez finalizada la reconstrucción, de modo que estén listas para su uso.
+
+link:https://docs.netapp.com/us-en/workload-genai/troubleshooting.html["Resolución de problemas"]
+
+
+
 == 1 de diciembre de 2024
 
 
@@ -264,40 +292,6 @@ La carga de trabajo de IA generativa presenta la función de barreras de datos i
 link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html#create-and-configure-the-knowledge-base["Crear una base de conocimientos"]
 
 link:https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["Más información sobre la clasificación de BlueXP"^]
-
-
-
-== 29 de septiembre de 2024
-
-
-
-=== Cargas de trabajo GenAI
-
-
-
-==== Compatibilidad con Snapshot y restauración para volúmenes de base de conocimientos
-
-Ahora puede proteger los datos de las cargas de trabajo de IA generativas con una copia puntual de una base de conocimientos. Esto le permite proteger los datos contra la pérdida accidental o cambios de pruebas en la configuración de la base de conocimientos. Puede restaurar la versión anterior del volumen de la base de conocimientos en cualquier momento.
-
-https://docs.netapp.com/us-en/workload-genai/manage-knowledgebase.html#take-a-snapshot-of-a-knowledge-base-volume["Tomar una copia Snapshot de un volumen de base de conocimientos"]
-
-https://review.docs.netapp.com/us-en/workload-genai_29-sept-24-release/manage-knowledgebase.html#restore-a-snapshot-of-a-knowledge-base-volume["Restaure una copia Snapshot de un volumen de base de conocimientos"]
-
-
-
-==== Pausar secuencias programadas
-
-Ahora puede pausar las exploraciones de orígenes de datos programadas. De forma predeterminada, las cargas de trabajo de IA generativas analizan cada origen de datos diariamente para incorporar datos nuevos en cada base de conocimientos. Si no desea que se ingieran los cambios más recientes (durante la prueba o al restaurar una instantánea, por ejemplo), puede pausar las exploraciones programadas y reanudarlas en cualquier momento.
-
-https://docs.netapp.com/us-en/workload-genai/manage-knowledgebase.html["Gestionar bases de conocimientos"]
-
-
-
-==== Volúmenes de protección de datos ahora compatibles con las bases de conocimientos
-
-Cuando se selecciona un volumen de base de conocimientos, ahora se puede elegir un volumen de protección de datos que forme parte de una relación de replicación de NetApp SnapMirror. Esto permite almacenar bases de conocimientos en volúmenes que ya están protegidos por la replicación de SnapMirror.
-
-https://docs.netapp.com/us-en/workload-genai/identify-data-sources.html["Identifique las fuentes de datos que desea integrar en su base de conocimientos"]
 
 
 

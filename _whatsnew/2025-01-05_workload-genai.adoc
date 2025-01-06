@@ -1,0 +1,27 @@
+= Nombre de snapshot personalizado
+:allow-uri-read: 
+
+
+
+
+=== Nombre de snapshot personalizado
+
+Ahora es posible proporcionar un nombre de snapshot para una snapshot ad-hoc.
+
+link:https://docs.netapp.com/us-en/workload-genai/manage-knowledgebase.html#protect-a-knowledge-base-with-snapshots["Proteger una base de conocimientos con instantáneas"]
+
+
+
+=== Nombre de instancia de motor AI personalizado
+
+Ahora puede asignar un nombre personalizado a la instancia del motor de AI durante la implementación.
+
+link:https://docs.netapp.com/us-en/workload-genai/deploy-infrastructure.html["Ponga en marcha la infraestructura de GenAI"]
+
+
+
+=== Reconstruir la infraestructura de GenAI dañada o faltante
+
+Si su instancia de motor de IA se daña o se elimina de alguna manera, puede dejar que la fábrica de cargas de trabajo la reconstruya por usted. La fábrica de cargas de trabajo vuelve a conectar automáticamente sus bases de conocimientos a la infraestructura una vez finalizada la reconstrucción, de modo que estén listas para su uso.
+
+link:https://docs.netapp.com/us-en/workload-genai/troubleshooting.html["Resolución de problemas"]
