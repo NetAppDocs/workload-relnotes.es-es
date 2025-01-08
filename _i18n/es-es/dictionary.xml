@@ -37,7 +37,6 @@
   <block id="d738890a4c9a0f96c08ae0ba66a626a1" category="inline-link">Cree un plan de implementación para Amazon EC2 con el asesor de migración</block>
   <block id="2dbb83c0d88f8aa5c12c5445b2b248ee" category="paragraph"><block ref="2dbb83c0d88f8aa5c12c5445b2b248ee" category="inline-link-rx"></block></block>
   <block id="7d6d6d8a97f883d860bff04c0be1019c" category="inline-link-macro">Explora el ahorro con FSx para ONTAP para tus cargas de trabajo de base de datos</block>
-  <block id="293758d509326f8da42abf75db2d37e6" category="paragraph"><block ref="293758d509326f8da42abf75db2d37e6" category="inline-link-macro-rx"></block></block>
   <block id="31139fb3d548620b7d82f880e4660606" category="doc">Vistas de pestañas en el inventario de almacenamiento</block>
   <block id="d4aa654cea4681dd5ca03650594006c6" category="paragraph">El inventario de almacenamiento se ha actualizado a una vista de dos pestañas:</block>
   <block id="71083868a2ec5abfee9a2647a74612c0" category="list-text">Ficha FSX for ONTAP: Muestra los sistemas de archivos FSx para ONTAP que tienes actualmente.</block>
@@ -160,4 +159,5 @@
   <block id="3d6080aa10267e8c67d5c76a2bc1a9f3" category="paragraph"><block ref="3d6080aa10267e8c67d5c76a2bc1a9f3" category="inline-link-macro-rx"></block></block>
   <block id="cde718e2f0bf0ef80eb31becc18c4787" category="list-text">*Guardar o descargar un plan de migración*: Ahora puede guardar o descargar un plan de migración y cargar el plan de migración para completar el asesor de migración. Cuando guarda un plan de migración, el plan se guarda con su cuenta de fábrica de carga de trabajo.</block>
   <block id="42ec77b942403dfbfa1bb7908218848c" category="list-text">* Selección mejorada de VM*: La fábrica de cargas de trabajo de BlueXP  para VMware ahora admite el filtrado y la búsqueda en la lista de VM que desea incluir en su implementación de migración.</block>
+  <block id="f2398fe4ddb880ba6c52b376ef9b960c" category="list-text"><block ref="f2398fe4ddb880ba6c52b376ef9b960c" category="inline-link-macro-rx"></block></block>
 </blocks>

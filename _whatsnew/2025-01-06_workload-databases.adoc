@@ -31,6 +31,6 @@ link:https://docs.netapp.com/us-en/workload-databases/monitor-databases.html["Su
 
 La calculadora de ahorro evalúa ahora si la edición Enterprise es necesaria para la puesta en marcha de Microsoft SQL Server. Si una licencia está sobreaprovisionada, la calculadora recomienda la degradación. Podrá degradar automáticamente la licencia en las bases de datos mediante la optimización de la aplicación.
 
-* link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["Explora el ahorro con FSx para ONTAP para tus cargas de trabajo de base de datos"^]
+* link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["Explora el ahorro con FSx para ONTAP para tus cargas de trabajo de base de datos"]
 * link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Optimice sus cargas de trabajo de SQL Server"]
 
