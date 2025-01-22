@@ -15,6 +15,22 @@ Obtenga información sobre los cambios más recientes en las cargas de trabajo q
 
 
 
+== 22 de enero de 2025
+
+
+
+=== Configuración y administración
+
+
+
+==== Permisos de fábrica de cargas de trabajo de BlueXP
+
+Ahora puede ver los permisos que utiliza la fábrica de carga de trabajo de BlueXP  para ejecutar diversas operaciones, comenzando desde la detección de sus entornos de almacenamiento hasta la implementación de recursos de AWS, como sistemas de archivos en almacenamiento o bases de conocimientos para cargas de trabajo de GenAI. Es posible ver políticas y permisos de IAM para almacenamiento, bases de datos, VMware y cargas de trabajo de GenAI.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html["Permisos de fábrica de cargas de trabajo de BlueXP"]
+
+
+
 == 6 de enero de 2025
 
 
@@ -320,29 +336,3 @@ La carga de trabajo de IA generativa presenta la función de barreras de datos i
 link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html#create-and-configure-the-knowledge-base["Crear una base de conocimientos"]
 
 link:https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["Más información sobre la clasificación de BlueXP"^]
-
-
-
-== 1 de septiembre de 2024
-
-
-
-=== Configuración y administración
-
-
-
-==== Suscripción a RSS
-
-La suscripción RSS está disponible en el link:https://console.workloads.netapp.com/["consola de fábrica de carga de trabajo"^]. El uso de una fuente RSS es una forma fácil de consumir y estar al tanto de los cambios en la fábrica de cargas de trabajo de BlueXP .
-
-image:screenshot-rss-subscribe-button.png["Captura de pantalla del menú desplegable de ayuda de la consola de fábrica de cargas de trabajo. Un nuevo botón para suscribirse a RSS aparece como una opción en el menú desplegable."]
-
-
-
-==== Soporte para una política de permisos única por carga de trabajo
-
-Al agregar las credenciales de AWS en la fábrica de cargas de trabajo, ahora puede seleccionar una única política de permisos, ya sea en modo de lectura o automatización, para cada carga de trabajo y administración de almacenamiento.
-
-image:screenshot-single-permission-policy-support.png["Captura de pantalla de la sección de configuración de permisos en la página Credenciales, donde puede seleccionar políticas de permisos de lectura o automatización para la gestión del almacenamiento, cargas de trabajo de IA, cargas de trabajo de bases de datos y cargas de trabajo de VMware."]
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["Agregar credenciales de AWS a la fábrica de cargas de trabajo"^]

@@ -29,11 +29,6 @@
   <block id="b04deaa23ce22ae0dafa2736e8afebed" category="doc">Cargas de trabajo GenAI</block>
   <block id="bb50e2459e4e016aa4b14a56adb2358f" category="doc">Configuración y administración</block>
   <block id="a76e64a0fbf98a083080351e4cb67566" category="doc">Cargas de trabajo de</block>
-  <block id="5a41a3272b612d6600223d90afc4ffba" category="section-title">1 de septiembre de 2024</block>
-  <block id="2fd1745cefcdce50d6467d96e693f6b7" category="doc">Suscripción a RSS</block>
-  <block id="80f4b5aa553e3a44455088c83954a088" category="section-title">Soporte para una política de permisos única por carga de trabajo</block>
-  <block id="41b3a089d4fbacfb53e9a5634cfc6647" category="inline-image-macro">Captura de pantalla de la sección de configuración de permisos en la página Credenciales, donde puede seleccionar políticas de permisos de lectura o automatización para la gestión del almacenamiento, cargas de trabajo de IA, cargas de trabajo de bases de datos y cargas de trabajo de VMware.</block>
-  <block id="fa5f572610383fbc01cbba40c0f535e2" category="paragraph"><block ref="fa5f572610383fbc01cbba40c0f535e2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d738890a4c9a0f96c08ae0ba66a626a1" category="inline-link">Cree un plan de implementación para Amazon EC2 con el asesor de migración</block>
   <block id="2dbb83c0d88f8aa5c12c5445b2b248ee" category="paragraph"><block ref="2dbb83c0d88f8aa5c12c5445b2b248ee" category="inline-link-rx"></block></block>
   <block id="7d6d6d8a97f883d860bff04c0be1019c" category="inline-link-macro">Explora el ahorro con FSx para ONTAP para tus cargas de trabajo de base de datos</block>
@@ -61,13 +56,6 @@
   <block id="482a03f8810c074753dd4da1f075dc70" category="doc">Cambios recientes en el centro de cargas de trabajo de BlueXP</block>
   <block id="ccbb3c80d40b938a56e8803235ec679c" category="sidebar">En estas notas de la versión, se describen las mejoras recientes de los servicios de cloud que forman parte de la fábrica de cargas de trabajo de BlueXP .</block>
   <block id="15d6d0dbf56d72db14e4484abfd8982d" category="sidebar">Notas de la versión de fábrica de las cargas de trabajo BlueXP</block>
-  <block id="e5d3c7248ff4540f88c13fbf9252d0a3" category="inline-link-macro">consola de fábrica de carga de trabajo</block>
-  <block id="3171014553de64cf509a3b587c8baeb3" category="paragraph">La suscripción RSS está disponible en el <block ref="9d5ad87a67c1830e37fdd19a7a179db6" category="inline-link-macro-rx"></block>. El uso de una fuente RSS es una forma fácil de consumir y estar al tanto de los cambios en la fábrica de cargas de trabajo de BlueXP .</block>
-  <block id="0796995437665af1d920169e03b4542b" category="inline-image-macro">Captura de pantalla del menú desplegable de ayuda de la consola de fábrica de cargas de trabajo. Un nuevo botón para suscribirse a RSS aparece como una opción en el menú desplegable.</block>
-  <block id="482a329f24c123c31a109c24729cb2cd" category="paragraph"><block ref="482a329f24c123c31a109c24729cb2cd" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="4e47b743d0cc8e0b8906e37286d9b43b" category="paragraph">Al agregar las credenciales de AWS en la fábrica de cargas de trabajo, ahora puede seleccionar una única política de permisos, ya sea en modo de lectura o automatización, para cada carga de trabajo y administración de almacenamiento.</block>
-  <block id="9f46892803d8b6c63d3b7f51fd44a421" category="inline-link-macro">Agregar credenciales de AWS a la fábrica de cargas de trabajo</block>
-  <block id="d9dd14fb1d1e7ca9c6da6770d9176783" category="paragraph"><block ref="d9dd14fb1d1e7ca9c6da6770d9176783" category="inline-link-macro-rx"></block></block>
   <block id="dfc4a97a3fe947a314ae908cf036cbfe" category="doc">Integración de la fábrica de cargas de trabajo en la consola de BlueXP</block>
   <block id="5975f7e9036c78e6217b16f295f0ca75" category="inline-link-macro">Consola BlueXP</block>
   <block id="d2feef96259a41a7842dc5e7af577d63" category="paragraph">Ahora puede utilizar la fábrica de carga de trabajo de la <block ref="391de7a3bac2bc77fa53dffb3f53801a" category="inline-link-macro-rx"></block>. La experiencia de la consola de BlueXP  proporciona la misma funcionalidad que la consola de la carga de trabajo de fábrica.</block>
@@ -160,4 +148,8 @@
   <block id="cde718e2f0bf0ef80eb31becc18c4787" category="list-text">*Guardar o descargar un plan de migración*: Ahora puede guardar o descargar un plan de migración y cargar el plan de migración para completar el asesor de migración. Cuando guarda un plan de migración, el plan se guarda con su cuenta de fábrica de carga de trabajo.</block>
   <block id="42ec77b942403dfbfa1bb7908218848c" category="list-text">* Selección mejorada de VM*: La fábrica de cargas de trabajo de BlueXP  para VMware ahora admite el filtrado y la búsqueda en la lista de VM que desea incluir en su implementación de migración.</block>
   <block id="f2398fe4ddb880ba6c52b376ef9b960c" category="list-text"><block ref="f2398fe4ddb880ba6c52b376ef9b960c" category="inline-link-macro-rx"></block></block>
+  <block id="ca475a2b63c70fedcf8f6650024d480b" category="doc">Permisos de fábrica de cargas de trabajo de BlueXP</block>
+  <block id="5291909ce92037a20a37f7a0c86dd921" category="paragraph">Ahora puede ver los permisos que utiliza la fábrica de carga de trabajo de BlueXP  para ejecutar diversas operaciones, comenzando desde la detección de sus entornos de almacenamiento hasta la implementación de recursos de AWS, como sistemas de archivos en almacenamiento o bases de conocimientos para cargas de trabajo de GenAI. Es posible ver políticas y permisos de IAM para almacenamiento, bases de datos, VMware y cargas de trabajo de GenAI.</block>
+  <block id="f157db6a1ae10e7a29a28440d21f5cb8" category="paragraph"><block ref="f157db6a1ae10e7a29a28440d21f5cb8" category="inline-link-macro-rx"></block></block>
+  <block id="43c56433351f336a8ecd0e9efa7ddca4" category="section-title">22 de enero de 2025</block>
 </blocks>
