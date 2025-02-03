@@ -1,0 +1,66 @@
+= CloudShell en la consola de fábrica de cargas de trabajo de BlueXP
+:allow-uri-read: 
+
+
+
+
+=== CloudShell en la consola de fábrica de cargas de trabajo de BlueXP
+
+CloudShell es una funcionalidad CLI integrada disponible en la fábrica de cargas de trabajo de BlueXP  para el almacenamiento. Puede usar CloudShell para crear, compartir y ejecutar comandos de la CLI de ONTAP o AWS desde varias sesiones en un entorno similar a shell desde la consola de fábrica de cargas de trabajo.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/use-cloudshell.html["Obtenga más información sobre CloudShell en la fábrica de cargas de trabajo de BlueXP"^]
+
+
+
+=== Descarga de datos de inventario
+
+Ahora puede descargar los datos de inventario de FSx para ONTAP en un archivo de Microsoft Excel o CSV desde el almacenamiento en la fábrica de cargas de trabajo de BlueXP .
+
+image:screenshot-fsx-inventory-download.png["Una captura de pantalla del almacén de cargas de trabajo BlueXP  que muestra el nuevo botón de descarga para descargar los datos del inventario del sistema de archivos FSx for ONTAP."]
+
+
+
+=== Opciones de menú adicionales del sistema de archivos FSX for ONTAP
+
+Hemos simplificado el siguiente trabajo con un sistema de archivos FSx para ONTAP desde la pestaña FSx para ONTAP en Almacenamiento.
+
+* Cree una máquina virtual de almacenamiento
+* Cree un volumen
+* Replicar datos del volumen
+
+
+image:screenshot-filesystem-menu-options.png["Una captura de pantalla de la pestaña FSx para ONTAP en Almacenamiento que muestra las nuevas opciones de menú para crear máquinas virtuales de almacenamiento, crear volúmenes y replicar datos de volumen."]
+
+
+
+=== Soporte de Terraform para crear volúmenes
+
+Ahora puede utilizar Terraform desde el CodeBox para crear volúmenes.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-volume.html["Cree un volumen"]
+
+
+
+=== Bloqueo de archivos con la función de archivos inmutables
+
+Ahora puede bloquear archivos utilizando la función de archivos inmutables al crear un volumen para un sistema de archivos FSx for ONTAP. El bloqueo de archivos le ayuda a usted y a otras personas a evitar la eliminación accidental o intencional de archivos durante un período determinado.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-volume.html["Cree un volumen"]
+
+
+
+=== Rastreador disponible para operaciones de monitoreo y seguimiento
+
+Tracker, una nueva función de supervisión está disponible en Storage. Puede utilizar Tracker para supervisar y realizar un seguimiento del progreso y el estado de las credenciales, el almacenamiento y las operaciones de enlace, revisar detalles de tareas de operación y subtareas, diagnosticar cualquier problema o fallo, editar parámetros para operaciones fallidas y volver a intentar operaciones fallidas.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/monitor-operations.html["Aprenda a monitorear y rastrear operaciones con Tracker"]
+
+
+
+=== Compatibilidad con la segunda generación de Amazon FSx para sistemas de archivos NetApp ONTAP
+
+Ahora puede utilizar Amazon FSx para sistemas de archivos de segunda generación de NetApp ONTAP en la fábrica de cargas de trabajo de BlueXP . Los sistemas de archivos Single-AZ de segunda generación de FSx para ONTAP cuentan con hasta 12 pares de alta disponibilidad que pueden ofrecer hasta 72 Gbps de capacidad de rendimiento y 2.400.000 000 IOPS SSD. Los sistemas de archivos Multi-AZ de segunda generación de FSx para ONTAP cuentan con una pareja de alta disponibilidad y proporcionan 6 Gbps de capacidad de rendimiento y 200.000 000 IOPS en SSD.
+
+* link:https://docs.netapp.com/us-en/workload-fsx-ontap/add-ha-pairs.html["Añada pares de alta disponibilidad"]
+* link:https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/limits.html["Cuotas y límites de Amazon FSx para NetApp ONTAP"^]
+
