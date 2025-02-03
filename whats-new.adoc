@@ -84,6 +84,26 @@ link:https://docs.netapp.com/us-en/workload-genai/ai-workloads-overview.html#ben
 
 
 
+=== Configuración y administración
+
+
+
+==== CloudShell disponible en la consola de fábrica de cargas de trabajo de BlueXP
+
+CloudShell está disponible desde cualquier lugar de la consola de fábrica de cargas de trabajo de BlueXP . CloudShell le permite usar las credenciales de AWS y ONTAP que ha proporcionado en su cuenta de BlueXP  y ejecutar comandos de la CLI de AWS o comandos de la CLI de ONTAP en un entorno similar al shell.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/use-cloudshell.html["Usar CloudShell"]
+
+
+
+==== Actualización de permisos para bases de datos
+
+El siguiente permiso ahora está disponible en el modo _READ_ para bases de datos `iam:SimulatePrincipalPolicy`: .
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html#change-log["Log de cambios de referencia de permisos"]
+
+
+
 == 22 de enero de 2025
 
 
@@ -323,22 +343,6 @@ link:https://docs.netapp.com/us-en/workload-genai/manage-knowledgebase.html#clon
 Detecta y replica los datos de los clústeres de ONTAP on-premises en un sistema de archivos FSx para ONTAP para que se puedan utilizar para enriquecer las bases de conocimientos de IA. Todos los flujos de trabajo de descubrimiento y replicación en las instalaciones son posibles desde la nueva pestaña *ONTAP local* en el inventario de almacenamiento.
 
 link:https://docs.netapp.com/us-en/workload-fsx-ontap/use-onprem-data.html["Detectar un clúster de ONTAP en las instalaciones"]
-
-
-
-== 11 de noviembre de 2024
-
-
-
-=== Configuración y administración
-
-
-
-==== Integración de la fábrica de cargas de trabajo en la consola de BlueXP
-
-Ahora puede utilizar la fábrica de carga de trabajo de la link:https://console.bluexp.netapp.com["Consola BlueXP"^]. La experiencia de la consola de BlueXP  proporciona la misma funcionalidad que la consola de la carga de trabajo de fábrica.
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["Aprende a acceder a la fábrica de cargas de trabajo desde la consola de BlueXP"]
 
 
 
