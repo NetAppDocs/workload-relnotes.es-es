@@ -1,0 +1,35 @@
+= Filtrado de tipo de archivo para orígenes de datos
+:allow-uri-read: 
+
+
+
+
+=== Filtrado de tipo de archivo para orígenes de datos
+
+GenAI ahora admite la selección de tipos de archivo específicos para incluir en el análisis de origen de datos al agregar un origen de datos.
+
+link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html#add-data-sources-to-the-knowledge-base["Agregue orígenes de datos a la base de conocimientos"]
+
+
+
+=== Filtrado de fecha de modificación de archivo para orígenes de datos
+
+GenAI ahora admite el filtrado de archivos para incluirlos en el análisis de origen de datos por fecha de modificación al agregar un origen de datos. Puede elegir un rango de fechas de modificación para los archivos incluidos.
+
+link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html#add-data-sources-to-the-knowledge-base["Agregue orígenes de datos a la base de conocimientos"]
+
+
+
+=== Soporte para archivos de imagen y soporte mejorado para archivos PDF
+
+GenAI ahora admite el escaneo de archivos de imagen e imágenes dentro de archivos PDF (también conocido como soporte de archivos multimodal). Si elige archivos de imagen, el texto de las imágenes se escanea en el origen de datos y se utiliza como datos. Esta función incluye imágenes en documentos PDF; si incluye tipos de archivos PDF, las imágenes de cada PDF se escanean en busca de texto y ese texto se incluye en la información de la fuente de datos.
+
+link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html#add-data-sources-to-the-knowledge-base["Agregue orígenes de datos a la base de conocimientos"]
+
+
+
+=== Soporte híbrido de búsqueda y reselección
+
+GenAI ahora mejora la relevancia de los resultados de búsqueda mediante el uso de la búsqueda híbrida y la re-clasificación de los resultados. La búsqueda híbrida combina búsquedas de palabras clave con búsquedas vectoriales y semánticas. Los resultados de búsqueda de palabras clave estándar se aumentan con coincidencias cercanas y matices lingüísticos, lo que mejora la relevancia. GenAI vuelve a clasificar los resultados de búsqueda y solo devuelve los resultados con la mayor relevancia.
+
+link:https://docs.netapp.com/us-en/workload-genai/ai-workloads-overview.html#benefits-of-using-genai-to-create-generative-ai-applications["Obtén más información sobre el centro de cargas de trabajo de BlueXP  para GenAI"]
