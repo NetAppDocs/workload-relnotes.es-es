@@ -119,6 +119,14 @@ Ahora puede utilizar Amazon FSx para sistemas de archivos de segunda generación
 
 
 
+==== Compatibilidad con los modelos de base de Amazon Nova
+
+GenAI ahora es compatible con los modelos básicos de Amazon Nova. Amazon Nova Micro, Amazon Nova Lite y Amazon Nova Pro son compatibles.
+
+link:https://docs.netapp.com/us-en/workload-genai/requirements.html["Requisitos de GenAI"]
+
+
+
 ==== Filtrado de tipo de archivo para orígenes de datos
 
 GenAI ahora admite la selección de tipos de archivo específicos para incluir en el análisis de origen de datos al agregar un origen de datos.

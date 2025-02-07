@@ -1,6 +1,14 @@
-= Filtrado de tipo de archivo para orígenes de datos
+= Compatibilidad con los modelos de base de Amazon Nova
 :allow-uri-read: 
 
+
+
+
+=== Compatibilidad con los modelos de base de Amazon Nova
+
+GenAI ahora es compatible con los modelos básicos de Amazon Nova. Amazon Nova Micro, Amazon Nova Lite y Amazon Nova Pro son compatibles.
+
+link:https://docs.netapp.com/us-en/workload-genai/requirements.html["Requisitos de GenAI"]
 
 
 
