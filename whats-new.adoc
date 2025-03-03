@@ -122,6 +122,56 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/monitor-operations.html["A
 
 
 
+=== Cargas de trabajo de
+
+
+
+==== Mejoras en el asesor de migración de Amazon EC2
+
+Esta versión de fábrica de cargas de trabajo de BlueXP  para VMware incluye varias mejoras en la experiencia del asesor de migración de Amazon EC2:
+
+* *Tipo de instancia estimado*: El asesor de migración ahora puede examinar los requisitos de su entorno y proporcionar un tipo de instancia estimado de Amazon EC2 para cada VM. Puede optar por incluir el tipo de instancia estimado para cada máquina virtual durante el paso de alcance del asesor de migración.
+* *Posibilidad de recomendar volúmenes de Amazon EBS*: El asesor de migración ahora puede recomendar migrar volúmenes de datos a Amazon Elastic Block Store (EBS) en lugar de Amazon FSx para NetApp ONTAP debido a las necesidades específicas de capacidad o rendimiento de una determinada región.
+* *Asignación automática del sistema de archivos mejorada*: La asignación del sistema de archivos de Amazon FSx para NetApp ONTAP se ha mejorado para optimizar mejor el costo y minimizar el rendimiento.
+
+
+https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.html["Cree un plan de implementación para Amazon EC2 con el asesor de migración"]
+
+
+
+=== Cargas de trabajo GenAI
+
+
+
+==== Mejoras de chatbot incrustadas
+
+Ahora puede copiar preguntas y respuestas directamente al portapapeles, ajustar el tamaño de la ventana de chat y cambiar su título. Además, las respuestas de chat ahora pueden incluir tablas, que también son copiables.
+
+link:https://docs.netapp.com/us-en/workload-genai/test-knowledgebase.html["Pruebe una base de conocimientos de GenAI"]
+
+
+
+==== Compatibilidad con citas de respuesta de chat
+
+Las respuestas de chat ahora incluyen citas que enumeran los archivos y fragmentos de datos que se utilizaron para generar la respuesta.
+
+link:https://docs.netapp.com/us-en/workload-genai/test-knowledgebase.html["Pruebe una base de conocimientos de GenAI"]
+
+
+
+==== Compatibilidad con tipos de archivo mejorada
+
+Esta versión de GenAI proporciona soporte de archivos mejorado:
+
+* Los modelos de chat ofrecen soporte CSV mejorado. Esto permite respuestas más útiles al consultar datos de archivos CSV.
+* GenAI ahora puede ingerir archivos Apache Parquet de fuentes de datos.
+* GenAI ahora admite la ingesta de archivos DOCX de Microsoft Word que incluyen imágenes.
+
+
+link:https://review.docs.netapp.com/us-en/workload-genai_mar-2-release/identify-data-sources.html#supported-data-source-file-formats["Formatos de archivo de origen de datos compatibles"]
+
+
+
 == 3 de febrero de 2025
 
 
@@ -437,41 +487,5 @@ Esta versión del centro de cargas de trabajo de BlueXP  para VMware incluye va
 * * Selección de VM*: La fábrica de cargas de trabajo de BlueXP  para VMware ahora admite la selección de VM que desea incluir en su implementación de migración.
 * *Experiencia rápida frente a avanzada*: Cuando utiliza el asesor de migración, ahora puede elegir una experiencia de migración rápida, utilizando RVtools, o la experiencia avanzada, que utiliza el recopilador de datos del asesor de migración.
 
-
-https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.html["Cree un plan de implementación para Amazon EC2 con el asesor de migración"]
-
-
-
-=== Cargas de trabajo GenAI
-
-
-
-==== Clone una base de conocimientos desde una copia de Snapshot
-
-La fábrica de cargas de trabajo de BlueXP  para GenAI ahora admite la clonación de una base de conocimientos a partir de una copia Snapshot. Esto permite una rápida recuperación de las bases de conocimiento y la creación de nuevas bases de conocimiento con las fuentes de datos existentes, y ayuda con la recuperación y el desarrollo de datos.
-
-link:https://docs.netapp.com/us-en/workload-genai/manage-knowledgebase.html#clone-a-knowledge-base["Clonar una base de conocimientos"]
-
-
-
-==== Detección y replicación de clústeres de ONTAP en las instalaciones
-
-Detecta y replica los datos de los clústeres de ONTAP on-premises en un sistema de archivos FSx para ONTAP para que se puedan utilizar para enriquecer las bases de conocimientos de IA. Todos los flujos de trabajo de descubrimiento y replicación en las instalaciones son posibles desde la nueva pestaña *ONTAP local* en el inventario de almacenamiento.
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/use-onprem-data.html["Detectar un clúster de ONTAP en las instalaciones"]
-
-
-
-== 3 de noviembre de 2024
-
-
-
-=== Cargas de trabajo de
-
-
-
-==== Ayuda de la relación de reducción de datos del asesor de migración de VMware
-
-Esta versión de Workload Factory para VMware cuenta con un asistente de reducción de la tasa de datos. El asistente de la relación de reducción de datos te ayuda a decidir qué relación es la mejor para tu inventario de VMware y el estado de almacenamiento cuando se prepara para la incorporación de cloud AWS.
 
 https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.html["Cree un plan de implementación para Amazon EC2 con el asesor de migración"]

@@ -1,0 +1,32 @@
+= Mejoras de chatbot incrustadas
+:allow-uri-read: 
+
+
+
+
+=== Mejoras de chatbot incrustadas
+
+Ahora puede copiar preguntas y respuestas directamente al portapapeles, ajustar el tamaño de la ventana de chat y cambiar su título. Además, las respuestas de chat ahora pueden incluir tablas, que también son copiables.
+
+link:https://docs.netapp.com/us-en/workload-genai/test-knowledgebase.html["Pruebe una base de conocimientos de GenAI"]
+
+
+
+=== Compatibilidad con citas de respuesta de chat
+
+Las respuestas de chat ahora incluyen citas que enumeran los archivos y fragmentos de datos que se utilizaron para generar la respuesta.
+
+link:https://docs.netapp.com/us-en/workload-genai/test-knowledgebase.html["Pruebe una base de conocimientos de GenAI"]
+
+
+
+=== Compatibilidad con tipos de archivo mejorada
+
+Esta versión de GenAI proporciona soporte de archivos mejorado:
+
+* Los modelos de chat ofrecen soporte CSV mejorado. Esto permite respuestas más útiles al consultar datos de archivos CSV.
+* GenAI ahora puede ingerir archivos Apache Parquet de fuentes de datos.
+* GenAI ahora admite la ingesta de archivos DOCX de Microsoft Word que incluyen imágenes.
+
+
+link:https://review.docs.netapp.com/us-en/workload-genai_mar-2-release/identify-data-sources.html#supported-data-source-file-formats["Formatos de archivo de origen de datos compatibles"]

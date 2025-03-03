@@ -29,24 +29,13 @@
   <block id="d738890a4c9a0f96c08ae0ba66a626a1" category="inline-link">Cree un plan de implementación para Amazon EC2 con el asesor de migración</block>
   <block id="2dbb83c0d88f8aa5c12c5445b2b248ee" category="paragraph"><block ref="2dbb83c0d88f8aa5c12c5445b2b248ee" category="inline-link-rx"></block></block>
   <block id="7d6d6d8a97f883d860bff04c0be1019c" category="inline-link-macro">Explora el ahorro con FSx para ONTAP para tus cargas de trabajo de base de datos</block>
-  <block id="ca385f8a90dc256c71e43f23f9b870f2" category="section-title">3 de noviembre de 2024</block>
   <block id="5d743e351f2bc0b96d19c12d46be8be2" category="inline-link-macro">Optimice sus cargas de trabajo de SQL Server</block>
   <block id="72d1af9ffdd277a1cf7789b588da9b4d" category="paragraph"><block ref="72d1af9ffdd277a1cf7789b588da9b4d" category="inline-link-macro-rx"></block></block>
-  <block id="3197d9ffc65dc1fe1469440d8891e79d" category="doc">Ayuda de la relación de reducción de datos del asesor de migración de VMware</block>
-  <block id="10ced15d9df199f8cb002561b8728770" category="paragraph">Esta versión de Workload Factory para VMware cuenta con un asistente de reducción de la tasa de datos. El asistente de la relación de reducción de datos te ayuda a decidir qué relación es la mejor para tu inventario de VMware y el estado de almacenamiento cuando se prepara para la incorporación de cloud AWS.</block>
   <block id="d2705530e45ff55c7a7db4a1196a8b0d" category="summary">Obtenga información sobre los cambios más recientes en las cargas de trabajo que forman parte de la fábrica de cargas de trabajo de BlueXP .</block>
   <block id="482a03f8810c074753dd4da1f075dc70" category="doc">Cambios recientes en el centro de cargas de trabajo de BlueXP</block>
   <block id="ccbb3c80d40b938a56e8803235ec679c" category="sidebar">En estas notas de la versión, se describen las mejoras recientes de los servicios de cloud que forman parte de la fábrica de cargas de trabajo de BlueXP .</block>
   <block id="15d6d0dbf56d72db14e4484abfd8982d" category="sidebar">Notas de la versión de fábrica de las cargas de trabajo BlueXP</block>
-  <block id="aadb8a2a44b75c1333f5a52c2ceb1516" category="section-title">Detección y replicación de clústeres de ONTAP en las instalaciones</block>
-  <block id="490a30e9496a9d55f2cfdb934812658b" category="paragraph">Detecta y replica los datos de los clústeres de ONTAP on-premises en un sistema de archivos FSx para ONTAP para que se puedan utilizar para enriquecer las bases de conocimientos de IA. Todos los flujos de trabajo de descubrimiento y replicación en las instalaciones son posibles desde la nueva pestaña *ONTAP local* en el inventario de almacenamiento.</block>
-  <block id="c6f905e067bdaa7ba33a58a907e59477" category="inline-link-macro">Detectar un clúster de ONTAP en las instalaciones</block>
-  <block id="b169507cd10826b5a52f573e2f75ad2c" category="paragraph"><block ref="b169507cd10826b5a52f573e2f75ad2c" category="inline-link-macro-rx"></block></block>
   <block id="80d5de3a419a69be5ba960bb0fef9a1d" category="section-title">1 de diciembre de 2024</block>
-  <block id="f8a21101d47aa852f29a4be35904736e" category="doc">Clone una base de conocimientos desde una copia de Snapshot</block>
-  <block id="c711d2f72cc16ad2c0919ebe70292834" category="paragraph">La fábrica de cargas de trabajo de BlueXP  para GenAI ahora admite la clonación de una base de conocimientos a partir de una copia Snapshot. Esto permite una rápida recuperación de las bases de conocimiento y la creación de nuevas bases de conocimiento con las fuentes de datos existentes, y ayuda con la recuperación y el desarrollo de datos.</block>
-  <block id="53ea9e78bbaa3e1c3ead030a954216c8" category="inline-link-macro">Clonar una base de conocimientos</block>
-  <block id="23899d33da818933cc59017a222d3f1f" category="paragraph"><block ref="23899d33da818933cc59017a222d3f1f" category="inline-link-macro-rx"></block></block>
   <block id="1d194f6c398ca78aaffd8c430203e1ec" category="doc">Mejoras en el asesor de migración de Amazon EC2</block>
   <block id="1e5e06dbbf4cb0bb655126bc90757161" category="paragraph">Esta versión del centro de cargas de trabajo de BlueXP  para VMware incluye varias mejoras en la experiencia del asesor de migración:</block>
   <block id="80384840ba856b44e35be4918f28a26b" category="list-text">*Recopilación de datos*: La fábrica de cargas de trabajo de BlueXP  para VMware admite la capacidad de recopilar datos durante un período de tiempo específico cuando se utiliza el asesor de migración.</block>
@@ -209,4 +198,21 @@
   <block id="4a21bedf189bb26f9f4aeb26c0dc26a2" category="section-title">Correo electrónico: Informe de análisis de ahorros</block>
   <block id="5b89ef008454fd9a61723d3572865363" category="paragraph">Al analizar el ahorro de tus entornos de almacenamiento de Amazon Elastic Block Store y FSx para servidor de archivos de Windows en comparación con FSx para ONTAP, ahora puedes enviar el informe de recomendaciones por correo electrónico a ti mismo, a los miembros del equipo y a los clientes.</block>
   <block id="22f6de27f80cdc30dc0dd58f113f7c70" category="section-title">2025-03-03</block>
+  <block id="ca5a05186a2f243eb84efcf08152a8f2" category="doc">Mejoras de chatbot incrustadas</block>
+  <block id="362c473fe2757bda1e0d68b3c2cdfbc8" category="paragraph">Ahora puede copiar preguntas y respuestas directamente al portapapeles, ajustar el tamaño de la ventana de chat y cambiar su título. Además, las respuestas de chat ahora pueden incluir tablas, que también son copiables.</block>
+  <block id="d9965afe654edc6d99fd1a5080f10f27" category="inline-link-macro">Pruebe una base de conocimientos de GenAI</block>
+  <block id="b7def3234606fc50e35ddaf4c351fbe6" category="paragraph"><block ref="b7def3234606fc50e35ddaf4c351fbe6" category="inline-link-macro-rx"></block></block>
+  <block id="4842fdf5dae1e7a3fb7ea049a091be73" category="section-title">Compatibilidad con citas de respuesta de chat</block>
+  <block id="c010ca64710d07e36327c27318c0303f" category="paragraph">Las respuestas de chat ahora incluyen citas que enumeran los archivos y fragmentos de datos que se utilizaron para generar la respuesta.</block>
+  <block id="312fbafda6b72e176a3eb6272e48d799" category="section-title">Compatibilidad con tipos de archivo mejorada</block>
+  <block id="cb1c6d98111a4dc0f10d1914aabf97ff" category="paragraph">Esta versión de GenAI proporciona soporte de archivos mejorado:</block>
+  <block id="20fae993429f53ad24302c4bea3332d1" category="list-text">Los modelos de chat ofrecen soporte CSV mejorado. Esto permite respuestas más útiles al consultar datos de archivos CSV.</block>
+  <block id="820ddf0d1fd0a9cf5aaea49d2b400838" category="list-text">GenAI ahora puede ingerir archivos Apache Parquet de fuentes de datos.</block>
+  <block id="ce2ed264c43f0733c7c1ccbd1b06fdab" category="list-text">GenAI ahora admite la ingesta de archivos DOCX de Microsoft Word que incluyen imágenes.</block>
+  <block id="939bf2b00dbe77d4a65f4d265a755136" category="inline-link-macro">Formatos de archivo de origen de datos compatibles</block>
+  <block id="9e64c0f3360c80d2707e71b213c5fc58" category="paragraph"><block ref="9e64c0f3360c80d2707e71b213c5fc58" category="inline-link-macro-rx"></block></block>
+  <block id="cec87a8931004e5402a3f18575682723" category="paragraph">Esta versión de fábrica de cargas de trabajo de BlueXP  para VMware incluye varias mejoras en la experiencia del asesor de migración de Amazon EC2:</block>
+  <block id="13ba1ae4c82947e19de7e94ee0eaab45" category="list-text">*Tipo de instancia estimado*: El asesor de migración ahora puede examinar los requisitos de su entorno y proporcionar un tipo de instancia estimado de Amazon EC2 para cada VM. Puede optar por incluir el tipo de instancia estimado para cada máquina virtual durante el paso de alcance del asesor de migración.</block>
+  <block id="3006f7737352e976899743eaf6e2b28e" category="list-text">*Posibilidad de recomendar volúmenes de Amazon EBS*: El asesor de migración ahora puede recomendar migrar volúmenes de datos a Amazon Elastic Block Store (EBS) en lugar de Amazon FSx para NetApp ONTAP debido a las necesidades específicas de capacidad o rendimiento de una determinada región.</block>
+  <block id="b4a4e72af96c527b186a3d8f12952f22" category="list-text">*Asignación automática del sistema de archivos mejorada*: La asignación del sistema de archivos de Amazon FSx para NetApp ONTAP se ha mejorado para optimizar mejor el costo y minimizar el rendimiento.</block>
 </blocks>
