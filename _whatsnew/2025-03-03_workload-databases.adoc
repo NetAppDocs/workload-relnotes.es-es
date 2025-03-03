@@ -1,0 +1,47 @@
+= PostgreSQL configuración de alta disponibilidad y creación rápida
+:allow-uri-read: 
+
+
+
+
+=== PostgreSQL configuración de alta disponibilidad y creación rápida
+
+Dos nuevas funciones que se admiten en el fábrica de cargas de trabajo de BlueXP  para bases de datos:
+
+* Configuración de alta disponibilidad PostgreSQL: Ahora puede poner en marcha una configuración de alta disponibilidad para el servidor PostgreSQL.
+* Creación rápida: Puede utilizar esta opción de implementación rápida para crear un servidor PostgreSQL con configuración de alta disponibilidad y mejores prácticas integradas.
+
+
+link:https://review.docs.netapp.com/us-en/workload-databases_explore-savings-updates/create-postgresql-server.html["Crear un servidor PostgreSQL"]
+
+
+
+=== Soporte Terraform para la creación de servidores PostgreSQL
+
+Ahora puede usar Terraform desde el CodeBox para implementar PostgreSQL.
+
+* link:https://docs.netapp.com/us-en/workload-databases/create-postgresql-server.html["Cree un servidor de base de datos PostgreSQL"^]
+* link:https://docs.netapp.com/us-en/workload-setup-admin/use-codebox.html["Utilice Terraform de CodeBox"^]
+
+
+
+
+=== Evaluación de resiliencia para programación de snapshots local
+
+Existe una nueva evaluación de resiliencia disponible para las cargas de trabajo de bases de datos. Evaluamos si los volúmenes de sus instancias de Microsoft SQL Server tienen políticas de snapshot programadas válidas. Las copias Snapshot son copias de un momento específico de sus datos y ayudan a mantener la resiliencia de los entornos de base de datos en caso de pérdida de datos.
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Optimice las configuraciones"]
+
+
+
+=== Corrección de MAXDOP para cargas de trabajo de bases de datos
+
+La fábrica de cargas de trabajo de BlueXP  para bases de datos ahora admite la corrección del máximo grado de configuración del servidor de paralelismo (MAXDOP). Cuando la configuración de MAXDOP no es óptima, puede permitir que la fábrica de carga de trabajo de BlueXP  optimice la configuración.
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Optimice las configuraciones"]
+
+
+
+=== Correo electrónico: Informe de análisis de ahorros
+
+Al analizar el ahorro de tus entornos de almacenamiento de Amazon Elastic Block Store y FSx para servidor de archivos de Windows en comparación con FSx para ONTAP, ahora puedes enviar el informe de recomendaciones por correo electrónico a ti mismo, a los miembros del equipo y a los clientes.
