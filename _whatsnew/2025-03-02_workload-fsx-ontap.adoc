@@ -24,7 +24,7 @@ Ahora puede bloquear las instantáneas, haciéndolas inmutables, durante un per�
 
 Ahora puede realizar los siguientes cambios en la configuración de sus archivos inmutables: Política de retención, período de retención, período de compromiso automático y modo de adición de volúmenes.
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-immutable-files.html["Gestionar archivos inmutables"^]
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-immutable-files.html["Gestionar archivos inmutables"]
 
 
 
