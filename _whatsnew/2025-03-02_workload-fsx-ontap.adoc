@@ -8,8 +8,6 @@
 
 Cuando se habilita la gestión automática de la capacidad, la fábrica de cargas de trabajo BlueXP  ahora comprueba si un sistema de archivos alcanzó su umbral de capacidad cada 30 minutos en lugar de cada 2 horas.
 
-La fábrica de cargas de trabajo también busca inodos disponibles en los volúmenes y aumenta su recuento de acuerdo con los umbrales automáticos de gestión de capacidad configurados.
-
 La configuración de IOPS aprovisionado ya no se ve afectada cuando se alcanza el umbral de capacidad.
 
 
