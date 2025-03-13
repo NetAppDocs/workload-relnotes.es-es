@@ -159,7 +159,6 @@
   <block id="5ddfb412189af7bcce0a056c9fcef326" category="paragraph"><block ref="5ddfb412189af7bcce0a056c9fcef326" category="inline-link-macro-rx"></block></block>
   <block id="4a922c367b35639ecb9d911b81fdb458" category="doc">Mejoras automáticas de la gestión de la capacidad</block>
   <block id="5868fd5ebf39f0f3dce9bd4ba23dcb6f" category="paragraph">Cuando se habilita la gestión automática de la capacidad, la fábrica de cargas de trabajo BlueXP  ahora comprueba si un sistema de archivos alcanzó su umbral de capacidad cada 30 minutos en lugar de cada 2 horas.</block>
-  <block id="b8f4f574565ae3f9b004976be6075660" category="paragraph">La fábrica de cargas de trabajo también busca inodos disponibles en los volúmenes y aumenta su recuento de acuerdo con los umbrales automáticos de gestión de capacidad configurados.</block>
   <block id="410d677b6db33c7f47c30b3d219c4846" category="paragraph">La configuración de IOPS aprovisionado ya no se ve afectada cuando se alcanza el umbral de capacidad.</block>
   <block id="c21bf517f636f8492b01232a674a8d2e" category="section-title">Snapshots inmutables</block>
   <block id="525386f4531b9b4bbd2b84ae92c59c07" category="paragraph">Ahora puede bloquear las instantáneas, haciéndolas inmutables, durante un período de retención específico. El bloqueo evita el acceso no autorizado y la eliminación maliciosa de instantáneas. Es posible habilitar copias de Snapshot inmutables durante la creación de políticas Snapshot, al crear copias de Snapshot manuales y después de su creación.</block>
@@ -168,19 +167,12 @@
   <block id="a864feef5272f034d55e1119c5495be8" category="inline-link-macro">Gestionar archivos inmutables</block>
   <block id="2915f18b56c3e4e3c1ef137551d9a65d" category="section-title">Mejoras de replicación de datos</block>
   <block id="114e60d7d0f811f597761cf833328a96" category="list-text">Replicación entre cuentas: La replicación entre dos cuentas de AWS se admite en la consola de fábrica de cargas de trabajo de BlueXP , así como en la administración de replicación.</block>
-  <block id="6fa19d46a9961be1aeabe428c8550d2f" category="list-text">Replicación de volúmenes para protección de datos: Los volúmenes de protección de datos ahora admiten la replicación en cascada, cuando los volúmenes se replican desde volúmenes replicados.</block>
-  <block id="699cadf384181ae5970ed8c0de60e0ff" category="inline-link-macro">Replique un volumen de protección de datos</block>
-  <block id="f4ae9aa33f99746ec1459126f50c3db7" category="paragraph"><block ref="f4ae9aa33f99746ec1459126f50c3db7" category="inline-link-macro-rx"></block></block>
   <block id="0348e63af5ee6958b15125648a1ecae7" category="list-text">Pausar y reanudar la replicación: Puede pausar (desactivar) las actualizaciones de replicación programadas del volumen de origen al volumen de destino y luego reanudar la programación de replicación cuando esté preparado. Durante la pausa, los volúmenes de origen y destino se vuelven independientes y el volumen de destino pasa de solo lectura a lectura y escritura.</block>
   <block id="38485996f06c5e13eed5605901b52530" category="inline-link-macro">Pausa y reanuda una relación de replicación</block>
   <block id="fc81b1e4233a48b719520033e56b4194" category="paragraph"><block ref="fc81b1e4233a48b719520033e56b4194" category="inline-link-macro-rx"></block></block>
   <block id="fd8693cf8f6802fd1c7d50d5742a4c71" category="section-title">Eventos de CloudShell en Tracker</block>
   <block id="e7a6197673267c30b5dc86e0d5f6c536" category="paragraph">Ahora puede realizar un seguimiento de los eventos de CloudShell en Tracker.</block>
   <block id="ab4a8520fe8e2e09df8b9471a8d923bf" category="section-title">2025-03-02</block>
-  <block id="e1e5f5c3c58578921409fc2e6d5eedd8" category="doc">PostgreSQL configuración de alta disponibilidad y creación rápida</block>
-  <block id="ed9e60a4e06d1c99d8eb3562ecbf8b63" category="paragraph">Dos nuevas funciones que se admiten en el fábrica de cargas de trabajo de BlueXP  para bases de datos:</block>
-  <block id="c657a4dd8aa01cb30f32e751a8482131" category="list-text">Configuración de alta disponibilidad PostgreSQL: Ahora puede poner en marcha una configuración de alta disponibilidad para el servidor PostgreSQL.</block>
-  <block id="d86f1a99d557ac15f85400fdfbdb8b14" category="list-text">Creación rápida: Puede utilizar esta opción de implementación rápida para crear un servidor PostgreSQL con configuración de alta disponibilidad y mejores prácticas integradas.</block>
   <block id="f57c49a06b4a8a20d9a723cd677b9655" category="inline-link-macro">Crear un servidor PostgreSQL</block>
   <block id="d3420539383bb38c88221d86000226d1" category="paragraph"><block ref="d3420539383bb38c88221d86000226d1" category="inline-link-macro-rx"></block></block>
   <block id="1414de2121340ce91492c56f7800fcc7" category="section-title">Soporte Terraform para la creación de servidores PostgreSQL</block>
@@ -215,4 +207,6 @@
   <block id="7115d78353263dbb2dbe063624f9f601" category="list-text"><block ref="7115d78353263dbb2dbe063624f9f601" category="inline-link-macro-rx"></block></block>
   <block id="95712b1074d83e6727c42aa16be5af5a" category="paragraph"><block ref="95712b1074d83e6727c42aa16be5af5a" category="inline-link-macro-rx"></block></block>
   <block id="815e02f013485997d1d56438f0bf1505" category="paragraph"><block ref="815e02f013485997d1d56438f0bf1505" category="inline-link-macro-rx"></block></block>
+  <block id="292e876f4d1d5af73b815913bd3d9b26" category="doc">Configuración de alta disponibilidad de PostgreSQL</block>
+  <block id="047e8f86b83bb2e8d4c34b1dc560257b" category="paragraph">Ahora puede poner en marcha una configuración de alta disponibilidad (HA) para el servidor PostgreSQL.</block>
 </blocks>
