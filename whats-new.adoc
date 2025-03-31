@@ -15,6 +15,30 @@ Obtenga información sobre los cambios más recientes en las cargas de trabajo q
 
 
 
+== 2025-03-30
+
+
+
+=== Configuración y administración
+
+
+
+==== CloudShell informa de errores generados por IA para los comandos de la CLI de ONTAP
+
+Al usar CloudShell, cada vez que emita un comando de la CLI de ONTAP y se produce un error, puede obtener respuestas de error generadas por IA que incluyen una descripción del fallo, la causa del fallo y una resolución detallada.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/use-cloudshell.html["Usar CloudShell"]
+
+
+
+==== iam:SimulatePermissionPolicy actualización de permisos
+
+Ahora puede administrar `iam:SimulatePrincipalPolicy` el permiso desde la consola de fábrica de cargas de trabajo cuando agrega credenciales de cuenta de AWS adicionales o agrega una nueva capacidad de carga de trabajo, como la carga de trabajo de GenAI.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html#change-log["Log de cambios de referencia de permisos"]
+
+
+
 == 2025-03-03
 
 
@@ -446,18 +470,6 @@ link:https://docs.netapp.com/us-en/workload-genai/deploy-infrastructure.html["Po
 Si su instancia de motor de IA se daña o se elimina de alguna manera, puede dejar que la fábrica de cargas de trabajo la reconstruya por usted. La fábrica de cargas de trabajo vuelve a conectar automáticamente sus bases de conocimientos a la infraestructura una vez finalizada la reconstrucción, de modo que estén listas para su uso.
 
 link:https://docs.netapp.com/us-en/workload-genai/troubleshooting.html["Resolución de problemas"]
-
-
-
-=== Configuración y administración
-
-
-
-==== Soporte para cuentas de servicio en la fábrica de cargas de trabajo de BlueXP 
-
-Las cuentas de servicio ahora se admiten en la fábrica de cargas de trabajo de BlueXP . Puede crear cuentas de servicio para actuar como usuarios de máquinas que automatizan las operaciones de infraestructura.
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/manage-service-accounts.html["Crear y administrar cuentas de servicio"]
 
 
 

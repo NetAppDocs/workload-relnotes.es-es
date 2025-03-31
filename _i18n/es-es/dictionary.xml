@@ -80,10 +80,6 @@
   <block id="1691fa3a19bfaa3082dd2f6e01934960" category="paragraph">Si su instancia de motor de IA se daña o se elimina de alguna manera, puede dejar que la fábrica de cargas de trabajo la reconstruya por usted. La fábrica de cargas de trabajo vuelve a conectar automáticamente sus bases de conocimientos a la infraestructura una vez finalizada la reconstrucción, de modo que estén listas para su uso.</block>
   <block id="231cf4c70d866b616c21baddaeed0696" category="inline-link-macro">Resolución de problemas</block>
   <block id="b23e4d787bd591292c1d5f10247e0e53" category="paragraph"><block ref="b23e4d787bd591292c1d5f10247e0e53" category="inline-link-macro-rx"></block></block>
-  <block id="5baf4417d867f07ce7f16e7810f044d7" category="doc">Soporte para cuentas de servicio en la fábrica de cargas de trabajo de BlueXP </block>
-  <block id="369af9c9eae8f9673850f588a7ed5272" category="paragraph">Las cuentas de servicio ahora se admiten en la fábrica de cargas de trabajo de BlueXP . Puede crear cuentas de servicio para actuar como usuarios de máquinas que automatizan las operaciones de infraestructura.</block>
-  <block id="f932d2619edea0dc69b40e9be53abdc4" category="inline-link-macro">Crear y administrar cuentas de servicio</block>
-  <block id="3d6080aa10267e8c67d5c76a2bc1a9f3" category="paragraph"><block ref="3d6080aa10267e8c67d5c76a2bc1a9f3" category="inline-link-macro-rx"></block></block>
   <block id="cde718e2f0bf0ef80eb31becc18c4787" category="list-text">*Guardar o descargar un plan de migración*: Ahora puede guardar o descargar un plan de migración y cargar el plan de migración para completar el asesor de migración. Cuando guarda un plan de migración, el plan se guarda con su cuenta de fábrica de carga de trabajo.</block>
   <block id="42ec77b942403dfbfa1bb7908218848c" category="list-text">* Selección mejorada de VM*: La fábrica de cargas de trabajo de BlueXP  para VMware ahora admite el filtrado y la búsqueda en la lista de VM que desea incluir en su implementación de migración.</block>
   <block id="f2398fe4ddb880ba6c52b376ef9b960c" category="list-text"><block ref="f2398fe4ddb880ba6c52b376ef9b960c" category="inline-link-macro-rx"></block></block>
@@ -209,4 +205,9 @@
   <block id="815e02f013485997d1d56438f0bf1505" category="paragraph"><block ref="815e02f013485997d1d56438f0bf1505" category="inline-link-macro-rx"></block></block>
   <block id="292e876f4d1d5af73b815913bd3d9b26" category="doc">Configuración de alta disponibilidad de PostgreSQL</block>
   <block id="047e8f86b83bb2e8d4c34b1dc560257b" category="paragraph">Ahora puede poner en marcha una configuración de alta disponibilidad (HA) para el servidor PostgreSQL.</block>
+  <block id="42bc8432872c22cf4fdbb156ae58a17e" category="doc">CloudShell informa de errores generados por IA para los comandos de la CLI de ONTAP</block>
+  <block id="3450754e7ec63bd0a961376c9928752a" category="paragraph">Al usar CloudShell, cada vez que emita un comando de la CLI de ONTAP y se produce un error, puede obtener respuestas de error generadas por IA que incluyen una descripción del fallo, la causa del fallo y una resolución detallada.</block>
+  <block id="4ef50e373522b91f7df59d5cba69a8b7" category="section-title">iam:SimulatePermissionPolicy actualización de permisos</block>
+  <block id="906699741ebd9905a07af900abcfd438" category="paragraph">Ahora puede administrar<block ref="19f5de89e4c667692a153296018e225f" prefix=" " category="inline-code"></block> el permiso desde la consola de fábrica de cargas de trabajo cuando agrega credenciales de cuenta de AWS adicionales o agrega una nueva capacidad de carga de trabajo, como la carga de trabajo de GenAI.</block>
+  <block id="186057b8c375bff9b600d22bf8686fc5" category="section-title">2025-03-30</block>
 </blocks>
