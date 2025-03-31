@@ -1,0 +1,41 @@
+= Compatibilidad con tipos de archivo mejorada
+:allow-uri-read: 
+
+
+
+
+=== Compatibilidad con tipos de archivo mejorada
+
+Esta versión de GenAI introduce el soporte de formato de archivo JSON y JSONP al introducir `.json` archivos de orígenes de datos. Se admiten archivos JSON con objetos anidados, con compatibilidad limitada para las cabinas anidadas.
+
+link:https://review.docs.netapp.com/us-en/workload-genai_mar-2-release/identify-data-sources.html#supported-data-source-file-formats["Formatos de archivo de origen de datos compatibles"]
+
+
+
+=== Soporte de internacionalización para la aplicación de ejemplo de chatbot externa
+
+Ahora puede cambiar fácilmente la interfaz de usuario de la aplicación de chatbot externa de muestra de GenAI a un idioma o configuración regional diferente.
+
+link:https://github.com/NetApp/FSx-ONTAP-samples-scripts/tree/main/AI/GenAI-ChatBot-application-sample#netapp-workload-factory-genai-sample-application["Aplicación de chatbot de muestra externa de GenAI"]
+
+
+
+=== Soporte para el modelo de chat Anthropic Claude Sonnet 3,7
+
+GenAI ahora incluye soporte para el modelo de chat Anthropic Claude 3,7 Sonnet. Las características beta de Claude 3,7 Sonnet permiten hasta 128K tokens de salida por solicitud y admiten nuevas acciones de uso de computadoras. El modo de pensamiento extendido de Claude 3,7 Sonnet será compatible en un futuro lanzamiento de GenAI.
+
+link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html["Cree una base de conocimientos de GenAI"]
+
+
+
+=== Compatibilidad con la adición de orígenes de datos desde recursos compartidos genéricos de NFS/SMB
+
+Con la API de fábrica de cargas de trabajo, ahora puede agregar un origen de datos desde un recurso compartido genérico de NFSv3, NFSv4 o SMB. Cuando añades un origen de datos desde un recurso compartido NFS o SMB, el volumen de base de conocimientos permanece en un volumen de Amazon FSx para NetApp ONTAP. La interfaz de usuario web de fábrica de cargas de trabajo admitirá esta función en una versión futura.
+
+
+
+=== Compatibilidad con iguales de VPC
+
+Ahora puede implementar la infraestructura de GenAI en link:https://docs.aws.amazon.com/vpc/latest/peering/what-is-vpc-peering.html["Clouds privados virtuales (VPC) con conexión entre iguales"^]la misma región y usar la misma cuenta de AWS. Puede implementar el motor de IA en una VPC y, a continuación, crear una base de conocimientos en una VPC entre iguales y seleccionar sistemas de archivos de Amazon FSx for NetApp ONTAP que residan en una VPC entre iguales.
+
+link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html["Cree una base de conocimientos de GenAI"]
