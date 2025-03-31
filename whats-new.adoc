@@ -106,6 +106,8 @@ link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html["Cre
 
 Con la API de fábrica de cargas de trabajo, ahora puede agregar un origen de datos desde un recurso compartido genérico de NFSv3, NFSv4 o SMB. Cuando añades un origen de datos desde un recurso compartido NFS o SMB, el volumen de base de conocimientos permanece en un volumen de Amazon FSx para NetApp ONTAP. La interfaz de usuario web de fábrica de cargas de trabajo admitirá esta función en una versión futura.
 
+link:https://console.workloads.netapp.com/api-doc["Utilice la API de fábrica de cargas de trabajo"^]
+
 
 
 ==== Compatibilidad con iguales de VPC
