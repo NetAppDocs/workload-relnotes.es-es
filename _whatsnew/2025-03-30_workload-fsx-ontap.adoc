@@ -1,0 +1,38 @@
+= Gestión automática de la capacidad para sistemas de escalado horizontal
+:allow-uri-read: 
+
+
+
+
+=== Gestión automática de la capacidad para sistemas de escalado horizontal
+
+La fábrica de cargas de trabajo ahora busca inodos disponibles en los volúmenes y aumenta su recuento de acuerdo con los umbrales automáticos de gestión de capacidad configurados. Esta función admite la gestión automática de capacidad para sistemas de escalado horizontal. Es posible habilitar la gestión de inodos como parte de la gestión automática de la capacidad.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/enable-auto-capacity-management.html["Permita la gestión automática de la capacidad"]
+
+
+
+=== API de reequilibrio de FlexGroup
+
+La fábrica de cargas de trabajo de BlueXP  libera la API de equilibrio de FlexGroup que le permite ejecutar un plan para reequilibrar los datos en una FlexGroup. El reequilibrio redistribuye los datos de manera uniforme entre los volúmenes miembro.
+
+link:https://console.workloads.netapp.com/api-doc["Documentación de la API de la fábrica de cargas de trabajo de BlueXP"]
+
+
+
+=== El formulario de réplica de datos incluye casos de uso
+
+El formulario de replicación de datos ahora incluye casos de uso para facilitar el proceso de cumplimentación. Seleccionará uno de los siguientes casos de uso para la replicación de datos: Migración, recuperación de desastres en caliente, recuperación de desastres en frío, archivado u otros. Después de seleccionar un caso de uso, Workload Factory recomienda valores de acuerdo con las mejores prácticas. Puede aceptar los valores preseleccionados o personalizar los valores del formulario.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-replication.html["Replicar datos"]
+
+
+
+=== Cambios en la terminología de la política de organización en niveles de datos
+
+Ahora, si selecciona una política de organización en niveles durante la creación de volúmenes, la replicación de datos o las actualizaciones de las políticas de organización en niveles existentes, encontrará nuevos términos para describir las políticas de organización en niveles.
+
+* _Equilibrado (Automático)_
+* _Cost-optimized (Todos)_
+* _Rendimiento optimizado (solo instantáneas)_
+

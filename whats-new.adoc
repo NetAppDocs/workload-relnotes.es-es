@@ -19,6 +19,45 @@ Obtenga información sobre los cambios más recientes en las cargas de trabajo q
 
 
 
+=== Amazon FSX para ONTAP de NetApp
+
+
+
+==== Gestión automática de la capacidad para sistemas de escalado horizontal
+
+La fábrica de cargas de trabajo ahora busca inodos disponibles en los volúmenes y aumenta su recuento de acuerdo con los umbrales automáticos de gestión de capacidad configurados. Esta función admite la gestión automática de capacidad para sistemas de escalado horizontal. Es posible habilitar la gestión de inodos como parte de la gestión automática de la capacidad.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/enable-auto-capacity-management.html["Permita la gestión automática de la capacidad"]
+
+
+
+==== API de reequilibrio de FlexGroup
+
+La fábrica de cargas de trabajo de BlueXP  libera la API de equilibrio de FlexGroup que le permite ejecutar un plan para reequilibrar los datos en una FlexGroup. El reequilibrio redistribuye los datos de manera uniforme entre los volúmenes miembro.
+
+link:https://console.workloads.netapp.com/api-doc["Documentación de la API de la fábrica de cargas de trabajo de BlueXP"]
+
+
+
+==== El formulario de réplica de datos incluye casos de uso
+
+El formulario de replicación de datos ahora incluye casos de uso para facilitar el proceso de cumplimentación. Seleccionará uno de los siguientes casos de uso para la replicación de datos: Migración, recuperación de desastres en caliente, recuperación de desastres en frío, archivado u otros. Después de seleccionar un caso de uso, Workload Factory recomienda valores de acuerdo con las mejores prácticas. Puede aceptar los valores preseleccionados o personalizar los valores del formulario.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-replication.html["Replicar datos"]
+
+
+
+==== Cambios en la terminología de la política de organización en niveles de datos
+
+Ahora, si selecciona una política de organización en niveles durante la creación de volúmenes, la replicación de datos o las actualizaciones de las políticas de organización en niveles existentes, encontrará nuevos términos para describir las políticas de organización en niveles.
+
+* _Equilibrado (Automático)_
+* _Cost-optimized (Todos)_
+* _Rendimiento optimizado (solo instantáneas)_
+
+
+
+
 === Configuración y administración
 
 
@@ -408,24 +447,6 @@ La calculadora de ahorro evalúa ahora si la edición Enterprise es necesaria pa
 
 
 == 5 de enero de 2025
-
-
-
-=== Amazon FSX para ONTAP de NetApp
-
-
-
-==== Mejoras de los recursos compartidos CIFS para volúmenes
-
-Se encuentran disponibles las siguientes mejoras para gestionar el recurso compartido CIFS para volúmenes en un sistema de archivos Amazon FSx para ONTAP en fábrica de cargas de trabajo de BlueXP :
-
-* Compatibilidad con varios recursos compartidos de CIFS de un volumen
-* La opción de actualizar usuarios y grupos en cualquier momento
-* La opción de actualizar permisos para usuarios y grupos en cualquier momento
-* Eliminación de los recursos compartidos CIFS
-
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-cifs-share.html["Gestione los recursos compartidos de CIFS"]
 
 
 
