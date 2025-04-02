@@ -58,6 +58,14 @@ Ahora, si selecciona una política de organización en niveles durante la creaci
 
 
 
+==== Detalles del grupo de seguridad para la creación del sistema de archivos
+
+Se crea un grupo de seguridad como parte del proceso de creación del sistema de archivos FSx para ONTAP. Los detalles del grupo de seguridad, incluidos los protocolos, los puertos y las funciones, ya están disponibles.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-file-system.html["Crear un sistema de archivos"]
+
+
+
 === Cargas de trabajo de
 
 
