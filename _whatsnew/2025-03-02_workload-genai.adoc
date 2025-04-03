@@ -26,7 +26,7 @@ Esta versión de GenAI proporciona soporte de archivos mejorado:
 
 * Los modelos de chat ofrecen soporte CSV mejorado. Esto permite respuestas más útiles al consultar datos de archivos CSV.
 * GenAI ahora puede ingerir archivos Apache Parquet de fuentes de datos.
-* GenAI ahora admite la ingesta de archivos DOCX de Microsoft Word que incluyen imágenes.
+* GenAI ahora admite la ingesta de archivos DOCX de Microsoft Word que incluyen imágenes. Las imágenes incrustadas en los documentos DOCX se escanean, y las perspectivas de texto de las imágenes incrustadas se incluyen en las respuestas a las consultas de la base de conocimientos.
 
 
 link:https://review.docs.netapp.com/us-en/workload-genai_mar-2-release/identify-data-sources.html#supported-data-source-file-formats["Formatos de archivo de origen de datos compatibles"]
