@@ -1,0 +1,55 @@
+= Mejoras de optimización
+:allow-uri-read: 
+
+
+
+
+=== Mejoras de optimización
+
+Hay disponibles nuevas evaluaciones de optimización, soluciones y la visualización de varios recursos al optimizar los entornos de bases de datos.
+
+
+
+==== Evaluaciones de resiliencia
+
+Las mejoras incluyen nuevas evaluaciones de resiliencia para comprobar que las funcionalidades de redundancia de datos y recuperación ante desastres estén configuradas para sus entornos de base de datos.
+
+* FSX para backups de ONTAP: Analiza si los sistemas de archivos FSx para ONTAP que sirven los volúmenes de la instancia de SQL Server se configuran con backups programados de FSx para ONTAP.
+* Replicación entre regiones: Evalúa si los sistemas de archivos FSx para ONTAP que sirven instancias de Microsoft SQL Server se configuran con una replicación entre regiones.
+
+
+
+
+==== Corrección de computación
+
+La corrección de escala lateral de recepción (RSS) configura RSS para distribuir el procesamiento de red a través de varios procesadores y garantizar una distribución de carga eficiente.
+
+
+
+==== Corrección de instantáneas locales
+
+La corrección de snapshots locales configura políticas Snapshot para volúmenes para sus instancias de Microsoft SQL Server con el fin de mantener resilientes los entornos de bases de datos en caso de pérdida de datos.
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Optimice las configuraciones"]
+
+
+
+==== Soporte para la selección de múltiples recursos
+
+Al optimizar las configuraciones de bases de datos, ahora podrá seleccionar recursos específicos en lugar de todos los recursos.
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Optimice las configuraciones"]
+
+
+
+=== Vista de inventario mejorada
+
+La pestaña Inventario de la consola de fábrica de cargas de trabajo se ha optimizado para que solo contenga servidores SQL que se ejecutan en Amazon FSx para NetApp ONTAP. Ahora encontrará servidores SQL en las instalaciones y ejecutándose en Amazon Elastic Block Store y Amazon FSx para el servidor de archivos de Windows en la pestaña Explorar ahorros.
+
+
+
+=== Creación rápida disponible para la implementación del servidor PostgreSQL
+
+Puede utilizar esta opción de implementación rápida para crear un servidor PostgreSQL con configuración de alta disponibilidad y mejores prácticas integradas.
+
+link:https://docs.netapp.com/us-en/workload-databases/create-postgresql-server.html["Cree un servidor PostgreSQL en la fábrica de cargas de trabajo BlueXP"]
