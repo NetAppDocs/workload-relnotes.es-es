@@ -29,4 +29,4 @@ Esta versión de GenAI proporciona soporte de archivos mejorado:
 * GenAI ahora admite la ingesta de archivos DOCX de Microsoft Word que incluyen imágenes. Las imágenes incrustadas en los documentos DOCX se escanean, y las perspectivas de texto de las imágenes incrustadas se incluyen en las respuestas a las consultas de la base de conocimientos.
 
 
-link:https://review.docs.netapp.com/us-en/workload-genai_mar-2-release/identify-data-sources.html#supported-data-source-file-formats["Formatos de archivo de origen de datos compatibles"]
+link:https://docs.netapp.com/us-en/workload-genai/identify-data-sources.html#supported-data-source-file-formats["Formatos de archivo de origen de datos compatibles"]

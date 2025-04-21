@@ -8,7 +8,7 @@
 
 Esta versión de GenAI introduce el soporte de formato de archivo JSON y JSONP al introducir `.json` archivos de orígenes de datos. Se admiten archivos JSON con objetos anidados, con compatibilidad limitada para las cabinas anidadas.
 
-link:https://review.docs.netapp.com/us-en/workload-genai_mar-2-release/identify-data-sources.html#supported-data-source-file-formats["Formatos de archivo de origen de datos compatibles"]
+link:https://docs.netapp.com/us-en/workload-genai/identify-data-sources.html#supported-data-source-file-formats["Formatos de archivo de origen de datos compatibles"]
 
 
 
