@@ -1,0 +1,51 @@
+= Mejoras en la consola de
+:allow-uri-read: 
+
+
+
+
+=== Mejoras en la consola de
+
+* Las vistas entre cuentas y entre regiones están disponibles al navegar entre pestañas de la consola de fábrica de cargas de trabajo de BlueXP . Las nuevas vistas mejoran la gestión, supervisión y optimización de recursos.
+* Desde el mosaico *ahorros potenciales* en el panel de control, podrás revisar rápidamente lo que podrías ahorrar cambiando a FSX para ONTAP desde la Tienda de bloques elásticos de Amazon o Amazon FSx para el servidor de archivos de Windows.
+
+
+
+
+=== Exploración ad hoc disponible para configuraciones de base de datos
+
+El centro de cargas de trabajo de BlueXP  para bases de datos analiza automáticamente las instancias gestionadas de Microsoft SQL Server con el almacenamiento FSx para ONTAP para detectar posibles problemas de configuración. Ahora, además de la exploración diaria, puede escanear en cualquier momento.
+
+
+
+=== Eliminación de registros de evaluación locales
+
+Después de analizar el ahorro de un host de Microsoft SQL Server en las instalaciones, tiene la opción de eliminar el registro de host en las instalaciones de la fábrica de cargas de trabajo de BlueXP .
+
+
+
+=== Mejoras de optimización
+
+
+
+==== Limpieza de clones
+
+La evaluación y corrección de limpieza de los clones identifica y gestiona clones antiguos y costosos. Los clones que tengan más de 60 días se pueden actualizar o eliminar de la consola de fábrica de cargas de trabajo de BlueXP .
+
+
+
+==== Posponer y descartar el análisis de configuración
+
+Es posible que algunas configuraciones no se apliquen a sus entornos de bases de datos. Ahora dispone de opciones para posponer un análisis de configuración en particular por 30 días o descartar el análisis.
+
+
+
+=== Eliminación de registros de evaluación locales
+
+Después de analizar el ahorro de un host de Microsoft SQL Server en las instalaciones, tiene la opción de eliminar el registro de host en las instalaciones de la fábrica de cargas de trabajo de BlueXP .
+
+
+
+=== Terminología de permisos actualizada
+
+La documentación y la interfaz de usuario de fábrica de cargas de trabajo ahora utilizan «de solo lectura» para hacer referencia a los permisos de lectura y «de lectura-escritura» para referirse a los permisos de automatización.

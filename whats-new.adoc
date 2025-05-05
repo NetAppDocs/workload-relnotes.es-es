@@ -15,6 +15,262 @@ Obtenga información sobre los cambios más recientes en las cargas de trabajo q
 
 
 
+== 2025-05-04
+
+
+
+=== Amazon FSX para ONTAP de NetApp
+
+
+
+==== Protección autónoma frente a ransomware para sistemas de archivos FSx para ONTAP
+
+Protege tus datos con Autonomous Ransomware Protection (ARP), una función que utiliza análisis de carga de trabajo en entornos NAS (NFS/SMB) para detectar y advertir sobre actividad anormal que podría ser un ataque de ransomware. Cuando se sospecha de un ataque, ARP también crea nuevas instantáneas inmutables desde las que puedes restaurar tus datos.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/ransomware-protection.html["Proteger sus datos con Protección autónoma frente al ransomware"]
+
+
+
+==== Mejora del reequilibrio de volúmenes de FlexGroup
+
+La fábrica de cargas de trabajo de BlueXP  presenta el asistente de reequilibrio de volúmenes de FlexGroup con varias opciones de diseño para reequilibrar los datos en un volumen de FlexGroup. El reequilibrio redistribuye los datos de manera uniforme entre los volúmenes miembro de FlexGroup.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/rebalance-volume.html["Reequilibre la capacidad de un volumen FlexGroup"]
+
+
+
+==== Implemente las prácticas recomendadas para un sistema de archivos FSx para ONTAP
+
+La fábrica de cargas de trabajo de BlueXP  proporciona un panel donde se puede revisar el estado bien diseñado de las configuraciones del sistema de archivos. Puede aprovechar este análisis para implementar prácticas recomendadas para sus sistemas de archivos FSx para ONTAP. El análisis de configuración del sistema de archivos incluye las siguientes configuraciones: Umbral de capacidad de SSD, snapshots locales programados, backups programados de FSx para ONTAP, organización en niveles de datos y replicación de datos remota.
+
+* link:https://docs.netapp.com/us-en/workload-fsx-ontap/configuration-analysis.html["Obtenga más información sobre el análisis bien diseñado para las configuraciones de sistemas de archivos"]
+* link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["Implemente prácticas recomendadas para sus sistemas de archivos"]
+
+
+
+
+==== Opciones de estilo de seguridad de volúmenes de protocolo doble
+
+Tiene la opción de elegir NTFS o UNIX como estilo de seguridad de un volumen a fin de determinar el método que los usuarios y permisos acceden a un volumen.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-volume.html["Cree un volumen"]
+
+
+
+==== Mejoras de replicación
+
+
+
+===== Es posible la replicación inversa desde FSx para ONTAP a on-premises
+
+Ahora la replicación inversa está disponible desde un sistema de archivos FSx para ONTAP hasta un clúster ONTAP en las instalaciones desde la consola de fábrica de cargas de trabajo.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/reverse-replication.html["Replicación inversa"]
+
+
+
+===== Replicación de volúmenes para la protección de datos
+
+Ahora puede replicar volúmenes de protección de datos.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/cascade-replication.html["Replique un volumen de protección de datos"]
+
+
+
+===== Selección de varios volúmenes
+
+Hay disponible una selección de varios volúmenes para que pueda seleccionar exactamente los volúmenes que desea replicar.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-replication.html["Cree una relación de replicación"]
+
+
+
+===== Etiquetas de política de retención a largo plazo
+
+Cuando se habilita la retención a largo plazo para una relación de replicación, las etiquetas de los volúmenes de origen y objetivo deben coincidir exactamente. Ahora la fábrica de carga de trabajo BlueXP  puede crear automáticamente etiquetas de volumen de origen que faltan para usted.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-replication.html["Cree una relación de replicación"]
+
+
+
+==== Nombre de archivo FSx para ONTAP visible durante la creación de volúmenes
+
+Hemos mejorado la visibilidad de los sistemas de archivos FSx para ONTAP durante la creación de volúmenes. Verá el sistema de archivos FSx para ONTAP cuando cree un volumen de modo que sabrá exactamente dónde se crea el volumen.
+
+
+
+==== La cuenta de AWS visible en toda la carga de trabajo de almacenamiento
+
+Hemos mejorado la visibilidad de la cuenta en toda la carga de trabajo de almacenamiento. Verá la cuenta de AWS cuando navegue a las pestañas *Volúmenes*, *VM de almacenamiento* y *Replicación*.
+
+
+
+==== Mejoras de asociación de enlaces
+
+* Puedes asociar rápidamente un enlace desde un sistema de archivos FSx para ONTAP en la pestaña Inventario.
+* La fábrica de cargas de trabajo de BlueXP  ahora admite el uso de credenciales de usuario de ONTAP alternativas para la asociación de enlaces.
+
+
+
+
+==== Soporte de autenticación de enlaces para AWS Secrets Manager
+
+Ahora tiene la opción de utilizar secretos de AWS Secrets Manager para autenticar enlaces de modo que no tenga que utilizar las credenciales almacenadas en la fábrica de cargas de trabajo de BlueXP .
+
+
+
+==== Soporte de respuesta del rastreador
+
+Tracker ahora proporciona respuestas API para que pueda ver la salida de la API de REST en relación con la tarea.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/monitor-operations.html["Supervise las operaciones con Tracker"]
+
+
+
+==== Validación de la capacidad en la restauración de un volumen a partir de un backup
+
+Al restaurar un volumen a partir de un backup, la fábrica de cargas de trabajo de BlueXP  determina si existe capacidad suficiente para la restauración y es posible añadir automáticamente la capacidad del nivel de almacenamiento SSD si no lo es.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/restore-from-backup.html["Restaurar un volumen desde un backup"]
+
+
+
+==== Compatibilidad con credenciales de usuario de ONTAP alternativas
+
+La fábrica de cargas de trabajo ahora admite conjuntos alternativos de credenciales de ONTAP para crear sistemas de archivos con el fin de minimizar los riesgos de seguridad. En lugar de utilizar solo el usuario fsxadmin, puede seleccionar un conjunto diferente de credenciales de ONTAP o elegir no proporcionar una contraseña para los usuarios fsxadmin y vsaadmin.
+
+
+
+==== Terminología de permisos actualizada
+
+La documentación y la interfaz de usuario de fábrica de cargas de trabajo ahora utilizan «de solo lectura» para hacer referencia a los permisos de lectura y «de lectura-escritura» para referirse a los permisos de automatización.
+
+
+
+=== Cargas de trabajo de base de datos
+
+
+
+==== Mejoras en la consola de
+
+* Las vistas entre cuentas y entre regiones están disponibles al navegar entre pestañas de la consola de fábrica de cargas de trabajo de BlueXP . Las nuevas vistas mejoran la gestión, supervisión y optimización de recursos.
+* Desde el mosaico *ahorros potenciales* en el panel de control, podrás revisar rápidamente lo que podrías ahorrar cambiando a FSX para ONTAP desde la Tienda de bloques elásticos de Amazon o Amazon FSx para el servidor de archivos de Windows.
+
+
+
+
+==== Exploración ad hoc disponible para configuraciones de base de datos
+
+El centro de cargas de trabajo de BlueXP  para bases de datos analiza automáticamente las instancias gestionadas de Microsoft SQL Server con el almacenamiento FSx para ONTAP para detectar posibles problemas de configuración. Ahora, además de la exploración diaria, puede escanear en cualquier momento.
+
+
+
+==== Eliminación de registros de evaluación locales
+
+Después de analizar el ahorro de un host de Microsoft SQL Server en las instalaciones, tiene la opción de eliminar el registro de host en las instalaciones de la fábrica de cargas de trabajo de BlueXP .
+
+
+
+==== Mejoras de optimización
+
+
+
+===== Limpieza de clones
+
+La evaluación y corrección de limpieza de los clones identifica y gestiona clones antiguos y costosos. Los clones que tengan más de 60 días se pueden actualizar o eliminar de la consola de fábrica de cargas de trabajo de BlueXP .
+
+
+
+===== Posponer y descartar el análisis de configuración
+
+Es posible que algunas configuraciones no se apliquen a sus entornos de bases de datos. Ahora dispone de opciones para posponer un análisis de configuración en particular por 30 días o descartar el análisis.
+
+
+
+==== Eliminación de registros de evaluación locales
+
+Después de analizar el ahorro de un host de Microsoft SQL Server en las instalaciones, tiene la opción de eliminar el registro de host en las instalaciones de la fábrica de cargas de trabajo de BlueXP .
+
+
+
+==== Terminología de permisos actualizada
+
+La documentación y la interfaz de usuario de fábrica de cargas de trabajo ahora utilizan «de solo lectura» para hacer referencia a los permisos de lectura y «de lectura-escritura» para referirse a los permisos de automatización.
+
+
+
+=== Cargas de trabajo de
+
+
+
+==== Mejoras en el asesor de migración de Amazon EC2
+
+Esta versión del centro de cargas de trabajo de BlueXP  para VMware presenta la siguiente mejora en la experiencia del asesor de migración de Amazon EC2:
+
+* Información sobre la infraestructura de datos de NetApp como fuente de datos *: La fábrica de cargas de trabajo ahora se conecta directamente con la información sobre la infraestructura de datos de NetApp para recopilar información sobre la implementación de VMware cuando utiliza el recopilador de datos del asesor de migración EC2.
+
+https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.html["Cree un plan de implementación para Amazon EC2 con el asesor de migración"]
+
+
+
+==== Terminología de permisos actualizada
+
+La documentación y la interfaz de usuario de fábrica de cargas de trabajo ahora utilizan «de solo lectura» para hacer referencia a los permisos de lectura y «de lectura-escritura» para referirse a los permisos de automatización.
+
+
+
+=== Cargas de trabajo GenAI
+
+
+
+==== Compatibilidad con el conector NetApp ONTAP para Amazon Q
+
+Esta versión de GenAI presenta compatibilidad con el conector NetApp ONTAP para Amazon Q, lo que le permite crear conectores para Amazon Q Business. Aproveche rápida y fácilmente el asistente de IA de Amazon Q Business con menos configuración inicial que la creación de una base de conocimientos de GenAI para Amazon Bedrock.
+
+link:https://docs.netapp.com/us-en/workload-genai/connector/define-connector.html["Cree un conector GenAI para Amazon Q Business"]
+
+
+
+==== Compatibilidad mejorada con modelos de chat
+
+GenAI ahora admite los siguientes modelos de chat adicionales para las bases de conocimiento:
+
+* link:https://docs.mistral.ai/getting-started/models/models_overview/["Modelos de IA Mistral"^]
+* link:https://docs.aws.amazon.com/bedrock/latest/userguide/titan-text-models.html["Modelos de texto de Amazon Titan"^]
+* link:https://www.llama.com/docs/model-cards-and-prompt-formats/["Modelos de Meta Llama"^]
+* link:https://docs.ai21.com/["Modelos Jamba 1,5"^]
+* link:https://docs.cohere.com/docs/the-cohere-platform["Modelos de comando Cohere"^]
+* link:https://aws.amazon.com/bedrock/deepseek/["Modelos Deepseek"^]
+
+
+GenAI admite los modelos de cada proveedor compatible con Amazon Bedrock: link:https://docs.aws.amazon.com/bedrock/latest/userguide/models-supported.html["Modelos de base admitidos en Amazon Bedrock"^]
+
+link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html["Cree una base de conocimientos de GenAI"]
+
+
+
+==== Terminología de permisos actualizada
+
+La documentación y la interfaz de usuario de fábrica de cargas de trabajo ahora utilizan «de solo lectura» para hacer referencia a los permisos de lectura y «de lectura-escritura» para referirse a los permisos de automatización.
+
+
+
+=== Configuración y administración
+
+
+
+==== Soporte autocompleto de CloudShell
+
+Al utilizar CloudShell de fábrica de carga de trabajo de BlueXP , puede comenzar a escribir un comando y presionar la tecla TAB para ver las opciones disponibles. Si existen múltiples posibilidades, la CLI mostrará una lista de sugerencias. Esta función mejora la productividad al minimizar los errores y acelerar la ejecución de comandos.
+
+
+
+==== Terminología de permisos actualizada
+
+La documentación y la interfaz de usuario de fábrica de cargas de trabajo ahora utilizan «de solo lectura» para hacer referencia a los permisos de lectura y «de lectura-escritura» para referirse a los permisos de automatización.
+
+
+
 == 2025-04-04
 
 
@@ -150,7 +406,7 @@ https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.h
 
 Esta versión de GenAI introduce el soporte de formato de archivo JSON y JSONP al introducir `.json` archivos de orígenes de datos. Se admiten archivos JSON con objetos anidados, con compatibilidad limitada para las cabinas anidadas.
 
-link:https://docs.netapp.com/us-en/workload-genai/identify-data-sources.html#supported-data-source-file-formats["Formatos de archivo de origen de datos compatibles"]
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/identify-data-sources-knowledge-base.html#supported-data-source-file-formats["Formatos de archivo de origen de datos compatibles"]
 
 
 
@@ -166,7 +422,7 @@ link:https://github.com/NetApp/FSx-ONTAP-samples-scripts/tree/main/AI/GenAI-Chat
 
 GenAI ahora incluye soporte para el modelo de chat Anthropic Claude 3,7 Sonnet. Las características beta de Claude 3,7 Sonnet permiten hasta 128K tokens de salida por solicitud y admiten nuevas acciones de uso de computadoras. El modo de pensamiento extendido de Claude 3,7 Sonnet será compatible en un futuro lanzamiento de GenAI.
 
-link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html["Cree una base de conocimientos de GenAI"]
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html["Cree una base de conocimientos de GenAI"]
 
 
 
@@ -182,7 +438,7 @@ link:https://console.workloads.netapp.com/api-doc["Utilice la API de fábrica de
 
 Ahora puede implementar la infraestructura de GenAI en link:https://docs.aws.amazon.com/vpc/latest/peering/what-is-vpc-peering.html["Clouds privados virtuales (VPC) con conexión entre iguales"^]la misma región y usar la misma cuenta de AWS. Puede implementar el motor de IA en una VPC y, a continuación, crear una base de conocimientos en una VPC entre iguales y seleccionar sistemas de archivos de Amazon FSx for NetApp ONTAP que residan en una VPC entre iguales.
 
-link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html["Cree una base de conocimientos de GenAI"]
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html["Cree una base de conocimientos de GenAI"]
 
 
 
@@ -328,7 +584,7 @@ https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.h
 
 Ahora puede copiar preguntas y respuestas directamente al portapapeles, ajustar el tamaño de la ventana de chat y cambiar su título. Además, las respuestas de chat ahora pueden incluir tablas, que también son copiables.
 
-link:https://docs.netapp.com/us-en/workload-genai/test-knowledgebase.html["Pruebe una base de conocimientos de GenAI"]
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/test-knowledgebase.html["Pruebe una base de conocimientos de GenAI"]
 
 
 
@@ -336,7 +592,7 @@ link:https://docs.netapp.com/us-en/workload-genai/test-knowledgebase.html["Prueb
 
 Las respuestas de chat ahora incluyen citas que enumeran los archivos y fragmentos de datos que se utilizaron para generar la respuesta.
 
-link:https://docs.netapp.com/us-en/workload-genai/test-knowledgebase.html["Pruebe una base de conocimientos de GenAI"]
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/test-knowledgebase.html["Pruebe una base de conocimientos de GenAI"]
 
 
 
@@ -349,151 +605,11 @@ Esta versión de GenAI proporciona soporte de archivos mejorado:
 * GenAI ahora admite la ingesta de archivos DOCX de Microsoft Word que incluyen imágenes. Las imágenes incrustadas en los documentos DOCX se escanean, y las perspectivas de texto de las imágenes incrustadas se incluyen en las respuestas a las consultas de la base de conocimientos.
 
 
-link:https://docs.netapp.com/us-en/workload-genai/identify-data-sources.html#supported-data-source-file-formats["Formatos de archivo de origen de datos compatibles"]
-
-
-
-== 3 de febrero de 2025
-
-
-
-=== Cargas de trabajo de base de datos
-
-
-
-==== Los entornos de bases de datos on-premises analizan los costes y planifican las migraciones
-
-La fábrica de cargas de trabajo de BlueXP  para bases de datos ahora detecta, analiza y ayuda a planificar la migración de bases de datos on-premises a Amazon FSx para NetApp ONTAP. Puedes utilizar la calculadora de ahorro para estimar el coste que supone ejecutar tu entorno de bases de datos on-premises en la nube y revisar las recomendaciones para migrar tu entorno de bases de datos on-premises a la nube.
-
-link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["Explora el ahorro que puedes conseguir en entornos de bases de datos on-premises"]
-
-
-
-==== Nuevas evaluaciones de optimización para bases de datos
-
-Las siguientes evaluaciones ahora están disponibles en el fábrica de cargas de trabajo BlueXP  para bases de datos. Estas evaluaciones se centran en detectar y proteger contra posibles vulnerabilidades de seguridad, y en detectar y aliviar los cuellos de botella en el rendimiento.
-
-* *Configuración de la escala lateral de recepción (RSS)*: Comprueba si la configuración RSS está habilitada y si el número de colas está establecido en el valor recomendado. La evaluación también proporciona recomendaciones para optimizar la configuración RSS.
-* *Configuración del servidor de grado máximo de paralelismo (MAXDOP)*: La evaluación comprueba si MAXDOP está configurado correctamente y proporciona recomendaciones para optimizar el rendimiento.
-* *Parches de Microsoft SQL Server*: La evaluación comprueba si los parches más recientes están instalados en las instancias de SQL Server y proporciona recomendaciones para instalar los parches más recientes.
-
-
-link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Optimice las configuraciones"]
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/identify-data-sources-knowledge-base.html#supported-data-source-file-formats["Formatos de archivo de origen de datos compatibles"]
 
 
 
 == 2 de febrero de 2025
-
-
-
-=== Amazon FSX para ONTAP de NetApp
-
-
-
-==== CloudShell en la consola de fábrica de cargas de trabajo de BlueXP
-
-CloudShell es una funcionalidad CLI integrada disponible en la fábrica de cargas de trabajo de BlueXP  para el almacenamiento. Puede usar CloudShell para crear, compartir y ejecutar comandos de la CLI de ONTAP o AWS desde varias sesiones en un entorno similar a shell desde la consola de fábrica de cargas de trabajo.
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/use-cloudshell.html["Obtenga más información sobre CloudShell en la fábrica de cargas de trabajo de BlueXP"]
-
-
-
-==== Descarga de datos de inventario
-
-Ahora puede descargar los datos de inventario de FSx para ONTAP en un archivo de Microsoft Excel o CSV desde el almacenamiento en la fábrica de cargas de trabajo de BlueXP .
-
-image:screenshot-fsx-inventory-download.png["Una captura de pantalla del almacén de cargas de trabajo BlueXP  que muestra el nuevo botón de descarga para descargar los datos del inventario del sistema de archivos FSx for ONTAP."]
-
-
-
-==== Opciones de menú adicionales del sistema de archivos FSX for ONTAP
-
-Hemos simplificado el siguiente trabajo con un sistema de archivos FSx para ONTAP desde la pestaña FSx para ONTAP en Almacenamiento.
-
-* Cree una máquina virtual de almacenamiento
-* Cree un volumen
-* Replicar datos del volumen
-
-
-image:screenshot-filesystem-menu-options.png["Una captura de pantalla de la pestaña FSx para ONTAP en Almacenamiento que muestra las nuevas opciones de menú para crear máquinas virtuales de almacenamiento, crear volúmenes y replicar datos de volumen."]
-
-
-
-==== Soporte de Terraform para crear volúmenes
-
-Ahora puede utilizar Terraform desde el CodeBox para crear volúmenes.
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-volume.html["Cree un volumen"]
-
-
-
-==== Bloqueo de archivos con la función de archivos inmutables
-
-Ahora puede bloquear archivos utilizando la función de archivos inmutables al crear un volumen para un sistema de archivos FSx for ONTAP. El bloqueo de archivos le ayuda a usted y a otras personas a evitar la eliminación accidental o intencional de archivos durante un período determinado.
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-volume.html["Cree un volumen"]
-
-
-
-==== Rastreador disponible para operaciones de monitoreo y seguimiento
-
-Tracker, una nueva función de supervisión está disponible en Storage. Puede utilizar Tracker para supervisar y realizar un seguimiento del progreso y el estado de las credenciales, el almacenamiento y las operaciones de enlace, revisar detalles de tareas de operación y subtareas, diagnosticar cualquier problema o fallo, editar parámetros para operaciones fallidas y volver a intentar operaciones fallidas.
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/monitor-operations.html["Aprenda a monitorear y rastrear operaciones con Tracker"]
-
-
-
-==== Compatibilidad con la segunda generación de Amazon FSx para sistemas de archivos NetApp ONTAP
-
-Ahora puede utilizar Amazon FSx para sistemas de archivos de segunda generación de NetApp ONTAP en la fábrica de cargas de trabajo de BlueXP . Los sistemas de archivos Single-AZ de segunda generación de FSx para ONTAP cuentan con hasta 12 pares de alta disponibilidad que pueden ofrecer hasta 72 Gbps de capacidad de rendimiento y 2.400.000 000 IOPS SSD. Los sistemas de archivos Multi-AZ de segunda generación de FSx para ONTAP cuentan con una pareja de alta disponibilidad y proporcionan 6 Gbps de capacidad de rendimiento y 200.000 000 IOPS en SSD.
-
-* link:https://docs.netapp.com/us-en/workload-fsx-ontap/add-ha-pairs.html["Añada pares de alta disponibilidad"]
-* link:https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/limits.html["Cuotas y límites de Amazon FSx para NetApp ONTAP"^]
-
-
-
-
-=== Cargas de trabajo GenAI
-
-
-
-==== Compatibilidad con los modelos de base de Amazon Nova
-
-GenAI ahora es compatible con los modelos básicos de Amazon Nova. Amazon Nova Micro, Amazon Nova Lite y Amazon Nova Pro son compatibles.
-
-link:https://docs.netapp.com/us-en/workload-genai/requirements.html["Requisitos de GenAI"]
-
-
-
-==== Filtrado de tipo de archivo para orígenes de datos
-
-GenAI ahora admite la selección de tipos de archivo específicos para incluir en el análisis de origen de datos al agregar un origen de datos.
-
-link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html#add-data-sources-to-the-knowledge-base["Agregue orígenes de datos a la base de conocimientos"]
-
-
-
-==== Filtrado de fecha de modificación de archivo para orígenes de datos
-
-GenAI ahora admite el filtrado de archivos para incluirlos en el análisis de origen de datos por fecha de modificación al agregar un origen de datos. Puede elegir un rango de fechas de modificación para los archivos incluidos.
-
-link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html#add-data-sources-to-the-knowledge-base["Agregue orígenes de datos a la base de conocimientos"]
-
-
-
-==== Soporte para archivos de imagen y soporte mejorado para archivos PDF
-
-GenAI ahora admite la mejora de las respuestas a las consultas de la base de conocimientos con información de las imágenes y descripciones de gráficos, así como el texto de los documentos, lo que conduce a respuestas más ricas y de mayor calidad. GenAI ahora puede escanear archivos de imagen e imágenes dentro de archivos PDF (también conocido como soporte de archivos multimodal). Si decide digitalizar imágenes o archivos PDF, el texto de las imágenes (incluidas las imágenes incrustadas en documentos PDF) se escanea en la fuente de datos y las perspectivas de los escaneos se incluyen en las respuestas a las consultas de la base de conocimientos.
-
-link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html#add-data-sources-to-the-knowledge-base["Agregue orígenes de datos a la base de conocimientos"]
-
-
-
-==== Soporte híbrido de búsqueda y reselección
-
-Ahora GenAI puede mejorar significativamente la relevancia y precisión de los resultados de búsqueda mediante la búsqueda híbrida y la re-clasificación de los resultados. La búsqueda híbrida combina los puntos fuertes de la búsqueda tradicional basada en palabras clave con técnicas avanzadas de búsqueda semántica densas basadas en vectores. Los resultados de búsqueda de palabras clave estándar se aumentan con coincidencias cercanas y matices lingüísticos, lo que mejora la relevancia. Luego, GenAI refina aún más estos resultados mediante el uso de modelos avanzados de re-clasificación, como Cohere Rerank y Amazon Rerank, y devuelve los resultados más relevantes. Esta capacidad está disponible para las bases de conocimiento recién creadas.
-
-link:https://docs.netapp.com/us-en/workload-genai/ai-workloads-overview.html#benefits-of-using-genai-to-create-generative-ai-applications["Obtén más información sobre el centro de cargas de trabajo de BlueXP  para GenAI"]
 
 
 
@@ -514,39 +630,3 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/use-cloudshell.html["Usa
 El siguiente permiso ahora está disponible en el modo _READ_ para bases de datos `iam:SimulatePrincipalPolicy`: .
 
 link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html#change-log["Log de cambios de referencia de permisos"]
-
-
-
-== 22 de enero de 2025
-
-
-
-=== Configuración y administración
-
-
-
-==== Permisos de fábrica de cargas de trabajo de BlueXP
-
-Ahora puede ver los permisos que utiliza la fábrica de carga de trabajo de BlueXP  para ejecutar diversas operaciones, comenzando desde la detección de sus entornos de almacenamiento hasta la implementación de recursos de AWS, como sistemas de archivos en almacenamiento o bases de conocimientos para cargas de trabajo de GenAI. Es posible ver políticas y permisos de IAM para almacenamiento, bases de datos, VMware y cargas de trabajo de GenAI.
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html["Permisos de fábrica de cargas de trabajo de BlueXP"]
-
-
-
-== 5 de enero de 2025
-
-
-
-=== Cargas de trabajo de
-
-
-
-==== Mejoras en el asesor de migración de Amazon EC2
-
-Esta versión del centro de cargas de trabajo de BlueXP  para VMware incluye varias mejoras en la experiencia del asesor de migración:
-
-* *Guardar o descargar un plan de migración*: Ahora puede guardar o descargar un plan de migración y cargar el plan de migración para completar el asesor de migración. Cuando guarda un plan de migración, el plan se guarda con su cuenta de fábrica de carga de trabajo.
-* * Selección mejorada de VM*: La fábrica de cargas de trabajo de BlueXP  para VMware ahora admite el filtrado y la búsqueda en la lista de VM que desea incluir en su implementación de migración.
-
-
-https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.html["Cree un plan de implementación para Amazon EC2 con el asesor de migración"]

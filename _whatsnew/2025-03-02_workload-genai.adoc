@@ -8,7 +8,7 @@
 
 Ahora puede copiar preguntas y respuestas directamente al portapapeles, ajustar el tamaño de la ventana de chat y cambiar su título. Además, las respuestas de chat ahora pueden incluir tablas, que también son copiables.
 
-link:https://docs.netapp.com/us-en/workload-genai/test-knowledgebase.html["Pruebe una base de conocimientos de GenAI"]
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/test-knowledgebase.html["Pruebe una base de conocimientos de GenAI"]
 
 
 
@@ -16,7 +16,7 @@ link:https://docs.netapp.com/us-en/workload-genai/test-knowledgebase.html["Prueb
 
 Las respuestas de chat ahora incluyen citas que enumeran los archivos y fragmentos de datos que se utilizaron para generar la respuesta.
 
-link:https://docs.netapp.com/us-en/workload-genai/test-knowledgebase.html["Pruebe una base de conocimientos de GenAI"]
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/test-knowledgebase.html["Pruebe una base de conocimientos de GenAI"]
 
 
 
@@ -29,4 +29,4 @@ Esta versión de GenAI proporciona soporte de archivos mejorado:
 * GenAI ahora admite la ingesta de archivos DOCX de Microsoft Word que incluyen imágenes. Las imágenes incrustadas en los documentos DOCX se escanean, y las perspectivas de texto de las imágenes incrustadas se incluyen en las respuestas a las consultas de la base de conocimientos.
 
 
-link:https://docs.netapp.com/us-en/workload-genai/identify-data-sources.html#supported-data-source-file-formats["Formatos de archivo de origen de datos compatibles"]
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/identify-data-sources-knowledge-base.html#supported-data-source-file-formats["Formatos de archivo de origen de datos compatibles"]

@@ -1,0 +1,127 @@
+= Protección autónoma frente a ransomware para sistemas de archivos FSx para ONTAP
+:allow-uri-read: 
+
+
+
+
+=== Protección autónoma frente a ransomware para sistemas de archivos FSx para ONTAP
+
+Protege tus datos con Autonomous Ransomware Protection (ARP), una función que utiliza análisis de carga de trabajo en entornos NAS (NFS/SMB) para detectar y advertir sobre actividad anormal que podría ser un ataque de ransomware. Cuando se sospecha de un ataque, ARP también crea nuevas instantáneas inmutables desde las que puedes restaurar tus datos.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/ransomware-protection.html["Proteger sus datos con Protección autónoma frente al ransomware"]
+
+
+
+=== Mejora del reequilibrio de volúmenes de FlexGroup
+
+La fábrica de cargas de trabajo de BlueXP  presenta el asistente de reequilibrio de volúmenes de FlexGroup con varias opciones de diseño para reequilibrar los datos en un volumen de FlexGroup. El reequilibrio redistribuye los datos de manera uniforme entre los volúmenes miembro de FlexGroup.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/rebalance-volume.html["Reequilibre la capacidad de un volumen FlexGroup"]
+
+
+
+=== Implemente las prácticas recomendadas para un sistema de archivos FSx para ONTAP
+
+La fábrica de cargas de trabajo de BlueXP  proporciona un panel donde se puede revisar el estado bien diseñado de las configuraciones del sistema de archivos. Puede aprovechar este análisis para implementar prácticas recomendadas para sus sistemas de archivos FSx para ONTAP. El análisis de configuración del sistema de archivos incluye las siguientes configuraciones: Umbral de capacidad de SSD, snapshots locales programados, backups programados de FSx para ONTAP, organización en niveles de datos y replicación de datos remota.
+
+* link:https://docs.netapp.com/us-en/workload-fsx-ontap/configuration-analysis.html["Obtenga más información sobre el análisis bien diseñado para las configuraciones de sistemas de archivos"]
+* link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["Implemente prácticas recomendadas para sus sistemas de archivos"]
+
+
+
+
+=== Opciones de estilo de seguridad de volúmenes de protocolo doble
+
+Tiene la opción de elegir NTFS o UNIX como estilo de seguridad de un volumen a fin de determinar el método que los usuarios y permisos acceden a un volumen.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-volume.html["Cree un volumen"]
+
+
+
+=== Mejoras de replicación
+
+
+
+==== Es posible la replicación inversa desde FSx para ONTAP a on-premises
+
+Ahora la replicación inversa está disponible desde un sistema de archivos FSx para ONTAP hasta un clúster ONTAP en las instalaciones desde la consola de fábrica de cargas de trabajo.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/reverse-replication.html["Replicación inversa"]
+
+
+
+==== Replicación de volúmenes para la protección de datos
+
+Ahora puede replicar volúmenes de protección de datos.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/cascade-replication.html["Replique un volumen de protección de datos"]
+
+
+
+==== Selección de varios volúmenes
+
+Hay disponible una selección de varios volúmenes para que pueda seleccionar exactamente los volúmenes que desea replicar.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-replication.html["Cree una relación de replicación"]
+
+
+
+==== Etiquetas de política de retención a largo plazo
+
+Cuando se habilita la retención a largo plazo para una relación de replicación, las etiquetas de los volúmenes de origen y objetivo deben coincidir exactamente. Ahora la fábrica de carga de trabajo BlueXP  puede crear automáticamente etiquetas de volumen de origen que faltan para usted.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-replication.html["Cree una relación de replicación"]
+
+
+
+=== Nombre de archivo FSx para ONTAP visible durante la creación de volúmenes
+
+Hemos mejorado la visibilidad de los sistemas de archivos FSx para ONTAP durante la creación de volúmenes. Verá el sistema de archivos FSx para ONTAP cuando cree un volumen de modo que sabrá exactamente dónde se crea el volumen.
+
+
+
+=== La cuenta de AWS visible en toda la carga de trabajo de almacenamiento
+
+Hemos mejorado la visibilidad de la cuenta en toda la carga de trabajo de almacenamiento. Verá la cuenta de AWS cuando navegue a las pestañas *Volúmenes*, *VM de almacenamiento* y *Replicación*.
+
+
+
+=== Mejoras de asociación de enlaces
+
+* Puedes asociar rápidamente un enlace desde un sistema de archivos FSx para ONTAP en la pestaña Inventario.
+* La fábrica de cargas de trabajo de BlueXP  ahora admite el uso de credenciales de usuario de ONTAP alternativas para la asociación de enlaces.
+
+
+
+
+=== Soporte de autenticación de enlaces para AWS Secrets Manager
+
+Ahora tiene la opción de utilizar secretos de AWS Secrets Manager para autenticar enlaces de modo que no tenga que utilizar las credenciales almacenadas en la fábrica de cargas de trabajo de BlueXP .
+
+
+
+=== Soporte de respuesta del rastreador
+
+Tracker ahora proporciona respuestas API para que pueda ver la salida de la API de REST en relación con la tarea.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/monitor-operations.html["Supervise las operaciones con Tracker"]
+
+
+
+=== Validación de la capacidad en la restauración de un volumen a partir de un backup
+
+Al restaurar un volumen a partir de un backup, la fábrica de cargas de trabajo de BlueXP  determina si existe capacidad suficiente para la restauración y es posible añadir automáticamente la capacidad del nivel de almacenamiento SSD si no lo es.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/restore-from-backup.html["Restaurar un volumen desde un backup"]
+
+
+
+=== Compatibilidad con credenciales de usuario de ONTAP alternativas
+
+La fábrica de cargas de trabajo ahora admite conjuntos alternativos de credenciales de ONTAP para crear sistemas de archivos con el fin de minimizar los riesgos de seguridad. En lugar de utilizar solo el usuario fsxadmin, puede seleccionar un conjunto diferente de credenciales de ONTAP o elegir no proporcionar una contraseña para los usuarios fsxadmin y vsaadmin.
+
+
+
+=== Terminología de permisos actualizada
+
+La documentación y la interfaz de usuario de fábrica de cargas de trabajo ahora utilizan «de solo lectura» para hacer referencia a los permisos de lectura y «de lectura-escritura» para referirse a los permisos de automatización.
