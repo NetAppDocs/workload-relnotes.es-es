@@ -317,11 +317,11 @@ La documentación y la interfaz de usuario de fábrica de cargas de trabajo ahor
 
 
 
-==== Compatibilidad con el conector NetApp ONTAP para Amazon Q
+==== Compatibilidad con NetApp Connector para Amazon Q Business
 
-Esta versión de GenAI presenta compatibilidad con el conector NetApp ONTAP para Amazon Q, lo que le permite crear conectores para Amazon Q Business. Aproveche rápida y fácilmente el asistente de IA de Amazon Q Business con menos configuración inicial que la creación de una base de conocimientos de GenAI para Amazon Bedrock.
+Esta versión de GenAI presenta compatibilidad con NetApp Connector para Amazon Q Business, lo que le permite crear conectores para Amazon Q Business. Aproveche rápida y fácilmente el asistente de IA de Amazon Q Business con menos configuración inicial que la creación de una base de conocimientos de GenAI para Amazon Bedrock.
 
-link:https://docs.netapp.com/us-en/workload-genai/connector/define-connector.html["Cree un conector GenAI para Amazon Q Business"]
+link:https://docs.netapp.com/us-en/workload-genai/connector/define-connector.html["Cree un conector de NetApp para Amazon Q Business"]
 
 
 
@@ -339,7 +339,7 @@ GenAI ahora admite los siguientes modelos de chat adicionales para las bases de 
 
 GenAI admite los modelos de cada proveedor compatible con Amazon Bedrock: link:https://docs.aws.amazon.com/bedrock/latest/userguide/models-supported.html["Modelos de base admitidos en Amazon Bedrock"^]
 
-link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html["Cree una base de conocimientos de GenAI"]
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html["Cree una base de conocimientos de GenAI"]
 
 
 
