@@ -1,0 +1,19 @@
+= Rastreador disponible para operaciones de monitoreo y seguimiento
+:allow-uri-read: 
+
+
+
+
+=== Rastreador disponible para operaciones de monitoreo y seguimiento
+
+La función de monitoreo de Tracker ya está disponible en GenAI. Puede usar Tracker para monitorear y dar seguimiento al progreso y estado de operaciones pendientes, en curso y completadas, revisar los detalles de las tareas y subtareas de la operación, diagnosticar problemas o fallos, editar parámetros de operaciones fallidas y reintentar operaciones fallidas.
+
+link:https://docs.netapp.com/us-en/workload-genai/general/monitor-operations.html["Supervise las operaciones de carga de trabajo con Tracker en la fábrica de carga de trabajo de BlueXP"]
+
+
+
+=== Elija un modelo de reranking para una base de conocimientos
+
+Ahora puede aumentar la relevancia de los resultados de consultas rerankeadas seleccionando un modelo de reranking específico para usar con una base de conocimiento. GenAI es compatible con los modelos Cohere Rerank y Amazon Rerank.
+
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html["Cree una base de conocimientos de GenAI"]
