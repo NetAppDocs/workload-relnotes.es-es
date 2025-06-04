@@ -1,0 +1,43 @@
+= Mejora del crecimiento automático del volumen
+:allow-uri-read: 
+
+
+
+
+=== Mejora del crecimiento automático del volumen
+
+Ahora puede configurar el tamaño de crecimiento automático de sus volúmenes para que el tamaño del volumen pueda crecer más allá del tamaño previsto para las necesidades comerciales y los requisitos de la aplicación.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/edit-volume-autogrow.html["Habilitar el crecimiento automático del volumen"]
+
+
+
+=== Actualización de análisis bien diseñada
+
+Workload Factory ahora analiza sus sistemas de archivos de FSx for ONTAP para comprobar si se están utilizando las eficiencias de almacenamiento, como la compactación, compresión y deduplicación de datos. Las eficiencias de almacenamiento miden la eficacia con la que los sistemas de archivos utilizan el espacio disponible.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["Visualizar el estado bien diseñado de las eficiencias de almacenamiento"]
+
+
+
+=== Mejoras en el panel de almacenamiento
+
+A partir de hoy, al abrir la carga de trabajo de almacenamiento desde la consola de la fábrica de cargas de trabajo, verá el *Panel de control*. Este panel, con un nuevo diseño, ofrece una visión integral de sus sistemas FSx for ONTAP, que incluye la cantidad de sistemas de archivos, la capacidad total de SSD, la descripción general del estado de la arquitectura optimizada, la descripción general de la protección de datos y el estado de la relación de replicación.
+
+
+
+=== Mejoras en la pestaña Volúmenes
+
+La carga de trabajo de almacenamiento implementó mejoras en la pestaña Volúmenes dentro de un sistema de archivos de FSx for ONTAP en la consola de la fábrica de cargas de trabajo. Las mejoras incluyen:
+
+* *Nuevas tarjetas*: Capacidad SSD, grupo de capacidad y protección autónoma contra ransomware (ARP)
+* *Nuevas columnas*: Distribución de capacidad, Capacidad SSD utilizada, Grupo de capacidad utilizada y Eficiencia de SSD
+
+
+
+
+=== Actualización de la eficiencia del almacenamiento para la creación de volúmenes
+
+Al crear un nuevo volumen, las eficiencias de almacenamiento, incluida la compactación, compresión y deduplicación de datos, se habilitan de forma predeterminada.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-volume.html["Crear un nuevo volumen en la fábrica de carga de trabajo"]

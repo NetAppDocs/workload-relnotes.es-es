@@ -48,23 +48,6 @@
   <block id="86fbb6c90e401f3291e15bdc1398509c" category="paragraph"><block ref="86fbb6c90e401f3291e15bdc1398509c" category="inline-link-macro-rx"></block></block>
   <block id="dc88dce8ec264777b2f90ec0af744f43" category="list-text">Cree un volumen</block>
   <block id="d3156376048c94102c97709d5ff05e75" category="paragraph"><block ref="d3156376048c94102c97709d5ff05e75" category="inline-link-macro-rx"></block></block>
-  <block id="7512718e82771ab0f98e51652a2e97c6" category="inline-link-macro">Aprenda a monitorear y rastrear operaciones con Tracker</block>
-  <block id="30babb51ab17a107228fe65a4e65418b" category="paragraph"><block ref="30babb51ab17a107228fe65a4e65418b" category="inline-link-macro-rx"></block></block>
-  <block id="4a922c367b35639ecb9d911b81fdb458" category="doc">Mejoras automáticas de la gestión de la capacidad</block>
-  <block id="5868fd5ebf39f0f3dce9bd4ba23dcb6f" category="paragraph">Cuando se habilita la gestión automática de la capacidad, la fábrica de cargas de trabajo BlueXP  ahora comprueba si un sistema de archivos alcanzó su umbral de capacidad cada 30 minutos en lugar de cada 2 horas.</block>
-  <block id="410d677b6db33c7f47c30b3d219c4846" category="paragraph">La configuración de IOPS aprovisionado ya no se ve afectada cuando se alcanza el umbral de capacidad.</block>
-  <block id="c21bf517f636f8492b01232a674a8d2e" category="section-title">Snapshots inmutables</block>
-  <block id="525386f4531b9b4bbd2b84ae92c59c07" category="paragraph">Ahora puede bloquear las instantáneas, haciéndolas inmutables, durante un período de retención específico. El bloqueo evita el acceso no autorizado y la eliminación maliciosa de instantáneas. Es posible habilitar copias de Snapshot inmutables durante la creación de políticas Snapshot, al crear copias de Snapshot manuales y después de su creación.</block>
-  <block id="b811c826e0c0b54d5803fe35cb209c82" category="section-title">Actualización de archivos inmutables</block>
-  <block id="a321ab5f7c12f7cdaa9d6077d68dc055" category="paragraph">Ahora puede realizar los siguientes cambios en la configuración de sus archivos inmutables: Política de retención, período de retención, período de compromiso automático y modo de adición de volúmenes.</block>
-  <block id="a864feef5272f034d55e1119c5495be8" category="inline-link-macro">Gestionar archivos inmutables</block>
-  <block id="2915f18b56c3e4e3c1ef137551d9a65d" category="section-title">Mejoras de replicación de datos</block>
-  <block id="114e60d7d0f811f597761cf833328a96" category="list-text">Replicación entre cuentas: La replicación entre dos cuentas de AWS se admite en la consola de fábrica de cargas de trabajo de BlueXP , así como en la administración de replicación.</block>
-  <block id="0348e63af5ee6958b15125648a1ecae7" category="list-text">Pausar y reanudar la replicación: Puede pausar (desactivar) las actualizaciones de replicación programadas del volumen de origen al volumen de destino y luego reanudar la programación de replicación cuando esté preparado. Durante la pausa, los volúmenes de origen y destino se vuelven independientes y el volumen de destino pasa de solo lectura a lectura y escritura.</block>
-  <block id="38485996f06c5e13eed5605901b52530" category="inline-link-macro">Pausa y reanuda una relación de replicación</block>
-  <block id="fc81b1e4233a48b719520033e56b4194" category="paragraph"><block ref="fc81b1e4233a48b719520033e56b4194" category="inline-link-macro-rx"></block></block>
-  <block id="fd8693cf8f6802fd1c7d50d5742a4c71" category="section-title">Eventos de CloudShell en Tracker</block>
-  <block id="e7a6197673267c30b5dc86e0d5f6c536" category="paragraph">Ahora puede realizar un seguimiento de los eventos de CloudShell en Tracker.</block>
   <block id="ab4a8520fe8e2e09df8b9471a8d923bf" category="section-title">2025-03-02</block>
   <block id="312fbafda6b72e176a3eb6272e48d799" category="section-title">Compatibilidad con tipos de archivo mejorada</block>
   <block id="939bf2b00dbe77d4a65f4d265a755136" category="inline-link-macro">Formatos de archivo de origen de datos compatibles</block>
@@ -72,7 +55,6 @@
   <block id="13ba1ae4c82947e19de7e94ee0eaab45" category="list-text">*Tipo de instancia estimado*: El asesor de migración ahora puede examinar los requisitos de su entorno y proporcionar un tipo de instancia estimado de Amazon EC2 para cada VM. Puede optar por incluir el tipo de instancia estimado para cada máquina virtual durante el paso de alcance del asesor de migración.</block>
   <block id="3006f7737352e976899743eaf6e2b28e" category="list-text">*Posibilidad de recomendar volúmenes de Amazon EBS*: El asesor de migración ahora puede recomendar migrar volúmenes de datos a Amazon Elastic Block Store (EBS) en lugar de Amazon FSx para NetApp ONTAP debido a las necesidades específicas de capacidad o rendimiento de una determinada región.</block>
   <block id="b4a4e72af96c527b186a3d8f12952f22" category="list-text">*Asignación automática del sistema de archivos mejorada*: La asignación del sistema de archivos de Amazon FSx para NetApp ONTAP se ha mejorado para optimizar mejor el costo y minimizar el rendimiento.</block>
-  <block id="815e02f013485997d1d56438f0bf1505" category="paragraph"><block ref="815e02f013485997d1d56438f0bf1505" category="inline-link-macro-rx"></block></block>
   <block id="3450754e7ec63bd0a961376c9928752a" category="paragraph">Al usar CloudShell, cada vez que emita un comando de la CLI de ONTAP y se produce un error, puede obtener respuestas de error generadas por IA que incluyen una descripción del fallo, la causa del fallo y una resolución detallada.</block>
   <block id="4ef50e373522b91f7df59d5cba69a8b7" category="section-title">iam:SimulatePermissionPolicy actualización de permisos</block>
   <block id="906699741ebd9905a07af900abcfd438" category="paragraph">Ahora puede administrar<block ref="19f5de89e4c667692a153296018e225f" prefix=" " category="inline-code"></block> el permiso desde la consola de fábrica de cargas de trabajo cuando agrega credenciales de cuenta de AWS adicionales o agrega una nueva capacidad de carga de trabajo, como la carga de trabajo de GenAI.</block>
@@ -243,4 +225,22 @@
   <block id="a3a574ae48c14d14b1a16908815471f6" category="section-title">Elija un modelo de reranking para una base de conocimientos</block>
   <block id="9e0cf47f3974a0b121f9381245ed8931" category="paragraph">Ahora puede aumentar la relevancia de los resultados de consultas rerankeadas seleccionando un modelo de reranking específico para usar con una base de conocimiento. GenAI es compatible con los modelos Cohere Rerank y Amazon Rerank.</block>
   <block id="8443221e1b90a24e56685750c704746a" category="section-title">2025-06-03</block>
+  <block id="7583f12b4559f6687c67d8588da1e2f7" category="doc">Mejora del crecimiento automático del volumen</block>
+  <block id="b57fe4f5ee65a0e01f61993297811ebf" category="paragraph">Ahora puede configurar el tamaño de crecimiento automático de sus volúmenes para que el tamaño del volumen pueda crecer más allá del tamaño previsto para las necesidades comerciales y los requisitos de la aplicación.</block>
+  <block id="9f1effd9ace68ca00fe9e9e3c024b362" category="inline-link-macro">Habilitar el crecimiento automático del volumen</block>
+  <block id="0177289fb77b50bdfc34ab44aa432a21" category="paragraph"><block ref="0177289fb77b50bdfc34ab44aa432a21" category="inline-link-macro-rx"></block></block>
+  <block id="159687e1c95e32f1dcb6c9c1624ba327" category="section-title">Actualización de análisis bien diseñada</block>
+  <block id="8500b95246538dfef049532751c1e9f5" category="paragraph">Workload Factory ahora analiza sus sistemas de archivos de FSx for ONTAP para comprobar si se están utilizando las eficiencias de almacenamiento, como la compactación, compresión y deduplicación de datos. Las eficiencias de almacenamiento miden la eficacia con la que los sistemas de archivos utilizan el espacio disponible.</block>
+  <block id="26e5625f54c5c47a57293d23260101c7" category="inline-link-macro">Visualizar el estado bien diseñado de las eficiencias de almacenamiento</block>
+  <block id="80378f8a6a0c86610258fa79cd78497b" category="paragraph"><block ref="80378f8a6a0c86610258fa79cd78497b" category="inline-link-macro-rx"></block></block>
+  <block id="e4b0d36f0e7c4f3745520d8f27ed510b" category="section-title">Mejoras en el panel de almacenamiento</block>
+  <block id="47586d678be72b51ea7ac193f83c19b2" category="paragraph">A partir de hoy, al abrir la carga de trabajo de almacenamiento desde la consola de la fábrica de cargas de trabajo, verá el *Panel de control*. Este panel, con un nuevo diseño, ofrece una visión integral de sus sistemas FSx for ONTAP, que incluye la cantidad de sistemas de archivos, la capacidad total de SSD, la descripción general del estado de la arquitectura optimizada, la descripción general de la protección de datos y el estado de la relación de replicación.</block>
+  <block id="74d3ed8321cbdac2928290eee4795cef" category="section-title">Mejoras en la pestaña Volúmenes</block>
+  <block id="0d25e8e0a888c31329b48ed4a33f98f6" category="paragraph">La carga de trabajo de almacenamiento implementó mejoras en la pestaña Volúmenes dentro de un sistema de archivos de FSx for ONTAP en la consola de la fábrica de cargas de trabajo. Las mejoras incluyen:</block>
+  <block id="90a8a55f34e9e967f8619ecc5b0ba92a" category="list-text">*Nuevas tarjetas*: Capacidad SSD, grupo de capacidad y protección autónoma contra ransomware (ARP)</block>
+  <block id="f80c9595c105a10d312aac80217ebb84" category="list-text">*Nuevas columnas*: Distribución de capacidad, Capacidad SSD utilizada, Grupo de capacidad utilizada y Eficiencia de SSD</block>
+  <block id="92eacda944854c6bfa8676c60aaa4c96" category="section-title">Actualización de la eficiencia del almacenamiento para la creación de volúmenes</block>
+  <block id="af1e7fa29b343a7d9bd55952a334e8c9" category="paragraph">Al crear un nuevo volumen, las eficiencias de almacenamiento, incluida la compactación, compresión y deduplicación de datos, se habilitan de forma predeterminada.</block>
+  <block id="55321b0c9d5d13d71a60766806796f90" category="inline-link-macro">Crear un nuevo volumen en la fábrica de carga de trabajo</block>
+  <block id="9257e0b60b0f1cd3867c62713d3370aa" category="paragraph"><block ref="9257e0b60b0f1cd3867c62713d3370aa" category="inline-link-macro-rx"></block></block>
 </blocks>
