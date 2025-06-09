@@ -1,0 +1,22 @@
+= Nuevo análisis bien diseñado y soporte para solucionar problemas
+:allow-uri-read: 
+
+
+
+
+=== Nuevo análisis bien diseñado y soporte para solucionar problemas
+
+La gestión automática de la capacidad de los sistemas de archivos FSx para ONTAP ahora se incluye como un análisis de configuración en el panel de estado bien diseñado.
+
+Además, Workload Factory ahora permite solucionar los siguientes problemas de configuración:
+
+* Umbral de capacidad de SSD
+* Organización en niveles de los datos
+* Snapshots locales programadas
+* FSx para copias de seguridad de ONTAP
+* Replicación de datos remota
+* Eficiencias del almacenamiento
+* Gestión de la capacidad automática
+
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["Solucionar problemas de configuración"]

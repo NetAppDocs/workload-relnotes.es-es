@@ -59,23 +59,6 @@
   <block id="4ef50e373522b91f7df59d5cba69a8b7" category="section-title">iam:SimulatePermissionPolicy actualización de permisos</block>
   <block id="906699741ebd9905a07af900abcfd438" category="paragraph">Ahora puede administrar<block ref="19f5de89e4c667692a153296018e225f" prefix=" " category="inline-code"></block> el permiso desde la consola de fábrica de cargas de trabajo cuando agrega credenciales de cuenta de AWS adicionales o agrega una nueva capacidad de carga de trabajo, como la carga de trabajo de GenAI.</block>
   <block id="186057b8c375bff9b600d22bf8686fc5" category="section-title">2025-03-30</block>
-  <block id="e2becee7c382badfb02490cd30d53c6a" category="doc">Gestión automática de la capacidad para sistemas de escalado horizontal</block>
-  <block id="5f7d427820d14cb172d0390463b259c4" category="paragraph">La fábrica de cargas de trabajo ahora busca inodos disponibles en los volúmenes y aumenta su recuento de acuerdo con los umbrales automáticos de gestión de capacidad configurados. Esta función admite la gestión automática de capacidad para sistemas de escalado horizontal. Es posible habilitar la gestión de inodos como parte de la gestión automática de la capacidad.</block>
-  <block id="ff117b5e42f4a60dd5b7859999c4f2bd" category="inline-link-macro">Permita la gestión automática de la capacidad</block>
-  <block id="85729d1984aee9281a3cc017500ff795" category="paragraph"><block ref="85729d1984aee9281a3cc017500ff795" category="inline-link-macro-rx"></block></block>
-  <block id="d0405304bf4b7c3f042b05203316ddd5" category="section-title">API de reequilibrio de FlexGroup</block>
-  <block id="90f7c93b8d9614f0fd7cc2ee87f199c1" category="paragraph">La fábrica de cargas de trabajo de BlueXP  libera la API de equilibrio de FlexGroup que le permite ejecutar un plan para reequilibrar los datos en una FlexGroup. El reequilibrio redistribuye los datos de manera uniforme entre los volúmenes miembro.</block>
-  <block id="1a256f86b88647f213e637c9cab0ed8b" category="inline-link-macro">Documentación de la API de la fábrica de cargas de trabajo de BlueXP</block>
-  <block id="9f2e2c38a7baafe56307fced13716496" category="paragraph"><block ref="9f2e2c38a7baafe56307fced13716496" category="inline-link-macro-rx"></block></block>
-  <block id="40f45c6ac2dbe2255c8ef062d007653f" category="section-title">El formulario de réplica de datos incluye casos de uso</block>
-  <block id="d3a1df9d08a100116ee8f443f56f895d" category="paragraph">El formulario de replicación de datos ahora incluye casos de uso para facilitar el proceso de cumplimentación. Seleccionará uno de los siguientes casos de uso para la replicación de datos: Migración, recuperación de desastres en caliente, recuperación de desastres en frío, archivado u otros. Después de seleccionar un caso de uso, Workload Factory recomienda valores de acuerdo con las mejores prácticas. Puede aceptar los valores preseleccionados o personalizar los valores del formulario.</block>
-  <block id="37fa21b7ca602fd8fe055b26a1de7d8b" category="inline-link-macro">Replicar datos</block>
-  <block id="0c09136cc5ea602bb57eff7c2432239d" category="paragraph"><block ref="0c09136cc5ea602bb57eff7c2432239d" category="inline-link-macro-rx"></block></block>
-  <block id="9425459482ebc84a43dc550767dd3e0f" category="section-title">Cambios en la terminología de la política de organización en niveles de datos</block>
-  <block id="ac41e4be5fb8d94814ca592ccb928b7c" category="paragraph">Ahora, si selecciona una política de organización en niveles durante la creación de volúmenes, la replicación de datos o las actualizaciones de las políticas de organización en niveles existentes, encontrará nuevos términos para describir las políticas de organización en niveles.</block>
-  <block id="1680d9abb7a22a23c44b7a4b6381f160" category="list-text">_Equilibrado (Automático)_</block>
-  <block id="ba8ad03a370d66806f12b2e607ea29c7" category="list-text">_Cost-optimized (Todos)_</block>
-  <block id="c9c6a4f8a60589f93e4860841bc03333" category="list-text">_Rendimiento optimizado (solo instantáneas)_</block>
   <block id="f3a4976ab2464242211263cea7e247f9" category="paragraph">Esta versión de GenAI introduce el soporte de formato de archivo JSON y JSONP al introducir<block ref="cc8f0c0e5a5cef9b33f236a0a9c19ca0" prefix=" " category="inline-code"></block> archivos de orígenes de datos. Se admiten archivos JSON con objetos anidados, con compatibilidad limitada para las cabinas anidadas.</block>
   <block id="0a8f6f086d5f30a416a61fd3606f1025" category="section-title">Soporte de internacionalización para la aplicación de ejemplo de chatbot externa</block>
   <block id="a2f4023c744ab1521036ee54ec2e15ba" category="paragraph">Ahora puede cambiar fácilmente la interfaz de usuario de la aplicación de chatbot externa de muestra de GenAI a un idioma o configuración regional diferente.</block>
@@ -94,10 +77,6 @@
   <block id="0fcf305133bffed241e3ea17efbba5fc" category="inline-link-macro">Utilice la API de fábrica de cargas de trabajo</block>
   <block id="a6efc6ca3aa5af2c7a8cad1239df17c0" category="paragraph"><block ref="a6efc6ca3aa5af2c7a8cad1239df17c0" category="inline-link-macro-rx"></block></block>
   <block id="ef74d01649997b60252254da8a1573fd" category="doc">CloudShell informa de respuestas de errores generadas por IA para comandos de la CLI de ONTAP</block>
-  <block id="4992f7a0d7d6ee4776bb87ff9118642c" category="section-title">Detalles del grupo de seguridad para la creación del sistema de archivos</block>
-  <block id="b7cc50bb665bb63168fb8d2e9eebaedc" category="paragraph">Se crea un grupo de seguridad como parte del proceso de creación del sistema de archivos FSx para ONTAP. Los detalles del grupo de seguridad, incluidos los protocolos, los puertos y las funciones, ya están disponibles.</block>
-  <block id="75086276ae6b7e370f36c7fc49383216" category="inline-link-macro">Crear un sistema de archivos</block>
-  <block id="03b2cfc949418819e16b1dc5fa3660ae" category="paragraph"><block ref="03b2cfc949418819e16b1dc5fa3660ae" category="inline-link-macro-rx"></block></block>
   <block id="8bb788607f31f673e25d0ba34b09a14d" category="doc">Mejoras de optimización</block>
   <block id="7e9a755c644cbdbaab2927671606cf89" category="paragraph">Hay disponibles nuevas evaluaciones de optimización, soluciones y la visualización de varios recursos al optimizar los entornos de bases de datos.</block>
   <block id="3cde2cfbcdbdd79a3c1d3d6b547ab80d" category="section-title">Evaluaciones de resiliencia</block>
@@ -131,7 +110,6 @@
   <block id="6da89f0beda0fbec41b06125b0b7ad32" category="section-title">Posponer y descartar el análisis de configuración</block>
   <block id="4a9a50cea48d9e2ded3becc284af4e41" category="paragraph">Es posible que algunas configuraciones no se apliquen a sus entornos de bases de datos. Ahora dispone de opciones para posponer un análisis de configuración en particular por 30 días o descartar el análisis.</block>
   <block id="514f1fc0ac0ff6e4200d3637146367f1" category="section-title">Terminología de permisos actualizada</block>
-  <block id="a7b97ab7d88b015e92ed51ef4bee9c25" category="paragraph">La documentación y la interfaz de usuario de fábrica de cargas de trabajo ahora utilizan «de solo lectura» para hacer referencia a los permisos de lectura y «de lectura-escritura» para referirse a los permisos de automatización.</block>
   <block id="36099969c15a5d064d7174336be7e668" category="doc">Protección autónoma frente a ransomware para sistemas de archivos FSx para ONTAP</block>
   <block id="08c5452d94d72a6c740ead774c83f8a0" category="paragraph">Protege tus datos con Autonomous Ransomware Protection (ARP), una función que utiliza análisis de carga de trabajo en entornos NAS (NFS/SMB) para detectar y advertir sobre actividad anormal que podría ser un ataque de ransomware. Cuando se sospecha de un ataque, ARP también crea nuevas instantáneas inmutables desde las que puedes restaurar tus datos.</block>
   <block id="19fcea201a57b2af997865e1bebd5eb8" category="inline-link-macro">Proteger sus datos con Protección autónoma frente al ransomware</block>
@@ -243,4 +221,17 @@
   <block id="3381eec0e48920855b86597d56709196" category="inline-link-macro">Cree un conector de NetApp para Amazon Q Business</block>
   <block id="8320a18edf6c2a7804ecd7a111b33314" category="paragraph"><block ref="8320a18edf6c2a7804ecd7a111b33314" category="inline-link-macro-rx"></block></block>
   <block id="4ead5e435cb4f2c7cf627b1d1e84c333" category="paragraph">La interfaz de usuario y la documentación de la fábrica de carga de trabajo ahora usan "solo lectura" para referirse a los permisos de lectura y "lectura/escritura" para referirse a los permisos de automatización.</block>
+  <block id="2423cc9c7b9124d70e9fba7ab98b53df" category="doc">Nuevo análisis bien diseñado y soporte para solucionar problemas</block>
+  <block id="b03b65ae167fa7999b9020739117ae19" category="paragraph">La gestión automática de la capacidad de los sistemas de archivos FSx para ONTAP ahora se incluye como un análisis de configuración en el panel de estado bien diseñado.</block>
+  <block id="5a5b21f778da0dbaf4794873b0deb067" category="paragraph">Además, Workload Factory ahora permite solucionar los siguientes problemas de configuración:</block>
+  <block id="9d0e9f5c0aa1e38cfaa8e64e155bc5a8" category="list-text">Umbral de capacidad de SSD</block>
+  <block id="396928510e06818ef017921022cce2af" category="list-text">Organización en niveles de los datos</block>
+  <block id="aff279b636a9024db3b44375d88e80eb" category="list-text">Snapshots locales programadas</block>
+  <block id="667bda9d5b08fe1666f3fe061ce424aa" category="list-text">FSx para copias de seguridad de ONTAP</block>
+  <block id="887673b402c7bbc141e56321e277605f" category="list-text">Replicación de datos remota</block>
+  <block id="af20abc7154e9ee224c54b48b6ec7d63" category="list-text">Eficiencias del almacenamiento</block>
+  <block id="f2be69b635c39988351f6636a52c66bd" category="list-text">Gestión de la capacidad automática</block>
+  <block id="6745decee5065276cebd3695be1fb7bd" category="inline-link-macro">Solucionar problemas de configuración</block>
+  <block id="347dbce3139b58110904a187913fc7e1" category="paragraph"><block ref="347dbce3139b58110904a187913fc7e1" category="inline-link-macro-rx"></block></block>
+  <block id="b818e29403f1ec2f62ad7db43da773e1" category="section-title">2025-06-08</block>
 </blocks>
