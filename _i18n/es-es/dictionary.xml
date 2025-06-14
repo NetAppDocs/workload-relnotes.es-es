@@ -234,4 +234,9 @@
   <block id="6745decee5065276cebd3695be1fb7bd" category="inline-link-macro">Solucionar problemas de configuración</block>
   <block id="347dbce3139b58110904a187913fc7e1" category="paragraph"><block ref="347dbce3139b58110904a187913fc7e1" category="inline-link-macro-rx"></block></block>
   <block id="b818e29403f1ec2f62ad7db43da773e1" category="section-title">2025-06-08</block>
+  <block id="4cd460e2c71c2ffba346f4471ea0fa00" category="doc">Versión inicial de carga de trabajo de constructores</block>
+  <block id="01885fa7b72aa9d947d8efa49fb4b8cd" category="paragraph">La fábrica de cargas de trabajo de BlueXP  para creadores simplifica el uso y el acceso a las versiones de software, lo que elimina la necesidad de herramientas o scripts personalizados. Le permite utilizar versiones de software como clones instantáneos integrados con Perforce Helix Core como espacio de trabajo práctico para sus procesos de desarrollo, ahorrando tiempo y recursos.</block>
+  <block id="5f9f7bdd8b86c6cc583afabbd903007c" category="paragraph">La versión inicial incluye la capacidad de administrar proyectos y espacios de trabajo, y automatizar acciones con CodeBox. También puede integrar Builders con Perforce Helix Core, para que pueda administrar diferentes versiones de cada proyecto y cambiar entre ellas rápidamente.</block>
+  <block id="e562428972beeca78a1b44b300444717" category="paragraph">Directiva no resuelta en &lt;stdin&gt; - include::_include/workload-builders.adoc[] :leveloffset: +1</block>
+  <block id="80d5de3a419a69be5ba960bb0fef9a1d" category="section-title">2024-12-01</block>
 </blocks>

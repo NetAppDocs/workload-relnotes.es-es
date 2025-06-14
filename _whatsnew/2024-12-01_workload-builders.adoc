@@ -1,0 +1,11 @@
+= Versión inicial de carga de trabajo de constructores
+:allow-uri-read: 
+
+
+
+
+=== Versión inicial de carga de trabajo de constructores
+
+La fábrica de cargas de trabajo de BlueXP  para creadores simplifica el uso y el acceso a las versiones de software, lo que elimina la necesidad de herramientas o scripts personalizados. Le permite utilizar versiones de software como clones instantáneos integrados con Perforce Helix Core como espacio de trabajo práctico para sus procesos de desarrollo, ahorrando tiempo y recursos.
+
+La versión inicial incluye la capacidad de administrar proyectos y espacios de trabajo, y automatizar acciones con CodeBox. También puede integrar Builders con Perforce Helix Core, para que pueda administrar diferentes versiones de cada proyecto y cambiar entre ellas rápidamente.
