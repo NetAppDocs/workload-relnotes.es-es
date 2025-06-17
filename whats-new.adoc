@@ -15,6 +15,20 @@ Obtenga información sobre los cambios más recientes en las cargas de trabajo q
 
 
 
+== 2025-06-16
+
+Directiva no resuelta en <stdin> - include::_include/workload-builders.adoc[] :leveloffset: +1
+
+
+
+=== Soporte para clones
+
+Ahora puede clonar un proyecto en la fábrica de cargas de trabajo de BlueXP para Builders. Al clonar un proyecto, Builders crea uno nuevo a partir de una instantánea, con la misma configuración que el original. La clonación es útil para crear rápidamente proyectos similares o para realizar pruebas. Puede montar el nuevo clon del proyecto siguiendo las instrucciones de Builders.
+
+https://docs.netapp.com/us-en/workload-builders/version-projects.html["Administrar versiones de la fábrica de carga de trabajo de BlueXP para proyectos de Builders"]
+
+
+
 == 2025-06-08
 
 
