@@ -37,13 +37,8 @@
   <block id="7cf449620aa459bc5c449db69b07e507" category="paragraph"><block ref="7cf449620aa459bc5c449db69b07e507" category="inline-link-rx"></block></block>
   <block id="d1e68728a28b7936858b1484445ef50f" category="inline-link-macro">Optimice las configuraciones</block>
   <block id="7c2632b8df180cfa1528450b19070928" category="paragraph"><block ref="7c2632b8df180cfa1528450b19070928" category="inline-link-macro-rx"></block></block>
-  <block id="1d8ce1cfc87620dad9c49f1de100a4fb" category="section-title">2 de febrero de 2025</block>
-  <block id="e2cc7d8ef2a865dce7c7e225dd72d92c" category="doc">CloudShell disponible en la consola de fábrica de cargas de trabajo de BlueXP</block>
-  <block id="7f1ab9d2ad99562dfd8cff4cb4c70b29" category="paragraph">CloudShell está disponible desde cualquier lugar de la consola de fábrica de cargas de trabajo de BlueXP . CloudShell le permite usar las credenciales de AWS y ONTAP que ha proporcionado en su cuenta de BlueXP  y ejecutar comandos de la CLI de AWS o comandos de la CLI de ONTAP en un entorno similar al shell.</block>
   <block id="4ab00ae468588a563b956d814954695d" category="inline-link-macro">Usar CloudShell</block>
   <block id="2004b4ad1feb57e1e4505f5888cfbb60" category="paragraph"><block ref="2004b4ad1feb57e1e4505f5888cfbb60" category="inline-link-macro-rx"></block></block>
-  <block id="f3a98886e89c22ab1a8df16ff87d5b3c" category="section-title">Actualización de permisos para bases de datos</block>
-  <block id="0d8e78270e3796caacf42c07616b7e32" category="paragraph">El siguiente permiso ahora está disponible en el modo _READ_ para bases de datos<block ref="19f5de89e4c667692a153296018e225f" prefix=" " category="inline-code"></block>: .</block>
   <block id="6cff628e35cc5d429a57e4a125a0bf6b" category="inline-link-macro">Log de cambios de referencia de permisos</block>
   <block id="86fbb6c90e401f3291e15bdc1398509c" category="paragraph"><block ref="86fbb6c90e401f3291e15bdc1398509c" category="inline-link-macro-rx"></block></block>
   <block id="dc88dce8ec264777b2f90ec0af744f43" category="list-text">Cree un volumen</block>
@@ -244,4 +239,8 @@
   <block id="d88d0821a38808f607bab21c2cc4cf9e" category="inline-link">Administrar versiones de la fábrica de carga de trabajo de BlueXP para proyectos de Builders</block>
   <block id="bbdb933c88b694592079931541c31eb3" category="paragraph"><block ref="bbdb933c88b694592079931541c31eb3" category="inline-link-rx"></block></block>
   <block id="918963c77ef42064702ac721d5a06ebb" category="section-title">2025-06-16</block>
+  <block id="64c17706e0528a5c44c7beee628cc101" category="doc">Compatibilidad con el servicio de notificación de fábrica de carga de trabajo de BlueXP</block>
+  <block id="c0ae6f0ec7cb1322a1c6b72f77e783f2" category="paragraph">El servicio de notificaciones de la fábrica de cargas de trabajo de BlueXP permite que esta envíe notificaciones al servicio de alertas de BlueXP o a un tema de Amazon SNS. Las notificaciones enviadas a las alertas de BlueXP aparecen en el panel de alertas de BlueXP. Cuando la fábrica de cargas de trabajo publica notificaciones en un tema de Amazon SNS, los suscriptores del tema (como usuarios u otras aplicaciones) reciben las notificaciones en los endpoints configurados para el tema (como correos electrónicos o mensajes SMS).</block>
+  <block id="76490568879e4523bb6bd6d8263472a9" category="inline-link">Configurar las notificaciones de fábrica de la carga de trabajo de BlueXP</block>
+  <block id="533a43c23a4d81612b2392465e022a51" category="paragraph"><block ref="533a43c23a4d81612b2392465e022a51" category="inline-link-rx"></block></block>
 </blocks>
