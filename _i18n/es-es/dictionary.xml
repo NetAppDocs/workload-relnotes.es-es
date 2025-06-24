@@ -232,7 +232,6 @@
   <block id="4cd460e2c71c2ffba346f4471ea0fa00" category="doc">Versión inicial de carga de trabajo de constructores</block>
   <block id="01885fa7b72aa9d947d8efa49fb4b8cd" category="paragraph">La fábrica de cargas de trabajo de BlueXP  para creadores simplifica el uso y el acceso a las versiones de software, lo que elimina la necesidad de herramientas o scripts personalizados. Le permite utilizar versiones de software como clones instantáneos integrados con Perforce Helix Core como espacio de trabajo práctico para sus procesos de desarrollo, ahorrando tiempo y recursos.</block>
   <block id="5f9f7bdd8b86c6cc583afabbd903007c" category="paragraph">La versión inicial incluye la capacidad de administrar proyectos y espacios de trabajo, y automatizar acciones con CodeBox. También puede integrar Builders con Perforce Helix Core, para que pueda administrar diferentes versiones de cada proyecto y cambiar entre ellas rápidamente.</block>
-  <block id="e562428972beeca78a1b44b300444717" category="paragraph">Directiva no resuelta en &lt;stdin&gt; - include::_include/workload-builders.adoc[] :leveloffset: +1</block>
   <block id="80d5de3a419a69be5ba960bb0fef9a1d" category="section-title">2024-12-01</block>
   <block id="fc031ba945e09cb6053f39527ae4937f" category="doc">Soporte para clones</block>
   <block id="e0fa1f53117aa72ea1061c2daaead5bc" category="paragraph">Ahora puede clonar un proyecto en la fábrica de cargas de trabajo de BlueXP para Builders. Al clonar un proyecto, Builders crea uno nuevo a partir de una instantánea, con la misma configuración que el original. La clonación es útil para crear rápidamente proyectos similares o para realizar pruebas. Puede montar el nuevo clon del proyecto siguiendo las instrucciones de Builders.</block>
@@ -244,4 +243,5 @@
   <block id="f3a98886e89c22ab1a8df16ff87d5b3c" category="section-title">Actualización de permisos para bases de datos</block>
   <block id="0d8e78270e3796caacf42c07616b7e32" category="paragraph">El siguiente permiso ahora está disponible en el modo _READ_ para bases de datos<block ref="19f5de89e4c667692a153296018e225f" prefix=" " category="inline-code"></block>: .</block>
   <block id="1d8ce1cfc87620dad9c49f1de100a4fb" category="section-title">2025-02-02</block>
+  <block id="959d33fa69dccfa15152c69ba90f9d41" category="doc">Cargas de trabajo de los constructores</block>
 </blocks>
