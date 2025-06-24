@@ -150,18 +150,6 @@ link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledg
 
 
 
-=== Configuración y administración
-
-
-
-==== Compatibilidad con el servicio de notificación de fábrica de carga de trabajo de BlueXP
-
-El servicio de notificaciones de la fábrica de cargas de trabajo de BlueXP permite que esta envíe notificaciones al servicio de alertas de BlueXP o a un tema de Amazon SNS. Las notificaciones enviadas a las alertas de BlueXP aparecen en el panel de alertas de BlueXP. Cuando la fábrica de cargas de trabajo publica notificaciones en un tema de Amazon SNS, los suscriptores del tema (como usuarios u otras aplicaciones) reciben las notificaciones en los endpoints configurados para el tema (como correos electrónicos o mensajes SMS).
-
-https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["Configurar las notificaciones de fábrica de la carga de trabajo de BlueXP"]
-
-
-
 == 2025-05-04
 
 
@@ -588,6 +576,30 @@ Esta versión de fábrica de cargas de trabajo de BlueXP  para VMware incluye v
 
 
 https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.html["Cree un plan de implementación para Amazon EC2 con el asesor de migración"]
+
+
+
+== 2025-02-02
+
+
+
+=== Configuración y administración
+
+
+
+==== CloudShell disponible en la consola de fábrica de cargas de trabajo de BlueXP
+
+CloudShell está disponible desde cualquier lugar de la consola de fábrica de cargas de trabajo de BlueXP . CloudShell le permite usar las credenciales de AWS y ONTAP que ha proporcionado en su cuenta de BlueXP  y ejecutar comandos de la CLI de AWS o comandos de la CLI de ONTAP en un entorno similar al shell.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/use-cloudshell.html["Usar CloudShell"]
+
+
+
+==== Actualización de permisos para bases de datos
+
+El siguiente permiso ahora está disponible en el modo _READ_ para bases de datos `iam:SimulatePrincipalPolicy`: .
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html#change-log["Log de cambios de referencia de permisos"]
 
 
 
