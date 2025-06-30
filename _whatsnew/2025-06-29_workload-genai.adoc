@@ -1,0 +1,13 @@
+= Compatibilidad con fuentes de datos alojadas en sistemas de archivos NFS/SMB genéricos
+:allow-uri-read: 
+
+
+
+
+=== Compatibilidad con fuentes de datos alojadas en sistemas de archivos NFS/SMB genéricos
+
+Ahora puede agregar una fuente de datos desde un recurso compartido SMB o NFS genérico. Esto le permite incluir archivos almacenados en volúmenes alojados por sistemas de archivos distintos de Amazon FSx para NetApp ONTAP.
+
+https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html#add-data-sources-to-the-knowledge-base["Agregar fuentes de datos a una base de conocimientos"]
+
+https://docs.netapp.com/us-en/workload-genai/connector/define-connector.html#add-data-sources-to-the-connector["Agregar fuentes de datos a un conector"]

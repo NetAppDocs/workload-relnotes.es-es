@@ -15,6 +15,36 @@ Obtenga información sobre los cambios más recientes en las cargas de trabajo q
 
 
 
+== 2025-06-29
+
+
+
+=== Cargas de trabajo de
+
+
+
+==== Presentamos el soporte del asesor de migración para Amazon Elastic VMWare Service
+
+La fábrica de cargas de trabajo de BlueXP para VMware ahora es compatible con Amazon Elastic VMware Service. Puede migrar rápidamente sus cargas de trabajo locales de VMware a Amazon Elastic VMware Service con el asesor de migración, optimizando así los costos y brindando un mayor control sobre su entorno VMware sin necesidad de refactorizar ni reestructurar sus aplicaciones.
+
+https://docs.netapp.com/us-en/workload-vmware/launch-migration-advisor-evs-manual.html["Cree un plan de implementación para Amazon EVS utilizando el asesor de migración"]
+
+
+
+=== Cargas de trabajo GenAI
+
+
+
+==== Compatibilidad con fuentes de datos alojadas en sistemas de archivos NFS/SMB genéricos
+
+Ahora puede agregar una fuente de datos desde un recurso compartido SMB o NFS genérico. Esto le permite incluir archivos almacenados en volúmenes alojados por sistemas de archivos distintos de Amazon FSx para NetApp ONTAP.
+
+https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html#add-data-sources-to-the-knowledge-base["Agregar fuentes de datos a una base de conocimientos"]
+
+https://docs.netapp.com/us-en/workload-genai/connector/define-connector.html#add-data-sources-to-the-connector["Agregar fuentes de datos a un conector"]
+
+
+
 == 2025-06-16
 
 
@@ -498,50 +528,6 @@ https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.h
 
 
 
-=== Cargas de trabajo GenAI
-
-
-
-==== Compatibilidad con tipos de archivo mejorada
-
-Esta versión de GenAI introduce el soporte de formato de archivo JSON y JSONP al introducir `.json` archivos de orígenes de datos. Se admiten archivos JSON con objetos anidados, con compatibilidad limitada para las cabinas anidadas.
-
-link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/identify-data-sources-knowledge-base.html#supported-data-source-file-formats["Formatos de archivo de origen de datos compatibles"]
-
-
-
-==== Soporte de internacionalización para la aplicación de ejemplo de chatbot externa
-
-Ahora puede cambiar fácilmente la interfaz de usuario de la aplicación de chatbot externa de muestra de GenAI a un idioma o configuración regional diferente.
-
-link:https://github.com/NetApp/FSx-ONTAP-samples-scripts/tree/main/AI/GenAI-ChatBot-application-sample#netapp-workload-factory-genai-sample-application["Aplicación de chatbot de muestra externa de GenAI"]
-
-
-
-==== Soporte para el modelo de chat Anthropic Claude Sonnet 3,7
-
-GenAI ahora incluye soporte para el modelo de chat Anthropic Claude 3,7 Sonnet. Las características beta de Claude 3,7 Sonnet permiten hasta 128K tokens de salida por solicitud y admiten nuevas acciones de uso de computadoras. El modo de pensamiento extendido de Claude 3,7 Sonnet será compatible en un futuro lanzamiento de GenAI.
-
-link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html["Cree una base de conocimientos de GenAI"]
-
-
-
-==== Compatibilidad con la adición de orígenes de datos desde recursos compartidos genéricos de NFS/SMB
-
-Con la API de fábrica de cargas de trabajo, ahora puede agregar un origen de datos desde un recurso compartido genérico de NFSv3, NFSv4 o SMB. Cuando añades un origen de datos desde un recurso compartido NFS o SMB, el volumen de base de conocimientos permanece en un volumen de Amazon FSx para NetApp ONTAP. La interfaz de usuario web de fábrica de cargas de trabajo admitirá esta función en una versión futura.
-
-link:https://console.workloads.netapp.com/api-doc["Utilice la API de fábrica de cargas de trabajo"^]
-
-
-
-==== Compatibilidad con iguales de VPC
-
-Ahora puede implementar la infraestructura de GenAI en link:https://docs.aws.amazon.com/vpc/latest/peering/what-is-vpc-peering.html["Clouds privados virtuales (VPC) con conexión entre iguales"^]la misma región y usar la misma cuenta de AWS. Puede implementar el motor de IA en una VPC y, a continuación, crear una base de conocimientos en una VPC entre iguales y seleccionar sistemas de archivos de Amazon FSx for NetApp ONTAP que residan en una VPC entre iguales.
-
-link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html["Cree una base de conocimientos de GenAI"]
-
-
-
 === Configuración y administración
 
 
@@ -559,27 +545,6 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/use-cloudshell.html["Usa
 Ahora puede administrar `iam:SimulatePrincipalPolicy` el permiso desde la consola de fábrica de cargas de trabajo cuando agrega credenciales de cuenta de AWS adicionales o agrega una nueva capacidad de carga de trabajo, como la carga de trabajo de GenAI.
 
 link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html#change-log["Log de cambios de referencia de permisos"]
-
-
-
-== 2025-03-02
-
-
-
-=== Cargas de trabajo de
-
-
-
-==== Mejoras en el asesor de migración de Amazon EC2
-
-Esta versión de fábrica de cargas de trabajo de BlueXP  para VMware incluye varias mejoras en la experiencia del asesor de migración de Amazon EC2:
-
-* *Tipo de instancia estimado*: El asesor de migración ahora puede examinar los requisitos de su entorno y proporcionar un tipo de instancia estimado de Amazon EC2 para cada VM. Puede optar por incluir el tipo de instancia estimado para cada máquina virtual durante el paso de alcance del asesor de migración.
-* *Posibilidad de recomendar volúmenes de Amazon EBS*: El asesor de migración ahora puede recomendar migrar volúmenes de datos a Amazon Elastic Block Store (EBS) en lugar de Amazon FSx para NetApp ONTAP debido a las necesidades específicas de capacidad o rendimiento de una determinada región.
-* *Asignación automática del sistema de archivos mejorada*: La asignación del sistema de archivos de Amazon FSx para NetApp ONTAP se ha mejorado para optimizar mejor el costo y minimizar el rendimiento.
-
-
-https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.html["Cree un plan de implementación para Amazon EC2 con el asesor de migración"]
 
 
 
