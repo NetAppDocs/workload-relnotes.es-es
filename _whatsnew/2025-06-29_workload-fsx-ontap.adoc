@@ -1,0 +1,83 @@
+= Compatibilidad con el servicio de notificación de fábrica de carga de trabajo de BlueXP
+:allow-uri-read: 
+
+
+
+
+=== Compatibilidad con el servicio de notificación de fábrica de carga de trabajo de BlueXP
+
+El servicio de notificaciones de la fábrica de cargas de trabajo de BlueXP permite que esta envíe notificaciones al servicio de alertas de BlueXP o a un tema de Amazon SNS. Las notificaciones enviadas a las alertas de BlueXP aparecen en el panel de alertas de BlueXP. Cuando la fábrica de cargas de trabajo publica notificaciones en un tema de Amazon SNS, los suscriptores del tema (como usuarios u otras aplicaciones) reciben las notificaciones en los endpoints configurados para el tema (como correos electrónicos o mensajes SMS).
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["Configurar las notificaciones de fábrica de la carga de trabajo de BlueXP"^]
+
+
+
+=== Mejoras en el panel de almacenamiento
+
+El panel de Almacenamiento de la consola de Workload Factory incluye nuevas tarjetas para oportunidades de ahorro. La tarjeta en la parte superior del panel muestra la cantidad de oportunidades de ahorro para entornos de almacenamiento que se ejecutan en Amazon Elastic Block Store (EBS), Amazon FSx para Windows File Server y Amazon Elastic File Systems (EFS). En la parte inferior del panel, tres nuevas tarjetas muestran oportunidades de ahorro por servicio de almacenamiento de Amazon: EBS, FSx para Windows File Server y EFS. En todas las tarjetas, puede explorar las oportunidades de ahorro con más detalle.
+
+Desde la tarjeta de cobertura de protección de FSx for ONTAP y la tarjeta de estado de la relación de replicación, puede investigar si hay volúmenes parcialmente protegidos en sus sistemas de archivos de FSx for ONTAP, así como investigar problemas con las relaciones de replicación. En ambos casos, puede tomar medidas para resolver los problemas.
+
+
+
+=== Mejoras en la pestaña de volumen
+
+La pestaña Volúmenes de la consola de Workload Factory se ha mejorado para ofrecer una vista más completa de los sistemas de archivos de FSx for ONTAP. Las mejoras incluyen nuevas tarjetas para la capacidad de SSD, el pool de capacidad y la protección autónoma contra ransomware de NetApp con IA (ARP/IA). Estas tarjetas resumen la utilización de la capacidad y la protección ARP/IA de todos los volúmenes del sistema de archivos.
+
+
+
+=== Compatibilidad con la segunda generación de Amazon FSx para sistemas de archivos NetApp ONTAP
+
+Workload Factory ahora es compatible con los sistemas de archivos Amazon FSx for NetApp ONTAP de segunda generación. Puede crear, administrar y supervisar sistemas de archivos de segunda generación en la consola de Workload Factory. Se admiten todas las nuevas regiones comerciales.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-file-system.html["Crear un sistema de archivos de segunda generación en la fábrica de carga de trabajo"]
+
+
+
+=== Compatibilidad con el volumen FlexVol para reequilibrar la capacidad del volumen
+
+Los volúmenes FlexVol se pueden detectar desde la consola de Workload Factory. Puede consultar el balance de sus volúmenes FlexVol y reequilibrarlos para redistribuir la capacidad cuando se produzcan desequilibrios con el tiempo debido a la adición de nuevos archivos y su crecimiento.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/rebalance-volume.html["Reequilibrar la capacidad de un volumen FlexVol"]
+
+
+
+=== Actualización de terminología
+
+El término "Protección autónoma contra ransomware" (ARP) se ha actualizado a "Protección autónoma contra ransomware de NetApp con IA" (ARP/AI) en la consola de fábrica de carga de trabajo.
+
+
+
+=== ARP/AI habilitado de forma predeterminada para nuevos volúmenes
+
+Al crear un nuevo volumen en la consola de la fábrica de cargas de trabajo, la Protección Autónoma contra Ransomware con IA (ARP/IA) de NetApp se habilita de forma predeterminada si el sistema de archivos tiene una política ARP/IA. Esto significa que el volumen se protege automáticamente contra ataques de ransomware mediante capacidades de detección y respuesta basadas en IA.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-volume.html["Crear un volumen en la fábrica de carga de trabajo"]
+
+
+
+=== Soporte de replicación para archivos inmutables
+
+La fábrica de cargas de trabajo permite replicar volúmenes inmutables de un sistema FSx for ONTAP a otro sistema de archivos FSx for ONTAP para proteger datos críticos de borrados accidentales o ataques maliciosos como ransomware. El volumen de destino y su sistema de archivos host serán inmutables o estarán bloqueados, y los datos del sistema de archivos de destino no podrán modificarse ni eliminarse hasta que finalice el periodo de retención.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-replication.html["Aprenda a crear una relación de replicación"]
+
+
+
+=== Mejoras en la creación de enlaces
+
+Se han realizado las siguientes mejoras en el proceso de creación de enlaces en la consola de fábrica de carga de trabajo.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-link.html["Conéctese a un sistema de archivos FSx para ONTAP con un enlace Lambda"]
+
+
+
+==== Administrar la función de ejecución de IAM y los permisos durante la creación del enlace
+
+Ahora puede administrar el rol de ejecución de IAM y su política de permisos asociada al crear un enlace en la consola de Workload Factory. Un enlace establece la conectividad entre su cuenta de Workload Factory y uno o más sistemas de archivos de FSx for ONTAP. Tiene dos opciones para asignar el rol de ejecución de IAM y los permisos de enlace: automáticamente o proporcionados por el usuario. Administrar el rol de ejecución y su política de permisos asociada en Workload Factory significa que ya no necesita usar código de terceros.
+
+
+
+==== Compatibilidad de Terraform con la creación de enlaces
+
+Ahora puede usar Terraform desde Codebox para crear un enlace y asociarlo con un sistema de archivos de FSx para ONTAP. Esta función está disponible para usuarios que crean enlaces manualmente.

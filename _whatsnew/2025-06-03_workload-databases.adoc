@@ -18,8 +18,8 @@ link:https://docs.netapp.com/us-en/workload-databases/optimize-overview.html["An
 
 
 
-=== Incorporación mejorada para instancias de host
+=== Incorporación mejorada para instancias
 
-En lugar de usar los términos "no detectado", "no administrado" o "administrado" para la administración de instancias de host, Workload Factory ahora usa "registrar" para la incorporación de instancias de host. El nuevo proceso de registro incluye la autenticación y preparación de las instancias de host para que pueda crear, supervisar, analizar y corregir recursos en las configuraciones de su base de datos desde la consola de Workload Factory. El paso de preparación del proceso de registro indica si sus instancias de host están listas para la administración.
+En lugar de usar los términos "no detectado", "no administrado" o "administrado" para la administración de instancias, Workload Factory ahora usa "registrar" para la incorporación de instancias. El nuevo proceso de registro incluye la autenticación y preparación de las instancias para que pueda crear, supervisar, analizar y corregir recursos en las configuraciones de su base de datos desde la consola de Workload Factory. El paso de preparación del proceso de registro indica si sus instancias están listas para la administración.
 
 link:https://docs.netapp.com/us-en/workload-databases/manage-instance.html["Gestión de instancias"]
