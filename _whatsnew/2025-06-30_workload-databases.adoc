@@ -14,14 +14,13 @@ La fábrica de carga de trabajo proporciona las siguientes notificaciones para l
 
 * Informe bien diseñado
 * Implementación del host
-* Protección
 
 
 
 
 === Mejora de incorporación para el registro de instancias
 
-Workload Factory para bases de datos ha mejorado su proceso de incorporación para registrar instancias que se ejecutan en Amazon FSx para almacenamiento de NetApp ONTAP. Ahora puede seleccionar instancias en bloque para su registro. Una vez registrada una instancia, puede crear y administrar recursos de host de base de datos desde la consola de Workload Factory.
+Workload Factory para bases de datos ha mejorado su proceso de incorporación para registrar instancias que se ejecutan en Amazon FSx para almacenamiento de NetApp ONTAP. Ahora puede seleccionar instancias en bloque para su registro. Una vez que se registra una instancia, puede crear y administrar recursos de base de datos dentro de la consola de fábrica de carga de trabajo.
 
 link:https://docs.netapp.com/us-en/workload-databases/manage-instance.html["Gestión de instancias"]
 
@@ -29,22 +28,22 @@ link:https://docs.netapp.com/us-en/workload-databases/manage-instance.html["Gest
 
 === Análisis y corrección del tiempo de espera de E/S de múltiples rutas de Microsoft
 
-El estado de buena arquitectura para las instancias del host de base de datos ahora incluye el análisis y la corrección del tiempo de espera de E/S multiruta de Microsoft (MPIO). Establecer el tiempo de espera de MPIO en 60 segundos garantiza la conectividad y la estabilidad del almacenamiento de FSx for ONTAP durante las conmutaciones por error. Si la configuración de MPIO no se configura correctamente, Workload Factory proporcionará una corrección para establecer el tiempo de espera de MPIO en 60 segundos.
+El estado bien diseñado para sus instancias de base de datos ahora incluye el análisis y la corrección de la configuración de tiempo de espera de E/S de múltiples rutas de Microsoft (MPIO). Establecer el tiempo de espera de MPIO en 60 segundos garantiza la conectividad y la estabilidad del almacenamiento de FSx for ONTAP durante las conmutaciones por error. Si la configuración de MPIO no se configura correctamente, Workload Factory proporcionará una corrección para establecer el tiempo de espera de MPIO en 60 segundos.
 
 link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Implementar configuraciones de base de datos bien diseñadas en la fábrica de carga de trabajo"]
 
 
 
-=== Mejoras en los gráficos del inventario del host
+=== Mejoras en los gráficos en el inventario de instancias
 
-Desde la pantalla de inventario del host, varios gráficos de utilización de recursos, como el rendimiento y las IOPS, ahora muestran datos de 7 días para que pueda supervisar el rendimiento de los nodos SQL desde la consola de Workload Factory de forma más eficiente. Las métricas de rendimiento recopiladas de los nodos SQL se guardarán en Amazon CloudWatch, que puede utilizarse para Logs Insights o para la integración con otros servicios de análisis de su entorno.
+Desde la pantalla de inventario de instancias, varios gráficos de utilización de recursos como rendimiento e IOPS ahora muestran 7 días de datos para que pueda monitorear el rendimiento de los nodos SQL desde la consola de fábrica de carga de trabajo de manera más eficiente. Las métricas de rendimiento recopiladas de los nodos SQL se guardarán en Amazon CloudWatch, que puede utilizarse para Logs Insights o para la integración con otros servicios de análisis de su entorno.
 
-Desde las pestañas Instancias y Bases de datos dentro del inventario del host, hemos mejorado la descripción y la visualización para la protección del host.
+Desde las pestañas Instancias y Bases de datos dentro del inventario, hemos mejorado la descripción y visualización para la protección.
 
 
 
 === Compatibilidad con la autenticación de Windows en la fábrica de carga de trabajo
 
-Ahora, la fábrica de carga de trabajo admite la autenticación de SQL Server mediante usuarios autenticados de Windows para registrar instancias de host y beneficiarse de las funciones de administración de host.
+Ahora la fábrica de carga de trabajo admite la autenticación de SQL Server mediante usuarios autenticados de Windows para registrar instancias y beneficiarse de las funciones de administración.
 
-link:https://docs.netapp.com/us-en/workload-databases/register-instance.html["Registrar instancias de host en la fábrica de carga de trabajo para bases de datos"]
+link:https://docs.netapp.com/us-en/workload-databases/register-instance.html["Registrar instancias en la fábrica de carga de trabajo para bases de datos"]
