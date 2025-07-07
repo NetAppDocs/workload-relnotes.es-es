@@ -64,20 +64,8 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-replication.html["A
 
 
 
-=== Mejoras en la creación de enlaces
-
-Se han realizado las siguientes mejoras en el proceso de creación de enlaces en la consola de fábrica de carga de trabajo.
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-link.html["Conéctese a un sistema de archivos FSx para ONTAP con un enlace Lambda"]
-
-
-
-==== Administrar la función de ejecución de IAM y los permisos durante la creación del enlace
+=== Administrar la función de ejecución de IAM y los permisos durante la creación del enlace
 
 Ahora puede administrar el rol de ejecución de IAM y su política de permisos asociada al crear un enlace en la consola de Workload Factory. Un enlace establece la conectividad entre su cuenta de Workload Factory y uno o más sistemas de archivos de FSx for ONTAP. Tiene dos opciones para asignar el rol de ejecución de IAM y los permisos de enlace: automáticamente o proporcionados por el usuario. Administrar el rol de ejecución y su política de permisos asociada en Workload Factory significa que ya no necesita usar código de terceros.
 
-
-
-==== Compatibilidad de Terraform con la creación de enlaces
-
-Ahora puede usar Terraform desde Codebox para crear un enlace y asociarlo con un sistema de archivos de FSx para ONTAP. Esta función está disponible para usuarios que crean enlaces manualmente.
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-link.html["Conéctese a un sistema de archivos FSx para ONTAP con un enlace Lambda"]
