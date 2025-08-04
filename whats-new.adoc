@@ -152,6 +152,26 @@ https://docs.netapp.com/us-en/workload-vmware/calculate-evs-savings.html["Explor
 
 
 
+=== Cargas de trabajo GenAI
+
+
+
+==== Almacenamiento seguro para resultados de datos estructurados
+
+Si los resultados de la consulta del chatbot contienen datos estructurados, GenAI puede almacenar los resultados en un bucket de Amazon S3. Cuando estos resultados se almacenan en un bucket S3, puedes descargarlos utilizando el enlace de descarga dentro de la sesión de chat.
+
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html["Cree una base de conocimientos de GenAI"]
+
+
+
+==== Disponibilidad del servidor MCP
+
+NetApp ahora proporciona un servidor de Protocolo de contexto de modelo (MCP) con una BlueXP workload factory para GenAI. Puede instalar el servidor localmente para permitir que los clientes MCP externos descubran y recuperen resultados de consultas de una base de conocimiento GenAI.
+
+link:https://github.com/NetApp/mcp/tree/main/NetApp-KnowledgeBase-MCP-server["Servidor GenAI MCP de la fábrica de carga de trabajo de NetApp"^]
+
+
+
 == 2025-06-30
 
 
@@ -436,42 +456,6 @@ Esta versión del centro de cargas de trabajo de BlueXP  para VMware presenta l
 * Información sobre la infraestructura de datos de NetApp como fuente de datos *: La fábrica de cargas de trabajo ahora se conecta directamente con la información sobre la infraestructura de datos de NetApp para recopilar información sobre la implementación de VMware cuando utiliza el recopilador de datos del asesor de migración EC2.
 
 https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.html["Cree un plan de implementación para Amazon EC2 con el asesor de migración"]
-
-
-
-==== Terminología de permisos actualizada
-
-La interfaz de usuario y la documentación de la fábrica de carga de trabajo ahora usan "solo lectura" para referirse a los permisos de lectura y "lectura/escritura" para referirse a los permisos de automatización.
-
-
-
-=== Cargas de trabajo GenAI
-
-
-
-==== Compatibilidad con NetApp Connector para Amazon Q Business
-
-Esta versión de GenAI presenta compatibilidad con NetApp Connector para Amazon Q Business, lo que le permite crear conectores para Amazon Q Business. Aproveche rápida y fácilmente el asistente de IA de Amazon Q Business con menos configuración inicial que la creación de una base de conocimientos de GenAI para Amazon Bedrock.
-
-link:https://docs.netapp.com/us-en/workload-genai/connector/define-connector.html["Cree un conector de NetApp para Amazon Q Business"]
-
-
-
-==== Compatibilidad mejorada con modelos de chat
-
-GenAI ahora admite los siguientes modelos de chat adicionales para las bases de conocimiento:
-
-* link:https://docs.mistral.ai/getting-started/models/models_overview/["Modelos de IA Mistral"^]
-* link:https://docs.aws.amazon.com/bedrock/latest/userguide/titan-text-models.html["Modelos de texto de Amazon Titan"^]
-* link:https://www.llama.com/docs/model-cards-and-prompt-formats/["Modelos de Meta Llama"^]
-* link:https://docs.ai21.com/["Modelos Jamba 1,5"^]
-* link:https://docs.cohere.com/docs/the-cohere-platform["Modelos de comando Cohere"^]
-* link:https://aws.amazon.com/bedrock/deepseek/["Modelos Deepseek"^]
-
-
-GenAI admite los modelos de cada proveedor compatible con Amazon Bedrock: link:https://docs.aws.amazon.com/bedrock/latest/userguide/models-supported.html["Modelos de base admitidos en Amazon Bedrock"^]
-
-link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html["Cree una base de conocimientos de GenAI"]
 
 
 
