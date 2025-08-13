@@ -27,7 +27,7 @@ Obtenga información sobre los cambios más recientes en las cargas de trabajo q
 
 La BlueXP backup and recovery le permite realizar copias de seguridad, restaurar, verificar y clonar bases de datos y grupos de disponibilidad de Microsoft SQL Server. Desde la consola de fábrica de carga de trabajo, puede acceder y utilizar la BlueXP backup and recovery para proteger las cargas de trabajo de Microsoft SQL Server.
 
-link:protect-sql-server.html["Aprenda a proteger las cargas de trabajo de Microsoft SQL Server a través de la consola de fábrica de cargas de trabajo"^] .
+link:https://docs.netapp.com/us-en/workload-databases/protect-sql-server.html["Aprenda a proteger las cargas de trabajo de Microsoft SQL Server a través de la consola de fábrica de cargas de trabajo"] .
 
 Para obtener detalles sobre la BlueXP backup and recovery, consultelink:https://docs.netapp.com/us-en/bluexp-backup-recovery/br-use-mssql-protect-overview.html["Proteja la descripción general de las cargas de trabajo de Microsoft SQL con la BlueXP backup and recovery"^] .
 
