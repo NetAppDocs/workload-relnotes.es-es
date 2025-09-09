@@ -1,10 +1,10 @@
-= La BlueXP backup and recovery ahora es compatible con la carga de trabajo de Microsoft SQL Server
+= La BlueXP backup and recovery ahora admite cargas de trabajo de Microsoft SQL Server
 :allow-uri-read: 
 
 
 
 
-=== La BlueXP backup and recovery ahora es compatible con la carga de trabajo de Microsoft SQL Server
+=== La BlueXP backup and recovery ahora admite cargas de trabajo de Microsoft SQL Server
 
 La BlueXP backup and recovery le permite realizar copias de seguridad, restaurar, verificar y clonar bases de datos y grupos de disponibilidad de Microsoft SQL Server. Desde la consola de fábrica de carga de trabajo, puede acceder y utilizar la BlueXP backup and recovery para proteger las cargas de trabajo de Microsoft SQL Server.
 

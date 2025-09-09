@@ -15,6 +15,52 @@ Obtenga información sobre los cambios más recientes en las cargas de trabajo q
 
 
 
+== 1 de septiembre de 2025
+
+
+
+=== Cargas de trabajo de base de datos
+
+
+
+==== Analizador de registros de errores impulsado por IA de Agentic
+
+El analizador de registros de errores impulsado por IA de Agentic es una nueva función que aprovecha algoritmos avanzados de aprendizaje automático para detectar y analizar automáticamente errores en los archivos de registro. Esta herramienta tiene como objetivo agilizar el proceso de resolución de problemas al proporcionar a los desarrolladores información práctica y recomendaciones basadas en los patrones que identifica en los registros.
+
+link:https://docs.netapp.com/us-en/workload-databases/analyze-error-logs.html["Obtenga más información sobre el analizador de registros de errores impulsado por IA de Agentic"]
+
+
+
+==== Soporte de Oracle
+
+La fábrica de carga de trabajo incluye soporte para bases de datos Oracle. En la consola de Workload Factory, puede ver sus bases de datos Oracle desde el inventario, registrar bases de datos para usar funciones avanzadas en Workload Factory y analizar bases de datos Oracle para alinearlas con las mejores prácticas mediante la función bien diseñada. El análisis bien diseñado determina si las configuraciones de almacenamiento para las bases de datos Oracle están optimizadas. Puede utilizar esta información para tomar decisiones informadas sobre las implementaciones de sus bases de datos y garantizar que funcionen de manera eficiente.
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Implementar configuraciones de base de datos bien diseñadas en la fábrica de carga de trabajo"]
+
+
+
+==== Compatibilidad con implementaciones de Microsoft SQL Server en FSx de segunda generación para sistemas de archivos ONTAP
+
+Workload Factory admite implementaciones de Microsoft SQL Server en sistemas de archivos FSx para ONTAP de segunda generación. Esta mejora le permite aprovechar las últimas características y mejoras de rendimiento disponibles en los sistemas de archivos de segunda generación mientras administra sus cargas de trabajo de SQL Server.
+
+
+
+==== Autenticación de Windows para la protección de SQL Server
+
+La autenticación de instancias de Microsoft SQL Server con credenciales de Windows está integrada en el flujo de trabajo para preparar los hosts de Microsoft SQL Server para la protección con BlueXP backup and recovery. Este solía ser un paso previo que debía completarse manualmente. En su lugar, se le solicitará que comparta las credenciales de Windows con acceso administrativo si no ha registrado los hosts en la fábrica de carga de trabajo usando las credenciales de Windows.
+
+link:https://docs.netapp.com/us-en/workload-databases/protect-sql-server.html["Aprenda a proteger las cargas de trabajo de Microsoft SQL Server a través de la consola de fábrica de cargas de trabajo"] .
+
+
+
+==== Un análisis bien diseñado incluye la alineación de MTU para SQL Server
+
+El análisis bien diseñado evalúa y corrige la desalineación de la unidad de transmisión máxima (MTU) en los puntos finales de Microsoft SQL Server en FSx para el almacenamiento de ONTAP . La alineación de la configuración de MTU ayuda a optimizar el rendimiento de la red y reducir la latencia de las cargas de trabajo de SQL Server.
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Implementar configuraciones de base de datos bien diseñadas en la fábrica de carga de trabajo"]
+
+
+
 == 12 de agosto de 2025
 
 
@@ -23,7 +69,7 @@ Obtenga información sobre los cambios más recientes en las cargas de trabajo q
 
 
 
-==== La BlueXP backup and recovery ahora es compatible con la carga de trabajo de Microsoft SQL Server
+==== La BlueXP backup and recovery ahora admite cargas de trabajo de Microsoft SQL Server
 
 La BlueXP backup and recovery le permite realizar copias de seguridad, restaurar, verificar y clonar bases de datos y grupos de disponibilidad de Microsoft SQL Server. Desde la consola de fábrica de carga de trabajo, puede acceder y utilizar la BlueXP backup and recovery para proteger las cargas de trabajo de Microsoft SQL Server.
 
@@ -187,60 +233,6 @@ link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledg
 NetApp ahora proporciona un servidor de Protocolo de contexto de modelo (MCP) con una BlueXP workload factory para GenAI. Puede instalar el servidor localmente para permitir que los clientes MCP externos descubran y recuperen resultados de consultas de una base de conocimiento GenAI.
 
 link:https://github.com/NetApp/mcp/tree/main/NetApp-KnowledgeBase-MCP-server["Servidor GenAI MCP de la fábrica de carga de trabajo de NetApp"^]
-
-
-
-== 2025-06-30
-
-
-
-=== Cargas de trabajo de base de datos
-
-
-
-==== Compatibilidad con el servicio de notificación de fábrica de carga de trabajo de BlueXP
-
-El servicio de notificaciones de la fábrica de cargas de trabajo de BlueXP permite que esta envíe notificaciones al servicio de alertas de BlueXP o a un tema de Amazon SNS. Las notificaciones enviadas a las alertas de BlueXP aparecen en el panel de alertas de BlueXP. Cuando la fábrica de cargas de trabajo publica notificaciones en un tema de Amazon SNS, los suscriptores del tema (como usuarios u otras aplicaciones) reciben las notificaciones en los endpoints configurados para el tema (como correos electrónicos o mensajes SMS).
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["Configurar las notificaciones de fábrica de la carga de trabajo de BlueXP"^]
-
-La fábrica de carga de trabajo proporciona las siguientes notificaciones para las bases de datos:
-
-* Informe bien diseñado
-* Implementación del host
-
-
-
-
-==== Mejora de incorporación para el registro de instancias
-
-Workload Factory para bases de datos ha mejorado su proceso de incorporación para registrar instancias que se ejecutan en Amazon FSx para almacenamiento de NetApp ONTAP. Ahora puede seleccionar instancias en bloque para su registro. Una vez que se registra una instancia, puede crear y administrar recursos de base de datos dentro de la consola de fábrica de carga de trabajo.
-
-link:https://docs.netapp.com/us-en/workload-databases/manage-instance.html["Gestión de instancias"]
-
-
-
-==== Análisis y corrección del tiempo de espera de E/S de múltiples rutas de Microsoft
-
-El estado bien diseñado para sus instancias de base de datos ahora incluye el análisis y la corrección de la configuración de tiempo de espera de E/S de múltiples rutas de Microsoft (MPIO). Establecer el tiempo de espera de MPIO en 60 segundos garantiza la conectividad y la estabilidad del almacenamiento de FSx for ONTAP durante las conmutaciones por error. Si la configuración de MPIO no se configura correctamente, Workload Factory proporcionará una corrección para establecer el tiempo de espera de MPIO en 60 segundos.
-
-link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Implementar configuraciones de base de datos bien diseñadas en la fábrica de carga de trabajo"]
-
-
-
-==== Mejoras en los gráficos en el inventario de instancias
-
-Desde la pantalla de inventario de instancias, varios gráficos de utilización de recursos como rendimiento e IOPS ahora muestran 7 días de datos para que pueda monitorear el rendimiento de los nodos SQL desde la consola de fábrica de carga de trabajo de manera más eficiente. Las métricas de rendimiento recopiladas de los nodos SQL se guardarán en Amazon CloudWatch, que puede utilizarse para Logs Insights o para la integración con otros servicios de análisis de su entorno.
-
-Desde las pestañas Instancias y Bases de datos dentro del inventario, hemos mejorado la descripción y visualización para la protección.
-
-
-
-==== Compatibilidad con la autenticación de Windows en la fábrica de carga de trabajo
-
-Ahora la fábrica de carga de trabajo admite la autenticación de SQL Server mediante usuarios autenticados de Windows para registrar instancias y beneficiarse de las funciones de administración.
-
-link:https://docs.netapp.com/us-en/workload-databases/register-instance.html["Registrar instancias en la fábrica de carga de trabajo para bases de datos"]
 
 
 
