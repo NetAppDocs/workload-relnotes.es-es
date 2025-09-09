@@ -15,6 +15,56 @@ Obtenga información sobre los cambios más recientes en las cargas de trabajo q
 
 
 
+== 9 de septiembre de 2025
+
+
+
+=== Amazon FSX para ONTAP de NetApp
+
+
+
+==== Mejoras en los informes de inventario de almacenamiento
+
+Workload Factory ha mejorado los datos informados para sus sistemas de archivos FSx para ONTAP . El informe descargable de la página de inventario de FSx para ONTAP incluye las siguientes columnas nuevas:
+
+* SSD utilizado: muestra el valor de la capacidad SSD utilizada
+* Utilización de SSD: muestra el porcentaje de capacidad de SSD en uso
+* Utilización del rendimiento: muestra la utilización promedio y máxima de los últimos 30 días
+* Utilización de E/S: muestra la utilización de E/S promedio y máxima durante los últimos 30 días
+* Utilización de CPU: muestra la utilización promedio y máxima de CPU durante los últimos 30 días
+
+
+
+
+==== Mejoras en la gestión de instantáneas
+
+Workload Factory ha realizado varias mejoras para ver los detalles de las instantáneas de volumen y administrarlas. Estas mejoras le permiten comprender más fácilmente el estado de sus instantáneas y proteger sus datos.
+
+image:screenshot-menu-view-volume-details.png["Captura de pantalla que muestra el menú de volumen de FSx para ONTAP con acciones básicas y luego muestra los detalles del volumen."]
+
+Los elementos adicionales aparecen en los detalles del volumen en la pestaña Protección:
+
+* Nombre de la política de instantáneas
+* Reserva de espacio para instantáneas
+* Capacidad de reserva de espacio instantánea
+
+
+image:screenshot-volume-details-protection.png["Captura de pantalla que muestra los detalles del volumen de FSx para ONTAP con la pestaña de protección abierta."]
+
+Se puede acceder a la nueva pantalla de administración de instantáneas desde un volumen; proporciona información sobre la política de instantáneas para el volumen e incluye una tabla con todas las instantáneas del volumen. La tabla muestra los siguientes detalles de la instantánea: hora de creación, tamaño, tiempo de vencimiento, protección de instantánea inmutable y etiquetas. Desde la pantalla de administración, puede cambiar la política de instantáneas del volumen, crear una instantánea manualmente y editar, acceder, restaurar y eliminar instantáneas.
+
+image:screenshot-manage-snapshots-screen.png["Captura de pantalla que muestra la pantalla de administración de instantáneas."]
+
+
+
+==== Disminución de la capacidad de almacenamiento SSD disponible
+
+La fábrica de carga de trabajo admite la disminución de la capacidad de la unidad de estado sólido (SSD) de sus sistemas de archivos de primera y segunda generación. Con la capacidad elástica del sistema de archivos, puede ajustar dinámicamente la capacidad de sus sistemas de archivos para que coincidan con las necesidades de sus cargas de trabajo.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/increase-file-system-capacity.html["Ajustar la capacidad del sistema de archivos"]
+
+
+
 == 1 de septiembre de 2025
 
 
@@ -371,33 +421,6 @@ https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html[
 Ahora puede clonar un proyecto en la fábrica de cargas de trabajo de BlueXP para Builders. Al clonar un proyecto, Builders crea uno nuevo a partir de una instantánea, con la misma configuración que el original. La clonación es útil para crear rápidamente proyectos similares o para realizar pruebas. Puede montar el nuevo clon del proyecto siguiendo las instrucciones de Builders.
 
 https://docs.netapp.com/us-en/workload-builders/version-projects.html["Administrar versiones de la fábrica de carga de trabajo de BlueXP para proyectos de Builders"]
-
-
-
-== 2025-06-08
-
-
-
-=== Amazon FSX para ONTAP de NetApp
-
-
-
-==== Nuevo análisis bien diseñado y soporte para solucionar problemas
-
-La gestión automática de la capacidad de los sistemas de archivos FSx para ONTAP ahora se incluye como un análisis de configuración en el panel de estado bien diseñado.
-
-Además, Workload Factory ahora permite solucionar los siguientes problemas de configuración:
-
-* Umbral de capacidad de SSD
-* Organización en niveles de los datos
-* Snapshots locales programadas
-* FSx para copias de seguridad de ONTAP
-* Replicación de datos remota
-* Eficiencias del almacenamiento
-* Gestión de la capacidad automática
-
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["Solucionar problemas de configuración"]
 
 
 
