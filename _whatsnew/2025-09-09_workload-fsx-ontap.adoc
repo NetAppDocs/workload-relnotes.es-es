@@ -40,6 +40,6 @@ image:screenshot-manage-snapshots-screen.png["Captura de pantalla que muestra la
 
 === Disminución de la capacidad de almacenamiento SSD disponible
 
-La fábrica de carga de trabajo admite la disminución de la capacidad de la unidad de estado sólido (SSD) de sus sistemas de archivos de primera y segunda generación. Con la capacidad elástica del sistema de archivos, puede ajustar dinámicamente la capacidad de sus sistemas de archivos para que coincidan con las necesidades de sus cargas de trabajo.
+La fábrica de carga de trabajo admite la disminución de la capacidad de la unidad de estado sólido (SSD) de sus sistemas de archivos de segunda generación. Con la capacidad elástica del sistema de archivos, puede ajustar dinámicamente la capacidad de sus sistemas de archivos para que coincidan con las necesidades de sus cargas de trabajo.
 
 link:https://docs.netapp.com/us-en/workload-fsx-ontap/increase-file-system-capacity.html["Ajustar la capacidad del sistema de archivos"]
