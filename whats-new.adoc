@@ -19,6 +19,16 @@ Obtenga información sobre los cambios más recientes en las cargas de trabajo q
 
 
 
+=== Amazon FSX para ONTAP de NetApp
+
+
+
+==== BlueXP workload factory ahora Fábrica de cargas de trabajo de NetApp
+
+BlueXP ha sido renombrado y rediseñado para reflejar mejor el papel que desempeña en la gestión de su infraestructura de datos. Como resultado, la BlueXP workload factory pasó a llamarse Fábrica de carga de trabajo de NetApp .
+
+
+
 === Configuración y administración
 
 
@@ -36,6 +46,62 @@ Ask Me, el asistente de inteligencia artificial de Workload Factory, está integ
 
 
 == 5 de octubre de 2025
+
+
+
+=== Amazon FSX para ONTAP de NetApp
+
+
+
+==== Optimice los ahorros en la calculadora de almacenamiento para Amazon Elastic Block Store (EBS)
+
+Workload Factory puede analizar el uso del rendimiento de EBS y luego sugerir la mejor y más rentable configuración de FSx para ONTAP para que pueda ahorrar más al cambiar a FSx para ONTAP.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/explore-savings.html#explore-savings-for-detected-storage-environments["Explore los ahorros para los entornos de almacenamiento detectados en la consola de Workload Factory"]
+
+
+
+==== Acceso rápido a la pantalla de recursos desde el inventario del sistema de archivos
+
+Puede navegar rápidamente a una pantalla de recursos del sistema de archivos de FSx para ONTAP seleccionando el nombre del sistema de archivos, ahora un hipervínculo, desde el inventario de FSx para ONTAP .
+
+
+
+==== Descubra las relaciones de caché en la consola de Workload Factory
+
+Si tiene relaciones de _caché_ entre el sistema de archivos FSx for ONTAP y otro tipo de almacenamiento ONTAP (sistema local, Cloud Volumes ONTAP y FSx for ONTAP), puede descubrirlas y verlas desde la consola de Workload Factory. Esto le permite comprender mejor los flujos de datos, optimizar la utilización de la memoria caché y mejorar la eficiencia en entornos distribuidos.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/discover-cache-volumes.html["Descubra y visualice las relaciones de caché en la consola de Workload Factory"]
+
+
+
+==== Actualización de análisis bien diseñada
+
+La fábrica de carga de trabajo ahora analiza su FSx para sistemas de archivos ONTAP para la siguiente configuración:
+
+Umbral de utilización de la capacidad de archivo de volumen: verifica si los umbrales de capacidad de archivo están configurados al 80 % o menos. Esto le ayudará a evitar quedarse sin espacio en sus sistemas de archivos.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["Visualice el estado de buena arquitectura de sus sistemas de archivos FSx para ONTAP"]
+
+
+
+===== Mejoras en las acciones para problemas de configuración
+
+Desde la pestaña *Análisis bien diseñado* en el panel de control de un sistema de archivos FSx para ONTAP , en lugar de descartar una configuración completa para un sistema de archivos, también puede seleccionar uno o más volúmenes dentro de un sistema de archivos para reparar, descartar o reactivar.
+
+
+
+==== Notificación adicional para almacenamiento
+
+El servicio de notificación de NetApp Workload Factory incluye la notificación de problemas de configuración bien diseñados semanalmente.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html#notification-types-and-messages["Tipos de notificaciones y mensajes en la documentación de configuración y administración de Workload Factory"]
+
+
+
+==== Los archivos inmutables admiten la eliminación privilegiada
+
+Con esta función, puede configurar el acceso de eliminación privilegiado para archivos inmutables en sus sistemas de archivos FSx para ONTAP . Esto le permite proteger datos críticos contra eliminaciones accidentales o maliciosas y, al mismo tiempo, permitir que los usuarios autorizados anulen el bloqueo y eliminen estos archivos según sea necesario. La habilitación de la eliminación privilegiada está disponible durante la creación del volumen o para volúmenes existentes.
 
 
 
