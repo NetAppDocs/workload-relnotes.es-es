@@ -162,4 +162,12 @@
   <block id="2dd03fc740a72e1c5fc0daf9be122249" category="paragraph">El centro de planificación de cargas de trabajo de VMware le permite ver y administrar su inventario de máquinas virtuales y sus planes de migración desde un solo lugar. Puede cargar y guardar múltiples inventarios de VM de diferentes entornos y comenzar a planificar una migración al servicio AWS EC2 o Amazon Elastic VMware para cualquiera de ellos. También puede crear y guardar planes de migración de AWS EC2 o EVS.</block>
   <block id="420ac911d98022d5289d3f00ff38ea84" category="inline-link">Explorar el centro de planificación de cargas de trabajo de VMware</block>
   <block id="81ee9955f68100a5e460b3f794e65e9b" category="paragraph"><block ref="81ee9955f68100a5e460b3f794e65e9b" category="inline-link-rx"></block></block>
+  <block id="6320af7d92cd5d357460c5cbc5f642a9" category="inline-link-macro">Agregar fuentes de datos a un conector</block>
+  <block id="ea7d4002457b002b29ca2cb9a498c0bc" category="doc">Nueva notificación para Almacenamiento</block>
+  <block id="09ef633d09a9d5e5cf3ab27b167cac1b" category="paragraph">El servicio de notificación de NetApp Workload Factory incluye la notificación de problemas bien diseñados para el almacenamiento.</block>
+  <block id="a640a35e23fdb53d8114aafcadb8064c" category="inline-link-macro">Notificaciones para NetApp Workload Factory</block>
+  <block id="cf1b0a0504b0d60ecb883c780228a1eb" category="paragraph"><block ref="cf1b0a0504b0d60ecb883c780228a1eb" category="inline-link-macro-rx"></block></block>
+  <block id="8d1adece5e8b196b0a88b0589326fdf6" category="section-title">Integración de Ask Me con MCP</block>
+  <block id="979df5bd82476afb53055b0675f703a3" category="paragraph">Ask Me, el asistente de inteligencia artificial de Workload Factory, está integrado con el Protocolo de contexto de modelo (MCP). Al utilizar MCP, Ask Me interactúa de forma segura con entornos externos y consulta herramientas API para brindar respuestas adaptadas a su entorno de almacenamiento específico.</block>
+  <block id="a41dd7aa7d921f9f0881a705d3679e6c" category="section-title">6 de octubre de 2025</block>
 </blocks>

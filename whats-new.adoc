@@ -15,6 +15,26 @@ Obtenga información sobre los cambios más recientes en las cargas de trabajo q
 
 
 
+== 6 de octubre de 2025
+
+
+
+=== Configuración y administración
+
+
+
+==== BlueXP workload factory ahora Fábrica de cargas de trabajo de NetApp
+
+BlueXP ha sido renombrado y rediseñado para reflejar mejor el papel que desempeña en la gestión de su infraestructura de datos. Como resultado, la BlueXP workload factory pasó a llamarse Fábrica de carga de trabajo de NetApp .
+
+
+
+==== Integración de Ask Me con MCP
+
+Ask Me, el asistente de inteligencia artificial de Workload Factory, está integrado con el Protocolo de contexto de modelo (MCP). Al utilizar MCP, Ask Me interactúa de forma segura con entornos externos y consulta herramientas API para brindar respuestas adaptadas a su entorno de almacenamiento específico.
+
+
+
 == 5 de octubre de 2025
 
 
@@ -53,7 +73,7 @@ Con la API de Workload Factory, ahora puede agregar una fuente de datos desde un
 
 link:https://docs.netapp.com/us-en/workload-genai/connector/define-connector.html["Cree un conector de NetApp para Amazon Q Business"]
 
-link:https://docs.netapp.com/us-en/workload-genai/connector/define-connector.html#add-data-sources-to-the-connector["6320af7d92cd5d357460c5cbc5f642a9"]
+link:https://docs.netapp.com/us-en/workload-genai/connector/define-connector.html#add-data-sources-to-the-connector["Agregar fuentes de datos a un conector"]
 
 
 
@@ -70,6 +90,18 @@ link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledg
 Si el modelo de incrustación, chat o reclasificación que eligió tiene configuraciones de inferencia, ahora puede seleccionar un tipo de inferencia. Esto le permite ajustar mejor el rendimiento del chatbot y los requisitos de recursos a sus necesidades.
 
 link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html["Cree una base de conocimientos de GenAI"]
+
+
+
+=== Configuración y administración
+
+
+
+==== Nueva notificación para Almacenamiento
+
+El servicio de notificación de NetApp Workload Factory incluye la notificación de problemas bien diseñados para el almacenamiento.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["Notificaciones para NetApp Workload Factory"]
 
 
 
