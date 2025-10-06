@@ -15,6 +15,20 @@ Obtenga información sobre los cambios más recientes en las cargas de trabajo q
 
 
 
+== 5 de octubre de 2025
+
+
+
+=== Cargas de trabajo de los constructores
+
+
+
+==== BlueXP workload factory ahora Fábrica de cargas de trabajo de NetApp
+
+BlueXP ha sido renombrado y rediseñado para reflejar mejor el papel que desempeña en la gestión de su infraestructura de datos. Como resultado, la BlueXP workload factory pasó a llamarse Fábrica de carga de trabajo de NetApp .
+
+
+
 == 9 de septiembre de 2025
 
 
