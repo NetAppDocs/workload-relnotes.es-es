@@ -19,6 +19,24 @@ Obtenga información sobre los cambios más recientes en las cargas de trabajo q
 
 
 
+=== Cargas de trabajo de
+
+
+
+==== BlueXP workload factory ahora Fábrica de cargas de trabajo de NetApp
+
+BlueXP ha sido renombrado y rediseñado para reflejar mejor el papel que desempeña en la gestión de su infraestructura de datos. Como resultado, la BlueXP workload factory pasó a llamarse Fábrica de carga de trabajo de NetApp .
+
+
+
+==== Presentación del Centro de planificación de cargas de trabajo de VMware
+
+El centro de planificación de cargas de trabajo de VMware le permite ver y administrar su inventario de máquinas virtuales y sus planes de migración desde un solo lugar. Puede cargar y guardar múltiples inventarios de VM de diferentes entornos y comenzar a planificar una migración al servicio AWS EC2 o Amazon Elastic VMware para cualquiera de ellos. También puede crear y guardar planes de migración de AWS EC2 o EVS.
+
+https://docs.netapp.com/us-en/workload-vmware/explore-planning-center.html["Explorar el centro de planificación de cargas de trabajo de VMware"]
+
+
+
 === Cargas de trabajo GenAI
 
 
@@ -312,7 +330,7 @@ https://docs.netapp.com/us-en/workload-vmware/launch-migration-advisor-evs-manua
 
 Ahora puede explorar los ahorros potenciales que obtendrá al migrar sus cargas de trabajo de VMware a Amazon Elastic VMware Service (EVS). La calculadora de ahorros le permite comparar los costos de usar Amazon EVS con y sin Amazon FSx for NetApp ONTAP como almacenamiento subyacente. La calculadora muestra ahorros potenciales en tiempo real a medida que ajusta las características de su entorno.
 
-https://docs.netapp.com/us-en/workload-vmware/calculate-evs-savings.html["Explore los ahorros de Amazon Elastic VMware Service con la BlueXP workload factory"]
+https://docs.netapp.com/us-en/workload-vmware/calculate-evs-savings.html["Explore los ahorros de Amazon Elastic VMware Service con BlueXP Workload Factory"]
 
 
 
