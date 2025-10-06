@@ -1,0 +1,35 @@
+= BlueXP workload factory ahora Fábrica de cargas de trabajo de NetApp
+:allow-uri-read: 
+
+
+
+
+=== BlueXP workload factory ahora Fábrica de cargas de trabajo de NetApp
+
+BlueXP ha sido renombrado y rediseñado para reflejar mejor el papel que desempeña en la gestión de su infraestructura de datos. Como resultado, la BlueXP workload factory pasó a llamarse Fábrica de carga de trabajo de NetApp .
+
+
+
+=== Compatibilidad para agregar orígenes de datos NFS/SMB genéricos en conectores de NetApp para Amazon Q Business
+
+Con la API de Workload Factory, ahora puede agregar una fuente de datos desde un recurso compartido NFSv3, NFSv4 o SMB genérico a un conector de NetApp para Amazon Q Business. Esto le permite incluir archivos almacenados en volúmenes alojados por sistemas de archivos distintos de Amazon FSx for NetApp ONTAP.
+
+link:https://docs.netapp.com/us-en/workload-genai/connector/define-connector.html["Cree un conector de NetApp para Amazon Q Business"]
+
+link:https://docs.netapp.com/us-en/workload-genai/connector/define-connector.html#add-data-sources-to-the-connector["6320af7d92cd5d357460c5cbc5f642a9"]
+
+
+
+=== Configuración avanzada de chat para bases de conocimiento
+
+Ahora puede configurar ajustes de chat avanzados que se aplican al modelo de chat para la base de conocimiento, como la duración de la respuesta, la temperatura, la configuración de razonamiento y más. Algunas de estas configuraciones, como las configuraciones de actualidad y hora de modificación, las configuraciones de recuperación avanzada y el mensaje del sistema, solo están disponibles mediante la API de Workload Factory.
+
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html["Cree una base de conocimientos de GenAI"]
+
+
+
+=== La selección del tipo de inferencia ahora es compatible con modelos de incrustación, chat y reclasificación.
+
+Si el modelo de incrustación, chat o reclasificación que eligió tiene configuraciones de inferencia, ahora puede seleccionar un tipo de inferencia. Esto le permite ajustar mejor el rendimiento del chatbot y los requisitos de recursos a sus necesidades.
+
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html["Cree una base de conocimientos de GenAI"]
