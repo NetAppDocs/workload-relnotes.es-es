@@ -1,13 +1,13 @@
 ---
 indexpage:
-  title: Notas de la versión de fábrica de las cargas de trabajo BlueXP
-  summary: En estas notas de la versión, se describen las mejoras recientes de los
-    servicios de cloud que forman parte de la fábrica de cargas de trabajo de BlueXP .
-  keywords: BlueXP workload factory, release notes, what's new
-  lead: En estas notas de la versión, se describen las mejoras recientes de los servicios
-    de cloud que forman parte de la fábrica de cargas de trabajo de BlueXP .
+  title: Notas de la versión de NetApp Workload Factory
+  summary: Estas notas de la versión describen mejoras recientes en los servicios
+    de nube que forman parte de NetApp Workload Factory.
+  keywords: NetApp Workload Factory, release notes, what's new
+  lead: Estas notas de la versión describen mejoras recientes en los servicios de
+    nube que forman parte de NetApp Workload Factory.
   tiles:
   - title: Novedades
     links:
-    - title: Cambios recientes en el centro de cargas de trabajo de BlueXP
+    - title: Cambios recientes en NetApp Workload Factory
       url: whats-new.html
