@@ -207,4 +207,5 @@
   <block id="d90600b832876e9302411cfab905b9bc" category="section-title">Mejoras en el inventario de bases de datos</block>
   <block id="3772c3dfbcdf91deef3f77333da3ced1" category="paragraph">Desde la pantalla de instancia en el inventario de bases de datos, las opciones para corregir, posponer y descartar un problema de configuración están disponibles para instancias individuales o múltiples de Microsoft SQL Server o para bases de datos individuales o múltiples de Oracle.</block>
   <block id="a0766b901d28d8d972d369d556ae3e10" category="paragraph"><block ref="a0766b901d28d8d972d369d556ae3e10" category="inline-link-macro-rx"></block></block>
+  <block id="9d4ab4efb1eff322f698ff725220f0c6" category="paragraph">El servicio de notificación de NetApp Workload Factory incluye la notificación para la gestión automática de la capacidad de almacenamiento.</block>
 </blocks>

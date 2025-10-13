@@ -289,6 +289,18 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/increase-file-system-capac
 
 
 
+=== Configuración y administración
+
+
+
+==== Nueva notificación para Almacenamiento
+
+El servicio de notificación de NetApp Workload Factory incluye la notificación para la gestión automática de la capacidad de almacenamiento.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["Notificaciones para NetApp Workload Factory"]
+
+
+
 == 1 de septiembre de 2025
 
 
