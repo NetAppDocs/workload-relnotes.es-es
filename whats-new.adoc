@@ -289,6 +289,14 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/increase-file-system-capac
 
 
 
+==== Nueva notificación para Almacenamiento
+
+El servicio de notificación de fábrica de carga de trabajo incluye notificaciones de éxito y error para la gestión automática de la capacidad de almacenamiento.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["Notificaciones para la BlueXP workload factory"^]
+
+
+
 === Configuración y administración
 
 
