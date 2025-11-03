@@ -100,6 +100,66 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-cyber-vault.html["C
 
 
 
+=== Cargas de trabajo de base de datos
+
+
+
+==== Mejoras en el panel de control
+
+El nuevo panel de control está optimizado y mejor organizado para ofrecer una visión general más clara de los recursos de la base de datos y las funcionalidades clave de Workload Factory en una sola pantalla; una tarjeta destaca los recursos de la base de datos, otra proporciona información sobre la puntuación y el análisis de la arquitectura, otra muestra el análisis de errores, dos muestran el coste mensual y los posibles ahorros, y una tercera muestra información sobre los entornos de pruebas.
+
+
+
+==== Análisis bien diseñado para Oracle
+
+El análisis, cuidadosamente diseñado, incluye las siguientes evaluaciones y correcciones para las configuraciones de Oracle:
+
+* Sistema operativo de configuración de almacenamiento que utiliza el protocolo NFS: evalúa y corrige problemas de configuración con la configuración NFS para implementaciones de bases de datos Oracle existentes.
+* Sistema operativo de configuración de almacenamiento que utiliza el protocolo iSCSI: evalúa y corrige problemas de configuración con la configuración iSCSI para implementaciones de bases de datos Oracle existentes.
+* Sistema operativo de configuración de almacenamiento que utiliza Automatic Storage Management (ASM): evalúa los problemas de configuración con la configuración de ASM para las implementaciones de bases de datos Oracle existentes.
+
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Implementar configuraciones de base de datos bien diseñadas en Workload Factory"]
+
+
+
+==== Cambios en los permisos de Workload Factory para bases de datos
+
+Workload Factory for Databases actualizó las políticas de permisos para brindar mayor claridad sobre lo que se requiere para acciones específicas y mayor granularidad para seleccionar solo los permisos necesarios. Al agregar credenciales, tendrá tres opciones de permisos para elegir en lugar del modelo de permisos anterior que era de _solo lectura_ y _lectura/escritura_. El nuevo modelo de permisos divide las políticas de permisos de la siguiente manera:
+
+* Visualización, planificación y análisis: consulte el inventario de recursos de la base de datos, conozca el estado de sus recursos, revise el análisis de la arquitectura de sus configuraciones de base de datos, obtenga análisis de registros de errores y explore los ahorros.
+* Operaciones y corrección: realice tareas operativas para los recursos de su base de datos y solucione problemas de configuración de la base de datos y del sistema de almacenamiento de archivos FSx para ONTAP subyacente.
+* _Creación de hosts de base de datos_: implementar los hosts de base de datos y el sistema de archivos FSx subyacente para el almacenamiento del sistema de archivos ONTAP de acuerdo con las mejores prácticas.
+
+
+Al agregar credenciales, puede seleccionar una o más de estas políticas de permisos según el nivel de acceso que desee proporcionar a Workload Factory for Databases.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html["Referencia de permisos de Workload Factory"^]
+
+
+
+==== Se agregó una pantalla de panel de control bien diseñada.
+
+Se ha añadido una nueva pantalla de panel de control _Bien diseñado_ al menú Bases de datos. Desde esta pantalla, puede obtener una vista agregada del estado de configuración de toda su infraestructura de bases de datos.
+
+
+
+==== Protección de edición para implementaciones de bases de datos en NetApp Backup and Recovery
+
+Desde la consola de Workload Factory, puede seleccionar editar la protección de un recurso protegido y, a continuación, se le redirigirá a Copia de seguridad y recuperación en la NetApp Console , donde podrá modificar la política o la programación de protección.
+
+link:https://docs.netapp.com/us-en/workload-databases/protect-sql-server.html["Protección de edición para implementaciones de bases de datos"]
+
+
+
+==== Filtrado de errores por etiquetas disponibles para la función de análisis de errores
+
+Puede filtrar y ver los registros de errores de Microsoft SQL Server por etiquetas orientadas a la infraestructura cuando utilice la función de análisis de errores en Workload Factory. Esta mejora te ayuda a clasificar, solucionar y resolver problemas rápidamente.
+
+link:https://docs.netapp.com/us-en/workload-databases/analyze-error-logs.html["Analiza los registros de errores con filtrado por etiquetas."^]
+
+
+
 == 6 de octubre de 2025
 
 
@@ -156,7 +216,7 @@ Desde la pantalla de instancia en el inventario de bases de datos, las opciones 
 
 
 
-==== Optimice los ahorros en la calculadora de almacenamiento para Amazon Elastic Block Store (EBS)
+==== Optimizar el ahorro en función del uso de Amazon Elastic Block Store (EBS)
 
 Workload Factory puede analizar el uso del rendimiento de EBS y luego sugerir la mejor y más rentable configuración de FSx para ONTAP para que pueda ahorrar más al cambiar a FSx para ONTAP.
 
