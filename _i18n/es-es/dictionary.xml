@@ -161,18 +161,15 @@
   <block id="13c47466230be92e5e3aa6588809aeac" category="list-text">Precargar un volumen de caché</block>
   <block id="52fc772a9179443c2c2ba75c94518e8f" category="list-text">Eliminar un volumen de caché</block>
   <block id="7826298c658de05b150f4b10fc144ea2" category="inline-link-macro">Administrar volúmenes de caché</block>
-  <block id="9223fd31c285815a2492912ef49bdbbb" category="paragraph"><block ref="9223fd31c285815a2492912ef49bdbbb" category="inline-link-macro-rx"></block></block>
   <block id="7c0216aac73557cb5845492aebaeab8a" category="section-title">Gestión automática de inodos disponible</block>
   <block id="31dcfbe8cd69ef4085402c0f104858cd" category="paragraph">Puede habilitar la administración automática de inodos sin necesidad de habilitar la administración automática de capacidad.</block>
   <block id="71e9d4ada3104308778ade0ba22de28d" category="inline-link-macro">Habilitar la gestión automática de inodos</block>
-  <block id="c38d477b997e2c8216a0b40479691f29" category="paragraph"><block ref="c38d477b997e2c8216a0b40479691f29" category="inline-link-macro-rx"></block></block>
   <block id="22fcde27b4672d89a21e10e9be49cdee" category="section-title">Configuración de umbral de advertencia para el uso de capacidad e inodos</block>
   <block id="cc72208ba5327054f030d802d324477c" category="inline-link-macro">Servicio de notificaciones de NetApp Workload Factory</block>
   <block id="f1ff66cdf2af497189be6ebd8f6e5fcd" category="paragraph">Se ofrecen avisos de umbral tanto para la capacidad como para el uso de inodos. Puede configurar estos umbrales al habilitar la administración automática de capacidad o inodos. Para usar esta configuración, deberá configurar las notificaciones mediante<block ref="52b0820c6dc6b8d67591785df8b1a634" category="inline-link-macro-rx"></block> .</block>
   <block id="76170a72d0c8b98ef012c3b57dc6dbe8" category="section-title">Reducción del tamaño del volumen disponible</block>
   <block id="26b07c7813c6a780d507b42d999b4792" category="paragraph">Puede reducir el tamaño de los volúmenes NFS y SMB/CIFS en NetApp Workload Factory. Esta función permite una mejor gestión de los recursos de almacenamiento, ya que permite reducir el tamaño de los volúmenes que ya no se necesitan en su capacidad actual.</block>
   <block id="fcbcb93b74f64a75b2b710bb8328b4e0" category="inline-link-macro">Disminuir la capacidad de un volumen</block>
-  <block id="e1b7073be30c28b07f5c847e0a1b56ed" category="paragraph"><block ref="e1b7073be30c28b07f5c847e0a1b56ed" category="inline-link-macro-rx"></block></block>
   <block id="f09c98d35d5b89f3f833636d36ca3283" category="section-title">FSx mejorado para el estado de los recursos de ONTAP</block>
   <block id="9d017083ba2041742b1b85bbb1a846c4" category="paragraph">Workload Factory ha mejorado el estado de recurso "mal configurado" para incluir una explicación del problema real del recurso.</block>
   <block id="48707dc4d2e44fe9cf85834f27b932e8" category="paragraph">Workload Factory analiza sus sistemas de archivos FSx para ONTAP para las siguientes configuraciones:</block>
@@ -189,7 +186,6 @@
   <block id="c4a6983274098ca737ffda27862010ea" category="section-title">FSx para soporte de la bóveda cibernética de ONTAP</block>
   <block id="4a3b498d2b39740971d75ebbab434a8f" category="paragraph">Puede crear una bóveda cibernética utilizando FSx para ONTAP como origen o destino en la arquitectura de la bóveda cibernética. Las bóvedas cibernéticas proporcionan un entorno seguro y aislado para almacenar datos críticos, protegiéndolos del ransomware y otras amenazas cibernéticas.</block>
   <block id="4bc6d1e741e4c817c4985300ec66b77f" category="inline-link-macro">Configure una bóveda cibernética con FSx para ONTAP</block>
-  <block id="545bd81803e837dd73a7bceb1a798b8a" category="paragraph"><block ref="545bd81803e837dd73a7bceb1a798b8a" category="inline-link-macro-rx"></block></block>
   <block id="2afa479317acb4455a0a649aab2944d1" category="section-title">2 de noviembre de 2025</block>
   <block id="58abe9f5fbda29b547f9ab2de50f2332" category="section-title">Optimizar el ahorro en función del uso de Amazon Elastic Block Store (EBS)</block>
   <block id="3cab156afe8725e62725f4973a3c9949" category="doc">Mejoras en el panel de control</block>
@@ -214,4 +210,18 @@
   <block id="b79d711ddf4eb26397c99031692c7a26" category="paragraph">Puede filtrar y ver los registros de errores de Microsoft SQL Server por etiquetas orientadas a la infraestructura cuando utilice la función de análisis de errores en Workload Factory. Esta mejora te ayuda a clasificar, solucionar y resolver problemas rápidamente.</block>
   <block id="c9c975f5587642db7fde90312ee94825" category="inline-link-macro">Analiza los registros de errores con filtrado por etiquetas.</block>
   <block id="99d2df171fdf12824fa9334fd19cf105" category="paragraph"><block ref="99d2df171fdf12824fa9334fd19cf105" category="inline-link-macro-rx"></block></block>
+  <block id="8763b09bbcb06ec11c1d0d3331ba74f4" category="paragraph"><block ref="8763b09bbcb06ec11c1d0d3331ba74f4" category="inline-link-macro-rx"></block></block>
+  <block id="8cc5e5335040870d41183130dad2a0a6" category="paragraph"><block ref="8cc5e5335040870d41183130dad2a0a6" category="inline-link-macro-rx"></block></block>
+  <block id="6b49a1e6e88960820791afdda16a063c" category="paragraph"><block ref="6b49a1e6e88960820791afdda16a063c" category="inline-link-macro-rx"></block></block>
+  <block id="7999c939951d1cfce0556df15a76a345" category="paragraph"><block ref="7999c939951d1cfce0556df15a76a345" category="inline-link-macro-rx"></block></block>
+  <block id="1aa6907369c233df8f3cc388c26b9890" category="paragraph"><block ref="1aa6907369c233df8f3cc388c26b9890" category="inline-link-macro-rx"></block></block>
+  <block id="a8652a10fdfc1f87b6bf65a1067a7fd9" category="doc">Actualización de permisos</block>
+  <block id="27d373ed8bf1b1a511ec6680dde4e448" category="paragraph">En esta versión, hemos realizado actualizaciones significativas en las políticas de permisos para las cargas de trabajo de almacenamiento, bases de datos y VMware para mejorar la seguridad y el control del usuario. Puedes personalizar la configuración de permisos de forma más detallada, añadiendo o eliminando permisos según te convenga.</block>
+  <block id="6ab8e8b21fd457b68a33554bd8f64377" category="inline-link-macro">Referencia de permisos para Workload Factory</block>
+  <block id="f5baf95dfead3e34e749c6d871873a72" category="paragraph"><block ref="f5baf95dfead3e34e749c6d871873a72" category="inline-link-macro-rx"></block></block>
+  <block id="7723c7d7d2f2eb53098d3c771a7b7854" category="paragraph">El servicio de notificaciones de NetApp Workload Factory incluye la notificación para la gestión automática de inodos para almacenamiento.</block>
+  <block id="ef97320a660fe1bab5cd9dea0fdf90c3" category="section-title">Advertencias de umbral para la gestión automática de capacidad e inodos</block>
+  <block id="84ecff705434b96ba77d72c40db81a43" category="paragraph">Se puede configurar la gestión automática de capacidad e inodos para el almacenamiento con un umbral de advertencia que activa una notificación del servicio de notificaciones de Workload Factory. Para utilizar esta función, primero debe habilitar el servicio de notificaciones de Workload Factory.</block>
+  <block id="c9222d8b9aefb8ef9111967299e54ea0" category="inline-link-macro">Configurar notificaciones para NetApp Workload Factory</block>
+  <block id="ab64aae70d26185cca8d6c5afc54d185" category="paragraph"><block ref="ab64aae70d26185cca8d6c5afc54d185" category="inline-link-macro-rx"></block></block>
 </blocks>
