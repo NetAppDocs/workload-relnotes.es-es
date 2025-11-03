@@ -15,6 +15,91 @@ Obtenga información sobre los cambios más recientes en las cargas de trabajo q
 
 
 
+== 2 de noviembre de 2025
+
+
+
+=== Amazon FSX para ONTAP de NetApp
+
+
+
+==== Administración de volúmenes de caché
+
+Puede realizar las siguientes operaciones de administración de volúmenes de caché desde la consola de Workload Factory:
+
+* Edita el nombre de la caché
+* Aumentar la capacidad de un volumen de caché
+* Edite la ruta de montaje o la política de exportación para un volumen de caché.
+* Cambie el método o modo de almacenamiento en caché para un volumen de caché.
+* Precargar un volumen de caché
+* Eliminar un volumen de caché
+
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-cache-volumes.html["Administrar volúmenes de caché"^]
+
+
+
+==== Gestión automática de inodos disponible
+
+Puede habilitar la administración automática de inodos sin necesidad de habilitar la administración automática de capacidad.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/enable-auto-capacity-management.html["Habilitar la gestión automática de inodos"^]
+
+
+
+==== Configuración de umbral de advertencia para el uso de capacidad e inodos
+
+Se ofrecen avisos de umbral tanto para la capacidad como para el uso de inodos. Puede configurar estos umbrales al habilitar la administración automática de capacidad o inodos. Para usar esta configuración, deberá configurar las notificaciones mediantelink:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["Servicio de notificaciones de NetApp Workload Factory"^] .
+
+
+
+==== Reducción del tamaño del volumen disponible
+
+Puede reducir el tamaño de los volúmenes NFS y SMB/CIFS en NetApp Workload Factory. Esta función permite una mejor gestión de los recursos de almacenamiento, ya que permite reducir el tamaño de los volúmenes que ya no se necesitan en su capacidad actual.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/adjust-volume-capacity.html["Disminuir la capacidad de un volumen"^]
+
+
+
+==== FSx mejorado para el estado de los recursos de ONTAP
+
+Workload Factory ha mejorado el estado de recurso "mal configurado" para incluir una explicación del problema real del recurso.
+
+
+
+==== Actualizaciones de análisis bien diseñadas
+
+Workload Factory analiza sus sistemas de archivos FSx para ONTAP para las siguientes configuraciones:
+
+* Utilización de volumen casi completa: comprueba si algún volumen está utilizando el 80% o más de su capacidad de archivos. Esto le ayuda a identificar volúmenes que pueden necesitar capacidad adicional.
+* Acceso no autorizado a volúmenes: comprueba si se puede acceder a un volumen iSCSI mediante una ruta de montaje NFS o SMB/CIFS y permite eliminar el acceso no autorizado al volumen para evitar riesgos de seguridad.
+
+
+
+
+==== Cambios en los permisos de Workload Factory para almacenamiento
+
+Workload Factory ofrece mayor claridad sobre los permisos que requiere para acciones específicas y un mayor nivel de detalle para seleccionar solo los permisos que necesita. Al agregar credenciales, tendrá tres opciones de permisos para elegir en lugar del modelo de permisos anterior que era de _solo lectura_ y _lectura/escritura_. El nuevo modelo de permisos divide las políticas de permisos de la siguiente manera:
+
+* _Visualización, planificación y análisis_: Visualice los sistemas de archivos FSx para ONTAP , conozca el estado del sistema, obtenga un análisis bien diseñado para sus sistemas y explore las posibilidades de ahorro.
+* _Operaciones y corrección_: Realice tareas operativas como ajustar la capacidad del sistema de archivos y solucionar problemas en las configuraciones de su sistema de archivos.
+* _Creación y eliminación de sistemas de archivos_: Crear y eliminar sistemas de archivos FSx para ONTAP y máquinas virtuales de almacenamiento.
+
+
+Al agregar credenciales, puede seleccionar una o más de estas políticas de permisos según el nivel de acceso que desee proporcionar a Workload Factory.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html["Referencia de permisos de Workload Factory"^]
+
+
+
+==== FSx para soporte de la bóveda cibernética de ONTAP
+
+Puede crear una bóveda cibernética utilizando FSx para ONTAP como origen o destino en la arquitectura de la bóveda cibernética. Las bóvedas cibernéticas proporcionan un entorno seguro y aislado para almacenar datos críticos, protegiéndolos del ransomware y otras amenazas cibernéticas.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-cyber-vault.html["Configure una bóveda cibernética con FSx para ONTAP"^]
+
+
+
 == 6 de octubre de 2025
 
 
@@ -370,160 +455,3 @@ La BlueXP backup and recovery le permite realizar copias de seguridad, restaurar
 link:https://docs.netapp.com/us-en/workload-databases/protect-sql-server.html["Aprenda a proteger las cargas de trabajo de Microsoft SQL Server a través de la consola de fábrica de cargas de trabajo"] .
 
 Para obtener detalles sobre la BlueXP backup and recovery, consultelink:https://docs.netapp.com/us-en/bluexp-backup-recovery/br-use-mssql-protect-overview.html["Proteja la descripción general de las cargas de trabajo de Microsoft SQL con la BlueXP backup and recovery"^] .
-
-
-
-== 04 de agosto de 2025
-
-
-
-=== Cargas de trabajo de base de datos
-
-
-
-==== Un análisis bien diseñado incluye la validación de clústeres de alta disponibilidad
-
-El análisis bien diseñado ahora incluye validación para clústeres de alta disponibilidad. Esta validación verifica todas las configuraciones relacionadas con el clúster desde el lado del servidor, incluida la disponibilidad y configuración del disco en ambos nodos, la configuración del clúster de Windows y la preparación para la conmutación por error. Esto garantiza que el clúster de Windows esté configurado correctamente y pueda conmutar por error con éxito cuando sea necesario.
-
-link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Implementar configuraciones de base de datos bien diseñadas en la fábrica de carga de trabajo"]
-
-
-
-==== Menú multinivel disponible para instancias
-
-La consola de fábrica de carga de trabajo ahora incluye un menú de varios niveles para instancias. Este cambio proporciona una estructura de navegación más organizada e intuitiva para administrar instancias. Las opciones de menú para la administración de instancias incluyen ver el panel de instancias, ver bases de datos, crear una base de datos y crear un clon de espacio aislado.
-
-image:manage-instance-table-menu.png["Una captura de pantalla del menú de la tabla de instancias con una estructura de menú de varios niveles. Seleccione el menú de la tabla de instancias y luego administre la instancia para ver bases de datos, crear una base de datos y crear un clon de espacio aislado."]
-
-
-
-==== Nueva opción de autenticación para explorar ahorros
-
-Cuando el `NT Authority\SYSTEM` Si el usuario no tiene permisos suficientes en Microsoft SQL Server, puede autenticarse con credenciales de SQL Server o agregar los permisos de SQL Server faltantes a `NT Authority\SYSTEM` .
-
-link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["Explore los ahorros potenciales para sus entornos de bases de datos con Amazon FSx for NetApp ONTAP"]
-
-
-
-== 03 de agosto de 2025
-
-
-
-=== Amazon FSX para ONTAP de NetApp
-
-
-
-==== Mejoras en la pestaña de relaciones de replicación
-
-Hemos agregado varias columnas nuevas a la tabla de relaciones de replicación para brindarle más información sobre sus relaciones de replicación en la pestaña *Relaciones de replicación*. La tabla ahora incluye las siguientes columnas:
-
-* Política de SnapMirror
-* Sistema de archivos fuente
-* Sistema de archivos de destino
-* Estado de la relación
-* Última hora de transferencia
-
-
-
-
-==== Mejoras en la protección autónoma contra ransomware de NetApp con IA (ARP/AI)
-
-Esta versión presenta el término actualizado "NetApp Autonomous Ransomware Protection con IA (ARP/AI)" para reflejar mejor la integración de la inteligencia artificial en nuestras capacidades de protección contra ransomware.
-
-Además, se han realizado las siguientes mejoras en ARP/AI:
-
-* ARP/AI a nivel de volumen: ahora puede habilitar ARP/AI a nivel de volumen, lo que le permite proteger volúmenes específicos dentro de sus sistemas de archivos FSx para ONTAP .
-* Creación automática de instantáneas: puede configurar la política ARP/AI para tomar instantáneas automáticas y definir con qué frecuencia se toman instantáneas para volúmenes con ARP/AI habilitado, lo que mejora su estrategia de protección de datos.
-* Instantáneas inmutables: ARP/AI ahora admite instantáneas inmutables, que no se pueden eliminar ni modificar, lo que proporciona una capa adicional de seguridad contra ataques de ransomware.
-* Detección: incluye varios métodos de detección, como alta tasa de datos de entropía a nivel de volumen, tasa de creación de archivos, tasa de cambio de nombre de archivos, tasa de eliminación de archivos, análisis de comportamiento y extensiones de archivo nunca antes vistas que ayudan a detectar anomalías y posibles ataques de ransomware.
-
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/ransomware-protection.html["Proteja sus datos con la protección autónoma contra ransomware con IA (ARP/AI) de NetApp"]
-
-
-
-==== Actualizaciones de análisis bien diseñadas
-
-La fábrica de carga de trabajo ahora analiza su FSx para sistemas de archivos ONTAP para las siguientes configuraciones:
-
-* Confiabilidad de los datos de retención a largo plazo: verifica si las etiquetas asignadas a la política de instantáneas del volumen de origen son idénticas a las etiquetas asignadas a la política de retención a largo plazo. Cuando las etiquetas son idénticas, la replicación de datos es confiable entre los volúmenes de origen y de destino.
-* Protección autónoma contra ransomware con IA (ARP/AI) de NetApp : comprueba si ARP/AI está habilitado en sus sistemas de archivos. Esta función le ayuda a detectar y recuperarse de ataques de ransomware.
-
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["Visualice el estado de buena arquitectura de sus sistemas de archivos FSx para ONTAP"]
-
-
-
-==== Descartar una configuración del análisis bien diseñado
-
-Ahora puede descartar una o más configuraciones del análisis bien diseñado. Esto le permite ignorar configuraciones específicas que no desea abordar en este momento.
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["Descartar una configuración del análisis bien diseñado"]
-
-
-
-==== Compatibilidad de Terraform con la creación de enlaces
-
-Ahora puede usar Terraform desde Codebox para crear un enlace para la asociación con un sistema de archivos FSx para ONTAP . Esta funcionalidad es para los usuarios que crean enlaces manualmente.
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-link.html["Conéctese a un sistema de archivos FSx para ONTAP con un enlace Lambda"]
-
-
-
-==== Nueva compatibilidad regional para explorar ahorros en almacenamiento
-
-Las siguientes nuevas regiones ahora son compatibles para explorar ahorros para Amazon Elastic Block Store (EBS), FSx para Windows File Server y Elastic File Systems (EFS):
-
-* México
-* Tailandia
-
-
-
-
-==== Mejoras en la creación y gestión de recursos compartidos SMB/CIFS
-
-Ahora puede crear recursos compartidos SMB/CIFS que apunten a directorios dentro de un volumen. Dentro del volumen, podrás ver qué recursos compartidos existen, a dónde apuntan y los permisos otorgados a usuarios y grupos específicos.
-
-Para los volúmenes de protección de datos, el flujo de creación de un recurso compartido SMB/CIFS ahora incluye la creación de una ruta de unión al volumen para fines de montaje.
-
-link:https://review.docs.netapp.com/us-en/workload-fsx-ontap_grogu-5684-wa-dismiss/manage-cifs-share.html#create-a-cifs-share-for-a-volume["Crear un recurso compartido CIFS para un volumen"]
-
-
-
-=== Cargas de trabajo de
-
-
-
-==== Soporte mejorado del asesor de migración para Amazon Elastic VMWare Service
-
-NetApp Workload Factory ahora admite la implementación y el montaje automáticos de su sistema de archivos Amazon FSx for NetApp ONTAP . Esto le permite comenzar a implementar sus máquinas virtuales en FSx para sistemas de archivos ONTAP cuando se complete la migración al entorno de Amazon EVS.
-
-https://docs.netapp.com/us-en/workload-vmware/launch-migration-advisor-evs-manual.html["Cree un plan de implementación para Amazon EVS utilizando el asesor de migración"]
-
-
-
-==== Calcule el ahorro de costos al migrar a Amazon Elastic VMware Service
-
-Ahora puede explorar los ahorros potenciales que obtendrá al migrar sus cargas de trabajo de VMware a Amazon Elastic VMware Service (EVS). La calculadora de ahorros le permite comparar los costos de usar Amazon EVS con y sin Amazon FSx for NetApp ONTAP como almacenamiento subyacente. La calculadora muestra ahorros potenciales en tiempo real a medida que ajusta las características de su entorno.
-
-https://docs.netapp.com/us-en/workload-vmware/calculate-evs-savings.html["Explore los ahorros de Amazon Elastic VMware Service con BlueXP Workload Factory"]
-
-
-
-=== Cargas de trabajo GenAI
-
-
-
-==== Almacenamiento seguro para resultados de datos estructurados
-
-Si los resultados de la consulta del chatbot contienen datos estructurados, GenAI puede almacenar los resultados en un bucket de Amazon S3. Cuando estos resultados se almacenan en un bucket S3, puedes descargarlos utilizando el enlace de descarga dentro de la sesión de chat.
-
-link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html["Cree una base de conocimientos de GenAI"]
-
-
-
-==== Disponibilidad del servidor MCP
-
-NetApp ahora proporciona un servidor de Protocolo de contexto de modelo (MCP) con NetApp Workload Factory para GenAI. Puede instalar el servidor localmente para permitir que los clientes MCP externos descubran y recuperen resultados de consultas de una base de conocimiento GenAI.
-
-link:https://github.com/NetApp/mcp/tree/main/NetApp-KnowledgeBase-MCP-server["Servidor MCP GenAI de NetApp Workload Factory"^]

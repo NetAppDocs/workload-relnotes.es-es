@@ -1,0 +1,80 @@
+= Administración de volúmenes de caché
+:allow-uri-read: 
+
+
+
+
+=== Administración de volúmenes de caché
+
+Puede realizar las siguientes operaciones de administración de volúmenes de caché desde la consola de Workload Factory:
+
+* Edita el nombre de la caché
+* Aumentar la capacidad de un volumen de caché
+* Edite la ruta de montaje o la política de exportación para un volumen de caché.
+* Cambie el método o modo de almacenamiento en caché para un volumen de caché.
+* Precargar un volumen de caché
+* Eliminar un volumen de caché
+
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-cache-volumes.html["Administrar volúmenes de caché"^]
+
+
+
+=== Gestión automática de inodos disponible
+
+Puede habilitar la administración automática de inodos sin necesidad de habilitar la administración automática de capacidad.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/enable-auto-capacity-management.html["Habilitar la gestión automática de inodos"^]
+
+
+
+=== Configuración de umbral de advertencia para el uso de capacidad e inodos
+
+Se ofrecen avisos de umbral tanto para la capacidad como para el uso de inodos. Puede configurar estos umbrales al habilitar la administración automática de capacidad o inodos. Para usar esta configuración, deberá configurar las notificaciones mediantelink:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["Servicio de notificaciones de NetApp Workload Factory"^] .
+
+
+
+=== Reducción del tamaño del volumen disponible
+
+Puede reducir el tamaño de los volúmenes NFS y SMB/CIFS en NetApp Workload Factory. Esta función permite una mejor gestión de los recursos de almacenamiento, ya que permite reducir el tamaño de los volúmenes que ya no se necesitan en su capacidad actual.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/adjust-volume-capacity.html["Disminuir la capacidad de un volumen"^]
+
+
+
+=== FSx mejorado para el estado de los recursos de ONTAP
+
+Workload Factory ha mejorado el estado de recurso "mal configurado" para incluir una explicación del problema real del recurso.
+
+
+
+=== Actualizaciones de análisis bien diseñadas
+
+Workload Factory analiza sus sistemas de archivos FSx para ONTAP para las siguientes configuraciones:
+
+* Utilización de volumen casi completa: comprueba si algún volumen está utilizando el 80% o más de su capacidad de archivos. Esto le ayuda a identificar volúmenes que pueden necesitar capacidad adicional.
+* Acceso no autorizado a volúmenes: comprueba si se puede acceder a un volumen iSCSI mediante una ruta de montaje NFS o SMB/CIFS y permite eliminar el acceso no autorizado al volumen para evitar riesgos de seguridad.
+
+
+
+
+=== Cambios en los permisos de Workload Factory para almacenamiento
+
+Workload Factory ofrece mayor claridad sobre los permisos que requiere para acciones específicas y un mayor nivel de detalle para seleccionar solo los permisos que necesita. Al agregar credenciales, tendrá tres opciones de permisos para elegir en lugar del modelo de permisos anterior que era de _solo lectura_ y _lectura/escritura_. El nuevo modelo de permisos divide las políticas de permisos de la siguiente manera:
+
+* _Visualización, planificación y análisis_: Visualice los sistemas de archivos FSx para ONTAP , conozca el estado del sistema, obtenga un análisis bien diseñado para sus sistemas y explore las posibilidades de ahorro.
+* _Operaciones y corrección_: Realice tareas operativas como ajustar la capacidad del sistema de archivos y solucionar problemas en las configuraciones de su sistema de archivos.
+* _Creación y eliminación de sistemas de archivos_: Crear y eliminar sistemas de archivos FSx para ONTAP y máquinas virtuales de almacenamiento.
+
+
+Al agregar credenciales, puede seleccionar una o más de estas políticas de permisos según el nivel de acceso que desee proporcionar a Workload Factory.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html["Referencia de permisos de Workload Factory"^]
+
+
+
+=== FSx para soporte de la bóveda cibernética de ONTAP
+
+Puede crear una bóveda cibernética utilizando FSx para ONTAP como origen o destino en la arquitectura de la bóveda cibernética. Las bóvedas cibernéticas proporcionan un entorno seguro y aislado para almacenar datos críticos, protegiéndolos del ransomware y otras amenazas cibernéticas.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-cyber-vault.html["Configure una bóveda cibernética con FSx para ONTAP"^]

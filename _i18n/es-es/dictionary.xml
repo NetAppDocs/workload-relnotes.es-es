@@ -30,63 +30,11 @@
   <block id="71a6e13d9246eebc4c665bd6856ef62e" category="paragraph"><block ref="71a6e13d9246eebc4c665bd6856ef62e" category="inline-link-macro-rx"></block></block>
   <block id="959d33fa69dccfa15152c69ba90f9d41" category="doc">Cargas de trabajo de los constructores</block>
   <block id="e64998710319712d47612cc187a1dc35" category="inline-link">Cree un plan de implementación para Amazon EVS utilizando el asesor de migración</block>
-  <block id="e38866fbf1fd8067b38b878041582246" category="paragraph"><block ref="e38866fbf1fd8067b38b878041582246" category="inline-link-rx"></block></block>
-  <block id="37b002845528ac0296b86d28bb71e5a5" category="inline-link-macro">Conéctese a un sistema de archivos FSx para ONTAP con un enlace Lambda</block>
-  <block id="bdd7f454c54673987f53c40f8e5b8072" category="paragraph"><block ref="bdd7f454c54673987f53c40f8e5b8072" category="inline-link-macro-rx"></block></block>
   <block id="c4363ade7c2d208d79dee9b60bc51922" category="inline-link-macro">Implementar configuraciones de base de datos bien diseñadas en la fábrica de carga de trabajo</block>
   <block id="a05724b342c36062e480732f660ae9d4" category="paragraph"><block ref="a05724b342c36062e480732f660ae9d4" category="inline-link-macro-rx"></block></block>
-  <block id="6a6ae8005c209a1567f9003ea9e5cebe" category="doc">Mejoras en la pestaña de relaciones de replicación</block>
-  <block id="c6a6fda1561189188099a8444886e4b7" category="paragraph">Hemos agregado varias columnas nuevas a la tabla de relaciones de replicación para brindarle más información sobre sus relaciones de replicación en la pestaña *Relaciones de replicación*. La tabla ahora incluye las siguientes columnas:</block>
-  <block id="932acf34d9bec3ecdd131ec5df85300a" category="list-text">Política de SnapMirror</block>
-  <block id="7d93b9eb1786d863bc7d27df5febb919" category="list-text">Sistema de archivos fuente</block>
-  <block id="144b2facd92022aa813f8fba914dfa05" category="list-text">Sistema de archivos de destino</block>
-  <block id="e56f83171e12921713ed939e1572ddaf" category="list-text">Estado de la relación</block>
-  <block id="f1b110a50dd5467d821019e318f363a2" category="list-text">Última hora de transferencia</block>
-  <block id="8fc34772d0100e115cdb03c17176f5bc" category="section-title">Mejoras en la protección autónoma contra ransomware de NetApp con IA (ARP/AI)</block>
-  <block id="5cd47e76c4117ef90e78977edb2349c2" category="paragraph">Esta versión presenta el término actualizado "NetApp Autonomous Ransomware Protection con IA (ARP/AI)" para reflejar mejor la integración de la inteligencia artificial en nuestras capacidades de protección contra ransomware.</block>
-  <block id="d0ab441d90a6563b6caf3b18a96b121c" category="paragraph">Además, se han realizado las siguientes mejoras en ARP/AI:</block>
-  <block id="19f6fcd2887386ba088303687102d4fd" category="list-text">ARP/AI a nivel de volumen: ahora puede habilitar ARP/AI a nivel de volumen, lo que le permite proteger volúmenes específicos dentro de sus sistemas de archivos FSx para ONTAP .</block>
-  <block id="ef292cf56fa95b6bcb87c8b89a0273e1" category="list-text">Creación automática de instantáneas: puede configurar la política ARP/AI para tomar instantáneas automáticas y definir con qué frecuencia se toman instantáneas para volúmenes con ARP/AI habilitado, lo que mejora su estrategia de protección de datos.</block>
-  <block id="7ebe1fb355350f028323680fa93854c0" category="list-text">Instantáneas inmutables: ARP/AI ahora admite instantáneas inmutables, que no se pueden eliminar ni modificar, lo que proporciona una capa adicional de seguridad contra ataques de ransomware.</block>
-  <block id="dc86b2499972aa0a3c70449e20618ca2" category="list-text">Detección: incluye varios métodos de detección, como alta tasa de datos de entropía a nivel de volumen, tasa de creación de archivos, tasa de cambio de nombre de archivos, tasa de eliminación de archivos, análisis de comportamiento y extensiones de archivo nunca antes vistas que ayudan a detectar anomalías y posibles ataques de ransomware.</block>
-  <block id="0b3b06fcd7ae5de19a9937c92e9669fe" category="inline-link-macro">Proteja sus datos con la protección autónoma contra ransomware con IA (ARP/AI) de NetApp</block>
-  <block id="b4b81f7655965069dc9b6d72c40d3191" category="paragraph"><block ref="b4b81f7655965069dc9b6d72c40d3191" category="inline-link-macro-rx"></block></block>
   <block id="4a854a1349dc1900974f3bf6a9552245" category="section-title">Actualizaciones de análisis bien diseñadas</block>
-  <block id="3c7a76fc8745c5306663d7f95b167472" category="paragraph">La fábrica de carga de trabajo ahora analiza su FSx para sistemas de archivos ONTAP para las siguientes configuraciones:</block>
-  <block id="e30059be004aa836033b5a45f85d0fe0" category="list-text">Confiabilidad de los datos de retención a largo plazo: verifica si las etiquetas asignadas a la política de instantáneas del volumen de origen son idénticas a las etiquetas asignadas a la política de retención a largo plazo. Cuando las etiquetas son idénticas, la replicación de datos es confiable entre los volúmenes de origen y de destino.</block>
-  <block id="d991a7b8584b3d26f44a90d9e27f7f7d" category="list-text">Protección autónoma contra ransomware con IA (ARP/AI) de NetApp : comprueba si ARP/AI está habilitado en sus sistemas de archivos. Esta función le ayuda a detectar y recuperarse de ataques de ransomware.</block>
   <block id="bfebf248126ee0c8c192d7442b03e1a1" category="inline-link-macro">Visualice el estado de buena arquitectura de sus sistemas de archivos FSx para ONTAP</block>
   <block id="2a708c78876e2ad54c0b8577c3b2bbd5" category="paragraph"><block ref="2a708c78876e2ad54c0b8577c3b2bbd5" category="inline-link-macro-rx"></block></block>
-  <block id="e3d4a0c1fd9bad5ddfe8b2fc326f6d42" category="section-title">Descartar una configuración del análisis bien diseñado</block>
-  <block id="0b27c1a80fbacb5253a337c3d45236f9" category="paragraph">Ahora puede descartar una o más configuraciones del análisis bien diseñado. Esto le permite ignorar configuraciones específicas que no desea abordar en este momento.</block>
-  <block id="c4a9d2577a7099266e1214d55f11cf0b" category="paragraph"><block ref="c4a9d2577a7099266e1214d55f11cf0b" category="inline-link-macro-rx"></block></block>
-  <block id="f83708b425052a7f19c02dfd5c3d0688" category="section-title">Compatibilidad de Terraform con la creación de enlaces</block>
-  <block id="19c03fb90a9425b9fecd16c7b0e03e4e" category="paragraph">Ahora puede usar Terraform desde Codebox para crear un enlace para la asociación con un sistema de archivos FSx para ONTAP . Esta funcionalidad es para los usuarios que crean enlaces manualmente.</block>
-  <block id="b1dfc57db13615cb83125300396102cb" category="section-title">Nueva compatibilidad regional para explorar ahorros en almacenamiento</block>
-  <block id="dc2d48a6756b8920e1a0b103864fa0c3" category="paragraph">Las siguientes nuevas regiones ahora son compatibles para explorar ahorros para Amazon Elastic Block Store (EBS), FSx para Windows File Server y Elastic File Systems (EFS):</block>
-  <block id="8dbb07a18d46f63d8b3c8994d5ccc351" category="list-text">México</block>
-  <block id="103357e3e40a9c0e4e9d36110f7bbc7a" category="list-text">Tailandia</block>
-  <block id="743828d5c9c11b38d3dbbf76d787f497" category="section-title">Mejoras en la creación y gestión de recursos compartidos SMB/CIFS</block>
-  <block id="421075462886e558113f14b52fe22487" category="paragraph">Ahora puede crear recursos compartidos SMB/CIFS que apunten a directorios dentro de un volumen. Dentro del volumen, podrás ver qué recursos compartidos existen, a dónde apuntan y los permisos otorgados a usuarios y grupos específicos.</block>
-  <block id="4662a232249c09ca958781da08211b0c" category="paragraph">Para los volúmenes de protección de datos, el flujo de creación de un recurso compartido SMB/CIFS ahora incluye la creación de una ruta de unión al volumen para fines de montaje.</block>
-  <block id="0162ca60ba3c63c1058d5815f318b75b" category="inline-link-macro">Crear un recurso compartido CIFS para un volumen</block>
-  <block id="5f08db4267e771ad7b348d338d92e0e6" category="paragraph"><block ref="5f08db4267e771ad7b348d338d92e0e6" category="inline-link-macro-rx"></block></block>
-  <block id="424013c53fd9187a66e051bb44ddaa34" category="doc">Soporte mejorado del asesor de migración para Amazon Elastic VMWare Service</block>
-  <block id="93c34ab13f70b21f6935de45dacb9ae3" category="section-title">Calcule el ahorro de costos al migrar a Amazon Elastic VMware Service</block>
-  <block id="b1da4fce8da5117e3a9e1041d1749074" category="paragraph">Ahora puede explorar los ahorros potenciales que obtendrá al migrar sus cargas de trabajo de VMware a Amazon Elastic VMware Service (EVS). La calculadora de ahorros le permite comparar los costos de usar Amazon EVS con y sin Amazon FSx for NetApp ONTAP como almacenamiento subyacente. La calculadora muestra ahorros potenciales en tiempo real a medida que ajusta las características de su entorno.</block>
-  <block id="65bff5c812b0782e85c3554a907e01d2" category="doc">Un análisis bien diseñado incluye la validación de clústeres de alta disponibilidad</block>
-  <block id="bdd55244a112c438dfe30c6c85a4fcb1" category="paragraph">El análisis bien diseñado ahora incluye validación para clústeres de alta disponibilidad. Esta validación verifica todas las configuraciones relacionadas con el clúster desde el lado del servidor, incluida la disponibilidad y configuración del disco en ambos nodos, la configuración del clúster de Windows y la preparación para la conmutación por error. Esto garantiza que el clúster de Windows esté configurado correctamente y pueda conmutar por error con éxito cuando sea necesario.</block>
-  <block id="ad229ca0142680e057d4328835a9c1ef" category="section-title">Menú multinivel disponible para instancias</block>
-  <block id="de0915fdab5af6d02111d53dcfd6ccb3" category="paragraph">La consola de fábrica de carga de trabajo ahora incluye un menú de varios niveles para instancias. Este cambio proporciona una estructura de navegación más organizada e intuitiva para administrar instancias. Las opciones de menú para la administración de instancias incluyen ver el panel de instancias, ver bases de datos, crear una base de datos y crear un clon de espacio aislado.</block>
-  <block id="8d79c3f1283ecc54b044e383580c41e0" category="inline-image-macro">Una captura de pantalla del menú de la tabla de instancias con una estructura de menú de varios niveles. Seleccione el menú de la tabla de instancias y luego administre la instancia para ver bases de datos, crear una base de datos y crear un clon de espacio aislado.</block>
-  <block id="6f3cad43f8bb61ac11ebd8e87e6d6240" category="paragraph"><block ref="6f3cad43f8bb61ac11ebd8e87e6d6240" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="5892d833ba074396906362cfc3ad6370" category="section-title">Nueva opción de autenticación para explorar ahorros</block>
-  <block id="3035f336d9539562dbf5355f26c10a4f" category="paragraph">Cuando el<block ref="7254170b56a28e207df989a3f40b911f" prefix=" " category="inline-code"></block> Si el usuario no tiene permisos suficientes en Microsoft SQL Server, puede autenticarse con credenciales de SQL Server o agregar los permisos de SQL Server faltantes a<block ref="7254170b56a28e207df989a3f40b911f" prefix=" " category="inline-code"></block> .</block>
-  <block id="79717347a64fe25d0ea054d1670b04c6" category="inline-link-macro">Explore los ahorros potenciales para sus entornos de bases de datos con Amazon FSx for NetApp ONTAP</block>
-  <block id="0c99e0e3525f8446afe1107c5294bead" category="paragraph"><block ref="0c99e0e3525f8446afe1107c5294bead" category="inline-link-macro-rx"></block></block>
-  <block id="1d92da78b598707dec3df4d7281f1ec3" category="doc">Almacenamiento seguro para resultados de datos estructurados</block>
-  <block id="c4b4739fe392b8cae69417a08008577b" category="paragraph">Si los resultados de la consulta del chatbot contienen datos estructurados, GenAI puede almacenar los resultados en un bucket de Amazon S3. Cuando estos resultados se almacenan en un bucket S3, puedes descargarlos utilizando el enlace de descarga dentro de la sesión de chat.</block>
-  <block id="9a0737b14158e601f99b4265c5bd3e5a" category="section-title">Disponibilidad del servidor MCP</block>
   <block id="412038dfc7c530b95fd4f54ca173992c" category="paragraph">La BlueXP backup and recovery le permite realizar copias de seguridad, restaurar, verificar y clonar bases de datos y grupos de disponibilidad de Microsoft SQL Server. Desde la consola de fábrica de carga de trabajo, puede acceder y utilizar la BlueXP backup and recovery para proteger las cargas de trabajo de Microsoft SQL Server.</block>
   <block id="0eabf86e93873fc39b5a49903ec1c780" category="inline-link-macro">Aprenda a proteger las cargas de trabajo de Microsoft SQL Server a través de la consola de fábrica de cargas de trabajo</block>
   <block id="7b26957c70db2d24aefeef252ab7b883" category="inline-link-macro">Proteja la descripción general de las cargas de trabajo de Microsoft SQL con la BlueXP backup and recovery</block>
@@ -131,8 +79,6 @@
   <block id="b271a75b2d121a8cb5f59ae458394323" category="section-title">9 de septiembre de 2025</block>
   <block id="595dacca64a0bfa1f3ae49b78ce41d38" category="section-title">1 de septiembre de 2025</block>
   <block id="d341f0c47f4b7ad5cc1b4c9bb210cfda" category="section-title">12 de agosto de 2025</block>
-  <block id="3488d38349240c72f75d081c2a79fa3b" category="section-title">04 de agosto de 2025</block>
-  <block id="613abd0d9da6f7ee37d283174e11fcaf" category="section-title">03 de agosto de 2025</block>
   <block id="edfbca9622799a953a48987a288fe283" category="paragraph">La fábrica de carga de trabajo admite la disminución de la capacidad de la unidad de estado sólido (SSD) de sus sistemas de archivos de segunda generación. Con la capacidad elástica del sistema de archivos, puede ajustar dinámicamente la capacidad de sus sistemas de archivos para que coincidan con las necesidades de sus cargas de trabajo.</block>
   <block id="aeb31c9f8c311597856b129ab948b4e6" category="inline-link">Fábrica de cargas de trabajo de NetApp</block>
   <block id="55f7843f27571db97da76bdf68a76d22" category="paragraph"><block ref="55f7843f27571db97da76bdf68a76d22" category="inline-link-rx"></block></block>
@@ -143,9 +89,6 @@
   <block id="2bbead322f2dd5c4a40fbd66537e304f" category="doc">BlueXP workload factory ahora Fábrica de cargas de trabajo de NetApp</block>
   <block id="9c80606adc6065bc48c6d99fbb8c3f1d" category="paragraph">BlueXP ha sido renombrado y rediseñado para reflejar mejor el papel que desempeña en la gestión de su infraestructura de datos. Como resultado, la BlueXP workload factory pasó a llamarse Fábrica de carga de trabajo de NetApp .</block>
   <block id="7fe837fc0a93acdad81da1d440ee3fd2" category="section-title">5 de octubre de 2025</block>
-  <block id="e834ab03ab8af25bc66f7565fe0c683b" category="paragraph">NetApp ahora proporciona un servidor de Protocolo de contexto de modelo (MCP) con NetApp Workload Factory para GenAI. Puede instalar el servidor localmente para permitir que los clientes MCP externos descubran y recuperen resultados de consultas de una base de conocimiento GenAI.</block>
-  <block id="45b9616656c01be55aaa7cb75d3a7215" category="inline-link-macro">Servidor MCP GenAI de NetApp Workload Factory</block>
-  <block id="272cce890c7aade4de2a42d9e414cf3e" category="paragraph"><block ref="272cce890c7aade4de2a42d9e414cf3e" category="inline-link-macro-rx"></block></block>
   <block id="3ddc651759568c7b8f0de7c7f9a41828" category="section-title">Compatibilidad para agregar orígenes de datos NFS/SMB genéricos en conectores de NetApp para Amazon Q Business</block>
   <block id="a0689e9e0b6114698a732a2dc7c3c921" category="paragraph">Con la API de Workload Factory, ahora puede agregar una fuente de datos desde un recurso compartido NFSv3, NFSv4 o SMB genérico a un conector de NetApp para Amazon Q Business. Esto le permite incluir archivos almacenados en volúmenes alojados por sistemas de archivos distintos de Amazon FSx for NetApp ONTAP.</block>
   <block id="3381eec0e48920855b86597d56709196" category="inline-link-macro">Cree un conector de NetApp para Amazon Q Business</block>
@@ -155,8 +98,6 @@
   <block id="5335798f91a37df8ffc1be273ef666fa" category="paragraph">Ahora puede configurar ajustes de chat avanzados que se aplican al modelo de chat para la base de conocimiento, como la duración de la respuesta, la temperatura, la configuración de razonamiento y más. Algunas de estas configuraciones, como las configuraciones de actualidad y hora de modificación, las configuraciones de recuperación avanzada y el mensaje del sistema, solo están disponibles mediante la API de Workload Factory.</block>
   <block id="7ff7a0c83b9f68a4add0d263a7292e9c" category="section-title">La selección del tipo de inferencia ahora es compatible con modelos de incrustación, chat y reclasificación.</block>
   <block id="a4c5c24aeea4d68e48565188546da1a5" category="paragraph">Si el modelo de incrustación, chat o reclasificación que eligió tiene configuraciones de inferencia, ahora puede seleccionar un tipo de inferencia. Esto le permite ajustar mejor el rendimiento del chatbot y los requisitos de recursos a sus necesidades.</block>
-  <block id="041a7335d4bfbe01ea8a2d2f780732b6" category="inline-link">Explore los ahorros de Amazon Elastic VMware Service con BlueXP Workload Factory</block>
-  <block id="1a1b8cfea3181a2937851fe76b4862d4" category="paragraph"><block ref="1a1b8cfea3181a2937851fe76b4862d4" category="inline-link-rx"></block></block>
   <block id="2dd03fc740a72e1c5fc0daf9be122249" category="paragraph">El centro de planificación de cargas de trabajo de VMware le permite ver y administrar su inventario de máquinas virtuales y sus planes de migración desde un solo lugar. Puede cargar y guardar múltiples inventarios de VM de diferentes entornos y comenzar a planificar una migración al servicio AWS EC2 o Amazon Elastic VMware para cualquiera de ellos. También puede crear y guardar planes de migración de AWS EC2 o EVS.</block>
   <block id="420ac911d98022d5289d3f00ff38ea84" category="inline-link">Explorar el centro de planificación de cargas de trabajo de VMware</block>
   <block id="81ee9955f68100a5e460b3f794e65e9b" category="paragraph"><block ref="81ee9955f68100a5e460b3f794e65e9b" category="inline-link-rx"></block></block>
@@ -189,7 +130,6 @@
   <block id="f484540569100bc3d0403ccb87d3a713" category="paragraph"><block ref="f484540569100bc3d0403ccb87d3a713" category="inline-link-macro-rx"></block></block>
   <block id="872ee1a2a3a499ce76f0f789c2151656" category="section-title">Los archivos inmutables admiten la eliminación privilegiada</block>
   <block id="0a7266fd80158c418fbcd6837ec4dbe0" category="paragraph">Con esta función, puede configurar el acceso de eliminación privilegiado para archivos inmutables en sus sistemas de archivos FSx para ONTAP . Esto le permite proteger datos críticos contra eliminaciones accidentales o maliciosas y, al mismo tiempo, permitir que los usuarios autorizados anulen el bloqueo y eliminen estos archivos según sea necesario. La habilitación de la eliminación privilegiada está disponible durante la creación del volumen o para volúmenes existentes.</block>
-  <block id="dcf522fe0928ea448e17a8ccb7b14d76" category="paragraph">NetApp Workload Factory ahora admite la implementación y el montaje automáticos de su sistema de archivos Amazon FSx for NetApp ONTAP . Esto le permite comenzar a implementar sus máquinas virtuales en FSx para sistemas de archivos ONTAP cuando se complete la migración al entorno de Amazon EVS.</block>
   <block id="74f9db7fefcf8c24332761c003d46a02" category="section-title">Presentamos el centro de planificación de cargas de trabajo de VMware</block>
   <block id="1832a7f4d2abf297aa0cee87f4c043e3" category="section-title">Presentamos el soporte del asesor de migración para Amazon Elastic VMWare Service</block>
   <block id="c1ed477ef5d58aa5d9931821badda717" category="paragraph">BlueXP Workload Factory para VMware ahora le permite utilizar el asesor de migración de Amazon Elastic VMware Service para migrar rápidamente sus cargas de trabajo de VMware locales a Amazon Elastic VMware Service. Después de crear un plan de migración utilizando el asesor de migración, este se guarda automáticamente en la lista de planes de migración en el centro de planificación.</block>
@@ -212,4 +152,43 @@
   <block id="165f0ade723f657a5d7981bfecbfc75a" category="paragraph"><block ref="165f0ade723f657a5d7981bfecbfc75a" category="inline-link-macro-rx"></block></block>
   <block id="fd46c6801c12745a0b45c3f9e025fb2e" category="paragraph">El servicio de notificación de BlueXP workload factory incluye la notificación para la gestión automática de la capacidad de almacenamiento.</block>
   <block id="a4bdb4b5125441fbfaec27ac4bb48be0" category="paragraph"><block ref="a4bdb4b5125441fbfaec27ac4bb48be0" category="inline-link-macro-rx"></block></block>
+  <block id="e36df438b5b93dceba2c7403d4b29005" category="doc">Administración de volúmenes de caché</block>
+  <block id="97da28c7fc13e427cbb28f833b8e7e6e" category="paragraph">Puede realizar las siguientes operaciones de administración de volúmenes de caché desde la consola de Workload Factory:</block>
+  <block id="705987d425caa32725844671dba5db96" category="list-text">Edita el nombre de la caché</block>
+  <block id="fb7f41847231da20e771064f5b566df4" category="list-text">Aumentar la capacidad de un volumen de caché</block>
+  <block id="64fe5cd33226afdb2a1244ea9e67be19" category="list-text">Edite la ruta de montaje o la política de exportación para un volumen de caché.</block>
+  <block id="322c847779d1746b4e7d66ee05dcefcd" category="list-text">Cambie el método o modo de almacenamiento en caché para un volumen de caché.</block>
+  <block id="13c47466230be92e5e3aa6588809aeac" category="list-text">Precargar un volumen de caché</block>
+  <block id="52fc772a9179443c2c2ba75c94518e8f" category="list-text">Eliminar un volumen de caché</block>
+  <block id="7826298c658de05b150f4b10fc144ea2" category="inline-link-macro">Administrar volúmenes de caché</block>
+  <block id="9223fd31c285815a2492912ef49bdbbb" category="paragraph"><block ref="9223fd31c285815a2492912ef49bdbbb" category="inline-link-macro-rx"></block></block>
+  <block id="7c0216aac73557cb5845492aebaeab8a" category="section-title">Gestión automática de inodos disponible</block>
+  <block id="31dcfbe8cd69ef4085402c0f104858cd" category="paragraph">Puede habilitar la administración automática de inodos sin necesidad de habilitar la administración automática de capacidad.</block>
+  <block id="71e9d4ada3104308778ade0ba22de28d" category="inline-link-macro">Habilitar la gestión automática de inodos</block>
+  <block id="c38d477b997e2c8216a0b40479691f29" category="paragraph"><block ref="c38d477b997e2c8216a0b40479691f29" category="inline-link-macro-rx"></block></block>
+  <block id="22fcde27b4672d89a21e10e9be49cdee" category="section-title">Configuración de umbral de advertencia para el uso de capacidad e inodos</block>
+  <block id="cc72208ba5327054f030d802d324477c" category="inline-link-macro">Servicio de notificaciones de NetApp Workload Factory</block>
+  <block id="f1ff66cdf2af497189be6ebd8f6e5fcd" category="paragraph">Se ofrecen avisos de umbral tanto para la capacidad como para el uso de inodos. Puede configurar estos umbrales al habilitar la administración automática de capacidad o inodos. Para usar esta configuración, deberá configurar las notificaciones mediante<block ref="52b0820c6dc6b8d67591785df8b1a634" category="inline-link-macro-rx"></block> .</block>
+  <block id="76170a72d0c8b98ef012c3b57dc6dbe8" category="section-title">Reducción del tamaño del volumen disponible</block>
+  <block id="26b07c7813c6a780d507b42d999b4792" category="paragraph">Puede reducir el tamaño de los volúmenes NFS y SMB/CIFS en NetApp Workload Factory. Esta función permite una mejor gestión de los recursos de almacenamiento, ya que permite reducir el tamaño de los volúmenes que ya no se necesitan en su capacidad actual.</block>
+  <block id="fcbcb93b74f64a75b2b710bb8328b4e0" category="inline-link-macro">Disminuir la capacidad de un volumen</block>
+  <block id="e1b7073be30c28b07f5c847e0a1b56ed" category="paragraph"><block ref="e1b7073be30c28b07f5c847e0a1b56ed" category="inline-link-macro-rx"></block></block>
+  <block id="f09c98d35d5b89f3f833636d36ca3283" category="section-title">FSx mejorado para el estado de los recursos de ONTAP</block>
+  <block id="9d017083ba2041742b1b85bbb1a846c4" category="paragraph">Workload Factory ha mejorado el estado de recurso "mal configurado" para incluir una explicación del problema real del recurso.</block>
+  <block id="48707dc4d2e44fe9cf85834f27b932e8" category="paragraph">Workload Factory analiza sus sistemas de archivos FSx para ONTAP para las siguientes configuraciones:</block>
+  <block id="04cc0a87491bd184b66866438266882a" category="list-text">Utilización de volumen casi completa: comprueba si algún volumen está utilizando el 80% o más de su capacidad de archivos. Esto le ayuda a identificar volúmenes que pueden necesitar capacidad adicional.</block>
+  <block id="39e165c09308fcda245787c3a6d7bf78" category="list-text">Acceso no autorizado a volúmenes: comprueba si se puede acceder a un volumen iSCSI mediante una ruta de montaje NFS o SMB/CIFS y permite eliminar el acceso no autorizado al volumen para evitar riesgos de seguridad.</block>
+  <block id="bfd11f24993c810a26cdef233ebbdfb6" category="section-title">Cambios en los permisos de Workload Factory para almacenamiento</block>
+  <block id="bdc39f4be3514cc2cad7e4ca6cba0988" category="paragraph">Workload Factory ofrece mayor claridad sobre los permisos que requiere para acciones específicas y un mayor nivel de detalle para seleccionar solo los permisos que necesita. Al agregar credenciales, tendrá tres opciones de permisos para elegir en lugar del modelo de permisos anterior que era de _solo lectura_ y _lectura/escritura_. El nuevo modelo de permisos divide las políticas de permisos de la siguiente manera:</block>
+  <block id="f9113d285c58dd831a3240c5b41a6f84" category="list-text">_Visualización, planificación y análisis_: Visualice los sistemas de archivos FSx para ONTAP , conozca el estado del sistema, obtenga un análisis bien diseñado para sus sistemas y explore las posibilidades de ahorro.</block>
+  <block id="a45538554e2c413a5e22df853abb4d27" category="list-text">_Operaciones y corrección_: Realice tareas operativas como ajustar la capacidad del sistema de archivos y solucionar problemas en las configuraciones de su sistema de archivos.</block>
+  <block id="036d0224d85e6a18c7e85f034ace65c1" category="list-text">_Creación y eliminación de sistemas de archivos_: Crear y eliminar sistemas de archivos FSx para ONTAP y máquinas virtuales de almacenamiento.</block>
+  <block id="c1c8be0a907c363e6506c96d16870672" category="paragraph">Al agregar credenciales, puede seleccionar una o más de estas políticas de permisos según el nivel de acceso que desee proporcionar a Workload Factory.</block>
+  <block id="b20b01e02162a68002ca1747d1bd3c10" category="inline-link-macro">Referencia de permisos de Workload Factory</block>
+  <block id="444b052e3d1349e221d4ceb42e6c1cf7" category="paragraph"><block ref="444b052e3d1349e221d4ceb42e6c1cf7" category="inline-link-macro-rx"></block></block>
+  <block id="c4a6983274098ca737ffda27862010ea" category="section-title">FSx para soporte de la bóveda cibernética de ONTAP</block>
+  <block id="4a3b498d2b39740971d75ebbab434a8f" category="paragraph">Puede crear una bóveda cibernética utilizando FSx para ONTAP como origen o destino en la arquitectura de la bóveda cibernética. Las bóvedas cibernéticas proporcionan un entorno seguro y aislado para almacenar datos críticos, protegiéndolos del ransomware y otras amenazas cibernéticas.</block>
+  <block id="4bc6d1e741e4c817c4985300ec66b77f" category="inline-link-macro">Configure una bóveda cibernética con FSx para ONTAP</block>
+  <block id="545bd81803e837dd73a7bceb1a798b8a" category="paragraph"><block ref="545bd81803e837dd73a7bceb1a798b8a" category="inline-link-macro-rx"></block></block>
+  <block id="2afa479317acb4455a0a649aab2944d1" category="section-title">2 de noviembre de 2025</block>
 </blocks>
