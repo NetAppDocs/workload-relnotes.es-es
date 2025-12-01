@@ -127,6 +127,24 @@ https://docs.netapp.com/us-en/workload-vmware/calculate-evs-savings.html["Explor
 
 
 
+=== Configuración y administración
+
+
+
+==== Actualización de permisos para almacenamiento
+
+El analizador de eventos de FSx para ONTAP EMS utiliza los siguientes permisos de Amazon Bedrock en la política de permisos _operaciones y remediación_ para obtener datos de eventos para la carga de trabajo de almacenamiento.
+
+* `bedrock:ListInferenceProfiles`
+* `bedrock:GetInferenceProfile`
+* `bedrock:InvokeModelWithResponseStream`
+* `bedrock:InvokeModel`
+
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html#change-log["Registro de cambios de referencia de permisos"]
+
+
+
 == 2 de noviembre de 2025
 
 
