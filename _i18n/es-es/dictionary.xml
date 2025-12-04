@@ -263,4 +263,10 @@
   <block id="f80c2c54334d4ddca4016b89152c6684" category="list-text"><block ref="93804e96d3f417a0088c564647dd28e9" prefix="" category="inline-code"></block></block>
   <block id="6cff628e35cc5d429a57e4a125a0bf6b" category="inline-link-macro">Registro de cambios de referencia de permisos</block>
   <block id="86fbb6c90e401f3291e15bdc1398509c" category="paragraph"><block ref="86fbb6c90e401f3291e15bdc1398509c" category="inline-link-macro-rx"></block></block>
+  <block id="01f76f754caa3b688233762c1b9391f6" category="section-title">Compatibilidad con puntos de acceso AWS S3 para FSx para ONTAP</block>
+  <block id="3b8b774c9a2fdbcd783a971c096ca5f2" category="paragraph">Con esta función, puede crear volúmenes utilizando puntos de acceso S3 desde la consola de Workload Factory. Al utilizar un punto de acceso S3, puede acceder a los datos de archivos que residen en volúmenes SMB/CIFS o NFS a través de las API de AWS S3. Esto le permite integrar sus datos existentes con GenAI, ML y análisis de los servicios de AWS que admiten puntos de acceso S3.</block>
+  <block id="dc88dce8ec264777b2f90ec0af744f43" category="inline-link-macro">Crear un volumen</block>
+  <block id="d3156376048c94102c97709d5ff05e75" category="paragraph"><block ref="d3156376048c94102c97709d5ff05e75" category="inline-link-macro-rx"></block></block>
+  <block id="d30cb805d7270ac0b7cc06375888e47f" category="paragraph">NetApp Workload Factory admite puntos de acceso AWS S3 para sus sistemas de archivos FSx para ONTAP . Puede crear volúmenes utilizando puntos de acceso S3, asignar puntos de acceso S3 a un volumen existente y administrar puntos de acceso S3 desde la consola de Workload Factory. Al utilizar un punto de acceso S3, puede acceder a los datos de archivos que residen en volúmenes SMB/CIFS o NFS a través de las API de AWS S3. Esto le permite integrar sus datos existentes con GenAI, ML y análisis de los servicios de AWS que admiten puntos de acceso S3.</block>
+  <block id="788c421d379c47cc27e8fdc18771f4c7" category="section-title">02 de diciembre de 2025</block>
 </blocks>
