@@ -15,6 +15,29 @@ Obtenga información sobre los cambios más recientes en las cargas de trabajo q
 
 
 
+== 18 de diciembre de 2025
+
+
+
+=== Cargas de trabajo de base de datos
+
+
+
+==== Mejoras en la integración de Active Directory
+
+Workload Factory for Databases incluye tres nuevos campos de Active Directory (AD) al implementar Microsoft SQL Server mediante la opción *Creación avanzada*. Estas mejoras le permiten especificar las preferencias de unión de Active Directory y utilizar una cuenta de servicio administrada.
+
+Los nuevos campos de AD son:
+
+* Controlador de dominio preferido
+* Ruta de unidad organizativa preferida
+* Grupo de Active Directory de destino
+
+
+link:https://docs.netapp.com/us-en/workload-databases/create-database.html["Implementar Microsoft SQL Server"]
+
+
+
 == 04 de diciembre de 2025
 
 
