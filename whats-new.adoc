@@ -19,6 +19,16 @@ Obtenga información sobre los cambios más recientes en las cargas de trabajo q
 
 
 
+=== Cargas de trabajo de base de datos
+
+
+
+==== Integración de la página de inicio del asistente de IA de Ask Me
+
+La página de inicio de la consola Workload Factory incorpora el asistente de IA Ask me, que le permite hacer preguntas sobre su propio almacenamiento, obtener información personalizada directamente de su entorno y consultar conversaciones anteriores. Puede interactuar con Pregúnteme para comprender sus cargas de trabajo, solucionar problemas y obtener más información sobre Workload Factory, todo sin salir de la consola.
+
+
+
 === Cargas de trabajo de
 
 
