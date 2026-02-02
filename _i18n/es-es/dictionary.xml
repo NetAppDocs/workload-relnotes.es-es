@@ -158,4 +158,24 @@
   <block id="40599551b14b033049a0306f8d7e0da2" category="paragraph">Esta función requiere credenciales de AWS y es accesible desde el menú Latencia en el panel de EDA.</block>
   <block id="195b656b2b34184ab7cb51ea0158eba0" category="inline-link">Conoce más sobre el análisis de latencia</block>
   <block id="3589dd4e8f5f2cbdba29810271d0f1d9" category="paragraph"><block ref="6f22f53277ef02f84f5ed64bde49085d" category="inline-link-rx"></block>.</block>
+  <block id="61e49369a35b0f8a0d95ef11e249239f" category="doc">Actualizaciones bien arquitectadas</block>
+  <block id="2c8617d4094e3a2f6f2b8588039ad2ed" category="paragraph">NetApp Workload Factory incluye la evaluación bien diseñada para cargas de trabajo de Elastic VMware Service (EVS), y añade nuevas configuraciones para cargas de trabajo de Storage y Database.</block>
+  <block id="af89cdfb55120aeef29143bab52cb6de" category="list-text">*Cargas de trabajo de VMware* NetApp Workload Factory proporciona las mejores prácticas y recomendaciones para operar cargas de trabajo de Amazon Elastic VMware Service (EVS) bien arquitectadas.</block>
+  <block id="74163cd660daafe169a986c2d540a418" category="inline-link-macro">Implementa configuraciones de EVS bien diseñadas</block>
+  <block id="5d6110d1881f093c497cdaeeb5611ea0" category="paragraph"><block ref="5d6110d1881f093c497cdaeeb5611ea0" category="inline-link-macro-rx"></block></block>
+  <block id="764d59d30018a72d1f4f007b467fe5ea" category="list-text">*Cargas de trabajo de almacenamiento* Se han añadido varias configuraciones nuevas a la función well-architected en la carga de trabajo de almacenamiento para que tengas más información sobre el rendimiento y los costos del almacenamiento.</block>
+  <block id="20c3b23e12b3cf115bfb4bd82bd3368f" category="list-text">Informes lógicos de Storage VM</block>
+  <block id="a9ac5841a812cdf71b3574e2998bafd4" category="list-text">Optimiza el tamaño del volumen de caché</block>
+  <block id="2dac5abecf96a197d16faee0444100fe" category="list-text">Dispositivos de bloque huérfanos</block>
+  <block id="a9866f264fab2ea83525e7cc57292cbe" category="inline-link-macro">Implementa configuraciones de sistemas de archivos bien diseñadas para cargas de trabajo de almacenamiento</block>
+  <block id="99187ba72b66267d55626eb367382424" category="paragraph"><block ref="99187ba72b66267d55626eb367382424" category="inline-link-macro-rx"></block></block>
+  <block id="622975b7c88c6bc06b872c6006068776" category="list-text">*Cargas de trabajo de bases de datos* Workload Factory for Databases incluye una nueva configuración de almacenamiento para Oracle para habilitar y configurar Direct NFS (dNFS) para mejorar el rendimiento de I/O y disminuir la carga en el host y el sistema de almacenamiento.</block>
+  <block id="5017259dadba571295ba93287ef883f9" category="list-text">habilitación de dNFS</block>
+  <block id="3968d7d3f8cb0f09289a934bc1584128" category="list-text">resolución IP coherente de dNFS</block>
+  <block id="a727ea61b65e8aff8729b4fc3c629094" category="list-text">dNFS archivo de configuración</block>
+  <block id="3e4e5c9aa6d22a70ee2aadf98db8552a" category="list-text">dNFS<block ref="4740c034d97ca90a96b8050082816605" prefix=" " category="inline-code"></block></block>
+  <block id="4da0b519f402cca2d38847e59fb3b885" category="inline-link-macro">Implementar cargas de trabajo de bases de datos bien diseñadas</block>
+  <block id="813bbef54984e0f92c8a1fe77f77d9a8" category="paragraph"><block ref="813bbef54984e0f92c8a1fe77f77d9a8" category="inline-link-macro-rx"></block></block>
+  <block id="ae1c2cb14154da0c884354777730e920" category="section-title">Nuevos permisos para Storage</block>
+  <block id="41489d6d5bf1d06c4d37f0baff512bcd" category="paragraph">Se han añadido nuevos permisos a la carga de trabajo de Storage para mejoras en la gestión de los puntos de acceso S3.</block>
 </blocks>
