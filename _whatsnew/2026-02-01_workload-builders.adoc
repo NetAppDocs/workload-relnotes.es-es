@@ -1,0 +1,37 @@
+= Filtrado mejorado del panel de control con etiquetas personalizables
+:allow-uri-read: 
+
+
+
+
+=== Filtrado mejorado del panel de control con etiquetas personalizables
+
+Ahora puedes configurar hasta cinco filtros personalizados en el panel de EDA según tus etiquetas de AWS. Cada filtro personalizado incluye un nombre de etiqueta, una clave de etiqueta de AWS y un tipo de selección (selección única o múltiple).
+
+La selección múltiple te permite seleccionar varios valores simultáneamente, mientras que la selección única te restringe a un valor a la vez. Los filtros personalizados aparecen en el orden en que los configuras, lo que hace que sea fácil organizar los filtros que usas con más frecuencia.
+
+Si no configuras filtros personalizados, los filtros predeterminados (sistema de archivos, tipo de volumen e intervalo de tiempo) siguen disponibles para que puedas seguir viendo e interactuando con tus cuadros de mando.
+
+https://docs.netapp.com/us-en/workload-eda/task-configure-dashboard.html["Aprende más sobre cómo configurar filtros personalizados"^].
+
+
+
+=== Vista de detalles del volumen para un análisis granular del rendimiento
+
+El panel ahora ofrece dos modos de visualización: vista total y vista por volumen. La vista total muestra las métricas agregadas de todos los volúmenes, mientras que la vista por volumen muestra el rendimiento individual de los 10 volúmenes principales a lo largo del tiempo.
+
+En la vista Volumen, las descripciones emergentes interactivas al pasar el cursor ofrecen información detallada para cada volumen, incluyendo el nombre del volumen, las métricas y los valores específicos según el tiempo. Cuando los mismos volúmenes aparecen en varios componentes, un código de colores coherente hace que sea más fácil seguir volúmenes específicos en diferentes métricas.
+
+https://docs.netapp.com/us-en/workload-eda/task-configure-dashboard.html#view-volume-details["Obtén más información sobre cómo ver los detalles del volumen"^].
+
+
+
+=== Análisis de latencia para la supervisión proactiva del rendimiento
+
+El análisis de latencia te permite supervisar la latencia de lectura y escritura de volúmenes en tus sistemas de archivos FSx para ONTAP. Puedes configurar umbrales de advertencia y de eventos críticos personalizables para identificar de forma proactiva cuellos de botella en el rendimiento antes de que afecten tus cargas de trabajo EDA.
+
+La tabla de eventos de latencia muestra todos los eventos de advertencia y críticos que te permiten supervisar el rendimiento del volumen e identificar los volúmenes que requieren optimización.
+
+Esta función requiere credenciales de AWS y es accesible desde el menú Latencia en el panel de EDA.
+
+https://docs.netapp.com/us-en/workload-eda/task-monitor-latency.html["Conoce más sobre el análisis de latencia"^].
