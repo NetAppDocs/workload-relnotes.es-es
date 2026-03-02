@@ -1,0 +1,59 @@
+= Actualizaciones de análisis bien diseñadas
+:allow-uri-read: 
+
+
+
+
+=== Actualizaciones de análisis bien diseñadas
+
+Workload Factory analiza sus sistemas de archivos FSx for ONTAP para las siguientes configuraciones:
+
+* Capacidad SSD infrautilizada: comprueba si el nivel de capacidad SSD está infrautilizado y recomienda reducir la capacidad SSD para optimizar costos.
+* Programa backups de volúmenes: Workload Factory mejora la recomendación de configuración y añade opciones para activar FSx for ONTAP backup o AWS Backup. FSx for ONTAP backup aplica una política predeterminada a todos los volúmenes en un sistema de archivos, creando backups diarios que se conservan hasta 90 días. AWS Backup te permite elegir diferentes periodos de retención para cada volumen en el plan de backup.
+
+
+
+
+=== Workload Factory admite el caso de uso de IA y ML para la replicación
+
+Workload Factory admite replicar datos ONTAP on-premises en FSx para ONTAP y crear puntos de acceso S3 para los servicios de AWS Artificial Intelligence (AI) y machine learning (ML) para acelerar los flujos de trabajo de AI/ML.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-replication.html["Replica datos locales para casos de uso de AI y ML"]
+
+
+
+=== Editar puntos de acceso S3 existentes
+
+Puedes cambiar el usuario y el tipo de usuario para un punto de acceso S3 existente adjunto a un volumen. También puedes activar o desactivar los metadatos para el punto de acceso.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-s3-access-points.html["Editar puntos de acceso S3 en NetApp Workload Factory"]
+
+
+
+=== Diagrama de almacenamiento por bloques añadido
+
+Si estás usando almacenamiento en bloque, puedes ver el diagrama de almacenamiento en bloque para visualizar cómo los dispositivos de bloque se conectan a los nodos e igroups. El diagrama te ayuda a entender y gestionar tu almacenamiento en bloque.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-block-storage.html["Administra el almacenamiento en bloques en NetApp Workload Factory"]
+
+
+
+=== Actualización de la función de gestión automática de capacidad
+
+Esta actualización separa la función en dos características distintas: gestión automática de capacidad y notificaciones de capacidad.
+
+La gestión automática de la capacidad añade o elimina automáticamente capacidad del sistema de archivos para mantener un rendimiento óptimo. Las nuevas opciones incluyen los modos incremental y adaptativo. En el modo incremental, el sistema aumenta la capacidad en una cantidad fija en los umbrales; en el modo adaptativo, usa datos históricos para predecir y ajustar la capacidad.
+
+Las notificaciones de capacidad te avisan cada vez que ocurre un ajuste de capacidad y cuando los sistemas de archivos alcanzan los límites establecidos, así puedes gestionar el almacenamiento antes de que surjan problemas.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/enable-auto-capacity-management.html["Conoce la gestión automática de la capacidad y las notificaciones de capacidad en NetApp Workload Factory"]
+
+
+
+=== Nuevo marcador Ask Me disponible en Workload Factory
+
+Hemos añadido un nuevo marcador Ask Me en cada pantalla de la consola de Workload Factory. Esta mejora hace que sea más fácil y rápido para ti acceder a Ask Me cuando necesites ayuda. Ask Me es nuestro asistente de IA. Puedes hacer preguntas sobre tus entornos de carga de trabajo, obtener información personalizada y revisar conversaciones anteriores.
+
+Puedes abrir Ask Me desde cualquier página haciendo clic en el nuevo marcador. Lanza Ask Me en un panel lateral sin interrumpir tu trabajo actual y ofrece explicaciones y recomendaciones rápidas relacionadas con lo que estás haciendo en ese momento.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/workload-factory-overview.html#features["Conoce más sobre Ask Me"^]
