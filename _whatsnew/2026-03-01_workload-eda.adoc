@@ -1,0 +1,39 @@
+= Panel de control general para la gestión del almacenamiento EDA
+:allow-uri-read: 
+
+
+
+
+=== Panel de control general para la gestión del almacenamiento EDA
+
+Como administrador de TI que gestiona docenas de sistemas de archivos FSx for ONTAP, puedes usar el panel de información general para responder preguntas operativas comunes sobre la salud del clúster, la utilización y la colocación de volúmenes.
+
+El panel de resumen incluye:
+
+* *Estado de salud del clúster*: Información resumida en la parte superior del panel de control que destaca el rendimiento, la capacidad, la disponibilidad, la protección y los eventos de seguridad en todos tus clústeres.
+* *Tabla de clústeres*: Una tabla con búsqueda, filtrado y paginación que muestra la capacidad SSD, el grupo de capacidad y las métricas de rendimiento por clúster, con soporte para la personalización de columnas y exportación CSV.
+
+
+El anterior cuadro de mandos principal ahora es accesible en la pestaña *Project*. Las pestañas EDA ahora están ordenadas: visión general, latencia, Project, CI/CD.
+
+https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html["Conoce más sobre el panel de resumen"^].
+
+
+
+=== Análisis automatizado de latencia
+
+El análisis de latencia ahora incluye un análisis básico automatizado. Cuando se detectan eventos de latencia, el sistema analiza automáticamente las métricas de delay center de ONTAP QoS para identificar el origen de los problemas de latencia.
+
+El análisis básico evalúa las políticas de QoS, el rendimiento de los discos, los problemas de red y las configuraciones de clúster para proporcionar información inmediata en la columna Details de la tabla de eventos de latencia.
+
+https://docs.netapp.com/us-en/workload-eda/task-monitor-latency.html#understanding-basic-analysis["Aprende más sobre el análisis básico de latencia"^].
+
+
+
+=== Nuevo marcador Ask Me disponible en Workload Factory
+
+Hemos añadido un nuevo marcador Ask Me en cada pantalla de la consola Workload Factory. Esta mejora hace que sea más fácil y rápido para ti acceder a Ask Me siempre que necesites ayuda. Ask Me es nuestro asistente de IA, que te permite hacer preguntas sobre tus propios entornos de carga de trabajo, obtener información personalizada directamente de tu entorno y consultar conversaciones anteriores.
+
+Puedes abrir Ask Me desde cualquier página haciendo clic en el nuevo marcador. Lanza Ask Me en un panel lateral sin interrumpir tu trabajo actual y ofrece explicaciones y recomendaciones rápidas relacionadas con lo que estás haciendo en ese momento.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/workload-factory-overview.html#features["Conoce más sobre Ask Me"^]

@@ -1,0 +1,51 @@
+= Evaluación única
+:allow-uri-read: 
+
+
+
+
+=== Evaluación única
+
+Workload Factory ahora ofrece una evaluación única para analizar las configuraciones de tus implementaciones de bases de datos cuando lo necesites: nuevas implementaciones, posmigración, solución de problemas y más. Recibirás recomendaciones para ayudarte a optimizar las configuraciones de tus implementaciones y cumplir con las mejores prácticas. Esta es tu oportunidad de usar la función well-architected sin comprometerte completamente con el proceso de configuración. Puedes evaluar tus bases de datos sin guardar credenciales en Workload Factory, registrar recursos de bases de datos ni configurar conexiones externas.
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Realiza una evaluación única de tus implementaciones de bases de datos"]
+
+
+
+=== Soporte de registro para Always On availability groups en Microsoft SQL Server y Data Guard en Oracle
+
+Ahora puedes descubrir y registrar instancias de Microsoft SQL Server con el modelo de implementación Always On availability group (AOAG) y bases de datos Oracle con el modelo de implementación Data Guard en la carga de trabajo de bases de datos de NetApp Workload Factory. Esta mejora permite una mejor gestión de los recursos de SQL Server y Oracle dentro de la consola de Workload Factory.
+
+Después de registrar tus instancias de AOAG y bases de datos de Data Guard, puedes aprovechar las diversas funciones de Workload Factory for Databases, como ver detalles de recursos y analizar registros de errores.
+
+Workload Factory for Databases también es compatible con el análisis bien diseñado para instancias de Microsoft SQL Server con el modelo de despliegue AOAG. Puedes analizar las configuraciones de tus instancias de SQL Server en un grupo de disponibilidad y recibir recomendaciones para optimizar tus configuraciones de despliegue y cumplir con las mejores prácticas. Registra tus instancias AOAG para habilitar esta función.
+
+link:https://docs.netapp.com/us-en/workload-databases/register-instance.html#register-a-sql-server-instance["Registrar recursos en Workload Factory para bases de datos"]
+
+
+
+=== Análisis bien diseñado para Oracle
+
+El análisis bien diseñado incluye *Parches del sistema operativo* para que Oracle compruebe si tienes los últimos parches en el sistema operativo y te diga cómo instalarlos.
+
+Además, el análisis bien diseñado para Oracle te notifica cuando una configuración como la distribución de almacenamiento tiene dependencias con otras configuraciones. La notificación te dice qué acciones optimizar en las configuraciones vinculadas para que todas las recomendaciones que te damos sean óptimas.
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Implementar configuraciones de base de datos bien diseñadas en Workload Factory"]
+
+
+
+=== Análisis de costes y planificación de la migración en entornos de bases de datos Oracle locales
+
+Workload Factory for Databases ahora analiza y te ayuda a planificar la migración de bases de datos locales de Oracle a Amazon FSx for NetApp ONTAP. Puedes usar la calculadora de ahorro para estimar el costo de ejecutar tu entorno de bases de datos locales de Oracle en la nube y revisar recomendaciones para migrar tu entorno de bases de datos locales a la nube.
+
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["Explora ahorros para entornos de bases de datos locales"]
+
+
+
+=== Nuevo marcador Ask Me disponible en Workload Factory
+
+Hemos añadido un nuevo marcador Ask Me en cada pantalla de la consola Workload Factory. Esta mejora hace que sea más fácil y rápido para ti acceder a Ask Me siempre que necesites ayuda. Ask Me es nuestro asistente de IA, que te permite hacer preguntas sobre tus propios entornos de carga de trabajo, obtener información personalizada directamente de tu entorno y consultar conversaciones anteriores.
+
+Puedes abrir Ask Me desde cualquier página haciendo clic en el nuevo marcador. Lanza Ask Me en un panel lateral sin interrumpir tu trabajo actual y ofrece explicaciones y recomendaciones rápidas relacionadas con lo que estás haciendo en ese momento.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/workload-factory-overview.html#features["Conoce más sobre Ask Me"^]
