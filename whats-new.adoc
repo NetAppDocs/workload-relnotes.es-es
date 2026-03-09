@@ -15,6 +15,29 @@ Obtenga información sobre los cambios más recientes en las cargas de trabajo q
 
 
 
+== 09 de marzo de 2026
+
+
+
+=== Cargas de trabajo de
+
+
+
+==== Presentamos la compatibilidad del asesor de migración para Google Cloud VMware Engine
+
+NetApp Workload Factory ahora es compatible con Google Cloud VMware Engine. Puedes migrar tus cargas de trabajo VMware locales a Google Cloud VMware Engine usando Google Cloud NetApp Volumes como almacenes de datos NFS externos, optimizando los costes y permitiendo más control sobre tu entorno VMware sin necesidad de refactorizar o cambiar de plataforma tus aplicaciones.
+
+El asesor de migración de Google Cloud VMware Engine proporciona:
+
+* Dimensionamiento y diseño automatizados del clúster Google Cloud VMware Engine con compatibilidad con los tipos de nodo VE1 y VE2
+* Optimización de la disposición de las máquinas virtuales entre los datastores internos de vSAN y los datastores NFS externos de Google Cloud NetApp Volumes.
+* Comparación detallada de costes y análisis del coste total de propiedad entre las configuraciones solo vSAN y Google Cloud NetApp Volumes-enhanced.
+* Soporte para los niveles de servicio Standard, Premium y Extreme de Google Cloud NetApp Volumes.
+* Despliegue de Infrastructure-as-Code con Terraform para el aprovisionamiento automatizado.
+
+
+
+
 == 02 de marzo de 2026
 
 
@@ -128,6 +151,20 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/enable-auto-capacity-manag
 ==== Nuevo marcador Ask Me disponible en Workload Factory
 
 Hemos añadido un nuevo marcador Ask Me en cada pantalla de la consola de Workload Factory. Esta mejora hace que sea más fácil y rápido para ti acceder a Ask Me cuando necesites ayuda. Ask Me es nuestro asistente de IA. Puedes hacer preguntas sobre tus entornos de carga de trabajo, obtener información personalizada y revisar conversaciones anteriores.
+
+Puedes abrir Ask Me desde cualquier página haciendo clic en el nuevo marcador. Lanza Ask Me en un panel lateral sin interrumpir tu trabajo actual y ofrece explicaciones y recomendaciones rápidas relacionadas con lo que estás haciendo en ese momento.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/workload-factory-overview.html#features["Conoce más sobre Ask Me"^]
+
+
+
+=== Cargas de trabajo de
+
+
+
+==== Nuevo marcador Ask Me disponible en Workload Factory
+
+Hemos añadido un nuevo marcador Ask Me en cada pantalla de la consola Workload Factory. Esta mejora hace que sea más fácil y rápido para ti acceder a Ask Me siempre que necesites ayuda. Ask Me es nuestro asistente de IA, que te permite hacer preguntas sobre tus propios entornos de carga de trabajo, obtener información personalizada directamente de tu entorno y consultar conversaciones anteriores.
 
 Puedes abrir Ask Me desde cualquier página haciendo clic en el nuevo marcador. Lanza Ask Me en un panel lateral sin interrumpir tu trabajo actual y ofrece explicaciones y recomendaciones rápidas relacionadas con lo que estás haciendo en ese momento.
 
@@ -544,21 +581,3 @@ Los nuevos campos de AD son:
 
 
 link:https://docs.netapp.com/us-en/workload-databases/create-database.html["Implementar Microsoft SQL Server"]
-
-
-
-== 04 de diciembre de 2025
-
-
-
-=== Amazon FSX para ONTAP de NetApp
-
-
-
-==== Compatibilidad con puntos de acceso AWS S3 para FSx para ONTAP
-
-NetApp Workload Factory admite puntos de acceso AWS S3 para sus sistemas de archivos FSx para ONTAP . Puede crear volúmenes utilizando puntos de acceso S3, asignar puntos de acceso S3 a un volumen existente y administrar puntos de acceso S3 desde la consola de Workload Factory. Al utilizar un punto de acceso S3, puede acceder a los datos de archivos que residen en volúmenes SMB/CIFS o NFS a través de las API de AWS S3. Esto le permite integrar sus datos existentes con GenAI, ML y análisis de los servicios de AWS que admiten puntos de acceso S3.
-
-* link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-volume.html["Crear un volumen utilizando puntos de acceso S3"]
-* link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-s3-access-points.html["Administrar puntos de acceso S3 para un volumen"]
-
