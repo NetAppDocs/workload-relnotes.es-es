@@ -27,8 +27,6 @@
   <block id="bb50e2459e4e016aa4b14a56adb2358f" category="doc">Configuración y administración</block>
   <block id="a76e64a0fbf98a083080351e4cb67566" category="doc">Cargas de trabajo de</block>
   <block id="4a854a1349dc1900974f3bf6a9552245" category="section-title">Actualizaciones de análisis bien diseñadas</block>
-  <block id="bfebf248126ee0c8c192d7442b03e1a1" category="inline-link-macro">Visualice el estado de buena arquitectura de sus sistemas de archivos FSx para ONTAP</block>
-  <block id="2a708c78876e2ad54c0b8577c3b2bbd5" category="paragraph"><block ref="2a708c78876e2ad54c0b8577c3b2bbd5" category="inline-link-macro-rx"></block></block>
   <block id="aeb31c9f8c311597856b129ab948b4e6" category="inline-link">Fábrica de cargas de trabajo de NetApp</block>
   <block id="55f7843f27571db97da76bdf68a76d22" category="paragraph"><block ref="55f7843f27571db97da76bdf68a76d22" category="inline-link-rx"></block></block>
   <block id="da0e88c69cf2ddf39d5537c04ab2fc69" category="summary">Obtenga información sobre los cambios más recientes en las cargas de trabajo que forman parte de NetApp Workload Factory.</block>
@@ -40,42 +38,7 @@
   <block id="24373c35884bc6090ef23efe0b026c1e" category="paragraph"><block ref="24373c35884bc6090ef23efe0b026c1e" category="inline-link-macro-rx"></block></block>
   <block id="6cff628e35cc5d429a57e4a125a0bf6b" category="inline-link-macro">Registro de cambios de referencia de permisos</block>
   <block id="86fbb6c90e401f3291e15bdc1398509c" category="paragraph"><block ref="86fbb6c90e401f3291e15bdc1398509c" category="inline-link-macro-rx"></block></block>
-  <block id="e75004bce0e2abb43e6673b8bd4bbd2f" category="doc">Mejoras en la integración de Active Directory</block>
-  <block id="4be7fbd19e77cc55e8637326f3cc569d" category="paragraph">Workload Factory for Databases incluye tres nuevos campos de Active Directory (AD) al implementar Microsoft SQL Server mediante la opción *Creación avanzada*. Estas mejoras le permiten especificar las preferencias de unión de Active Directory y utilizar una cuenta de servicio administrada.</block>
-  <block id="2d652258eef11b26b58d2ac1040af4fb" category="paragraph">Los nuevos campos de AD son:</block>
-  <block id="f069ee08ebc87aaad1c479cd4f54611c" category="list-text">Controlador de dominio preferido</block>
-  <block id="5a90d56c7caec61381ba4316f0a43849" category="list-text">Ruta de unidad organizativa preferida</block>
-  <block id="b535bc12ab7716de58cac2633cbe0ec8" category="list-text">Grupo de Active Directory de destino</block>
-  <block id="f43a09fcb5f30e27a88e58e1804f13d0" category="inline-link-macro">Implementar Microsoft SQL Server</block>
-  <block id="8139c8013582edc0d0eba7cc713f8ffd" category="paragraph"><block ref="8139c8013582edc0d0eba7cc713f8ffd" category="inline-link-macro-rx"></block></block>
-  <block id="bfcc9fa5a3178fd803540af87a6b6ab7" category="section-title">18 de diciembre de 2025</block>
-  <block id="5e3b7f958129022f75fe2931c55615b2" category="doc">Integración de la página de inicio del asistente de IA de Ask Me</block>
-  <block id="65bcc541760e8f25e0281edbfdfbf7f3" category="paragraph">La página de inicio de la consola Workload Factory incorpora el asistente de IA Ask me, que le permite hacer preguntas sobre su propio almacenamiento, obtener información personalizada directamente de su entorno y consultar conversaciones anteriores. Puede interactuar con Pregúnteme para comprender sus cargas de trabajo, solucionar problemas y obtener más información sobre Workload Factory, todo sin salir de la consola.</block>
-  <block id="334f5b13a66630c66877aaf36ce24673" category="section-title">04 de enero de 2026</block>
   <block id="bc5d3bf99236801351dc3a2d7c20aed7" category="paragraph">Workload Factory analiza sus sistemas de archivos FSx for ONTAP para las siguientes configuraciones:</block>
-  <block id="afc7c7589e5f20d86c03b5e089bbad6b" category="list-text">La protección autónoma contra ransomware de NetApp (ARP/AI) deshabilitada incluye dispositivos de bloque: comprueba si ARP/AI está deshabilitado en los volúmenes de dispositivos de bloque</block>
-  <block id="2270e6ac2c31be458c93c87db612a494" category="list-text">Modo de escritura de la relación de caché: verifica si el modo de escritura es óptimo para la carga de trabajo del volumen de caché</block>
-  <block id="2125a9a589f0bc57c38acf63f5ffb150" category="list-text">Eliminación de copias de seguridad innecesarias: comprueba si las copias de seguridad están desactualizadas o son innecesarias y se pueden eliminar para reducir costes</block>
-  <block id="270dd22752e2f3f31c99a49ff489774e" category="section-title">Uso del principal de usuario de IAM en políticas de permisos basadas en recursos de enlaces Lambda</block>
-  <block id="75141a4e46e0a646f4c8379f8d5e7b52" category="paragraph">Los enlaces Lambda que se utilizan para conectar su cuenta de Workload Factory y uno o más sistemas de archivos FSx for ONTAP para realizar operaciones ONTAP avanzadas, ahora usan el principal de usuario de IAM para permisos de políticas basadas en recursos. Este cambio proporciona una mejor alineación con las mejores prácticas de la industria para el acceso a los recursos de AWS.</block>
-  <block id="b0dd04cf44137b432a8f89cb4f3c9919" category="section-title">Se agregó una pantalla de análisis para el analizador de IA para eventos EMS</block>
-  <block id="5cd27690d7988b2c3f04768e500459bb" category="paragraph">Se ha agregado una nueva pantalla _Análisis_ al menú Almacenamiento. Desde esta pantalla, puede utilizar la función de analizador de IA para eventos EMS de FSx para ONTAP .</block>
-  <block id="a9b4b239246fd03c03ac43e963075319" category="section-title">Mejoras en los dispositivos de bloque en NetApp Workload Factory</block>
-  <block id="6ef37e3f05edf0fb9740ef851722a8f3" category="paragraph">Se han realizado las siguientes mejoras para los dispositivos de bloque.</block>
-  <block id="0a32dfaa27bfe59db7152c5c5da72282" category="section-title">Creación de dispositivos de bloque</block>
-  <block id="8e8c152eb29cb88d5d80a375d44aee87" category="paragraph">NetApp Workload Factory admite la creación de dispositivos de bloque mediante el protocolo iSCSI en FSx para sistemas de archivos ONTAP para que pueda brindar un mejor soporte a sus aplicaciones de línea de negocio (LOB) desde la consola de Workload Factory.</block>
-  <block id="0b5d1c04d20d94c2a21dacfa53d7354d" category="section-title">Mejoras en la gestión de dispositivos de bloque</block>
-  <block id="e578bac1e9f39054ae2eb2b16d807f71" category="inline-link-macro">gestión de dispositivos de bloque</block>
-  <block id="e16cdf4dbd146007b4b40124e28ca1a2" category="paragraph">NetApp Workload Factory incluye las siguientes mejoras para <block ref="b08ca4e282a45fe2e49c9a019646bd36" category="inline-link-macro-rx"></block>. Ahora puede realizar las siguientes tareas desde la consola de Workload Factory:</block>
-  <block id="f8b3baca819978515d628c6a5881eb4e" category="list-text">Administrar el acceso de los clientes</block>
-  <block id="5338dad31c000cc89dea6cc573f1a242" category="list-text">Archivar datos del dispositivo de bloque</block>
-  <block id="88073627bb09173d8e0b3fa15a27725b" category="list-text">Eliminar un dispositivo de bloque</block>
-  <block id="3c4600754ec66ef615c303417126da12" category="section-title">Compatibilidad con ARP/AI en volúmenes FlexVol que contienen dispositivos de bloque</block>
-  <block id="3043237188bfe3f198084dbfe55d05c0" category="inline-link-macro">Protección autónoma contra ransomware de NetApp con IA (ARP/AI)</block>
-  <block id="34f4bbf8697d1205da43ee612001efe7" category="paragraph">Puedes habilitar <block ref="028271ae216dacdd20feb47aea2c131d" category="inline-link-macro-rx"></block> en volúmenes FlexVol que contienen dispositivos de bloque. La habilitación de ARP/AI detecta ataques de ransomware mediante IA y ayuda en la recuperación de datos.</block>
-  <block id="ef702fb37688ffbfdf16f6b005df7436" category="doc">NetApp Workload Factory para desarrolladores ahora NetApp Workload Factory para EDA</block>
-  <block id="f48bd4568e33f95e23f1ea90df81f8af" category="paragraph">Workload Factory para constructores ahora es Workload Factory para EDA. El cambio de nombre refleja el enfoque en las cargas de trabajo de automatización de diseño electrónico (EDA).</block>
-  <block id="8e2c84558eaf80d5e8e99422d320b395" category="paragraph">Workload Factory para EDA le ayuda a optimizar FSx para ONTAP en múltiples sistemas de archivos. Puede optimizar el rendimiento y reducir los costos operativos automatizando los parámetros de almacenamiento, analizando las restricciones de rendimiento y obteniendo información sobre los proyectos de EDA. Workload Factory para EDA está diseñado para integrarse con sus marcos de infraestructura como código (IaC).</block>
   <block id="8f1b9e3fbbd44cf22e9f5ac28290aba0" category="doc">Análisis bien arquitectado para Amazon Elastic VMware Service</block>
   <block id="f6c8ff445c3db04296fa83d4b2790691" category="paragraph">Workload Factory ahora ofrece análisis automatizados bien diseñados para tus entornos de Amazon Elastic VMware Service (EVS). Los análisis diarios identifican desajustes de configuración y ofrecen recomendaciones detalladas de corrección para ayudarte a mantener operaciones, seguridad y eficiencia de costos óptimas.</block>
   <block id="7e27d05efe618fad67c0e09d831368c6" category="paragraph">Los análisis se realizan mediante las API de AWS—no se requieren credenciales de vSphere ni conectividad a vCenter. Los resultados están disponibles en la nueva pestaña *Well-architected status* dentro de los detalles de tu entorno EVS.</block>
@@ -171,8 +134,6 @@
   <block id="80dcbdee31e7f18a301f863f8b73dc64" category="inline-link-macro">Conoce más sobre Ask Me</block>
   <block id="ca844fa02d938fb3d0329bf797d0a633" category="paragraph"><block ref="ca844fa02d938fb3d0329bf797d0a633" category="inline-link-macro-rx"></block></block>
   <block id="4aa1f4ce7ff97e69b143fbe399631234" category="section-title">01 de marzo de 2026</block>
-  <block id="8d73c4037df134a624f4a3cc9d442a9e" category="doc">Integración de la página de inicio del asistente Ask Me AI</block>
-  <block id="a00917b130263595d00c3587c0e66a4f" category="paragraph">La página de inicio de la consola de Workload Factory incorpora el asistente Ask Me AI, que te permite hacer preguntas sobre tu propio entorno de almacenamiento, obtener información personalizada directamente de tu entorno y consultar conversaciones anteriores. Puedes interactuar con Ask Me para entender tus cargas de trabajo, solucionar problemas y aprender más sobre Workload Factory, todo sin salir de la consola.</block>
   <block id="d2afe782a3799f9f13f95374a1156d01" category="doc">Panel de control general para la gestión del almacenamiento EDA</block>
   <block id="4954af78de30fa7a68e150cce01a1ef1" category="paragraph">Como administrador de TI que gestiona docenas de sistemas de archivos FSx for ONTAP, puedes usar el panel de información general para responder preguntas operativas comunes sobre la salud del clúster, la utilización y la colocación de volúmenes.</block>
   <block id="c9b7c8834662d595e73e6ec795a1438e" category="paragraph">El panel de resumen incluye:</block>
@@ -188,8 +149,6 @@
   <block id="6469eb7981e75ae8c79c94f4a0fb1f29" category="paragraph"><block ref="ea3e0953bbba2ace45ca5d689b29167b" category="inline-link-rx"></block>.</block>
   <block id="b365ed726bb3010ba5b4a6a1479128f9" category="paragraph">Puedes abrir Ask Me desde cualquier página haciendo clic en el nuevo marcador. Lanza Ask Me en un panel lateral sin interrumpir tu trabajo actual y ofrece explicaciones y recomendaciones rápidas relacionadas con lo que estás haciendo en ese momento.</block>
   <block id="df84e5c661ad9c55d4921f236021aac2" category="paragraph"><block ref="df84e5c661ad9c55d4921f236021aac2" category="inline-link-macro-rx"></block></block>
-  <block id="4b51d568a03393cf563624fcbba9143f" category="doc">Evaluación única</block>
-  <block id="c87bb3ba3f920d90c329acddc2fe7385" category="paragraph">Workload Factory ahora ofrece una evaluación única para analizar las configuraciones de tus implementaciones de bases de datos cuando lo necesites: nuevas implementaciones, posmigración, solución de problemas y más. Recibirás recomendaciones para ayudarte a optimizar las configuraciones de tus implementaciones y cumplir con las mejores prácticas. Esta es tu oportunidad de usar la función well-architected sin comprometerte completamente con el proceso de configuración. Puedes evaluar tus bases de datos sin guardar credenciales en Workload Factory, registrar recursos de bases de datos ni configurar conexiones externas.</block>
   <block id="e0b323aef6004097ab97ed7d77d06388" category="inline-link-macro">Realiza una evaluación única de tus implementaciones de bases de datos</block>
   <block id="fa29998d7ba5fe0bb430a106a7dd86bc" category="paragraph"><block ref="fa29998d7ba5fe0bb430a106a7dd86bc" category="inline-link-macro-rx"></block></block>
   <block id="db82eade40cb0d84a1267b72a439d756" category="section-title">Soporte de registro para Always On availability groups en Microsoft SQL Server y Data Guard en Oracle</block>
@@ -236,4 +195,19 @@
   <block id="1711c42c1c1d16547f3fc604cd9af939" category="list-text">Soporte para los niveles de servicio Standard, Premium y Extreme de Google Cloud NetApp Volumes.</block>
   <block id="d5adbe8ffd84800d108bc7ddf1451b8a" category="list-text">Despliegue de Infrastructure-as-Code con Terraform para el aprovisionamiento automatizado.</block>
   <block id="df4bdd45174b09881add6730bdfaf045" category="section-title">09 de marzo de 2026</block>
+  <block id="d3274d6efd4629f10f6f21cf8a7c4820" category="doc">Evaluación única para SQL Server</block>
+  <block id="8f42179a48bba7e0f2424b2849f64183" category="paragraph">Workload Factory ahora ofrece una evaluación única para analizar las configuraciones de tus implementaciones de bases de datos SQL Server cuando lo necesites: nuevas implementaciones, posmigración, solución de problemas y más. Recibirás recomendaciones para ayudarte a optimizar las configuraciones de tus despliegues y cumplir con las mejores prácticas. Esta es tu oportunidad de usar la función well-architected sin comprometerte completamente con el proceso de configuración. Puedes evaluar tus bases de datos sin almacenar credenciales en Workload Factory, registrar recursos de bases de datos ni configurar conexiones externas.</block>
+  <block id="d34510ab77e099f24fa05ceac3ff150c" category="paragraph">El análisis bien diseñado incluye las siguientes nuevas configuraciones para Oracle:</block>
+  <block id="9712df87120461c7551eea660e7f56a6" category="list-text">*Oracle Critical Patch Updates*: evalúa los parches de seguridad que faltan para las instalaciones de bases de datos autogestionadas de Oracle compatibles.</block>
+  <block id="b435abcc161e9c500b1c5e15baf0cbb5" category="list-text">*Cross-region replication*: comprueba si la replicación entre regiones (CRR) está activada para tu FSx for ONTAP file systems que dan servicio a bases de datos Oracle.</block>
+  <block id="1d06ae97515a4da719bc482a7995a7ae" category="list-text">*Instantáneas consistentes con las aplicaciones*: comprueba si la base de datos Oracle está protegida por instantáneas consistentes con las aplicaciones con NetApp SnapCenter.</block>
+  <block id="6a4580dc4131680131fa2d1447aa1deb" category="section-title">Evaluación única para Oracle</block>
+  <block id="d268ce986e7de78be251b51e6126893b" category="paragraph">Workload Factory ahora ofrece una evaluación única para analizar las configuraciones de tus despliegues de bases de datos Oracle cuando lo necesites: nuevos despliegues, posmigración, solución de problemas y más. Recibirás recomendaciones para ayudarte a optimizar las configuraciones de tus despliegues y cumplir con las mejores prácticas. Esta es tu oportunidad de usar la función well-architected sin comprometerte completamente con el proceso de configuración. Puedes evaluar tus bases de datos sin almacenar credenciales en Workload Factory, registrar recursos de bases de datos ni configurar conexiones externas.</block>
+  <block id="9c1752a9ed07d091eb717e163d985505" category="inline-link-macro">Realiza una evaluación única de tus implementaciones de bases de datos Oracle</block>
+  <block id="24d6ca96f32f995e477bbc13ce8c644a" category="paragraph"><block ref="24d6ca96f32f995e477bbc13ce8c644a" category="inline-link-macro-rx"></block></block>
+  <block id="48b0592736b0870e6ff074c10fa5d5dc" category="section-title">Mayor ahorro de costes en varias bases de datos Oracle</block>
+  <block id="dc6ae15573380001d0b7dbda2215fba9" category="paragraph">Hemos mejorado el análisis de ahorro de costes para Oracle con el fin de ofrecer una solución de almacenamiento consolidada para varias bases de datos locales de Oracle en un único sistema de archivos FSx para ONTAP. Esta consolidación optimiza los costes de almacenamiento al reducir el número de sistemas de archivos necesarios para varias bases de datos, lo que se traduce en un mayor ahorro de costes.</block>
+  <block id="141e832aa43713671a149000ddcd45e7" category="inline-link-macro">Explora el ahorro para las bases de datos detectadas en Oracle on-premises</block>
+  <block id="dd6bcf35b4739e139fa3041add91e4f2" category="paragraph"><block ref="dd6bcf35b4739e139fa3041add91e4f2" category="inline-link-macro-rx"></block></block>
+  <block id="7f65119c79afd09b7f99936d13e97909" category="section-title">06 abril 2026</block>
 </blocks>

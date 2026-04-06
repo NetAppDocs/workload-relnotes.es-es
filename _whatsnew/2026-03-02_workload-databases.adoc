@@ -1,12 +1,12 @@
-= Evaluación única
+= Evaluación única para SQL Server
 :allow-uri-read: 
 
 
 
 
-=== Evaluación única
+=== Evaluación única para SQL Server
 
-Workload Factory ahora ofrece una evaluación única para analizar las configuraciones de tus implementaciones de bases de datos cuando lo necesites: nuevas implementaciones, posmigración, solución de problemas y más. Recibirás recomendaciones para ayudarte a optimizar las configuraciones de tus implementaciones y cumplir con las mejores prácticas. Esta es tu oportunidad de usar la función well-architected sin comprometerte completamente con el proceso de configuración. Puedes evaluar tus bases de datos sin guardar credenciales en Workload Factory, registrar recursos de bases de datos ni configurar conexiones externas.
+Workload Factory ahora ofrece una evaluación única para analizar las configuraciones de tus implementaciones de bases de datos SQL Server cuando lo necesites: nuevas implementaciones, posmigración, solución de problemas y más. Recibirás recomendaciones para ayudarte a optimizar las configuraciones de tus despliegues y cumplir con las mejores prácticas. Esta es tu oportunidad de usar la función well-architected sin comprometerte completamente con el proceso de configuración. Puedes evaluar tus bases de datos sin almacenar credenciales en Workload Factory, registrar recursos de bases de datos ni configurar conexiones externas.
 
 link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Realiza una evaluación única de tus implementaciones de bases de datos"]
 
