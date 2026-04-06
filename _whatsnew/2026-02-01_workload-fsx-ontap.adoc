@@ -26,17 +26,15 @@ Se han realizado varias mejoras en las capacidades de gestión de puntos de acce
 
 ==== Detalles del bucket S3 disponibles en Storage
 
-Con los metadatos habilitados para los puntos de acceso de S3, NetApp Workload Factory explora automáticamente tus buckets de AWS S3 y rellena las tablas de S3 para darte una instantánea clara de todos los objetos, sus metadatos, atributos y etiquetas. El acceso a estos detalles te ayuda a mantener el control, la visibilidad y la confianza en los datos de los que eres responsable, mientras reduces la sobrecarga operativa.
+La nueva tabla de Inventario explora automáticamente tus buckets de AWS S3 y rellena las tablas de S3 para darte una instantánea clara de todos los objetos, sus metadatos, atributos y etiquetas. El acceso a estos detalles te ayuda a mantener el control, la visibilidad y la confianza en los datos de los que eres responsable, mientras reduces la sobrecarga operativa. Puedes activar la función al crear y adjuntar puntos de acceso de S3 o al editar puntos de acceso existentes.
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-s3-access-points.html["Ver detalles de los puntos de acceso S3 en FSx for ONTAP file systems"]
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-s3-access-point.html["Crear y adjuntar un punto de acceso S3 para un volumen en NetApp Workload Factory"]
 
 
 
 ==== Operaciones de gestión adicionales para puntos de acceso S3
 
 NetApp Workload Factory proporciona operaciones de gestión adicionales para los puntos de acceso S3. Puedes ver los detalles de los puntos de acceso, modificar los puntos de acceso S3 existentes y añadir o eliminar etiquetas de puntos de acceso S3 desde la interfaz de NetApp Workload Factory, agilizando tus tareas de gestión del almacenamiento de objetos.
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-s3-access-points.html["Administra los puntos de acceso S3 en NetApp Workload Factory"]
 
 
 
@@ -57,7 +55,7 @@ Se han añadido tres nuevas tarjetas a la pestaña Dispositivos de bloque en la 
 
 * Eficiencia de almacenamiento: muestra la capacidad de almacenamiento utilizada y disponible; la capacidad utilizada se desglosa por niveles de almacenamiento SSD y de pool de capacidad.
 * Dispositivos protegidos: muestra el porcentaje de dispositivos de bloque con instantáneas, replicación remota, NetApp Autonomous Ransomware Protection (ARP/AI) y copias de seguridad.
-* Dispositivos huérfanos: muestra si algún dispositivo de bloque no se ha usado durante siete días seguidos, ayudándote a identificar y gestionar de forma eficaz los recursos que no se están usando. Desde aquí, puedes link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-block-storage.html#archive-the-data-of-an-inactive-block-device["reclama espacio para dispositivos de bloque no utilizados"].
+* Dispositivos de bloque inactivos: muestra si algún dispositivo de bloque no se ha utilizado durante siete días consecutivos, lo que te ayuda a identificar y gestionar eficazmente los recursos no utilizados. Desde aquí, puedes link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-block-storage.html#archive-the-data-of-an-inactive-block-device["reclama espacio para dispositivos de bloque no utilizados"].
 
 
 

@@ -1,0 +1,35 @@
+= Actualizaciones de análisis bien diseñadas
+:allow-uri-read: 
+
+
+
+
+=== Actualizaciones de análisis bien diseñadas
+
+Workload Factory analiza tus sistemas de archivos FSx para ONTAP en busca de *volúmenes NAS inactivos*. El análisis de configuración identifica los volúmenes NAS que no se utilizan activamente y recomienda acciones para optimizar la utilización del almacenamiento y reducir costos.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["Implementa sistemas de archivos FSx para ONTAP bien diseñados"]
+
+
+
+=== Función de tabla de registro diario para puntos de acceso S3
+
+La función de tabla de diario proporciona una forma de gestionar el almacenamiento de objetos S3 de FSx ONTAP a escala, permitiéndote auditar fácilmente los eventos de acceso de usuario y las operaciones en los objetos de tus buckets. Con Workload Factory, puedes configurar exploraciones automáticas de tus buckets y tablas S3 para mantener un registro de los eventos, mostrando todos los objetos, sus detalles y las acciones de los usuarios.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/setup-journal-table.html["Configura la infraestructura de la tabla de registro en diario para NetApp Workload Factory"]
+
+
+
+=== Soporte para la gestión de los igroups existentes
+
+Workload Factory admite la gestión de igroups existentes. Puedes añadir o eliminar dispositivos de bloque e iniciadores de host para entregar a tiempo tu carga de trabajo desplegada.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-block-storage.html["Administra el almacenamiento en bloques en NetApp Workload Factory"]
+
+
+
+=== Compatibilidad para especificar el agregado para volúmenes FlexVol
+
+Workload Factory permite crear volúmenes FlexVol en un agregado elegido. Esto te permite dividir la carga de capacidad y rendimiento entre todos los recursos del sistema de archivos.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-volume.html["Crea un volumen FlexVol en NetApp Workload Factory"]
