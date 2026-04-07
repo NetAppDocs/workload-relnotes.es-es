@@ -6,7 +6,7 @@
 
 === Panel de control general para la gestión del almacenamiento EDA
 
-Como administrador de TI que gestiona docenas de sistemas de archivos FSx for ONTAP, puedes usar el panel de información general para responder preguntas operativas comunes sobre la salud del clúster, la utilización y la colocación de volúmenes.
+Como administrador de TI que gestiona docenas de sistemas de archivos FSx para ONTAP, puedes usar el panel de información general para responder a preguntas operativas comunes sobre el estado del clúster, la utilización y la colocación de volúmenes.
 
 El panel de resumen incluye:
 
@@ -16,7 +16,7 @@ El panel de resumen incluye:
 
 El anterior cuadro de mandos principal ahora es accesible en la pestaña *Project*. Las pestañas EDA ahora están ordenadas: visión general, latencia, Project, CI/CD.
 
-https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html["Conoce más sobre el panel de resumen"^].
+https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html["Más información sobre el dashboard de resumen"^].
 
 
 
@@ -25,8 +25,6 @@ https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html["Con
 El análisis de latencia ahora incluye un análisis básico automatizado. Cuando se detectan eventos de latencia, el sistema analiza automáticamente las métricas de delay center de ONTAP QoS para identificar el origen de los problemas de latencia.
 
 El análisis básico evalúa las políticas de QoS, el rendimiento de los discos, los problemas de red y las configuraciones de clúster para proporcionar información inmediata en la columna Details de la tabla de eventos de latencia.
-
-https://docs.netapp.com/us-en/workload-eda/task-monitor-latency.html#understanding-basic-analysis["Aprende más sobre el análisis básico de latencia"^].
 
 
 

@@ -100,6 +100,44 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.
 
 
 
+=== Cargas de trabajo EDA
+
+
+
+==== Recomendaciones de capacidad de EDA
+
+Workload Factory ahora analiza automáticamente la capacidad SSD de cada clúster FSx para ONTAP en tu inventario EDA y genera recomendaciones de capacidad cuando se necesitan ajustes. El algoritmo se ejecuta una vez cada 24 horas para cada clúster.
+
+Cuando se identifica una recomendación:
+
+* Recibes una notificación inmediata por correo electrónico o WAD (no forma parte del resumen semanal).
+* Aparece un indicador luminoso en el cluster afectado en la tabla Clusters.
+* Un resumen en el panel de descripción general muestra el número total de clusters con recomendaciones activas.
+
+
+Selecciona un cluster con una recomendación activa para ver la recomendación, que explica el cambio sugerido y el razonamiento.
+
+https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html#capacity-recommendations["Más información sobre las recomendaciones de capacidad"^].
+
+
+
+==== Análisis automatizado de latencia de IA
+
+El análisis de latencia ahora incluye el análisis de agentes de IA.
+
+Para escenarios complejos que impliquen latencia de datos o de clúster, puedes invocar el análisis de agentes de IA para recibir:
+
+* Identificación detallada de la causa raíz
+* Lista de clientes EC2 afectados
+* Medidas correctoras específicas
+
+
+El análisis del agente de IA requiere la configuración de ARN del modelo de Amazon Bedrock y está disponible bajo demanda para escenarios en los que el análisis básico recomienda una investigación más profunda. El agente de IA puede identificar problemas como volúmenes bully, configuraciones de puntos de montaje no óptimas, necesidades de reequilibrio de FlexGroup y requisitos de escalado horizontal.
+
+https://docs.netapp.com/us-en/workload-eda/task-monitor-latency.html#run-ai-agent-analysis["Más información sobre el análisis de agentes de IA"^].
+
+
+
 == 09 de marzo de 2026
 
 
@@ -277,7 +315,7 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/workload-factory-overvie
 
 ==== Panel de control general para la gestión del almacenamiento EDA
 
-Como administrador de TI que gestiona docenas de sistemas de archivos FSx for ONTAP, puedes usar el panel de información general para responder preguntas operativas comunes sobre la salud del clúster, la utilización y la colocación de volúmenes.
+Como administrador de TI que gestiona docenas de sistemas de archivos FSx para ONTAP, puedes usar el panel de información general para responder a preguntas operativas comunes sobre el estado del clúster, la utilización y la colocación de volúmenes.
 
 El panel de resumen incluye:
 
@@ -287,7 +325,7 @@ El panel de resumen incluye:
 
 El anterior cuadro de mandos principal ahora es accesible en la pestaña *Project*. Las pestañas EDA ahora están ordenadas: visión general, latencia, Project, CI/CD.
 
-https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html["Conoce más sobre el panel de resumen"^].
+https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html["Más información sobre el dashboard de resumen"^].
 
 
 
@@ -296,8 +334,6 @@ https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html["Con
 El análisis de latencia ahora incluye un análisis básico automatizado. Cuando se detectan eventos de latencia, el sistema analiza automáticamente las métricas de delay center de ONTAP QoS para identificar el origen de los problemas de latencia.
 
 El análisis básico evalúa las políticas de QoS, el rendimiento de los discos, los problemas de red y las configuraciones de clúster para proporcionar información inmediata en la columna Details de la tabla de eventos de latencia.
-
-https://docs.netapp.com/us-en/workload-eda/task-monitor-latency.html#understanding-basic-analysis["Aprende más sobre el análisis básico de latencia"^].
 
 
 

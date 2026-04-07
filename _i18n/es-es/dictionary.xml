@@ -130,18 +130,12 @@
   <block id="ca844fa02d938fb3d0329bf797d0a633" category="paragraph"><block ref="ca844fa02d938fb3d0329bf797d0a633" category="inline-link-macro-rx"></block></block>
   <block id="4aa1f4ce7ff97e69b143fbe399631234" category="section-title">01 de marzo de 2026</block>
   <block id="d2afe782a3799f9f13f95374a1156d01" category="doc">Panel de control general para la gestión del almacenamiento EDA</block>
-  <block id="4954af78de30fa7a68e150cce01a1ef1" category="paragraph">Como administrador de TI que gestiona docenas de sistemas de archivos FSx for ONTAP, puedes usar el panel de información general para responder preguntas operativas comunes sobre la salud del clúster, la utilización y la colocación de volúmenes.</block>
-  <block id="c9b7c8834662d595e73e6ec795a1438e" category="paragraph">El panel de resumen incluye:</block>
   <block id="6295e7aeea412421b1717d5ccabe235b" category="list-text">*Estado de salud del clúster*: Información resumida en la parte superior del panel de control que destaca el rendimiento, la capacidad, la disponibilidad, la protección y los eventos de seguridad en todos tus clústeres.</block>
   <block id="5ea38aab7fec2dffdc805f386d0132ab" category="list-text">*Tabla de clústeres*: Una tabla con búsqueda, filtrado y paginación que muestra la capacidad SSD, el grupo de capacidad y las métricas de rendimiento por clúster, con soporte para la personalización de columnas y exportación CSV.</block>
   <block id="b3e3b4895cbd35f5a2365afa09005d4f" category="paragraph">El anterior cuadro de mandos principal ahora es accesible en la pestaña *Project*. Las pestañas EDA ahora están ordenadas: visión general, latencia, Project, CI/CD.</block>
-  <block id="ad69b5e513be7d3ed6dfa533b8fa5d7b" category="inline-link">Conoce más sobre el panel de resumen</block>
-  <block id="a9268f7b1948a5e9223d90e6f5ee62ec" category="paragraph"><block ref="ed263773f1ab4c65130c8c21ca91276d" category="inline-link-rx"></block>.</block>
   <block id="ceadd545963dc65de11a451079ea494e" category="section-title">Análisis automatizado de latencia</block>
   <block id="bb185e5021bfe9db8739ffc98c9e991d" category="paragraph">El análisis de latencia ahora incluye un análisis básico automatizado. Cuando se detectan eventos de latencia, el sistema analiza automáticamente las métricas de delay center de ONTAP QoS para identificar el origen de los problemas de latencia.</block>
   <block id="97d9985b0c67c7f1f1fab2857c6777c3" category="paragraph">El análisis básico evalúa las políticas de QoS, el rendimiento de los discos, los problemas de red y las configuraciones de clúster para proporcionar información inmediata en la columna Details de la tabla de eventos de latencia.</block>
-  <block id="213d18bdbc3550e144008c033bcbdd2c" category="inline-link">Aprende más sobre el análisis básico de latencia</block>
-  <block id="6469eb7981e75ae8c79c94f4a0fb1f29" category="paragraph"><block ref="ea3e0953bbba2ace45ca5d689b29167b" category="inline-link-rx"></block>.</block>
   <block id="b365ed726bb3010ba5b4a6a1479128f9" category="paragraph">Puedes abrir Ask Me desde cualquier página haciendo clic en el nuevo marcador. Lanza Ask Me en un panel lateral sin interrumpir tu trabajo actual y ofrece explicaciones y recomendaciones rápidas relacionadas con lo que estás haciendo en ese momento.</block>
   <block id="df84e5c661ad9c55d4921f236021aac2" category="paragraph"><block ref="df84e5c661ad9c55d4921f236021aac2" category="inline-link-macro-rx"></block></block>
   <block id="e0b323aef6004097ab97ed7d77d06388" category="inline-link-macro">Realiza una evaluación única de tus implementaciones de bases de datos</block>
@@ -225,4 +219,26 @@
   <block id="a640a35e23fdb53d8114aafcadb8064c" category="inline-link-macro">Notificaciones para NetApp Workload Factory</block>
   <block id="cf1b0a0504b0d60ecb883c780228a1eb" category="paragraph"><block ref="cf1b0a0504b0d60ecb883c780228a1eb" category="inline-link-macro-rx"></block></block>
   <block id="0af31167a43cbbff0833653449e77b49" category="paragraph"><block ref="0af31167a43cbbff0833653449e77b49" category="inline-link-macro-rx"></block></block>
+  <block id="baf7dcba0c4a80ef2ec1dd0465a27ee0" category="paragraph">Como administrador de TI que gestiona docenas de sistemas de archivos FSx para ONTAP, puedes usar el panel de información general para responder a preguntas operativas comunes sobre el estado del clúster, la utilización y la colocación de volúmenes.</block>
+  <block id="a75658829d674de492a2dd7d0818e7ca" category="paragraph">El panel de resumen incluye:</block>
+  <block id="bac99350c8b9abdf51c8cb6c7a0467fd" category="inline-link">Más información sobre el dashboard de resumen</block>
+  <block id="427726ce5319ddeb6b4d93d416808b01" category="paragraph"><block ref="eed2fd228fd1462e58b4537ebcb82ccc" category="inline-link-rx"></block>.</block>
+  <block id="7b0ddde1961cce4426c7f0cf5da65e0d" category="doc">Recomendaciones de capacidad de EDA</block>
+  <block id="edb815136867c3359e368e3f925ae387" category="paragraph">Workload Factory ahora analiza automáticamente la capacidad SSD de cada clúster FSx para ONTAP en tu inventario EDA y genera recomendaciones de capacidad cuando se necesitan ajustes. El algoritmo se ejecuta una vez cada 24 horas para cada clúster.</block>
+  <block id="1f9c155d60450baccee27bca630b6497" category="paragraph">Cuando se identifica una recomendación:</block>
+  <block id="8d65ccbe024d7453ace82bd13b7980d8" category="list-text">Recibes una notificación inmediata por correo electrónico o WAD (no forma parte del resumen semanal).</block>
+  <block id="8e5fe5a1e14c6d69b9c457c33f0204a7" category="list-text">Aparece un indicador luminoso en el cluster afectado en la tabla Clusters.</block>
+  <block id="c38bddc25aeb4374d71816e0b71a53a0" category="list-text">Un resumen en el panel de descripción general muestra el número total de clusters con recomendaciones activas.</block>
+  <block id="1471ae7120155f3a06fa9c0a62a7f3f5" category="paragraph">Selecciona un cluster con una recomendación activa para ver la recomendación, que explica el cambio sugerido y el razonamiento.</block>
+  <block id="2ccd39a9418b95cbcdec20bb3ef09998" category="inline-link">Más información sobre las recomendaciones de capacidad</block>
+  <block id="f5365a647b291a1c3ee4f226944d9a2f" category="paragraph"><block ref="a2995fc8e6aae530361e1ff8a48d8ace" category="inline-link-rx"></block>.</block>
+  <block id="606ee09c41a90b59b9cbb13e38ec6e86" category="section-title">Análisis automatizado de latencia de IA</block>
+  <block id="8ae631ba5aac2d33e811621152cdf4a4" category="paragraph">El análisis de latencia ahora incluye el análisis de agentes de IA.</block>
+  <block id="c9e8409eb7f69f1a747dacb755833499" category="paragraph">Para escenarios complejos que impliquen latencia de datos o de clúster, puedes invocar el análisis de agentes de IA para recibir:</block>
+  <block id="81f0dd1809c0f077448d50d48cf6ce43" category="list-text">Identificación detallada de la causa raíz</block>
+  <block id="a9e75b44526a7c3342bd86bfb6079dcc" category="list-text">Lista de clientes EC2 afectados</block>
+  <block id="f1571de1d5f3c90507985e81e6f34526" category="list-text">Medidas correctoras específicas</block>
+  <block id="0e3bc65341eefea76b4aa913be37a4d6" category="paragraph">El análisis del agente de IA requiere la configuración de ARN del modelo de Amazon Bedrock y está disponible bajo demanda para escenarios en los que el análisis básico recomienda una investigación más profunda. El agente de IA puede identificar problemas como volúmenes bully, configuraciones de puntos de montaje no óptimas, necesidades de reequilibrio de FlexGroup y requisitos de escalado horizontal.</block>
+  <block id="3a0eea1249d5ea83860d68d281f6c97b" category="inline-link">Más información sobre el análisis de agentes de IA</block>
+  <block id="af2687c5a2b9873716f0987242df8169" category="paragraph"><block ref="2915288e95b80b72c9de65e94d4fc279" category="inline-link-rx"></block>.</block>
 </blocks>
