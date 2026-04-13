@@ -55,6 +55,12 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-volume.html["Crea u
 
 
 
+==== Último tiempo de acceso para dispositivos de bloque
+
+Workload Factory informa del último tiempo de acceso a los dispositivos de bloque. El tiempo se basa en la última vez que accediste al igroup en Workload Factory. Saber cuándo se utilizó por última vez cada dispositivo de bloque te permite optimizar tus recursos.
+
+
+
 === Cargas de trabajo de base de datos
 
 

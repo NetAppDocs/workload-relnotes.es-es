@@ -241,4 +241,6 @@
   <block id="0e3bc65341eefea76b4aa913be37a4d6" category="paragraph">El análisis del agente de IA requiere la configuración de ARN del modelo de Amazon Bedrock y está disponible bajo demanda para escenarios en los que el análisis básico recomienda una investigación más profunda. El agente de IA puede identificar problemas como volúmenes bully, configuraciones de puntos de montaje no óptimas, necesidades de reequilibrio de FlexGroup y requisitos de escalado horizontal.</block>
   <block id="3a0eea1249d5ea83860d68d281f6c97b" category="inline-link">Más información sobre el análisis de agentes de IA</block>
   <block id="af2687c5a2b9873716f0987242df8169" category="paragraph"><block ref="2915288e95b80b72c9de65e94d4fc279" category="inline-link-rx"></block>.</block>
+  <block id="d08fabf4c0fdff2290096692a4ffa28a" category="section-title">Último tiempo de acceso para dispositivos de bloque</block>
+  <block id="fa4bdc942217a8579f785220b2742233" category="paragraph">Workload Factory informa del último tiempo de acceso a los dispositivos de bloque. El tiempo se basa en la última vez que accediste al igroup en Workload Factory. Saber cuándo se utilizó por última vez cada dispositivo de bloque te permite optimizar tus recursos.</block>
 </blocks>
