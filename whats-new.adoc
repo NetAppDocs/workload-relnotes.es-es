@@ -71,6 +71,14 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.
 
 
 
+==== Nueva notificación para sistemas de archivos FSx for ONTAP
+
+El servicio de notificación NetApp Workload Factory incluye la notificación con un resumen mensual del costo de tu cuenta, mostrando tendencias de gasto, cambios inusuales y las mejores oportunidades de ahorro para FSx for ONTAP file systems.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["Configura las notificaciones de Workload Factory"]
+
+
+
 === Cargas de trabajo EDA
 
 
