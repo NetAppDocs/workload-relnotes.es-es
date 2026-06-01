@@ -191,4 +191,9 @@
   <block id="46d1548637c7b145aedaf16fc4982ded" category="paragraph"><block ref="46d1548637c7b145aedaf16fc4982ded" category="inline-link-macro-rx"></block></block>
   <block id="6935aa37908b8d3e8e6495adec301374" category="section-title">Establecer umbrales de latencia de volumen</block>
   <block id="8d36c5c4d1b5b3180db932fcf4bd5e3b" category="paragraph">Ahora puedes configurar umbrales de latencia por volumen para supervisar el rendimiento y recibir alertas cuando la latencia de lectura/escritura supere los límites que hayas definido. La supervisión de la latencia te ayuda a identificar de forma proactiva los problemas de rendimiento antes de que afecten a tus cargas de trabajo.</block>
+  <block id="3bb5ae684d139ecc39b584ffe9e6033b" category="paragraph">El servicio de notificación NetApp Workload Factory incluye la notificación de retraso de replicación.</block>
+  <block id="bdd14b3b036670ed34f9ec4d3b52c70c" category="section-title">Soporte para cuentas de AWS GovCloud (US)</block>
+  <block id="bc2438830b45cc61abad63e0b037a228" category="paragraph">Ahora puedes crear cuentas de AWS GovCloud (US) en Workload Factory. Este tipo de cuenta usa solo los endpoints y regiones de AWS US GovCloud para la configuración y las operaciones. Las credenciales y los secretos permanecen en GovCloud. Se admiten regiones de GovCloud (US).</block>
+  <block id="b6d9ef2d00d295b73db4c150b66667c7" category="inline-link-macro">Crear una cuenta de AWS GovCloud (US) en Workload Factory</block>
+  <block id="02235c7f58acbfe62b6b373b8f8ef557" category="paragraph"><block ref="02235c7f58acbfe62b6b373b8f8ef557" category="inline-link-macro-rx"></block></block>
 </blocks>
