@@ -196,4 +196,28 @@
   <block id="bc2438830b45cc61abad63e0b037a228" category="paragraph">Ahora puedes crear cuentas de AWS GovCloud (US) en Workload Factory. Este tipo de cuenta usa solo los endpoints y regiones de AWS US GovCloud para la configuración y las operaciones. Las credenciales y los secretos permanecen en GovCloud. Se admiten regiones de GovCloud (US).</block>
   <block id="b6d9ef2d00d295b73db4c150b66667c7" category="inline-link-macro">Crear una cuenta de AWS GovCloud (US) en Workload Factory</block>
   <block id="02235c7f58acbfe62b6b373b8f8ef557" category="paragraph"><block ref="02235c7f58acbfe62b6b373b8f8ef557" category="inline-link-macro-rx"></block></block>
+  <block id="4f08df9e7760628c8a0fcefa27f063f4" category="doc">Modos de gestión y automatización para aumentar la capacidad de SSD</block>
+  <block id="6048180efecc25affb37f0bcfc4af51f" category="paragraph">Workload Factory ofrece ahora modos de gestión del aumento de la capacidad de las unidades SSD que se adaptan a tus preferencias operativas:</block>
+  <block id="9464fbc6a7b71da353f2d54109960226" category="list-text">*Automatiza*</block>
+  <block id="66237dc10c2943c0563d26d3f0b6b230" category="list-text">*Recomendar*</block>
+  <block id="d015a34de96d3f92372df94da0f629a7" category="list-text">*Ninguno*</block>
+  <block id="7d2c5b1dd66ac2d00e2f116602f0da91" category="paragraph">El modo actual y sus parámetros se muestran en la parte superior del gráfico de uso del SSD en la página de detalles del sistema de archivos. Puedes cambiar de modo en cualquier momento según tus necesidades operativas.</block>
+  <block id="df638dda507575b6f88b684af7608553" category="inline-link-macro">Conoce los modos de gestión de las unidades SSD</block>
+  <block id="8726b2b1ff09bca86dd85ada696c955e" category="paragraph"><block ref="8a69182f844b7822adef7a1894417217" category="inline-link-macro-rx"></block>.</block>
+  <block id="70a1c8861535253968956554ebf8e231" category="section-title">Editar en masa los parámetros de gestión del aumento de capacidad de las SSD</block>
+  <block id="771b4b22f5518da40bcc1511e8f12898" category="paragraph">Ahora puedes ajustar los parámetros de gestión del aumento de la capacidad de las SSD en varios sistemas de archivos desde el panel de información general. Selecciona uno o más clústeres en la tabla Clusters y edita los valores de Threshold (10-90%), Lookback (1-200 horas) y Ahead (1-200 horas) de forma masiva.</block>
+  <block id="012cccd7c99fecdbdf717ccb8b16b7de" category="paragraph">El cuadro de diálogo de edición se rellena automáticamente en función de tu selección: si todos los sistemas de archivos seleccionados comparten los mismos valores de parámetros, se muestran esos valores; de lo contrario, se usan los valores predeterminados. Esto te ayuda a aplicar una configuración de capacidad coherente en todo tu entorno.</block>
+  <block id="68c574408eaf57fb5b79796bef1895be" category="inline-link-macro">Aprende a editar parámetros de forma masiva</block>
+  <block id="ba63cd1a056bc80046c503ba2fa33773" category="paragraph"><block ref="fb2c15e1efaea436655e6825086014e4" category="inline-link-macro-rx"></block>.</block>
+  <block id="b02017def04604d515c33a15c45d2e8e" category="section-title">Visualización de puntos de decisión de capacidad</block>
+  <block id="7dcdf7b0c669e34d376781ffb261c8f6" category="paragraph">El gráfico de uso de SSD muestra ahora puntos de decisión que indican cuándo se generaron recomendaciones de capacidad o se tomaron acciones automatizadas.</block>
+  <block id="473ad9d52a93a6904458becbb59cdb8f" category="list-text">*Puntos de decisión de la recomendación*: Pasa el ratón por encima para ver la marca de tiempo, el tamaño de aumento recomendado y la capacidad actual.</block>
+  <block id="e13a73a214d35af7df23610e438e2773" category="list-text">*Puntos de decisión de automatización*: Pasa el ratón por encima para ver la marca de tiempo, el estado de éxito o fracaso, el aumento de tamaño y el nuevo tamaño del agregado. Los intentos fallidos incluyen el motivo del fracaso.</block>
+  <block id="c1d04258174a29f2132edb30e198b9ea" category="paragraph">Los puntos de decisión pueden producirse cada 30 minutos y se muestran de forma individual o consolidada en función del intervalo de tiempo seleccionado.</block>
+  <block id="77911424f819f845cb8185bc75dd9c89" category="inline-link-macro">Conoce los puntos de decisión sobre capacidad</block>
+  <block id="2470c0ea25645427c285ac2c1db0ea6d" category="paragraph"><block ref="7d345c706cc4ef56c93e61e8fef7447b" category="inline-link-macro-rx"></block>.</block>
+  <block id="6730925799427eefafa41ca821775fd8" category="section-title">Estado de enlace configurado en la tabla Clusters</block>
+  <block id="00617692d401e7bead58c1c61c197639" category="paragraph">La tabla Clusters del panel Overview ahora incluye una columna Associated link que muestra si un enlace FSx for ONTAP está configurado para cada sistema de archivos. El estado de la conexión se valida diariamente, lo que te ayuda a identificar los sistemas de archivos que necesitan configuración de enlace o que pueden tener problemas de conectividad.</block>
+  <block id="14447da801a1982ce517d6e1ffb0c116" category="inline-link-macro">Ver el panel de resumen</block>
+  <block id="ad5ea2e791a779cc733cf94252010c1e" category="paragraph"><block ref="a3c9e85960ac01cd3d2a615266299aa4" category="inline-link-macro-rx"></block>.</block>
 </blocks>
