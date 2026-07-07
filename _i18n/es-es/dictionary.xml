@@ -26,7 +26,6 @@
   <block id="b04deaa23ce22ae0dafa2736e8afebed" category="doc">Cargas de trabajo GenAI</block>
   <block id="bb50e2459e4e016aa4b14a56adb2358f" category="doc">Configuración y administración</block>
   <block id="a76e64a0fbf98a083080351e4cb67566" category="doc">Cargas de trabajo de</block>
-  <block id="4a854a1349dc1900974f3bf6a9552245" category="section-title">Actualizaciones de análisis bien diseñadas</block>
   <block id="aeb31c9f8c311597856b129ab948b4e6" category="inline-link">Fábrica de cargas de trabajo de NetApp</block>
   <block id="55f7843f27571db97da76bdf68a76d22" category="paragraph"><block ref="55f7843f27571db97da76bdf68a76d22" category="inline-link-rx"></block></block>
   <block id="da0e88c69cf2ddf39d5537c04ab2fc69" category="summary">Obtenga información sobre los cambios más recientes en las cargas de trabajo que forman parte de NetApp Workload Factory.</block>
@@ -39,65 +38,7 @@
   <block id="2bc4b4a88d694b207aacb90573eb4b7f" category="doc">Cargas de trabajo EDA</block>
   <block id="e852955e53f52fa18c0de4a24d22f4af" category="inline-link-macro">Administra el almacenamiento en bloques en NetApp Workload Factory</block>
   <block id="e27c0520df6795eedf0c70ef38381a5b" category="paragraph"><block ref="e27c0520df6795eedf0c70ef38381a5b" category="inline-link-macro-rx"></block></block>
-  <block id="d9a614ba22162f87467dc9820cb657d0" category="doc">Presentamos la compatibilidad del asesor de migración para Google Cloud VMware Engine</block>
-  <block id="9ed9d229ad690b47d132eb6206cba909" category="paragraph">NetApp Workload Factory ahora es compatible con Google Cloud VMware Engine. Puedes migrar tus cargas de trabajo VMware locales a Google Cloud VMware Engine usando Google Cloud NetApp Volumes como almacenes de datos NFS externos, optimizando los costes y permitiendo más control sobre tu entorno VMware sin necesidad de refactorizar o cambiar de plataforma tus aplicaciones.</block>
-  <block id="42fbc3a98a8196c1e84ea7586967c06f" category="paragraph">El asesor de migración de Google Cloud VMware Engine proporciona:</block>
-  <block id="6e784cfbe98c0f6a070e3304420a9971" category="list-text">Dimensionamiento y diseño automatizados del clúster Google Cloud VMware Engine con compatibilidad con los tipos de nodo VE1 y VE2</block>
-  <block id="f6879c882f4384c5ca30017d48dafe42" category="list-text">Optimización de la disposición de las máquinas virtuales entre los datastores internos de vSAN y los datastores NFS externos de Google Cloud NetApp Volumes.</block>
-  <block id="a29465f74d83dc4ead73643e19ed4387" category="list-text">Comparación detallada de costes y análisis del coste total de propiedad entre las configuraciones solo vSAN y Google Cloud NetApp Volumes-enhanced.</block>
-  <block id="1711c42c1c1d16547f3fc604cd9af939" category="list-text">Soporte para los niveles de servicio Standard, Premium y Extreme de Google Cloud NetApp Volumes.</block>
-  <block id="d5adbe8ffd84800d108bc7ddf1451b8a" category="list-text">Despliegue de Infrastructure-as-Code con Terraform para el aprovisionamiento automatizado.</block>
-  <block id="df4bdd45174b09881add6730bdfaf045" category="section-title">09 de marzo de 2026</block>
   <block id="d34510ab77e099f24fa05ceac3ff150c" category="paragraph">El análisis bien diseñado incluye las siguientes nuevas configuraciones para Oracle:</block>
-  <block id="9712df87120461c7551eea660e7f56a6" category="list-text">*Oracle Critical Patch Updates*: evalúa los parches de seguridad que faltan para las instalaciones de bases de datos autogestionadas de Oracle compatibles.</block>
-  <block id="b435abcc161e9c500b1c5e15baf0cbb5" category="list-text">*Cross-region replication*: comprueba si la replicación entre regiones (CRR) está activada para tu FSx for ONTAP file systems que dan servicio a bases de datos Oracle.</block>
-  <block id="1d06ae97515a4da719bc482a7995a7ae" category="list-text">*Instantáneas consistentes con las aplicaciones*: comprueba si la base de datos Oracle está protegida por instantáneas consistentes con las aplicaciones con NetApp SnapCenter.</block>
-  <block id="6a4580dc4131680131fa2d1447aa1deb" category="section-title">Evaluación única para Oracle</block>
-  <block id="d268ce986e7de78be251b51e6126893b" category="paragraph">Workload Factory ahora ofrece una evaluación única para analizar las configuraciones de tus despliegues de bases de datos Oracle cuando lo necesites: nuevos despliegues, posmigración, solución de problemas y más. Recibirás recomendaciones para ayudarte a optimizar las configuraciones de tus despliegues y cumplir con las mejores prácticas. Esta es tu oportunidad de usar la función well-architected sin comprometerte completamente con el proceso de configuración. Puedes evaluar tus bases de datos sin almacenar credenciales en Workload Factory, registrar recursos de bases de datos ni configurar conexiones externas.</block>
-  <block id="9c1752a9ed07d091eb717e163d985505" category="inline-link-macro">Realiza una evaluación única de tus implementaciones de bases de datos Oracle</block>
-  <block id="24d6ca96f32f995e477bbc13ce8c644a" category="paragraph"><block ref="24d6ca96f32f995e477bbc13ce8c644a" category="inline-link-macro-rx"></block></block>
-  <block id="48b0592736b0870e6ff074c10fa5d5dc" category="section-title">Mayor ahorro de costes en varias bases de datos Oracle</block>
-  <block id="dc6ae15573380001d0b7dbda2215fba9" category="paragraph">Hemos mejorado el análisis de ahorro de costes para Oracle con el fin de ofrecer una solución de almacenamiento consolidada para varias bases de datos locales de Oracle en un único sistema de archivos FSx para ONTAP. Esta consolidación optimiza los costes de almacenamiento al reducir el número de sistemas de archivos necesarios para varias bases de datos, lo que se traduce en un mayor ahorro de costes.</block>
-  <block id="141e832aa43713671a149000ddcd45e7" category="inline-link-macro">Explora el ahorro para las bases de datos detectadas en Oracle on-premises</block>
-  <block id="dd6bcf35b4739e139fa3041add91e4f2" category="paragraph"><block ref="dd6bcf35b4739e139fa3041add91e4f2" category="inline-link-macro-rx"></block></block>
-  <block id="7f65119c79afd09b7f99936d13e97909" category="section-title">06 abril 2026</block>
-  <block id="97c89cdac712f1b76105f91dee0572f0" category="paragraph">Workload Factory analiza tus sistemas de archivos FSx para ONTAP en busca de *volúmenes NAS inactivos*. El análisis de configuración identifica los volúmenes NAS que no se utilizan activamente y recomienda acciones para optimizar la utilización del almacenamiento y reducir costos.</block>
-  <block id="8fed534b92837766d0beda280a6179f0" category="inline-link-macro">Implementa sistemas de archivos FSx para ONTAP bien diseñados</block>
-  <block id="aa9fc3ddfcff516e1422d829fd2d4138" category="paragraph"><block ref="aa9fc3ddfcff516e1422d829fd2d4138" category="inline-link-macro-rx"></block></block>
-  <block id="51d8364219eb8c2bcde5564c48004466" category="section-title">Función de tabla de registro diario para puntos de acceso S3</block>
-  <block id="5693755c177f4efee6db3867cf164616" category="paragraph">La función de tabla de diario proporciona una forma de gestionar el almacenamiento de objetos S3 de FSx ONTAP a escala, permitiéndote auditar fácilmente los eventos de acceso de usuario y las operaciones en los objetos de tus buckets. Con Workload Factory, puedes configurar exploraciones automáticas de tus buckets y tablas S3 para mantener un registro de los eventos, mostrando todos los objetos, sus detalles y las acciones de los usuarios.</block>
-  <block id="f5605effc9ff1f2b6b56333b91b9188b" category="inline-link-macro">Configura la infraestructura de la tabla de registro en diario para NetApp Workload Factory</block>
-  <block id="15ee03197182e575bb603c90e93b0f1d" category="paragraph"><block ref="15ee03197182e575bb603c90e93b0f1d" category="inline-link-macro-rx"></block></block>
-  <block id="7a492c4bebdd8855719e33759860ec85" category="section-title">Soporte para la gestión de los igroups existentes</block>
-  <block id="8770963e84c3458575dd2cb30097ea59" category="paragraph">Workload Factory admite la gestión de igroups existentes. Puedes añadir o eliminar dispositivos de bloque e iniciadores de host para entregar a tiempo tu carga de trabajo desplegada.</block>
-  <block id="fb848967e18d6d577c43fdac12d36dae" category="section-title">Compatibilidad para especificar el agregado para volúmenes FlexVol</block>
-  <block id="d5df323db0a76ed62a683b9faace70ee" category="paragraph">Workload Factory permite crear volúmenes FlexVol en un agregado elegido. Esto te permite dividir la carga de capacidad y rendimiento entre todos los recursos del sistema de archivos.</block>
-  <block id="dfe0bf59b17a7c242e3e57ed9983cadf" category="inline-link-macro">Crea un volumen FlexVol en NetApp Workload Factory</block>
-  <block id="438b9ce1f05f60505d31940eb7d80713" category="paragraph"><block ref="438b9ce1f05f60505d31940eb7d80713" category="inline-link-macro-rx"></block></block>
-  <block id="ea7d4002457b002b29ca2cb9a498c0bc" category="doc">Nueva notificación para Storage</block>
-  <block id="77633bb85f2dda716363da565416542c" category="paragraph">El servicio de notificación NetApp Workload Factory incluye la notificación para NetApp Autonomous Ransomware Protection with AI (ARP/AI) for Storage.</block>
-  <block id="a640a35e23fdb53d8114aafcadb8064c" category="inline-link-macro">Notificaciones para NetApp Workload Factory</block>
-  <block id="cf1b0a0504b0d60ecb883c780228a1eb" category="paragraph"><block ref="cf1b0a0504b0d60ecb883c780228a1eb" category="inline-link-macro-rx"></block></block>
-  <block id="7b0ddde1961cce4426c7f0cf5da65e0d" category="doc">Recomendaciones de capacidad de EDA</block>
-  <block id="edb815136867c3359e368e3f925ae387" category="paragraph">Workload Factory ahora analiza automáticamente la capacidad SSD de cada clúster FSx para ONTAP en tu inventario EDA y genera recomendaciones de capacidad cuando se necesitan ajustes. El algoritmo se ejecuta una vez cada 24 horas para cada clúster.</block>
-  <block id="1f9c155d60450baccee27bca630b6497" category="paragraph">Cuando se identifica una recomendación:</block>
-  <block id="8d65ccbe024d7453ace82bd13b7980d8" category="list-text">Recibes una notificación inmediata por correo electrónico o WAD (no forma parte del resumen semanal).</block>
-  <block id="8e5fe5a1e14c6d69b9c457c33f0204a7" category="list-text">Aparece un indicador luminoso en el cluster afectado en la tabla Clusters.</block>
-  <block id="c38bddc25aeb4374d71816e0b71a53a0" category="list-text">Un resumen en el panel de descripción general muestra el número total de clusters con recomendaciones activas.</block>
-  <block id="1471ae7120155f3a06fa9c0a62a7f3f5" category="paragraph">Selecciona un cluster con una recomendación activa para ver la recomendación, que explica el cambio sugerido y el razonamiento.</block>
-  <block id="2ccd39a9418b95cbcdec20bb3ef09998" category="inline-link">Más información sobre las recomendaciones de capacidad</block>
-  <block id="f5365a647b291a1c3ee4f226944d9a2f" category="paragraph"><block ref="a2995fc8e6aae530361e1ff8a48d8ace" category="inline-link-rx"></block>.</block>
-  <block id="606ee09c41a90b59b9cbb13e38ec6e86" category="section-title">Análisis automatizado de latencia de IA</block>
-  <block id="8ae631ba5aac2d33e811621152cdf4a4" category="paragraph">El análisis de latencia ahora incluye el análisis de agentes de IA.</block>
-  <block id="c9e8409eb7f69f1a747dacb755833499" category="paragraph">Para escenarios complejos que impliquen latencia de datos o de clúster, puedes invocar el análisis de agentes de IA para recibir:</block>
-  <block id="81f0dd1809c0f077448d50d48cf6ce43" category="list-text">Identificación detallada de la causa raíz</block>
-  <block id="a9e75b44526a7c3342bd86bfb6079dcc" category="list-text">Lista de clientes EC2 afectados</block>
-  <block id="f1571de1d5f3c90507985e81e6f34526" category="list-text">Medidas correctoras específicas</block>
-  <block id="0e3bc65341eefea76b4aa913be37a4d6" category="paragraph">El análisis del agente de IA requiere la configuración de ARN del modelo de Amazon Bedrock y está disponible bajo demanda para escenarios en los que el análisis básico recomienda una investigación más profunda. El agente de IA puede identificar problemas como volúmenes bully, configuraciones de puntos de montaje no óptimas, necesidades de reequilibrio de FlexGroup y requisitos de escalado horizontal.</block>
-  <block id="3a0eea1249d5ea83860d68d281f6c97b" category="inline-link">Más información sobre el análisis de agentes de IA</block>
-  <block id="af2687c5a2b9873716f0987242df8169" category="paragraph"><block ref="2915288e95b80b72c9de65e94d4fc279" category="inline-link-rx"></block>.</block>
-  <block id="d08fabf4c0fdff2290096692a4ffa28a" category="section-title">Último tiempo de acceso para dispositivos de bloque</block>
-  <block id="fa4bdc942217a8579f785220b2742233" category="paragraph">Workload Factory informa del último tiempo de acceso a los dispositivos de bloque. El tiempo se basa en la última vez que accediste al igroup en Workload Factory. Saber cuándo se utilizó por última vez cada dispositivo de bloque te permite optimizar tus recursos.</block>
   <block id="5a022ce9df2c118b15eecf6d431faf14" category="doc">Clones de dispositivos en bloque</block>
   <block id="c74340453798a5d4d4e10a5aaef38904" category="paragraph">Workload Factory ofrece clones para tus dispositivos de bloques, para que puedas aprovisionar rápidamente copias eficientes y con capacidad de escritura de tus datos, mientras controlas la capacidad, el acceso y el ciclo de vida.</block>
   <block id="91cb86206fad91f1ee03be3263ce2b5e" category="section-title">Etiquetas EC2 en dispositivos de bloque</block>
@@ -220,4 +161,10 @@
   <block id="00617692d401e7bead58c1c61c197639" category="paragraph">La tabla Clusters del panel Overview ahora incluye una columna Associated link que muestra si un enlace FSx for ONTAP está configurado para cada sistema de archivos. El estado de la conexión se valida diariamente, lo que te ayuda a identificar los sistemas de archivos que necesitan configuración de enlace o que pueden tener problemas de conectividad.</block>
   <block id="14447da801a1982ce517d6e1ffb0c116" category="inline-link-macro">Ver el panel de resumen</block>
   <block id="ad5ea2e791a779cc733cf94252010c1e" category="paragraph"><block ref="a3c9e85960ac01cd3d2a615266299aa4" category="inline-link-macro-rx"></block>.</block>
+  <block id="caa606c0b1085a846c384cef14c3a17f" category="doc">Compatibilidad con la instancia i7i.metal-24xl en la calculadora de TCO de EVS</block>
+  <block id="b055674b094a39e8822f5941fd1ddf8d" category="paragraph">La calculadora de TCO de EVS ahora admite instancias EC2 de AWS i7i.metal-24xl como hosts de clúster. En comparación con las configuraciones i4i.metal, estas instancias reducen el coste inicial de EVS en aproximadamente un 33% para compute y un 25% para el almacenamiento vSAN.</block>
+  <block id="bbc7cb1849fc26e314ad21ecd99ca5fe" category="paragraph">La calculadora compara automáticamente ambos tipos de instancias y selecciona la opción más rentable. Una nueva sección de comparación muestra las configuraciones de los hosts EVS una al lado de la otra, lo que facilita encontrar la configuración que mejor se adapte a tus necesidades.</block>
+  <block id="0665cdd8950328e06e0db9b1e16938d3" category="inline-link-macro">Calcula el ahorro estimado para EVS</block>
+  <block id="86271c8c1063215a7f1ff0f45240c576" category="paragraph"><block ref="86271c8c1063215a7f1ff0f45240c576" category="inline-link-macro-rx"></block></block>
+  <block id="b2384f97ee5bce1c28f5573e6878c9c1" category="section-title">06 de julio de 2026</block>
 </blocks>

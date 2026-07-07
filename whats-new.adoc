@@ -15,6 +15,24 @@ Obtenga información sobre los cambios más recientes en las cargas de trabajo q
 
 
 
+== 06 de julio de 2026
+
+
+
+=== Cargas de trabajo de
+
+
+
+==== Compatibilidad con la instancia i7i.metal-24xl en la calculadora de TCO de EVS
+
+La calculadora de TCO de EVS ahora admite instancias EC2 de AWS i7i.metal-24xl como hosts de clúster. En comparación con las configuraciones i4i.metal, estas instancias reducen el coste inicial de EVS en aproximadamente un 33% para compute y un 25% para el almacenamiento vSAN.
+
+La calculadora compara automáticamente ambos tipos de instancias y selecciona la opción más rentable. Una nueva sección de comparación muestra las configuraciones de los hosts EVS una al lado de la otra, lo que facilita encontrar la configuración que mejor se adapte a tus necesidades.
+
+link:calculate-evs-savings.html["Calcula el ahorro estimado para EVS"]
+
+
+
 == 01 de junio de 2026
 
 
@@ -128,6 +146,16 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/analyze-events.html["Anali
 Ahora puedes configurar umbrales de latencia por volumen para supervisar el rendimiento y recibir alertas cuando la latencia de lectura/escritura supere los límites que hayas definido. La supervisión de la latencia te ayuda a identificar de forma proactiva los problemas de rendimiento antes de que afecten a tus cargas de trabajo.
 
 link:https://docs.netapp.com/us-en/workload-fsx-ontap/set-volume-latency-thresholds.html["Establece umbrales de latencia de volumen en NetApp Workload Factory"]
+
+
+
+=== Cargas de trabajo de
+
+
+
+==== Soporte para AWS GovCloud (US) en NetApp Workload Factory
+
+NetApp Workload Factory es compatible con las cuentas de AWS GovCloud (US). Con una cuenta de GovCloud, puedes implementar y administrar cargas de trabajo de almacenamiento en las regiones de AWS GovCloud (US).
 
 
 
@@ -355,132 +383,3 @@ La pestaña *Over time* muestra los datos brutos de latencia CloudWatch (lectura
 Esta completa visualización te ayuda a identificar patrones, entender si los problemas de latencia son recurrentes o aislados y tomar decisiones más informadas sobre la corrección.
 
 https://docs.netapp.com/us-en/workload-eda/task-analyze-latency-trends.html["Aprende a analizar las tendencias de latencia"^].
-
-
-
-== 06 abril 2026
-
-
-
-=== Amazon FSX para ONTAP de NetApp
-
-
-
-==== Actualizaciones de análisis bien diseñadas
-
-Workload Factory analiza tus sistemas de archivos FSx para ONTAP en busca de *volúmenes NAS inactivos*. El análisis de configuración identifica los volúmenes NAS que no se utilizan activamente y recomienda acciones para optimizar la utilización del almacenamiento y reducir costos.
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["Implementa sistemas de archivos FSx para ONTAP bien diseñados"]
-
-
-
-==== Función de tabla de registro diario para puntos de acceso S3
-
-La función de tabla de diario proporciona una forma de gestionar el almacenamiento de objetos S3 de FSx ONTAP a escala, permitiéndote auditar fácilmente los eventos de acceso de usuario y las operaciones en los objetos de tus buckets. Con Workload Factory, puedes configurar exploraciones automáticas de tus buckets y tablas S3 para mantener un registro de los eventos, mostrando todos los objetos, sus detalles y las acciones de los usuarios.
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/setup-journal-table.html["Configura la infraestructura de la tabla de registro en diario para NetApp Workload Factory"]
-
-
-
-==== Soporte para la gestión de los igroups existentes
-
-Workload Factory admite la gestión de igroups existentes. Puedes añadir o eliminar dispositivos de bloque e iniciadores de host para entregar a tiempo tu carga de trabajo desplegada.
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-block-storage.html["Administra el almacenamiento en bloques en NetApp Workload Factory"]
-
-
-
-==== Compatibilidad para especificar el agregado para volúmenes FlexVol
-
-Workload Factory permite crear volúmenes FlexVol en un agregado elegido. Esto te permite dividir la carga de capacidad y rendimiento entre todos los recursos del sistema de archivos.
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-volume.html["Crea un volumen FlexVol en NetApp Workload Factory"]
-
-
-
-==== Último tiempo de acceso para dispositivos de bloque
-
-Workload Factory informa del último tiempo de acceso a los dispositivos de bloque. El tiempo se basa en la última vez que accediste al igroup en Workload Factory. Saber cuándo se utilizó por última vez cada dispositivo de bloque te permite optimizar tus recursos.
-
-
-
-=== Cargas de trabajo de base de datos
-
-
-
-==== Análisis bien diseñado para Oracle
-
-El análisis bien diseñado incluye las siguientes nuevas configuraciones para Oracle:
-
-* *Oracle Critical Patch Updates*: evalúa los parches de seguridad que faltan para las instalaciones de bases de datos autogestionadas de Oracle compatibles.
-* *Cross-region replication*: comprueba si la replicación entre regiones (CRR) está activada para tu FSx for ONTAP file systems que dan servicio a bases de datos Oracle.
-* *Instantáneas consistentes con las aplicaciones*: comprueba si la base de datos Oracle está protegida por instantáneas consistentes con las aplicaciones con NetApp SnapCenter.
-
-
-link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Implementar configuraciones de base de datos bien diseñadas en Workload Factory"]
-
-
-
-==== Evaluación única para Oracle
-
-Workload Factory ahora ofrece una evaluación única para analizar las configuraciones de tus despliegues de bases de datos Oracle cuando lo necesites: nuevos despliegues, posmigración, solución de problemas y más. Recibirás recomendaciones para ayudarte a optimizar las configuraciones de tus despliegues y cumplir con las mejores prácticas. Esta es tu oportunidad de usar la función well-architected sin comprometerte completamente con el proceso de configuración. Puedes evaluar tus bases de datos sin almacenar credenciales en Workload Factory, registrar recursos de bases de datos ni configurar conexiones externas.
-
-link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["Realiza una evaluación única de tus implementaciones de bases de datos Oracle"]
-
-
-
-==== Mayor ahorro de costes en varias bases de datos Oracle
-
-Hemos mejorado el análisis de ahorro de costes para Oracle con el fin de ofrecer una solución de almacenamiento consolidada para varias bases de datos locales de Oracle en un único sistema de archivos FSx para ONTAP. Esta consolidación optimiza los costes de almacenamiento al reducir el número de sistemas de archivos necesarios para varias bases de datos, lo que se traduce en un mayor ahorro de costes.
-
-link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html#explore-savings-for-detected-hosts["Explora el ahorro para las bases de datos detectadas en Oracle on-premises"]
-
-
-
-=== Configuración y administración
-
-
-
-==== Nueva notificación para Storage
-
-El servicio de notificación NetApp Workload Factory incluye la notificación para NetApp Autonomous Ransomware Protection with AI (ARP/AI) for Storage.
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["Notificaciones para NetApp Workload Factory"]
-
-
-
-=== Cargas de trabajo EDA
-
-
-
-==== Recomendaciones de capacidad de EDA
-
-Workload Factory ahora analiza automáticamente la capacidad SSD de cada clúster FSx para ONTAP en tu inventario EDA y genera recomendaciones de capacidad cuando se necesitan ajustes. El algoritmo se ejecuta una vez cada 24 horas para cada clúster.
-
-Cuando se identifica una recomendación:
-
-* Recibes una notificación inmediata por correo electrónico o WAD (no forma parte del resumen semanal).
-* Aparece un indicador luminoso en el cluster afectado en la tabla Clusters.
-* Un resumen en el panel de descripción general muestra el número total de clusters con recomendaciones activas.
-
-
-Selecciona un cluster con una recomendación activa para ver la recomendación, que explica el cambio sugerido y el razonamiento.
-
-https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html#capacity-recommendations["Más información sobre las recomendaciones de capacidad"^].
-
-
-
-==== Análisis automatizado de latencia de IA
-
-El análisis de latencia ahora incluye el análisis de agentes de IA.
-
-Para escenarios complejos que impliquen latencia de datos o de clúster, puedes invocar el análisis de agentes de IA para recibir:
-
-* Identificación detallada de la causa raíz
-* Lista de clientes EC2 afectados
-* Medidas correctoras específicas
-
-
-El análisis del agente de IA requiere la configuración de ARN del modelo de Amazon Bedrock y está disponible bajo demanda para escenarios en los que el análisis básico recomienda una investigación más profunda. El agente de IA puede identificar problemas como volúmenes bully, configuraciones de puntos de montaje no óptimas, necesidades de reequilibrio de FlexGroup y requisitos de escalado horizontal.
-
-https://docs.netapp.com/us-en/workload-eda/task-monitor-latency.html#run-ai-agent-analysis["Más información sobre el análisis de agentes de IA"^].
