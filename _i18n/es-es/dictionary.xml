@@ -167,4 +167,16 @@
   <block id="0665cdd8950328e06e0db9b1e16938d3" category="inline-link-macro">Calcula el ahorro estimado para EVS</block>
   <block id="86271c8c1063215a7f1ff0f45240c576" category="paragraph"><block ref="86271c8c1063215a7f1ff0f45240c576" category="inline-link-macro-rx"></block></block>
   <block id="b2384f97ee5bce1c28f5573e6878c9c1" category="section-title">06 de julio de 2026</block>
+  <block id="33e0c31d77f9c8cc22645a3c4d8f1c27" category="doc">Análisis mejorado de la latencia con gráficos de IOPS y de throughput</block>
+  <block id="820660d0f2f623290b9d6bf61dc7b971" category="paragraph">El panel de análisis de latencia muestra ahora gráficos de rendimiento sincronizados en la pestaña *A lo largo del tiempo*:</block>
+  <block id="07139d61108a6478189b71bcdc7f39b8" category="list-text">*Gráfico de latencia*: Muestra cómo varía la latencia a lo largo del tiempo, con líneas de umbral y alertas cuando se superan los límites.</block>
+  <block id="390641ad0fb5c4dcbd3e1ea9a432933d" category="list-text">*Gráfico de IOPS*: Muestra las operaciones por segundo, con líneas de umbral e indicadores de los casos en los que se superó el límite en el pasado.</block>
+  <block id="167a301ac11e90acd4e01899787518a1" category="list-text">*Gráfico de rendimiento*: Muestra las tasas de transferencia de datos (DataReadBytes o DataWriteBytes).</block>
+  <block id="38f51c8db276cb26c3c7af52f545996e" category="paragraph">Todos los gráficos utilizan la misma línea temporal y muestran automáticamente las métricas correctas según si el evento es una lectura o una escritura.</block>
+  <block id="40f862a8ef42e494a25d0887d6827d75" category="paragraph">Un nuevo filtro te permite alternar entre Todas, Lectura, Escritura o Metadatos para un análisis más detallado.</block>
+  <block id="b8f78f4759a5bd3c20308a67276707aa" category="paragraph">Estos gráficos te ayudan a ver cómo se relacionan la latencia, las IOPS y el rendimiento, lo que facilita encontrar la causa de los problemas de rendimiento y decidir cómo solucionarlos.</block>
+  <block id="41b8190fd8c34e03bd93c4234b033876" category="paragraph">Los gráficos de rendimiento ahora solo están disponibles si se facilitan credenciales de AWS. Los enlaces de FSx for ONTAP solo son necesarios para el desglose por componentes en los análisis básicos y de IA.</block>
+  <block id="8dd5201c5cc5a3396ebbb0eed3c4385d" category="inline-link">Aprende a analizar las tendencias de latencia con varios gráficos</block>
+  <block id="96f2a9474e94ea84ba4915ee29411c85" category="paragraph"><block ref="6741c3b9db1b1d3c4d7831b9652aaaca" category="inline-link-rx"></block>.</block>
+  <block id="1cdbc8bcb26cc8d5e894a97b9e7f269f" category="section-title">05 de julio de 2026</block>
 </blocks>
