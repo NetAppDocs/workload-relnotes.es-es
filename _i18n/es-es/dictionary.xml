@@ -185,4 +185,13 @@
   <block id="f2c8c03b6d33f0a06783ce6241b381a6" category="paragraph">Los paneles personalizados son de solo lectura, por lo que no pueden modificar tu almacenamiento ni la configuración de las cargas de trabajo. Cualquier persona en tu cuenta de Workload Factory puede ver y gestionar estos paneles, haciendo que sea fácil para los equipos compartir ideas y mantenerse alineados.</block>
   <block id="7f7fdf6329959f984b3ff303ae5ac37f" category="inline-link-macro">Conoce más sobre los paneles personalizados</block>
   <block id="b95d6b8ad9f73321f9cc2385811deedb" category="paragraph"><block ref="b95d6b8ad9f73321f9cc2385811deedb" category="inline-link-macro-rx"></block></block>
+  <block id="7e2652d4b25a337c594774fc14c2ab17" category="section-title">Configura la frecuencia de las notificaciones de latencia</block>
+  <block id="39b4011c4c170e1b29e7d8710812c644" category="paragraph">Ahora puedes elegir con qué frecuencia recibir notificaciones por correo electrónico sobre incumplimientos de latencia:</block>
+  <block id="9b4c72b587622d268ed8a5a315219fb5" category="list-text">*Recordármelo todos los días (recomendado)*: Recibe una notificación cuando ocurra un nuevo problema en cualquier sistema de archivos FSx para ONTAP.</block>
+  <block id="b1960d91c54aac51310626fca3cc3b48" category="paragraph">Si en un mismo día se producen varios problemas de latencia en el mismo sistema de archivos, solo recibirás un correo electrónico.</block>
+  <block id="a6f20e83b8038d1aeb40bd01b25f763e" category="paragraph">Tras enviar una alerta de latencia para un sistema de archivos, Workload Factory espera 24 horas antes de enviar otra alerta para ese sistema de archivos.</block>
+  <block id="e2a4178b795c9afb4497b6549895fe0f" category="list-text">*Notificar cualquier incumplimiento de latencia (cada 20 minutos)*: recibe una notificación cuando se detecte un incumplimiento, hasta una vez cada 20 minutos.</block>
+  <block id="943fb48a5bde64c680308a09af0a0832" category="paragraph">Las notificaciones diarias están activadas por defecto para reducir el volumen de correos electrónicos sin dejar de avisarte de los problemas de latencia. Puedes cambiar tu preferencia de notificación al configurar la supervisión de la latencia o al editar la configuración de los umbrales.</block>
+  <block id="7a13522750dff612c4af95a525a5075b" category="inline-link">Aprende a configurar la supervisión de la latencia</block>
+  <block id="496e68c00adfe40e8730acfccde74f6b" category="paragraph"><block ref="9cf52e304b2518ca53073fc069c5a89c" category="inline-link-rx"></block>.</block>
 </blocks>
