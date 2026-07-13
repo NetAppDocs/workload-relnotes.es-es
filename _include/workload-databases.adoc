@@ -4,4 +4,5 @@
 
 
 
+[[database-workloads]]
 === Cargas de trabajo de base de datos

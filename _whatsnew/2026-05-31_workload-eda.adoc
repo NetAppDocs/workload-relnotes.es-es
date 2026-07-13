@@ -4,6 +4,7 @@
 
 
 
+[[ssd-capacity-increase-management-modes-and-automation]]
 === Modos de gestión y automatización para aumentar la capacidad de SSD
 
 Workload Factory ofrece ahora modos de gestión del aumento de la capacidad de las unidades SSD que se adaptan a tus preferencias operativas:
@@ -19,6 +20,7 @@ link:https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html
 
 
 
+[[bulk-edit-ssd-capacity-increase-management-parameters]]
 === Editar en masa los parámetros de gestión del aumento de capacidad de las SSD
 
 Ahora puedes ajustar los parámetros de gestión del aumento de la capacidad de las SSD en varios sistemas de archivos desde el panel de información general. Selecciona uno o más clústeres en la tabla Clusters y edita los valores de Threshold (10-90%), Lookback (1-200 horas) y Ahead (1-200 horas) de forma masiva.
@@ -29,6 +31,7 @@ link:https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html
 
 
 
+[[capacity-decision-points-visualization]]
 === Visualización de puntos de decisión de capacidad
 
 El gráfico de uso de SSD muestra ahora puntos de decisión que indican cuándo se generaron recomendaciones de capacidad o se tomaron acciones automatizadas.
@@ -43,6 +46,7 @@ link:https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html
 
 
 
+[[link-configured-status-in-clusters-table]]
 === Estado de enlace configurado en la tabla Clusters
 
 La tabla Clusters del panel Overview ahora incluye una columna Associated link que muestra si un enlace FSx for ONTAP está configurado para cada sistema de archivos. El estado de la conexión se valida diariamente, lo que te ayuda a identificar los sistemas de archivos que necesitan configuración de enlace o que pueden tener problemas de conectividad.
@@ -51,6 +55,7 @@ link:https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html
 
 
 
+[[support-for-aws-govcloud-us-in-netapp-workload-factory]]
 === Soporte para AWS GovCloud (US) en NetApp Workload Factory
 
 NetApp Workload Factory es compatible con las cuentas de AWS GovCloud (US). Con una cuenta de GovCloud, puedes implementar y administrar cargas de trabajo de almacenamiento en las regiones de AWS GovCloud (US).

@@ -4,6 +4,7 @@
 
 
 
+[[enhanced-latency-analysis-with-iops-and-throughput-graphs]]
 === Análisis mejorado de la latencia con gráficos de IOPS y de throughput
 
 El panel de análisis de latencia muestra ahora gráficos de rendimiento sincronizados en la pestaña *A lo largo del tiempo*:
@@ -25,6 +26,7 @@ https://docs.netapp.com/us-en/workload-eda/task-analyze-latency-trends.html["Apr
 
 
 
+[[set-latency-notification-frequency]]
 === Configura la frecuencia de las notificaciones de latencia
 
 Ahora puedes elegir con qué frecuencia recibir notificaciones por correo electrónico sobre incumplimientos de latencia:

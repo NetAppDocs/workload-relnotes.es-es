@@ -4,6 +4,7 @@
 
 
 
+[[i7i-metal-24xl-instance-support-in-evs-tco-calculator]]
 === Compatibilidad con la instancia i7i.metal-24xl en la calculadora de TCO de EVS
 
 La calculadora de TCO de EVS ahora admite instancias EC2 de AWS i7i.metal-24xl como hosts de clúster. En comparación con las configuraciones i4i.metal, estas instancias reducen el coste inicial de EVS en aproximadamente un 33% para compute y un 25% para el almacenamiento vSAN.
