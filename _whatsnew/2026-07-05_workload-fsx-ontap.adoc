@@ -1,15 +1,6 @@
-= Ya está disponible un nuevo panel bien diseñado para todos los sistemas FSx for ONTAP
+= Explorador de volúmenes
 :allow-uri-read: 
 
-
-
-
-[[new-well-architected-dashboard-available-for-all-fsx-for-ontap-systems]]
-=== Ya está disponible un nuevo panel bien diseñado para todos los sistemas FSx for ONTAP
-
-El análisis well-architected ya está disponible para los sistemas de archivos FSx for ONTAP desde el nuevo panel well-architected en NetApp Workload Factory. El nuevo panel ofrece una vista centralizada de todos tus sistemas de archivos en todas las cuentas y regiones y sus configuraciones en un solo lugar. Aparece una notificación emergente cuando visitas la pestaña *Well-architected* desde un sistema de archivos. Accede al nuevo panel seleccionando *Well-architected* en el menú de navegación de la izquierda en Workload Factory.
-
-Aún puedes acceder al análisis de *Well-architected* para un sistema de archivos concreto y desde la opción de menú *Well-architected* en Storage.
 
 
 

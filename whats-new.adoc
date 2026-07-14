@@ -45,14 +45,6 @@ link:calculate-evs-savings.html["Calcula el ahorro estimado para EVS"]
 
 
 
-==== Ya está disponible un nuevo panel bien diseñado para todos los sistemas FSx for ONTAP
-
-El análisis well-architected ya está disponible para los sistemas de archivos FSx for ONTAP desde el nuevo panel well-architected en NetApp Workload Factory. El nuevo panel ofrece una vista centralizada de todos tus sistemas de archivos en todas las cuentas y regiones y sus configuraciones en un solo lugar. Aparece una notificación emergente cuando visitas la pestaña *Well-architected* desde un sistema de archivos. Accede al nuevo panel seleccionando *Well-architected* en el menú de navegación de la izquierda en Workload Factory.
-
-Aún puedes acceder al análisis de *Well-architected* para un sistema de archivos concreto y desde la opción de menú *Well-architected* en Storage.
-
-
-
 ==== Explorador de volúmenes
 
 Volumes Explorer te ofrece una vista sencilla y con función de búsqueda de todos tus volúmenes en NetApp Workload Factory. Comprueba rápidamente qué volúmenes dan servicio a cargas de trabajo de bloques o de archivos. Consulta el tamaño lógico de cada volumen, la capacidad física utilizada y si utiliza funciones de eficiencia de almacenamiento (compresión, deduplicación y compactación). Filtra y ordena por nombre, estado (disponible/fallido), latencia, tamaño, capacidad utilizada y funciones de protección.
