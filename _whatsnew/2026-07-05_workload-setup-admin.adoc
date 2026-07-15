@@ -14,3 +14,10 @@ Solo tienes que describir en un lenguaje sencillo lo que quieres supervisar, y l
 Los paneles personalizados son de solo lectura, por lo que no pueden modificar tu almacenamiento ni la configuración de las cargas de trabajo. Cualquier persona en tu cuenta de Workload Factory puede ver y gestionar estos paneles, haciendo que sea fácil para los equipos compartir ideas y mantenerse alineados.
 
 link:learn-custom-dashboards.html["Conoce más sobre los paneles personalizados"]
+
+
+
+[[genai-workload-removal-from-workload-factory]]
+=== Eliminación de la carga de trabajo GenAI de Workload Factory
+
+La carga de trabajo GenAI se ha eliminado de la consola de Workload Factory.
