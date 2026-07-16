@@ -95,22 +95,18 @@ La carga de trabajo GenAI se ha eliminado de la consola de Workload Factory.
 
 
 
-==== Análisis mejorado de la latencia con gráficos de IOPS y de throughput
+==== Análisis mejorado de la latencia con gráficos sincronizados de latencia, IOPS y rendimiento
 
-El panel de análisis de latencia muestra ahora gráficos de rendimiento sincronizados en la pestaña *A lo largo del tiempo*:
+El panel de análisis de latencia ahora incluye una página de *Análisis detallado de la latencia* con gráficos de rendimiento sincronizados:
 
 * *Gráfico de latencia*: Muestra cómo varía la latencia a lo largo del tiempo, con líneas de umbral y alertas cuando se superan los límites.
 * *Gráfico de IOPS*: Muestra las operaciones por segundo, con líneas de umbral e indicadores de los casos en los que se superó el límite en el pasado.
-* *Gráfico de rendimiento*: Muestra las tasas de transferencia de datos (DataReadBytes o DataWriteBytes).
+* *Gráfico de rendimiento*: Muestra las tasas de transferencia de datos (DataReadBytes o DataWriteBytes). Cuando se selecciona Metadata en el filtro, el gráfico de rendimiento no muestra ningún dato.
 
 
 Todos los gráficos utilizan la misma línea temporal y muestran automáticamente las métricas correctas según si el evento es una lectura o una escritura.
 
-Un nuevo filtro te permite alternar entre Todas, Lectura, Escritura o Metadatos para un análisis más detallado.
-
-Estos gráficos te ayudan a ver cómo se relacionan la latencia, las IOPS y el rendimiento, lo que facilita encontrar la causa de los problemas de rendimiento y decidir cómo solucionarlos.
-
-Los gráficos de rendimiento ahora solo están disponibles si se facilitan credenciales de AWS. Los enlaces de FSx for ONTAP solo son necesarios para el desglose por componentes en los análisis básicos y de IA.
+Puedes ajustar la vista y correlacionar los picos de latencia con los cambios en IOPS y el rendimiento. Los marcadores de infracción y los detalles al pasar el cursor te ayudan a ver cuándo se superaron los umbrales y revisar las métricas clave de la infracción detectada.
 
 https://docs.netapp.com/us-en/workload-eda/task-analyze-latency-trends.html["Aprende a analizar las tendencias de latencia con varios gráficos"^].
 
