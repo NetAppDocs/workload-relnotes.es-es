@@ -188,4 +188,18 @@
   <block id="48dc51848c127d267cdd7ab1bcd0fe5e" category="inline-link-macro">Conoce cómo gestionar las funciones de IA</block>
   <block id="56d2e09cbb0a828478db20ff2d11774d" category="paragraph"><block ref="56d2e09cbb0a828478db20ff2d11774d" category="inline-link-macro-rx"></block></block>
   <block id="91d90ea5487ed9ed44e834f42f272ccb" category="section-title">03 de agosto de 2026</block>
+  <block id="1eda45f1f79ca6e9d6b738032665f7c6" category="doc">Análisis de la latencia de IA con controles de costes</block>
+  <block id="b171182b7dc211a76d3e7cecbdf5e425" category="paragraph">Como administrador de Workload Factory, puedes controlar el acceso al análisis de latencia de IA en toda tu organización.</block>
+  <block id="4c9d3f8b46f94437f92a47d3612a2829" category="list-text">*NetApp-gestionados créditos de IA*: Si tu administrador lo habilita, puedes usar el análisis de IA a través de la integración gestionada de Amazon Bedrock de NetApp. No se requiere configuración adicional. Tu uso mensual está limitado por tu presupuesto asignado. Si alcanzas tu límite mensual, las funciones impulsadas por IA se desactivan y verás un mensaje.</block>
+  <block id="67ee5da1047f90d8a684f7e0d2ca1944" category="list-text">*Desactivado por el administrador*: Si tu administrador desactiva las funciones de IA, las opciones de análisis de IA aparecerán en gris y verás un mensaje que indica que la función está desactivada.</block>
+  <block id="69e316ff96b412dd2a5045f8dd2f433c" category="section-title">Gestión del aumento elástico del rendimiento</block>
+  <block id="a01f5f5609c9aee121b699114cfe006f" category="paragraph">Ahora puedes gestionar el comportamiento del aumento del rendimiento desde la página de resumen de EDA para uno o varios sistemas de archivos FSx for ONTAP seleccionados.</block>
+  <block id="9c3ee7dcbca3424fcc3c760549aa303d" category="list-text">*Selección del modo*: Elige *Automatizar* o *Recomendar*.</block>
+  <block id="b9722197734c8293fedc4e7c6db77abe" category="list-text">*Actualizaciones masivas*: Selecciona uno o varios sistemas de archivos y aplica los cambios de modo y parámetros de una sola vez.</block>
+  <block id="1a97c66f134399c6e8ddf03e8cd9055e" category="list-text">*Cambiar el cuadro de diálogo de gestión del rendimiento*: Edita los parámetros de aumento del rendimiento con los valores predeterminados de EDA en el cuadro de diálogo.</block>
+  <block id="0e71e5ed033b79a12a3d33146bbef832" category="list-text">*Configuración avanzada*: Configura parámetros adicionales para la toma de decisiones sobre el rendimiento en una sección expandible de *Configuración avanzada*.</block>
+  <block id="3c559babe76da927fd273d0640ba2089" category="list-text">*Visibilidad de la tabla*: En la tabla Clusters hay disponible una nueva columna llamada *Gestión del rendimiento*, que puedes activar desde la configuración de columnas.</block>
+  <block id="b353daec82916c89eec0f9b0557132c1" category="list-text">*Configuración de la tarjeta superior*: La tarjeta superior ahora admite la configuración del modo de aumento del rendimiento, similar a la gestión de SSD.</block>
+  <block id="e6ae1bdcdd4c1d6a5bc23c326f27ff3f" category="inline-link-macro">Aprende a usar el panel de control Overview</block>
+  <block id="070faad8fac25fb3d4c659a4b7497b19" category="paragraph"><block ref="0a3eee7cb6c31ec86c09cd7ae18ee1d3" category="inline-link-macro-rx"></block>.</block>
 </blocks>

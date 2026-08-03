@@ -1,0 +1,31 @@
+= Análisis de la latencia de IA con controles de costes
+:allow-uri-read: 
+
+
+
+
+[[ai-latency-analysis-with-cost-controls]]
+=== Análisis de la latencia de IA con controles de costes
+
+Como administrador de Workload Factory, puedes controlar el acceso al análisis de latencia de IA en toda tu organización.
+
+* *NetApp-gestionados créditos de IA*: Si tu administrador lo habilita, puedes usar el análisis de IA a través de la integración gestionada de Amazon Bedrock de NetApp. No se requiere configuración adicional. Tu uso mensual está limitado por tu presupuesto asignado. Si alcanzas tu límite mensual, las funciones impulsadas por IA se desactivan y verás un mensaje.
+* *Desactivado por el administrador*: Si tu administrador desactiva las funciones de IA, las opciones de análisis de IA aparecerán en gris y verás un mensaje que indica que la función está desactivada.
+
+
+
+
+[[elastic-throughput-increase-management]]
+=== Gestión del aumento elástico del rendimiento
+
+Ahora puedes gestionar el comportamiento del aumento del rendimiento desde la página de resumen de EDA para uno o varios sistemas de archivos FSx for ONTAP seleccionados.
+
+* *Selección del modo*: Elige *Automatizar* o *Recomendar*.
+* *Actualizaciones masivas*: Selecciona uno o varios sistemas de archivos y aplica los cambios de modo y parámetros de una sola vez.
+* *Cambiar el cuadro de diálogo de gestión del rendimiento*: Edita los parámetros de aumento del rendimiento con los valores predeterminados de EDA en el cuadro de diálogo.
+* *Configuración avanzada*: Configura parámetros adicionales para la toma de decisiones sobre el rendimiento en una sección expandible de *Configuración avanzada*.
+* *Visibilidad de la tabla*: En la tabla Clusters hay disponible una nueva columna llamada *Gestión del rendimiento*, que puedes activar desde la configuración de columnas.
+* *Configuración de la tarjeta superior*: La tarjeta superior ahora admite la configuración del modo de aumento del rendimiento, similar a la gestión de SSD.
+
+
+link:https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html["Aprende a usar el panel de control Overview"^].
