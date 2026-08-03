@@ -1,0 +1,71 @@
+= Ya está disponible un nuevo panel bien diseñado para todos los sistemas FSx for ONTAP
+:allow-uri-read: 
+
+
+
+
+[[new-well-architected-dashboard-available-for-all-fsx-for-ontap-systems]]
+=== Ya está disponible un nuevo panel bien diseñado para todos los sistemas FSx for ONTAP
+
+El análisis well-architected ya está disponible para los sistemas de archivos FSx for ONTAP desde el nuevo panel well-architected en NetApp Workload Factory. El nuevo panel ofrece una vista centralizada de todos tus sistemas de archivos en todas las cuentas y regiones y sus configuraciones en un solo lugar. Aparece una notificación emergente cuando visitas la pestaña *Well-architected* desde un sistema de archivos. Accede al nuevo panel seleccionando *Well-architected* en el menú de navegación de la izquierda en Workload Factory.
+
+Aún puedes acceder al análisis de *Well-architected* para un sistema de archivos concreto y desde la opción de menú *Well-architected* en Storage.
+
+
+
+[[new-widgets-added-to-the-storage-dashboard]]
+=== Nuevos widgets añadidos al panel de control de almacenamiento
+
+El panel de control de almacenamiento ahora incluye dos nuevos widgets que te ayudan a entender cómo usas el almacenamiento y a encontrar formas de optimizarlo.
+
+* *Principales cargas de trabajo detectadas* Muestra los datos de las cargas de trabajo detectadas por el servicio de etiquetado en todo tu entorno. Mira las cargas de trabajo con una puntuación de confianza superior al 80% que incluyan recursos FSx asociados, como volúmenes y dispositivos de bloques. Cada carga de trabajo muestra su nombre, número de recursos, capacidad aprovisionada y capacidad utilizada. Ordena por número de recursos (predeterminado), capacidad aprovisionada o capacidad utilizada para identificar rápidamente tus cargas de trabajo más grandes y entender los patrones de uso del almacenamiento.
+* *Informes y observaciones basados en IA* Muestra informes generados por IA sobre tus activos gestionados. El widget analiza los datos de tu entorno dentro del ámbito seleccionado y destaca los tres hallazgos más importantes en áreas clave, como la capacidad, el rendimiento, la protección de datos, la replicación, el ahorro de costes y las tendencias de almacenamiento.
+
+
+Cada insight incluye un resumen, hallazgos detallados y acciones recomendadas. Despliega un insight para ver más detalles y priorizar los problemas según la gravedad, las mejoras de rendimiento y las oportunidades de ahorro de costes.
+
+
+
+[[workload-tagging]]
+=== Etiquetado de la carga de trabajo
+
+
+
+==== Integración de AWS Systems Manager para el etiquetado de cargas de trabajo
+
+El servicio de etiquetado de cargas de trabajo ahora funciona con AWS Systems Manager para añadir más detalles a los datos de inventario de los hosts. Workload Factory ahora puede recopilar y procesar información de inventario de SSM para identificar y clasificar mejor las cargas de trabajo. Los atributos de AWS SSM también se incluyen en el proceso de etiquetado para mejorar la precisión en la detección de cargas de trabajo.
+
+Todas las configuraciones relacionadas con los volúmenes del panel de control de Well-Architected incluyen ahora la columna *Carga de trabajo* en la tabla de recursos. Esta columna muestra la carga de trabajo que Workload Factory asocia con cada volumen.
+
+
+
+[[workload-tagging-and-ai-features]]
+=== Etiquetado de cargas de trabajo y funciones de IA
+
+Las cargas de trabajo no se etiquetan cuando un administrador desactiva las funciones de IA. Si las funciones de IA están desactivadas en la configuración de tu cuenta de Workload Factory, el servicio de etiquetado no identificará ni clasificará las cargas de trabajo en tus recursos de almacenamiento.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-genai-features.html["Conoce la administración de la IA"^].
+
+
+
+[[explore-savings-snapshot-calculation-improvement]]
+=== Explora la mejora en el cálculo del resumen de ahorro
+
+Explorar ahorros ahora usa un cálculo coherente de la capacidad de instantáneas, así que las estimaciones de ahorro de FSx for ONTAP tienen en cuenta correctamente el requisito adicional del pool de capacidad para instantáneas.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/explore-savings.html["Descubre cómo ahorrar en tus entornos de almacenamiento con Amazon Elastic Block Store, FSx for Windows File Server y Elastic File System."]
+
+
+
+==== Exportar los datos de retraso de replicación a CSV
+
+Ahora puedes exportar los datos sobre el retraso en la replicación a un archivo CSV para analizarlos en una hoja de cálculo y compartirlos con otras personas.
+
+
+
+[[s3-access-point-events]]
+=== Eventos del punto de acceso S3
+
+Ahora puedes enviar eventos de puntos de acceso de S3 al tema de SNS según una programación establecida. Cada actualización incluye todos los eventos que se han producido desde la última actualización.
+
+Para configurar las notificaciones de eventos de S3, link:https://docs.netapp.com/us-en/workload-fsx-ontap/edit-s3-access-points.html["editar puntos de acceso S3"] y selecciona *Enviar eventos de S3 mediante SNS* en la sección *Tabla de registro*.
