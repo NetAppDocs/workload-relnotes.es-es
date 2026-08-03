@@ -44,7 +44,7 @@ Todas las configuraciones relacionadas con los volúmenes del panel de control d
 
 Las cargas de trabajo no se etiquetan cuando un administrador desactiva las funciones de IA. Si las funciones de IA están desactivadas en la configuración de tu cuenta de Workload Factory, el servicio de etiquetado no identificará ni clasificará las cargas de trabajo en tus recursos de almacenamiento.
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-genai-features.html["Conoce la administración de la IA"^].
+link:https://docs.netapp.com/us-en/workload-setup-admin/manage-genai-features.html["Conoce la administración de la IA"^].
 
 
 
