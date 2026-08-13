@@ -69,3 +69,10 @@ Ahora puedes exportar los datos sobre el retraso en la replicación a un archivo
 Ahora puedes enviar eventos de puntos de acceso de S3 al tema de SNS según una programación establecida. Cada actualización incluye todos los eventos que se han producido desde la última actualización.
 
 Para configurar las notificaciones de eventos de S3, link:https://docs.netapp.com/us-en/workload-fsx-ontap/edit-s3-access-points.html["editar puntos de acceso S3"] y selecciona *Enviar eventos de S3 mediante SNS* en la sección *Tabla de registro*.
+
+
+
+[[ontap-features-displayed-in-volumes-explorer]]
+=== Funciones de ONTAP que se muestran en el Explorador de volúmenes
+
+El explorador de volúmenes incluye ahora funciones de ONTAP en la tabla de volúmenes. Estas funciones ofrecen información más detallada sobre la configuración y el estado de tus volúmenes, como la cobertura de protección, el estado de Autonomous Ransomware Protection (ARP/AI), la eficiencia del almacenamiento, la política de tiering y el crecimiento automático de volúmenes.
