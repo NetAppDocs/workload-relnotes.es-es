@@ -275,7 +275,7 @@ link:calculate-evs-savings.html["Calcula el ahorro estimado para EVS"]
 
 ==== Explorador de volúmenes
 
-Volumes Explorer te ofrece una vista sencilla y con función de búsqueda de todos tus volúmenes en NetApp Workload Factory. Comprueba rápidamente qué volúmenes dan servicio a cargas de trabajo de bloques o de archivos. Consulta el tamaño lógico de cada volumen, la capacidad física utilizada y si utiliza funciones de eficiencia de almacenamiento (compresión, deduplicación y compactación). Filtra y ordena por nombre, estado (disponible/fallido), latencia, tamaño, capacidad utilizada y funciones de protección.
+El explorador de volúmenes te ofrece una vista sencilla y con función de búsqueda de todos tus volúmenes en NetApp Workload Factory. Comprueba rápidamente qué volúmenes dan servicio a cargas de trabajo de bloques o de archivos. Consulta el tamaño lógico de cada volumen, la capacidad física utilizada y si utiliza funciones de eficiencia de almacenamiento (compresión, deduplicación y compactación). Filtra y ordena por nombre, estado (disponible/fallido), latencia, tamaño, capacidad utilizada y funciones de protección.
 
 
 
