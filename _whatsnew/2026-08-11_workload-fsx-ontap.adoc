@@ -1,0 +1,10 @@
+= Acciones de volumen disponibles en el Explorador de volúmenes
+:allow-uri-read: 
+
+
+
+
+[[volume-actions-available-in-volumes-explorer]]
+=== Acciones de volumen disponibles en el Explorador de volúmenes
+
+Todas las acciones de volúmenes están disponibles directamente desde el Explorador de volúmenes para uno o varios volúmenes. Esto hace que sea más rápido realizar operaciones a nivel de volumen. Las acciones de volúmenes incluyen modificar la configuración del volumen, gestionar instantáneas y hacer otras tareas de volumen sin salir del Explorador de volúmenes. También puedes acceder a estas acciones desde la pestaña Volúmenes en la vista general del sistema de archivos FSx for ONTAP.

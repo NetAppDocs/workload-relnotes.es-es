@@ -15,6 +15,22 @@ Obtenga información sobre los cambios más recientes en las cargas de trabajo q
 
 
 
+[[11-august-2026]]
+== 11 de agosto de 2026
+
+
+
+[[amazon-fsx-for-netapp-ontap]]
+=== Amazon FSX para ONTAP de NetApp
+
+
+
+==== Acciones de volumen disponibles en el Explorador de volúmenes
+
+Todas las acciones de volúmenes están disponibles directamente desde el Explorador de volúmenes para uno o varios volúmenes. Esto hace que sea más rápido realizar operaciones a nivel de volumen. Las acciones de volúmenes incluyen modificar la configuración del volumen, gestionar instantáneas y hacer otras tareas de volumen sin salir del Explorador de volúmenes. También puedes acceder a estas acciones desde la pestaña Volúmenes en la vista general del sistema de archivos FSx for ONTAP.
+
+
+
 [[03-august-2026]]
 == 03 de agosto de 2026
 

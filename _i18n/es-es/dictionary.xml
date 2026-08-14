@@ -239,4 +239,7 @@
   <block id="8d20116cd01bc3ce31dae628497af0dc" category="paragraph"><block ref="8d20116cd01bc3ce31dae628497af0dc" category="inline-link-macro-rx"></block></block>
   <block id="935b1e26eff078e94b224d92e0db898a" category="section-title">Funciones de ONTAP que se muestran en el Explorador de volúmenes</block>
   <block id="2d4406cf931edb2fbd5ab72e7eb07c66" category="paragraph">El explorador de volúmenes incluye ahora funciones de ONTAP en la tabla de volúmenes. Estas funciones ofrecen información más detallada sobre la configuración y el estado de tus volúmenes, como la cobertura de protección, el estado de Autonomous Ransomware Protection (ARP/AI), la eficiencia del almacenamiento, la política de tiering y el crecimiento automático de volúmenes.</block>
+  <block id="9b988decb4830a521f8e1487584f0385" category="doc">Acciones de volumen disponibles en el Explorador de volúmenes</block>
+  <block id="a0c01b4b61e4e5c8542aca4694a620d6" category="paragraph">Todas las acciones de volúmenes están disponibles directamente desde el Explorador de volúmenes para uno o varios volúmenes. Esto hace que sea más rápido realizar operaciones a nivel de volumen. Las acciones de volúmenes incluyen modificar la configuración del volumen, gestionar instantáneas y hacer otras tareas de volumen sin salir del Explorador de volúmenes. También puedes acceder a estas acciones desde la pestaña Volúmenes en la vista general del sistema de archivos FSx for ONTAP.</block>
+  <block id="7ade7e78371066efd6d4e823d8da1fd8" category="section-title">11 de agosto de 2026</block>
 </blocks>
