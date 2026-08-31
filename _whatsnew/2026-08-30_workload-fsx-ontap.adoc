@@ -1,0 +1,12 @@
+= La creación de enlaces está disponible desde la página de Enlaces
+:allow-uri-read: 
+
+
+
+
+[[link-creation-available-from-links-page]]
+=== La creación de enlaces está disponible desde la página de Enlaces
+
+Ahora puedes crear enlaces directamente desde la página «Enlaces» del menú «Administración», además de desde la página de inventario de FSx for ONTAP y la página de resumen del sistema de archivos.
+
+link:create-link.html["Más información sobre cómo crear enlaces"].
