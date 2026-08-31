@@ -15,6 +15,22 @@ Obtenga información sobre los cambios más recientes en las cargas de trabajo q
 
 
 
+[[30-august-2026]]
+== 30 de agosto de 2026
+
+
+
+[[setup-and-administration]]
+=== Configuración y administración
+
+
+
+==== Nueva experiencia de incorporación para credenciales y enlaces
+
+Workload Factory mejora la experiencia de incorporación de credenciales y enlaces, lo que facilita dar los primeros pasos. Después de que crees tu cuenta e inicies sesión, selecciona *Empezar* en cualquier mosaico de carga de trabajo, por ejemplo *Storage*, y la página siguiente te lleva por el proceso de configuración paso a paso.
+
+
+
 [[11-august-2026]]
 == 11 de agosto de 2026
 
@@ -363,213 +379,3 @@ Tras enviar una alerta de latencia para un sistema de archivos, Workload Factory
 Las notificaciones diarias están activadas por defecto para reducir el volumen de correos electrónicos sin dejar de avisarte de los problemas de latencia. Puedes cambiar tu preferencia de notificación al configurar la supervisión de la latencia o al editar la configuración de los umbrales.
 
 https://docs.netapp.com/us-en/workload-eda/task-configure-latency-monitoring.html["Aprende a configurar la supervisión de la latencia"^].
-
-
-
-[[01-june-2026]]
-== 01 de junio de 2026
-
-
-
-[[database-workloads]]
-=== Cargas de trabajo de base de datos
-
-
-
-==== Ahorro personalizado para hosts Oracle en Amazon Elastic Block Store
-
-NetApp Workload Factory for Databases te permite personalizar el ahorro para hosts Oracle en Amazon Elastic Block Store (EBS). Puedes ajustar varios campos como la frecuencia de las instantáneas, el número de copias clonadas y los detalles del volumen para ver cómo afectan a tu ahorro.
-
-link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["Explora el ahorro para hosts Oracle en EBS"]
-
-
-
-==== Selección de varios grupos de seguridad para la implementación de hosts de Microsoft SQL Server y PostgreSQL
-
-NetApp Workload Factory para bases de datos ahora te permite seleccionar varios grupos de seguridad al desplegar hosts de Microsoft SQL Server y PostgreSQL. Esto te da mayor flexibilidad al configurar la seguridad de red para tus cargas de trabajo de bases de datos.
-
-* link:https://docs.netapp.com/us-en/workload-databases/create-database-server.html["Implementa hosts de Microsoft SQL Server"]
-* link:https://docs.netapp.com/us-en/workload-databases/create-postgresql-server.html["Implementa hosts PostgreSQL"]
-
-
-
-
-==== Soporte para AWS GovCloud (US) en NetApp Workload Factory
-
-NetApp Workload Factory es compatible con las cuentas de AWS GovCloud (US). Con una cuenta de GovCloud, puedes implementar y administrar cargas de trabajo de bases de datos en las regiones de AWS GovCloud (US).
-
-
-
-[[31-may-2026]]
-== 31 de mayo de 2026
-
-
-
-[[amazon-fsx-for-netapp-ontap]]
-=== Amazon FSX para ONTAP de NetApp
-
-
-
-==== Soporte para AWS GovCloud (US) en NetApp Workload Factory
-
-NetApp Workload Factory es compatible con las cuentas de AWS GovCloud (US). Con una cuenta de GovCloud, puedes implementar y administrar cargas de trabajo de almacenamiento en las regiones de AWS GovCloud (US).
-
-
-
-==== Establece umbrales de latencia de volumen en NetApp Workload Factory
-
-Puedes configurar umbrales de latencia por volumen para supervisar el rendimiento y recibir alertas cuando los valores de latencia superen tus límites definidos. Workload Factory supervisa la latencia tanto de lectura como de escritura y genera alertas cuando se supera cualquiera de los dos umbrales.
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/set-volume-latency-thresholds.html["Establece umbrales de latencia de volumen en NetApp Workload Factory"]
-
-
-
-==== Haz un seguimiento de los retrasos de replicación en NetApp Workload Factory
-
-Con NetApp Workload Factory, puedes hacer un seguimiento de los retrasos de replicación de tus sistemas de archivos FSx para ONTAP que están configurados con replicación remota. Los retrasos de replicación indican el tiempo de retraso entre cuando los datos se escriben en el sistema de archivos de origen y cuando se replican en el sistema de archivos de destino. Hacer un seguimiento de los retrasos de replicación te ayuda a monitorear el estado de tu configuración de replicación y a identificar posibles problemas que podrían afectar la coherencia de los datos y los objetivos de punto de recuperación (RPO).
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/track-replication-delays.html["Haz un seguimiento de los retrasos de replicación en NetApp Workload Factory"]
-
-
-
-==== Identificación de hosts y definición de cargas de trabajo en NetApp Workload Factory
-
-Workload Factory identifica los hosts que consumen almacenamiento y los tipos de cargas de trabajo que se asocian a la actividad del host. Las definiciones de las cargas de trabajo se generan mediante IA a partir de las etiquetas y los metadatos de AWS. Puedes ver los detalles del host y las definiciones de las cargas de trabajo desde las pantallas de recursos de sistema de archivos, volumen y dispositivo de bloques en Workload Factory.
-
-
-
-==== Detalles del LIF disponibles en NetApp Workload Factory
-
-Mostramos todos los puntos finales del sistema de archivos y de las máquinas virtuales de almacenamiento directamente en la pestaña Overview de un sistema de archivos. La visibilidad directa de los puntos finales dentro de la consola de Workload Factory facilita supervisar el acceso a la red, los puntos finales y el estado de la conmutación por error sin usar la CLI o CloudShell. Para mostrar los detalles de LIF, incluidas las funciones, los puntos finales, los nodos, las direcciones IP y el estado, necesitas asociar un vínculo con el sistema de archivos.
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-link.html["Aprende cómo asociar un enlace con tu sistema de archivos en NetApp Workload Factory"].
-
-
-
-==== Mejoras de costes
-
-Hay disponibles nuevos filtros opcionales a nivel de página para mejorar los resultados del análisis de costes de tus recursos en todas las cuentas de AWS. Puedes seleccionar varias regiones y usar la clave de etiqueta de asignación del sistema de archivos y los valores clave para filtrar los resultados del análisis de costes y obtener detalles de costes específicos de los recursos para tus sistemas de archivos y volúmenes FSx para ONTAP.
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/track-costs.html["Usa filtros para el análisis de costes en NetApp Workload Factory"]
-
-
-
-==== Programación de la inicialización de la replicación disponible en NetApp Workload Factory
-
-Durante la configuración de la replicación de datos, ahora puedes programar la inicialización de la replicación para tus sistemas de archivos FSx para ONTAP. Las opciones son inicializar la relación de replicación inmediatamente o a una hora determinada. La inicialización de la replicación es el proceso de creación de una transferencia completa para la replicación mediante la copia de datos desde el sistema de archivos de origen al sistema de archivos de destino. Programar la inicialización de la replicación te permite automatizar este proceso y asegurarte de que tu configuración de replicación está actualizada sin intervención manual.
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-replication.html["Replica datos en NetApp Workload Factory"]
-
-
-
-==== Informe en Excel del estado bien arquitectado de FSx para sistemas de archivos ONTAP
-
-Después del análisis, puedes descargar un informe de Excel sobre el estado bien arquitectado de tus sistemas de archivos FSx for ONTAP para tus registros o para compartirlo con tus equipos.
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["Consulta el estado bien diseñado de tus sistemas de archivos FSx para ONTAP en NetApp Workload Factory"]
-
-
-
-==== Ver y analizar eventos de latencia
-
-Workload Factory ahora admite la visualización y el análisis de eventos de latencia para volúmenes FSx para ONTAP. Puedes ver eventos de latencia sin una conexión de enlace, lo que facilita la supervisión de problemas de rendimiento. Para analizar eventos de latencia y recibir información y recomendaciones impulsadas por IA, debes conectarte al sistema de archivos usando un enlace. El análisis proporciona valores de latencia actuales, umbrales, análisis de respuesta de QoS y orientación para la corrección.
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/analyze-events.html["Analiza los eventos de FSx for ONTAP en NetApp Workload Factory"]
-
-
-
-==== Establecer umbrales de latencia de volumen
-
-Ahora puedes configurar umbrales de latencia por volumen para supervisar el rendimiento y recibir alertas cuando la latencia de lectura/escritura supere los límites que hayas definido. La supervisión de la latencia te ayuda a identificar de forma proactiva los problemas de rendimiento antes de que afecten a tus cargas de trabajo.
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/set-volume-latency-thresholds.html["Establece umbrales de latencia de volumen en NetApp Workload Factory"]
-
-
-
-[[vmware-workloads]]
-=== Cargas de trabajo de
-
-
-
-==== Soporte para AWS GovCloud (US) en NetApp Workload Factory
-
-NetApp Workload Factory es compatible con las cuentas de AWS GovCloud (US). Con una cuenta de GovCloud, puedes implementar y administrar cargas de trabajo de almacenamiento en las regiones de AWS GovCloud (US).
-
-
-
-[[setup-and-administration]]
-=== Configuración y administración
-
-
-
-==== Nueva notificación para sistemas de archivos FSx for ONTAP
-
-El servicio de notificación NetApp Workload Factory incluye la notificación de retraso de replicación.
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["Configura las notificaciones de Workload Factory"]
-
-
-
-==== Soporte para cuentas de AWS GovCloud (US)
-
-Ahora puedes crear cuentas de AWS GovCloud (US) en Workload Factory. Este tipo de cuenta usa solo los endpoints y regiones de AWS US GovCloud para la configuración y las operaciones. Las credenciales y los secretos permanecen en GovCloud. Se admiten regiones de GovCloud (US).
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/sign-up-saas.html["Crear una cuenta de AWS GovCloud (US) en Workload Factory"]
-
-
-
-[[eda-workloads]]
-=== Cargas de trabajo EDA
-
-
-
-==== Modos de gestión y automatización para aumentar la capacidad de SSD
-
-Workload Factory ofrece ahora modos de gestión del aumento de la capacidad de las unidades SSD que se adaptan a tus preferencias operativas:
-
-* *Automatiza*
-* *Recomendar*
-* *Ninguno*
-
-
-El modo actual y sus parámetros se muestran en la parte superior del gráfico de uso del SSD en la página de detalles del sistema de archivos. Puedes cambiar de modo en cualquier momento según tus necesidades operativas.
-
-link:https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html#change-ssd-management-mode["Conoce los modos de gestión de las unidades SSD"^].
-
-
-
-==== Editar en masa los parámetros de gestión del aumento de capacidad de las SSD
-
-Ahora puedes ajustar los parámetros de gestión del aumento de la capacidad de las SSD en varios sistemas de archivos desde el panel de información general. Selecciona uno o más clústeres en la tabla Clusters y edita los valores de Threshold (10-90%), Lookback (1-200 horas) y Ahead (1-200 horas) de forma masiva.
-
-El cuadro de diálogo de edición se rellena automáticamente en función de tu selección: si todos los sistemas de archivos seleccionados comparten los mismos valores de parámetros, se muestran esos valores; de lo contrario, se usan los valores predeterminados. Esto te ayuda a aplicar una configuración de capacidad coherente en todo tu entorno.
-
-link:https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html#bulk-edit-ssd-management-parameters["Aprende a editar parámetros de forma masiva"^].
-
-
-
-==== Visualización de puntos de decisión de capacidad
-
-El gráfico de uso de SSD muestra ahora puntos de decisión que indican cuándo se generaron recomendaciones de capacidad o se tomaron acciones automatizadas.
-
-* *Puntos de decisión de la recomendación*: Pasa el ratón por encima para ver la marca de tiempo, el tamaño de aumento recomendado y la capacidad actual.
-* *Puntos de decisión de automatización*: Pasa el ratón por encima para ver la marca de tiempo, el estado de éxito o fracaso, el aumento de tamaño y el nuevo tamaño del agregado. Los intentos fallidos incluyen el motivo del fracaso.
-
-
-Los puntos de decisión pueden producirse cada 30 minutos y se muestran de forma individual o consolidada en función del intervalo de tiempo seleccionado.
-
-link:https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html#analyze-capacity-trends-and-decision-points["Conoce los puntos de decisión sobre capacidad"^].
-
-
-
-==== Estado de enlace configurado en la tabla Clusters
-
-La tabla Clusters del panel Overview ahora incluye una columna Associated link que muestra si un enlace FSx for ONTAP está configurado para cada sistema de archivos. El estado de la conexión se valida diariamente, lo que te ayuda a identificar los sistemas de archivos que necesitan configuración de enlace o que pueden tener problemas de conectividad.
-
-link:https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html["Ver el panel de resumen"^].
-
-
-
-==== Soporte para AWS GovCloud (US) en NetApp Workload Factory
-
-NetApp Workload Factory es compatible con las cuentas de AWS GovCloud (US). Con una cuenta de GovCloud, puedes implementar y administrar cargas de trabajo de almacenamiento en las regiones de AWS GovCloud (US).
