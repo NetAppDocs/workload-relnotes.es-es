@@ -33,6 +33,21 @@ link:create-link.html["Más información sobre cómo crear enlaces"].
 
 
 
+[[database-workloads]]
+=== Cargas de trabajo de base de datos
+
+
+
+==== Actualización de la calculadora de ahorro
+
+Puedes comparar varios componentes de coste de ejecutar cargas de trabajo de Microsoft SQL Server, como almacenamiento, cómputo, licencia de SQL, instantáneas y clones para tus cargas de trabajo de bases de datos en sistemas de archivos FSx for ONTAP, frente a Elastic Block Store (EBS), FSx for Windows File Server y almacenamiento local, usando solo permisos de visualización, planificación y análisis.
+
+* link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["Explora ahorros para cargas de trabajo de bases de datos"]
+* link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html#permissions-for-database-workloads["Permisos para cargas de trabajo de bases de datos"^]
+
+
+
+
 [[setup-and-administration]]
 === Configuración y administración
 
