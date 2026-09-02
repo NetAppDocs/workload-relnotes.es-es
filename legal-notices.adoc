@@ -7,7 +7,7 @@ summary:
 = Avisos legales
 :allow-uri-read: 
 :icons: font
-:imagesdir: ../media/
+:imagesdir: ./media/
 
 
 [role="lead"]
