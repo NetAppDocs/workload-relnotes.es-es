@@ -15,6 +15,32 @@ Obtenga información sobre los cambios más recientes en las cargas de trabajo q
 
 
 
+[[27-september-2026]]
+== 27 de septiembre de 2026
+
+
+
+[[database-workloads]]
+=== Cargas de trabajo de base de datos
+
+
+
+==== Configuraciones de bases de datos incluidas en el panel de control Well-Architected
+
+El panel de control well-architected ahora incluye recomendaciones para las configuraciones de tu base de datos, lo que te permite evaluar y optimizar tu configuración según las mejores prácticas. Las primeras configuraciones incluyen:
+
+* Jerarquización de datos inactivos
+* Eficiencias de almacenamiento
+* Política de SnapVault
+* Margen de capacidad del SSD
+
+
+Encuentra el panel de control Well-architected seleccionando el menú principal en la consola de Workload Factory y selecciona *Well-architected*.
+
+image:well-architected-menu-option.png["Opción de menú bien estructurada en la consola de NetApp Workload Factory"]
+
+
+
 [[30-august-2026]]
 == 30 de agosto de 2026
 

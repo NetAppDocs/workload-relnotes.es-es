@@ -181,4 +181,14 @@
   <block id="9c2440b961ba52df8467b29a146f98ba" category="list-text">Workload Factory ahora identifica las cargas de trabajo de los hosts conectados al almacenamiento FSx for ONTAP implementado en otra región.</block>
   <block id="c48db719590b6821db48e6238f4be1c4" category="list-text">La lógica mejorada de detección de cargas de trabajo ahora identifica tipos adicionales de cargas de trabajo y mejora la precisión de los resultados.</block>
   <block id="5755a9e38430cc58eec03f6a091d949b" category="paragraph"><block ref="3b334f327ff595e44f743e1d47e519c8" category="inline-link-macro-rx"></block>.</block>
+  <block id="b3ae445fa637203f0dc17550b5c4a56c" category="doc">Configuraciones de bases de datos incluidas en el panel de control Well-Architected</block>
+  <block id="a04fc413f106e041524732d895e4258e" category="paragraph">El panel de control well-architected ahora incluye recomendaciones para las configuraciones de tu base de datos, lo que te permite evaluar y optimizar tu configuración según las mejores prácticas. Las primeras configuraciones incluyen:</block>
+  <block id="0ab265b548fdc40b21483e61ffde3aba" category="list-text">Jerarquización de datos inactivos</block>
+  <block id="af20abc7154e9ee224c54b48b6ec7d63" category="list-text">Eficiencias de almacenamiento</block>
+  <block id="4c0abf2d4c54820b8d33061abaf30759" category="list-text">Política de SnapVault</block>
+  <block id="6f5cf50fa90f8d99bf50f65e676c6cba" category="list-text">Margen de capacidad del SSD</block>
+  <block id="4dcac8e07a1246e665077c1572955236" category="paragraph">Encuentra el panel de control Well-architected seleccionando el menú principal en la consola de Workload Factory y selecciona *Well-architected*.</block>
+  <block id="2d647234501319107057acb4d3f8dfaf" category="inline-image-macro">Opción de menú bien estructurada en la consola de NetApp Workload Factory</block>
+  <block id="353cc99df6b21e74c805e74bdab4b8aa" category="paragraph"><block ref="353cc99df6b21e74c805e74bdab4b8aa" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="301497b54979bb49bba5249c4f44b4ad" category="section-title">27 de septiembre de 2026</block>
 </blocks>
