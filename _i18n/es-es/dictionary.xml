@@ -37,7 +37,6 @@
   <block id="b055674b094a39e8822f5941fd1ddf8d" category="paragraph">La calculadora de TCO de EVS ahora admite instancias EC2 de AWS i7i.metal-24xl como hosts de clúster. En comparación con las configuraciones i4i.metal, estas instancias reducen el coste inicial de EVS en aproximadamente un 33% para compute y un 25% para el almacenamiento vSAN.</block>
   <block id="bbc7cb1849fc26e314ad21ecd99ca5fe" category="paragraph">La calculadora compara automáticamente ambos tipos de instancias y selecciona la opción más rentable. Una nueva sección de comparación muestra las configuraciones de los hosts EVS una al lado de la otra, lo que facilita encontrar la configuración que mejor se adapte a tus necesidades.</block>
   <block id="0665cdd8950328e06e0db9b1e16938d3" category="inline-link-macro">Calcula el ahorro estimado para EVS</block>
-  <block id="86271c8c1063215a7f1ff0f45240c576" category="paragraph"><block ref="86271c8c1063215a7f1ff0f45240c576" category="inline-link-macro-rx"></block></block>
   <block id="b2384f97ee5bce1c28f5573e6878c9c1" category="section-title">06 de julio de 2026</block>
   <block id="07139d61108a6478189b71bcdc7f39b8" category="list-text">*Gráfico de latencia*: Muestra cómo varía la latencia a lo largo del tiempo, con líneas de umbral y alertas cuando se superan los límites.</block>
   <block id="390641ad0fb5c4dcbd3e1ea9a432933d" category="list-text">*Gráfico de IOPS*: Muestra las operaciones por segundo, con líneas de umbral e indicadores de los casos en los que se superó el límite en el pasado.</block>
@@ -191,4 +190,5 @@
   <block id="353cc99df6b21e74c805e74bdab4b8aa" category="paragraph"><block ref="353cc99df6b21e74c805e74bdab4b8aa" category="inline-image-macro-rx" type="image"></block></block>
   <block id="301497b54979bb49bba5249c4f44b4ad" category="section-title">27 de septiembre de 2026</block>
   <block id="dd6c12ecaee3143ccc7a7d85e16032ff" category="paragraph"><block ref="dd6c12ecaee3143ccc7a7d85e16032ff" category="inline-link-macro-rx"></block></block>
+  <block id="034feb9138972a75bb0c4407e9663857" category="paragraph"><block ref="034feb9138972a75bb0c4407e9663857" category="inline-link-macro-rx"></block></block>
 </blocks>

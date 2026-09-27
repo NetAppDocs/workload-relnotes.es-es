@@ -337,7 +337,7 @@ La calculadora de TCO de EVS ahora admite instancias EC2 de AWS i7i.metal-24xl c
 
 La calculadora compara automáticamente ambos tipos de instancias y selecciona la opción más rentable. Una nueva sección de comparación muestra las configuraciones de los hosts EVS una al lado de la otra, lo que facilita encontrar la configuración que mejor se adapte a tus necesidades.
 
-link:calculate-evs-savings.html["Calcula el ahorro estimado para EVS"]
+link:https://docs.netapp.com/us-en/workload-vmware/calculate-evs-savings.html["Calcula el ahorro estimado para EVS"]
 
 
 
