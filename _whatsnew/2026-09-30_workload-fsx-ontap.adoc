@@ -113,7 +113,7 @@ Workload Factory ahora reconoce el modo de escritura preferido de FlexCache para
 [[link-documentation-support]]
 === Asistencia para la documentación de Link
 
-Toda la documentación sobre enlaces se incluye ahora en la documentación de configuración y administración de Workload Factory. Aun así, puedes consultar la link:links-overview.html["Conoce los enlaces de NetApp Workload Factory"] de la documentación de Workload Factory FSx for ONTAP y encontrar enlaces a las páginas pertinentes en la documentación de configuración y administración.
+Toda la documentación sobre enlaces se incluye ahora en la documentación de configuración y administración de Workload Factory. Aun así, puedes consultar la link:https://docs.netapp.com/us-en/workload-fsx-ontap/links-overview.html["Conoce los enlaces de NetApp Workload Factory"] de la documentación de Workload Factory FSx for ONTAP y encontrar enlaces a las páginas pertinentes en la documentación de configuración y administración.
 
 link:https://docs.netapp.com/us-en/workload-setup-admin/create-link.html["Obtén más información sobre cómo configurar enlaces en la consola de Workload Factory."^]
 

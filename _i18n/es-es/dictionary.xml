@@ -209,8 +209,6 @@
   <block id="9c51276de03bc7f0cc89565810a9583c" category="list-text">Comprueba cada hora el estado y el ciclo de vida de todos los sistemas de archivos FSx for NetApp ONTAP para detectar los problemas a tiempo.</block>
   <block id="7c232a692347d9efae9eafb444b454ef" category="list-text">Enumera todos los sistemas de archivos de AWS FSx accesibles cada hora para mantener un inventario actualizado.</block>
   <block id="80dcbdee31e7f18a301f863f8b73dc64" category="inline-link-macro">Conoce más sobre Ask Me</block>
-  <block id="fcc3c37c09c2649e94509997e3e32ace" category="section-title">Soporte de ONTAP en Ask Me</block>
-  <block id="5887518ab4bafe0e2cd30ee6d85ca830" category="paragraph">Ask Me ahora es compatible con FSx para ONTAP y con los sistemas ONTAP locales. Utiliza la misma experiencia de chat para obtener respuestas e información sobre toda tu infraestructura ONTAP.</block>
   <block id="61ac51994f4e558eb3be753f892d08aa" category="section-title">Actualización de las notificaciones</block>
   <block id="02796e8ea898eccf4fc1ec43b8c9a990" category="paragraph">Las notificaciones de NetApp Console ahora están habilitadas de forma predeterminada. Los usuarios de NetApp Console recibirán automáticamente notificaciones de Workload Factory sin configuración adicional.</block>
   <block id="21342e11f90d32dc68b1110fcbb8adc2" category="inline-link-macro">Notificaciones de Workload Factory</block>
@@ -268,7 +266,6 @@
   <block id="988626e00644e40216e6917f272294d3" category="paragraph">Workload Factory ahora reconoce el modo de escritura preferido de FlexCache para los volúmenes y recomienda cambiarlo si es necesario para optimizar el rendimiento.</block>
   <block id="7add6c128bfc87116bba8dfec617987f" category="section-title">Asistencia para la documentación de Link</block>
   <block id="19ecacf22bc9ac252b9476a0a17ca657" category="inline-link-macro">Conoce los enlaces de NetApp Workload Factory</block>
-  <block id="41d8c250ba5deffd33a0d05e7f94eaf4" category="paragraph">Toda la documentación sobre enlaces se incluye ahora en la documentación de configuración y administración de Workload Factory. Aun así, puedes consultar la <block ref="25b81a757714a127c9c382013e960ce5" category="inline-link-macro-rx"></block> de la documentación de Workload Factory FSx for ONTAP y encontrar enlaces a las páginas pertinentes en la documentación de configuración y administración.</block>
   <block id="ab868acd52ff4eb0e8c4b7bedf975941" category="inline-link-macro">Obtén más información sobre cómo configurar enlaces en la consola de Workload Factory.</block>
   <block id="3d5d598217b93a807560cdae92940fdc" category="paragraph"><block ref="3d5d598217b93a807560cdae92940fdc" category="inline-link-macro-rx"></block></block>
   <block id="433dd4f7423c50024b8b40531d2cdae6" category="section-title">Detección de relaciones entre hosts y sistemas de almacenamiento entre regiones</block>
@@ -280,4 +277,7 @@
   <block id="92ef509d26c2f4b8f1eafc483dafc514" category="paragraph"><block ref="92ef509d26c2f4b8f1eafc483dafc514" category="inline-link-macro-rx"></block></block>
   <block id="ff60e6cb69fa35fc765fb6716dc86a1d" category="paragraph"><block ref="ff60e6cb69fa35fc765fb6716dc86a1d" category="inline-link-macro-rx"></block></block>
   <block id="ca844fa02d938fb3d0329bf797d0a633" category="paragraph"><block ref="ca844fa02d938fb3d0329bf797d0a633" category="inline-link-macro-rx"></block></block>
+  <block id="56643767ee547abedda1d643567a4c85" category="paragraph">Toda la documentación sobre enlaces se incluye ahora en la documentación de configuración y administración de Workload Factory. Aun así, puedes consultar la <block ref="08c564abbdedd12846cfb2f0de43f628" category="inline-link-macro-rx"></block> de la documentación de Workload Factory FSx for ONTAP y encontrar enlaces a las páginas pertinentes en la documentación de configuración y administración.</block>
+  <block id="d757afa220ac7f97f408903182fddee2" category="section-title">Compatibilidad con Storage en Ask Me</block>
+  <block id="541644294bd888a59c4f26e19102bfb2" category="paragraph">Ask Me ahora es compatible con FSx para ONTAP y Google Cloud NetApp Volumes. Utiliza la misma experiencia de chat para obtener respuestas e información en todos tus entornos de almacenamiento compatibles.</block>
 </blocks>
