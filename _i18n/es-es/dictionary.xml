@@ -194,4 +194,21 @@
   <block id="034feb9138972a75bb0c4407e9663857" category="paragraph"><block ref="034feb9138972a75bb0c4407e9663857" category="inline-link-macro-rx"></block></block>
   <block id="8b253c1d4259c21c8314fc85adcb31d6" category="section-title">01 noviembre 2026</block>
   <block id="f535eb1278ad100b4d323539a7942781" category="section-title">14 de octubre de 2026</block>
+  <block id="b3ae445fa637203f0dc17550b5c4a56c" category="doc">Configuraciones de bases de datos incluidas en el panel de control Well-Architected</block>
+  <block id="17d52f36b5492e8aeada41d949434243" category="paragraph">El dashboard well-architected ahora incluye recomendaciones para las configuraciones de tu base de datos, lo que te permite evaluar y optimizar tu configuración según las mejores prácticas. Las primeras configuraciones incluidas en el dashboard son:</block>
+  <block id="0ab265b548fdc40b21483e61ffde3aba" category="list-text">Jerarquización de datos inactivos</block>
+  <block id="af20abc7154e9ee224c54b48b6ec7d63" category="list-text">Eficiencias de almacenamiento</block>
+  <block id="4c0abf2d4c54820b8d33061abaf30759" category="list-text">Política de SnapVault</block>
+  <block id="6f5cf50fa90f8d99bf50f65e676c6cba" category="list-text">Margen de capacidad del SSD</block>
+  <block id="ea87fe154a3b0752922812472bd1e33d" category="list-text">Gestión de espacio de dispositivos de bloque</block>
+  <block id="6fcd25081a49cfc1b0ec4806afa3d35f" category="list-text">Tipo de OS</block>
+  <block id="935aff9bc7bcf43dd1fe5825226b72c1" category="list-text">Haz coincidir el tipo de sistema operativo del dispositivo de bloques con el del host</block>
+  <block id="868e9efce60d04bdf51fc2494a73a9ce" category="list-text">Dispositivos de bloque inactivos (LUNs)</block>
+  <block id="797a6fe95ffc7bef7107556bac722567" category="list-text">Ubicación de los archivos de datos (.mdf)</block>
+  <block id="27c70398ced593abb96a3c33b5e1072b" category="list-text">Ubicación de los archivos de registro (.ldf)</block>
+  <block id="346c87aaab415cd5adb218f88181ede8" category="list-text">Estado de la E/S multivía</block>
+  <block id="92a6dbd219f1455bd74f5d666b1b27c5" category="list-text">Tiempo de espera de I/O multivía</block>
+  <block id="6716a97e4d0f5c2b2ba84a9c8a65b74d" category="list-text">Quórum del clúster</block>
+  <block id="34d46ee23892b96b30e5db7bf4eb7871" category="list-text">Ajuste de recursos de computación</block>
+  <block id="33bf723377efe51bc70f70bbb5efa8a4" category="paragraph">Selecciona el menú principal en la consola de Workload Factory y, a continuación, selecciona *Well-architected* para acceder al panel de control de Well-architected.</block>
 </blocks>

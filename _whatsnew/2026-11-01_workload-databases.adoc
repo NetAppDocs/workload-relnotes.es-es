@@ -1,0 +1,30 @@
+= Configuraciones de bases de datos incluidas en el panel de control Well-Architected
+:allow-uri-read: 
+
+
+
+
+[[database-configurations-included-in-well-architected-dashboard]]
+=== Configuraciones de bases de datos incluidas en el panel de control Well-Architected
+
+El dashboard well-architected ahora incluye recomendaciones para las configuraciones de tu base de datos, lo que te permite evaluar y optimizar tu configuración según las mejores prácticas. Las primeras configuraciones incluidas en el dashboard son:
+
+* Jerarquización de datos inactivos
+* Eficiencias de almacenamiento
+* Política de SnapVault
+* Margen de capacidad del SSD
+* Gestión de espacio de dispositivos de bloque
+* Tipo de OS
+* Haz coincidir el tipo de sistema operativo del dispositivo de bloques con el del host
+* Dispositivos de bloque inactivos (LUNs)
+* Ubicación de los archivos de datos (.mdf)
+* Ubicación de los archivos de registro (.ldf)
+* Estado de la E/S multivía
+* Tiempo de espera de I/O multivía
+* Quórum del clúster
+* Ajuste de recursos de computación
+
+
+Selecciona el menú principal en la consola de Workload Factory y, a continuación, selecciona *Well-architected* para acceder al panel de control de Well-architected.
+
+image:well-architected-menu-option.png["Opción de menú bien estructurada en la consola de NetApp Workload Factory"]
