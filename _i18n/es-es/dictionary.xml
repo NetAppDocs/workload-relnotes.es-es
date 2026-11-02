@@ -276,4 +276,6 @@
   <block id="3714dde7378ac290c154f62d9c080369" category="section-title">Mejoras en la creación de enlaces</block>
   <block id="73501dc89cd2fc3be142f43eaffe971b" category="paragraph">Workload Factory ha actualizado la salida de Codebox para la creación de enlaces sustituyendo los permisos inline de Lambda por la política de IAM para la plantilla CloudFormation y Terraform.</block>
   <block id="301497b54979bb49bba5249c4f44b4ad" category="section-title">27 de septiembre de 2026</block>
+  <block id="7cc20c44b067a9d650d7a25d5be9d67d" category="section-title">Soporte de Bedrock gestionado por el cliente para la clasificación</block>
+  <block id="8a8cb6e7e1b94c2efc52b7f5d677eb4d" category="paragraph">Workload Factory ahora te permite usar tu propia configuración de Amazon Bedrock para la clasificación del etiquetado de cargas de trabajo. Puedes proporcionar tu propio endpoint y tus credenciales de Bedrock para que las solicitudes de clasificación se ejecuten a través de tu propia configuración de Bedrock.</block>
 </blocks>

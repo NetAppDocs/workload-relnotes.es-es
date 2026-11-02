@@ -131,6 +131,12 @@ Ahora puedes ver la recomendación de rendimiento del cliente y los puntos de de
 
 
 
+==== Soporte de Bedrock gestionado por el cliente para la clasificación
+
+Workload Factory ahora te permite usar tu propia configuración de Amazon Bedrock para la clasificación del etiquetado de cargas de trabajo. Puedes proporcionar tu propio endpoint y tus credenciales de Bedrock para que las solicitudes de clasificación se ejecuten a través de tu propia configuración de Bedrock.
+
+
+
 [[database-workloads]]
 === Cargas de trabajo de base de datos
 

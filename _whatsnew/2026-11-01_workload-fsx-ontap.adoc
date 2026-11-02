@@ -115,3 +115,10 @@ Ahora puedes activar las notificaciones automáticas de gestión de capacidad pa
 === Puntos de decisión sobre el rendimiento
 
 Ahora puedes ver la recomendación de rendimiento del cliente y los puntos de decisión de automatización. Pasa el cursor sobre un punto de decisión para ver detalles, como el SKU actual y el recomendado, o las métricas incumplidas en la ventana de tiempo (%).
+
+
+
+[[customer-managed-bedrock-support-for-classification]]
+=== Soporte de Bedrock gestionado por el cliente para la clasificación
+
+Workload Factory ahora te permite usar tu propia configuración de Amazon Bedrock para la clasificación del etiquetado de cargas de trabajo. Puedes proporcionar tu propio endpoint y tus credenciales de Bedrock para que las solicitudes de clasificación se ejecuten a través de tu propia configuración de Bedrock.
