@@ -20,6 +20,117 @@ Obtenga información sobre los cambios más recientes en las cargas de trabajo q
 
 
 
+[[amazon-fsx-for-netapp-ontap]]
+=== Amazon FSX para ONTAP de NetApp
+
+
+
+==== Mejoras en el diagrama del grupo de iniciadores
+
+El diagrama que muestra los grupos de iniciadores para los dispositivos de bloque en la página «Gestionar acceso de clientes» incluye ahora más detalles sobre los hosts. Al pasar el cursor sobre un host en el diagrama, aparecen sus detalles, incluidos el nombre de host, el ID de instancia, el tipo de carga de trabajo, la región y el iSCSI Qualified Name (IQN).
+
+
+
+==== Mejora del correo electrónico para incidencias de arquitectura óptima
+
+El nuevo diseño del correo electrónico ofrece más detalles y contexto sobre los problemas de configuración detectados por Workload Factory. El correo incluye el número de recursos analizados, cuántos presentan problemas de advertencia o críticos, y cuáles son esos problemas. El correo también incluye un enlace al panel de control «well-architected» de FSx for ONTAP para que puedas resolver los problemas de inmediato.
+
+
+
+==== Mejoras del panel Well-architected
+
+
+
+===== Compatibilidad con determinadas comprobaciones de configuración
+
+Puedes ejecutar manualmente el análisis en las configuraciones seleccionadas de modo que solo analices las configuraciones que te interesan y reduzcas el tiempo de espera.
+
+
+
+===== Nuevas recomendaciones en el análisis bien arquitectado
+
+Workload Factory ahora incluye las siguientes configuraciones en el análisis bien arquitectado para los sistemas de archivos FSx for ONTAP:
+
+Para cargas de trabajo de almacenamiento:
+
+* *Conectar el host al nodo de conmutación por error*: comprueba si los hosts están conectados al nodo de conmutación por error en un sistema de archivos FSx para ONTAP activo-pasivo para garantizar la fiabilidad.
+* *Conectar el host al nodo preferido*: comprueba si los hosts están conectados a sus dispositivos de bloque mediante el nodo preferido para optimizar el rendimiento.
+* *Brecha en la detección de múltiples dispositivos en ARP/AI*: ARP/AI ofrece una cobertura de protección completa cuando un volumen solo tiene un dispositivo de bloque conectado. Si un volumen tiene varios dispositivos de bloque conectados, Workload Factory traslada esos dispositivos a volúmenes nuevos para que cada volumen tenga solo un dispositivo de bloque.
+* *Limpieza de clones*: comprueba si hay algún clon de volumen con más de 30 días de antigüedad que se pueda eliminar para optimizar el uso del almacenamiento y reducir los costes.
+* *Comprobar que el sistema operativo del grupo iniciador (igroup) coincida con el del host*: comprueba si el sistema operativo del grupo iniciador (igroup) coincide con el del host para evitar problemas de E/S o de rendimiento.
+
+
+Para cargas de trabajo de Kubernetes:
+
+* *Configuración de QoS*: comprueba si una política de QoS de ONTAP protege los volúmenes persistentes de Kubernetes para garantizar la eficiencia del rendimiento.
+* *Máquina virtual de almacenamiento dedicada a Kubernetes*: comprueba si el sistema de archivos utiliza una máquina virtual de almacenamiento dedicada a las cargas de trabajo de Kubernetes para mejorar el aislamiento y simplificar la gestión del almacenamiento.
+* *Política de exportación dedicada de Kubernetes*: comprueba si cada volumen persistente de Kubernetes cuenta con una política de exportación dedicada que solo permite el acceso desde los nodos worker del clúster.
+* *CHAP bidireccional para los backends iSCSI de Kubernetes*: comprueba si los backends iSCSI de Trident tienen habilitada la autenticación CHAP mutua por motivos de seguridad.
+* *Desactivar `showmount` en la máquina virtual de almacenamiento de la aplicación*: comprueba si `showmount` está desactivado en la máquina virtual de almacenamiento de la aplicación para evitar que los clientes muestren en la lista las exportaciones a las que no pueden acceder.
+
+
+Para cargas de trabajo de bases de datos:
+
+* *Política de Snapshot de SAP HANA*: comprueba si la política de Snapshot está configurada en "None" para los volúmenes de SAP HANA para reducir los costes de almacenamiento y mejorar el rendimiento de los datos activos de la base de datos.
+* *Política de Snapshot de MySQL*: comprueba si la política de Snapshot está configurada en «Ninguna» para los volúmenes de MySQL, con el fin de reducir los costes de almacenamiento y mejorar el rendimiento de los datos de la base de datos activa.
+* *Política de snapshots de PostgreSQL*: comprueba si la política de snapshots está configurada en «None» para los volúmenes de PostgreSQL a fin de reducir los costes de almacenamiento y mejorar el rendimiento de los datos activos de la base de datos.
+
+
+
+
+===== Valores actuales y recomendados para las configuraciones
+
+Puedes consultar los valores actuales y recomendados para algunas configuraciones no optimizadas en el dashboard de Well-Architected. Esto te indica cuál es el valor recomendado antes de corregirlo.
+
+* Jerarquización de datos inactivos
+* Política de SnapVault
+* Margen de capacidad del SSD
+
+
+
+
+==== Mejoras en los costes
+
+
+
+===== Previsión de costes y análisis
+
+Ahora puedes realizar previsiones de costes para tus sistemas de archivos FSx for ONTAP mediante la función de previsión de costes. Esto te ayuda a planificar tu presupuesto y a optimizar tus recursos de forma eficaz. También puedes consultar información detallada sobre tus costes y patrones de uso para identificar oportunidades de optimización de costes.
+
+
+
+===== Informes de costes y uso de AWS (CUR)
+
+Workload Factory ahora usa AWS Cost and Usage Reports (CUR) en lugar de AWS Cost Explorer para proporcionar registros de facturación detallados que se entregan a buckets de S3 propiedad del cliente. CUR ofrece una mejor granularidad de costes y sirve como base para casos de uso avanzados de FinOps, chargeback y asignación de costes.
+
+
+
+==== Mejoras en la migración de máquinas virtuales de almacenamiento
+
+Workload Factory ofrece una guía mejorada en la interfaz de usuario para migrar VM de almacenamiento. Esto incluye instrucciones paso a paso y una prueba antes de confirmar la migración en producción.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-replication.html["Más información sobre la migración de VM de almacenamiento"]
+
+
+
+==== Mejora de las notificaciones por correo electrónico sobre el retraso en la replicación
+
+Cuando se produce un gran número de incidencias relacionadas con el retraso en la replicación, Workload Factory las agrupa automáticamente en una única notificación por correo electrónico para que no te veas desbordado por las notificaciones.
+
+
+
+==== Mejora de la gestión automática de la capacidad
+
+Ahora puedes activar las notificaciones automáticas de gestión de capacidad para probar la función antes de pedirle a Workload Factory que gestione tu capacidad de forma automática. Recibirás una notificación cuando tu sistema de archivos se esté quedando sin capacidad.
+
+
+
+==== Puntos de decisión sobre el rendimiento
+
+Ahora puedes ver la recomendación de rendimiento del cliente y los puntos de decisión de automatización. Pasa el cursor sobre un punto de decisión para ver detalles, como el SKU actual y el recomendado, o las métricas incumplidas en la ventana de tiempo (%).
+
+
+
 [[database-workloads]]
 === Cargas de trabajo de base de datos
 
@@ -63,6 +174,57 @@ La calculadora de TCO de EVS ahora admite las instancias EC2 de AWS i7i.metal-24
 La calculadora compara todos los tipos de instancias y selecciona automáticamente la opción más económica. Una nueva sección de comparación muestra las configuraciones de los hosts de EVS una al lado de la otra, lo que facilita la elección de la configuración que mejor se adapte a tus necesidades.
 
 link:https://docs.netapp.com/us-en/workload-vmware/calculate-evs-savings.html["Calcula el ahorro estimado para EVS"]
+
+
+
+[[setup-and-administration]]
+=== Configuración y administración
+
+
+
+==== Comprobar y actualizar los datos del panel de control personalizado
+
+Ahora puedes ver cuándo se actualizaron por última vez las métricas de tu panel personalizado y actualizarlas manualmente. Pasa el cursor por encima de *Actualizar datos* para ver la fecha y la hora de la última actualización.
+
+Selecciona *Refresh data* para iniciar un nuevo escaneo. Aparecerá un mensaje que confirma que el escaneo ha comenzado y el botón permanecerá desactivado hasta que finalice el escaneo.
+
+Cuando haya datos nuevos disponibles, selecciona *Cargar ahora* en el banner de notificación para actualizar el panel de control.
+
+Tanto *Actualizar datos* como *Cargar ahora* generan eventos de recopilación de datos en Tracker.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/manage-custom-dashboards.html#refresh-dashboard-data["Descubre cómo actualizar los datos de un panel de control personalizado"]
+
+
+
+==== Especifica regiones para paneles personalizados
+
+Los paneles personalizados ahora te piden que elijas una o varias regiones si tu solicitud no las incluye. Los datos del panel se limitan a las regiones que selecciones.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/create-custom-dashboard.html["Aprende a crear un panel de control personalizado"]
+
+
+
+==== Política de IAM para la creación de enlaces
+
+La plantilla de CloudFormation y el código de Terraform para crear enlaces ahora usan una política de IAM en lugar de permisos de Lambda integrados.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/create-link.html["Aprende a crear un enlace"]
+
+
+
+==== Auditoría y seguimiento de las acciones de los agentes de IA
+
+Ahora puedes utilizar Tracker para revisar los cambios realizados en la configuración de los agentes de IA y, en modo de lectura/escritura, cada solicitud de aprobación, incluida la pregunta del agente y la respuesta del usuario.
+
+El servicio Workload Factory que realiza la operación registra los cambios en los recursos realizados a través de las API de Workload Factory.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/learn-agent.html#audit-and-tracking-for-agent-actions["Infórmate sobre la auditoría y el seguimiento de las acciones de los agentes"]
+
+
+
+==== Mejoras en la creación de enlaces
+
+Workload Factory ha actualizado la salida de Codebox para la creación de enlaces sustituyendo los permisos inline de Lambda por la política de IAM para la plantilla CloudFormation y Terraform.
 
 
 
@@ -400,6 +562,129 @@ link:https://docs.netapp.com/us-en/workload-eda/task-analyze-latency-trends.html
 ==== Mayor visibilidad del sistema de archivos en la interfaz
 
 Workload Factory ahora te ofrece una visión más clara de tus sistemas de archivos en la interfaz. Puedes consultar las tendencias de uso de capacidad y rendimiento de los SSD, resúmenes de las cargas de trabajo e información detallada sobre la configuración directamente desde la vista general del sistema de archivos.
+
+
+
+[[27-september-2026]]
+== 27 de septiembre de 2026
+
+
+
+[[amazon-fsx-for-netapp-ontap]]
+=== Amazon FSX para ONTAP de NetApp
+
+
+
+==== Mejoras en el diagrama del grupo de iniciadores
+
+El diagrama que muestra los grupos de iniciadores para los dispositivos de bloque en la página «Gestionar acceso de clientes» incluye ahora más detalles sobre los hosts. Al pasar el cursor sobre un host en el diagrama, aparecen sus detalles, incluidos el nombre de host, el ID de instancia, el tipo de carga de trabajo, la región y el iSCSI Qualified Name (IQN).
+
+
+
+==== Mejoras en el panel de control de costes
+
+El panel de control de costes incluye ahora una sección de resumen ejecutivo de costes que ofrece una visión general del gasto de tu organización, lo que te ayuda a comprender y gestionar rápidamente los costes. Ask Me, el asistente de IA de Workload Factory, puede ofrecerte información adicional y recomendaciones basadas en tus datos de costes. Puedes interactuar con Ask Me para obtener explicaciones detalladas y sugerencias para optimizar tus costes.
+
+Además, puedes filtrar los datos de costes por uno o varios sistemas de archivos y uno o varios volúmenes dentro de un sistema de archivos. Cuando aplicas los filtros, Workload Factory muestra:
+
+* Coste total estimado por mes
+* Coste estimado por GiB al mes
+* Desglose detallado de los costes por servicio
+
+
+Toda la información sobre costes procede directamente de la API de AWS Cost Explorer, salvo la asignación de costes a nivel de sistema de archivos y de volúmenes; NetApp Workload Factory estima la asignación de costes a nivel de sistema de archivos y de volúmenes.
+
+
+
+==== Acceso al panel de control Well-Architected
+
+Puedes acceder al panel de Well-architected desde el menú principal de la consola de Workload Factory y desde un sistema de archivos. Para encontrar el panel de Well-architected desde el menú principal, selecciona el menú principal y luego selecciona *Well-architected*.
+
+image:well-architected-menu-option.png["Opción de menú bien estructurada en la consola de NetApp Workload Factory"]
+
+
+
+==== Nuevas recomendaciones en el análisis bien arquitectado
+
+Workload Factory ahora incluye las siguientes configuraciones en el análisis bien arquitectado para los sistemas de archivos FSx for ONTAP:
+
+* *Configuración de la gestión coordinada del espacio de los volúmenes*: te recomendamos habilitar la gestión coordinada del espacio de los volúmenes para los volúmenes de FSx for ONTAP.
+* *Integración de FSx con AWS MGN*: te recomienda aplicar la configuración necesaria de preparación para AWS MGN a los sistemas de archivos FSx for ONTAP seleccionados.
+
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/configuration-analysis.html["Obtén más información sobre las recomendaciones de buenas prácticas para tus sistemas de archivos FSx for ONTAP."]
+
+
+
+==== Mejoras en el Explorador de volúmenes
+
+Volumes explorer es un espacio central de la consola de Workload Factory donde puedes ver y gestionar todos tus volúmenes en distintos sistemas de archivos. Ofrece información detallada sobre cada volumen, incluida su rendimiento, uso y estado de protección. Las mejoras de esta versión incluyen la selección de cargas de trabajo, la visualización de la latencia de los volúmenes y el estado de ARP/AI de los volúmenes.
+
+
+
+===== El explorador de volúmenes permite seleccionar cargas de trabajo
+
+Workload Factory selecciona una carga de trabajo de forma predeterminada en función de las características del volumen y sus patrones de uso. Ahora puedes cambiar la carga de trabajo de uno o varios volúmenes desde Volumes explorer.
+
+
+
+===== El explorador de volúmenes muestra la latencia del volumen
+
+El explorador de volúmenes muestra el estado de la latencia del volumen con los siguientes estados: no configurado, dentro del umbral y superado. Estos estados te ayudan a detectar y solucionar los cuellos de botella de rendimiento a nivel de volumen.
+
+
+
+===== El explorador de volúmenes muestra el estado de ARP/AI de los volúmenes en todos los sistemas de archivos
+
+La pantalla del explorador de volúmenes ahora incluye una ficha con el estado de NetApp Autonomous Ransomware Protection with AI (ARP/AI) para los volúmenes de todos tus sistemas de archivos. La ficha muestra el número de volúmenes protegidos e indica si hay algún volumen en riesgo. Desde la ficha, puedes *Analizar ataques* para investigar posibles amenazas de ransomware y tomar las medidas adecuadas para proteger tus datos.
+
+image:volumes-explorer-arp-ai-card.png["La captura de pantalla muestra una nueva ficha en la pantalla del explorador de volúmenes que muestra el estado de ARP/AI de los volúmenes en todos los sistemas de archivos. La ficha indica el número de volúmenes protegidos y los volúmenes en riesgo. Puedes seleccionar el texto Analyze attacks para investigar posibles ataques y tomar las medidas adecuadas para proteger tus datos."]
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/ransomware-protection.html["Más información sobre la protección contra el ransomware."]
+
+
+
+==== Notificación por correo electrónico para relaciones de replicación en mal estado
+
+Cuando el estado de una relación de replicación es *no saludable*, Workload Factory envía una notificación por correo electrónico cada 24 horas mientras la relación siga siendo no saludable. Las notificaciones de recordatorio se detienen cuando la relación vuelve a un estado saludable.
+
+
+
+==== Compatibilidad con credenciales ONTAP restringidas para AIOps
+
+Workload Factory admite dos tipos de credenciales de ONTAP para un sistema de archivos FSx for ONTAP: principales y restringidas. De forma predeterminada, un sistema de archivos utiliza las credenciales principales de ONTAP. Utilizamos credenciales restringidas solo para operaciones de IA (AIOps), como Rule builder, Custom dashboards y Ask Me, nuestro asistente de IA. Ahora puedes añadir tus propias credenciales, ya sea con un nombre de usuario y una contraseña o con un ARN de secreto, para restringir el acceso a las funciones de AIOps.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-file-system-settings.html["Gestiona las credenciales de ONTAP para un sistema de archivos FSx para ONTAP"]
+
+
+
+==== Selección de la carga de trabajo durante la creación del volumen
+
+Workload Factory ahora incluye un campo *Cargas de trabajo* en la creación de volúmenes para que puedas seleccionar la carga de trabajo que quieres asociar al volumen. Esto garantiza que el volumen esté optimizado para la carga de trabajo prevista desde el momento en que se crea.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-volume.html["Crear un volumen en la consola de Workload Factory"]
+
+
+
+==== Mejora del modo de escritura de FlexCache
+
+Workload Factory ahora reconoce el modo de escritura preferido de FlexCache para los volúmenes y recomienda cambiarlo si es necesario para optimizar el rendimiento.
+
+
+
+==== Correo electrónico de notificación de creación de enlace
+
+Workload Factory ahora te recuerda que debes completar la asociación de enlaces tras añadir correctamente las credenciales. Aunque las credenciales permiten la detección de recursos, las funciones avanzadas de ONTAP requieren la asociación de enlaces con los sistemas de archivos detectados. Recibirás la notificación por correo electrónico una vez a la semana el lunes. Después de completar la asociación de enlaces, las notificaciones se detienen.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["Configurar las notificaciones en la consola de Workload Factory"]
+
+
+
+==== Asistencia para la documentación de Link
+
+Toda la documentación sobre enlaces se incluye ahora en la documentación de configuración y administración de Workload Factory. Aun así, puedes consultar la link:links-overview.html["Conoce los enlaces de NetApp Workload Factory"] de la documentación de Workload Factory FSx for ONTAP y encontrar enlaces a las páginas pertinentes en la documentación de configuración y administración.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/create-link.html["Obtén más información sobre cómo configurar enlaces en la consola de Workload Factory."^]
 
 
 

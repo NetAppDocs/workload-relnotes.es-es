@@ -1,0 +1,117 @@
+= Mejoras en el diagrama del grupo de iniciadores
+:allow-uri-read: 
+
+
+
+
+[[initiator-group-diagram-enhancements]]
+=== Mejoras en el diagrama del grupo de iniciadores
+
+El diagrama que muestra los grupos de iniciadores para los dispositivos de bloque en la página «Gestionar acceso de clientes» incluye ahora más detalles sobre los hosts. Al pasar el cursor sobre un host en el diagrama, aparecen sus detalles, incluidos el nombre de host, el ID de instancia, el tipo de carga de trabajo, la región y el iSCSI Qualified Name (IQN).
+
+
+
+[[email-enhancement-for-well-architected-issues]]
+=== Mejora del correo electrónico para incidencias de arquitectura óptima
+
+El nuevo diseño del correo electrónico ofrece más detalles y contexto sobre los problemas de configuración detectados por Workload Factory. El correo incluye el número de recursos analizados, cuántos presentan problemas de advertencia o críticos, y cuáles son esos problemas. El correo también incluye un enlace al panel de control «well-architected» de FSx for ONTAP para que puedas resolver los problemas de inmediato.
+
+
+
+[[well-architected-dashboard-enhancements]]
+=== Mejoras del panel Well-architected
+
+
+
+==== Compatibilidad con determinadas comprobaciones de configuración
+
+Puedes ejecutar manualmente el análisis en las configuraciones seleccionadas de modo que solo analices las configuraciones que te interesan y reduzcas el tiempo de espera.
+
+
+
+==== Nuevas recomendaciones en el análisis bien arquitectado
+
+Workload Factory ahora incluye las siguientes configuraciones en el análisis bien arquitectado para los sistemas de archivos FSx for ONTAP:
+
+Para cargas de trabajo de almacenamiento:
+
+* *Conectar el host al nodo de conmutación por error*: comprueba si los hosts están conectados al nodo de conmutación por error en un sistema de archivos FSx para ONTAP activo-pasivo para garantizar la fiabilidad.
+* *Conectar el host al nodo preferido*: comprueba si los hosts están conectados a sus dispositivos de bloque mediante el nodo preferido para optimizar el rendimiento.
+* *Brecha en la detección de múltiples dispositivos en ARP/AI*: ARP/AI ofrece una cobertura de protección completa cuando un volumen solo tiene un dispositivo de bloque conectado. Si un volumen tiene varios dispositivos de bloque conectados, Workload Factory traslada esos dispositivos a volúmenes nuevos para que cada volumen tenga solo un dispositivo de bloque.
+* *Limpieza de clones*: comprueba si hay algún clon de volumen con más de 30 días de antigüedad que se pueda eliminar para optimizar el uso del almacenamiento y reducir los costes.
+* *Comprobar que el sistema operativo del grupo iniciador (igroup) coincida con el del host*: comprueba si el sistema operativo del grupo iniciador (igroup) coincide con el del host para evitar problemas de E/S o de rendimiento.
+
+
+Para cargas de trabajo de Kubernetes:
+
+* *Configuración de QoS*: comprueba si una política de QoS de ONTAP protege los volúmenes persistentes de Kubernetes para garantizar la eficiencia del rendimiento.
+* *Máquina virtual de almacenamiento dedicada a Kubernetes*: comprueba si el sistema de archivos utiliza una máquina virtual de almacenamiento dedicada a las cargas de trabajo de Kubernetes para mejorar el aislamiento y simplificar la gestión del almacenamiento.
+* *Política de exportación dedicada de Kubernetes*: comprueba si cada volumen persistente de Kubernetes cuenta con una política de exportación dedicada que solo permite el acceso desde los nodos worker del clúster.
+* *CHAP bidireccional para los backends iSCSI de Kubernetes*: comprueba si los backends iSCSI de Trident tienen habilitada la autenticación CHAP mutua por motivos de seguridad.
+* *Desactivar `showmount` en la máquina virtual de almacenamiento de la aplicación*: comprueba si `showmount` está desactivado en la máquina virtual de almacenamiento de la aplicación para evitar que los clientes muestren en la lista las exportaciones a las que no pueden acceder.
+
+
+Para cargas de trabajo de bases de datos:
+
+* *Política de Snapshot de SAP HANA*: comprueba si la política de Snapshot está configurada en "None" para los volúmenes de SAP HANA para reducir los costes de almacenamiento y mejorar el rendimiento de los datos activos de la base de datos.
+* *Política de Snapshot de MySQL*: comprueba si la política de Snapshot está configurada en «Ninguna» para los volúmenes de MySQL, con el fin de reducir los costes de almacenamiento y mejorar el rendimiento de los datos de la base de datos activa.
+* *Política de snapshots de PostgreSQL*: comprueba si la política de snapshots está configurada en «None» para los volúmenes de PostgreSQL a fin de reducir los costes de almacenamiento y mejorar el rendimiento de los datos activos de la base de datos.
+
+
+
+
+==== Valores actuales y recomendados para las configuraciones
+
+Puedes consultar los valores actuales y recomendados para algunas configuraciones no optimizadas en el dashboard de Well-Architected. Esto te indica cuál es el valor recomendado antes de corregirlo.
+
+* Jerarquización de datos inactivos
+* Política de SnapVault
+* Margen de capacidad del SSD
+
+
+
+
+[[cost-improvements]]
+=== Mejoras en los costes
+
+
+
+==== Previsión de costes y análisis
+
+Ahora puedes realizar previsiones de costes para tus sistemas de archivos FSx for ONTAP mediante la función de previsión de costes. Esto te ayuda a planificar tu presupuesto y a optimizar tus recursos de forma eficaz. También puedes consultar información detallada sobre tus costes y patrones de uso para identificar oportunidades de optimización de costes.
+
+
+
+==== Informes de costes y uso de AWS (CUR)
+
+Workload Factory ahora usa AWS Cost and Usage Reports (CUR) en lugar de AWS Cost Explorer para proporcionar registros de facturación detallados que se entregan a buckets de S3 propiedad del cliente. CUR ofrece una mejor granularidad de costes y sirve como base para casos de uso avanzados de FinOps, chargeback y asignación de costes.
+
+
+
+[[storage-vm-migration-improvements]]
+=== Mejoras en la migración de máquinas virtuales de almacenamiento
+
+Workload Factory ofrece una guía mejorada en la interfaz de usuario para migrar VM de almacenamiento. Esto incluye instrucciones paso a paso y una prueba antes de confirmar la migración en producción.
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-replication.html["Más información sobre la migración de VM de almacenamiento"]
+
+
+
+[[replication-lag-email-notification-improvement]]
+=== Mejora de las notificaciones por correo electrónico sobre el retraso en la replicación
+
+Cuando se produce un gran número de incidencias relacionadas con el retraso en la replicación, Workload Factory las agrupa automáticamente en una única notificación por correo electrónico para que no te veas desbordado por las notificaciones.
+
+
+
+[[automatic-capacity-management-enhancement]]
+=== Mejora de la gestión automática de la capacidad
+
+Ahora puedes activar las notificaciones automáticas de gestión de capacidad para probar la función antes de pedirle a Workload Factory que gestione tu capacidad de forma automática. Recibirás una notificación cuando tu sistema de archivos se esté quedando sin capacidad.
+
+
+
+[[throughput-decision-points]]
+=== Puntos de decisión sobre el rendimiento
+
+Ahora puedes ver la recomendación de rendimiento del cliente y los puntos de decisión de automatización. Pasa el cursor sobre un punto de decisión para ver detalles, como el SKU actual y el recomendado, o las métricas incumplidas en la ventana de tiempo (%).
