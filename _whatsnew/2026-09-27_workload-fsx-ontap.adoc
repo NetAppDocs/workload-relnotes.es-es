@@ -32,7 +32,7 @@ Toda la información sobre costes procede directamente de la API de AWS Cost Exp
 
 Puedes acceder al panel de Well-architected desde el menú principal de la consola de Workload Factory y desde un sistema de archivos. Para encontrar el panel de Well-architected desde el menú principal, selecciona el menú principal y luego selecciona *Well-architected*.
 
-image:well-architected-menu-option.png["Opción de menú bien estructurada en la consola de NetApp Workload Factory"]
+image:workload-fsx-ontap/well-architected-menu-option.png["Opción de menú bien estructurada en la consola de NetApp Workload Factory"]
 
 
 
@@ -72,7 +72,7 @@ El explorador de volúmenes muestra el estado de la latencia del volumen con los
 
 La pantalla del explorador de volúmenes ahora incluye una ficha con el estado de NetApp Autonomous Ransomware Protection with AI (ARP/AI) para los volúmenes de todos tus sistemas de archivos. La ficha muestra el número de volúmenes protegidos e indica si hay algún volumen en riesgo. Desde la ficha, puedes *Analizar ataques* para investigar posibles amenazas de ransomware y tomar las medidas adecuadas para proteger tus datos.
 
-image:volumes-explorer-arp-ai-card.png["La captura de pantalla muestra una nueva ficha en la pantalla del explorador de volúmenes que muestra el estado de ARP/AI de los volúmenes en todos los sistemas de archivos. La ficha indica el número de volúmenes protegidos y los volúmenes en riesgo. Puedes seleccionar el texto Analyze attacks para investigar posibles ataques y tomar las medidas adecuadas para proteger tus datos."]
+image:workload-fsx-ontap/volumes-explorer-arp-ai-card.png["La captura de pantalla muestra una nueva ficha en la pantalla del explorador de volúmenes que muestra el estado de ARP/AI de los volúmenes en todos los sistemas de archivos. La ficha indica el número de volúmenes protegidos y los volúmenes en riesgo. Puedes seleccionar el texto Analyze attacks para investigar posibles ataques y tomar las medidas adecuadas para proteger tus datos."]
 
 link:https://docs.netapp.com/us-en/workload-fsx-ontap/ransomware-protection.html["Más información sobre la protección contra el ransomware."]
 

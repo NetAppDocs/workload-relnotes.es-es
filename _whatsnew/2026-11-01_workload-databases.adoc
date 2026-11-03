@@ -27,4 +27,4 @@ El dashboard well-architected ahora incluye recomendaciones para las configuraci
 
 Selecciona el menú principal en la consola de Workload Factory y, a continuación, selecciona *Well-architected* para acceder al panel de control de Well-architected.
 
-image:well-architected-menu-option.png["Opción de menú bien estructurada en la consola de NetApp Workload Factory"]
+image:workload-databases/well-architected-menu-option-databases.png["Opción de menú bien estructurada en la consola de NetApp Workload Factory"]
